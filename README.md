@@ -15,6 +15,8 @@
 
 --- • `analysis.Rmd` reads in `combined_results.csv` and produces plots plus statistical analysis. N.B.: Right now it only does `basic` and `unboundedness`.
 
+Currently, the `analysis.Rmd` script reads in a `.csv` file that was compiled elsewhere. I plan on adding the by-model results and a script that combines them shortly, at which point the whole pipeline should be reproducable from this repo.
+
 --- • `template_to_csv.py` takes in the template test suite files from `data/test_suites` and produces the `test_sents.txt` and `test_items.txt` files.
 
 • `/images/` contains paper figures, both bar-charts of model behavior in critical regions and region-by-region plots of model behavior across the whole sentence (`*region.png`)
@@ -30,3 +32,5 @@
 • Add in custom x-axis and y-axis labels for the region-by-region plotting script
 
 • Add raw-surprisal plotting script and run on the `basic` test, to illustrate how the wh-effects work in the paper.
+
+• By-model results + combining script.
