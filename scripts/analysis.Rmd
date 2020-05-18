@@ -138,6 +138,21 @@ binarize_predictors = function(df) {
 ```
 
 
+### Stats Test Function
+```{r}
+stats_test = function(df, model, formula, nconds) {
+  print(model);
+  if(nconds == "basic") {
+    df %>%
+    summarise(
+      e = summary(lmer(formula, data = df))$coefficients[4],
+      p = summary(lmer(formula, data = df))$coefficients[20])
+  }
+}
+
+```
+
+
 ### Basic Licensing
 
 ```{r}
@@ -158,17 +173,8 @@ df_basic %>%
    filter((test == "basic_subject" & region == "verb" & gap == "gap") | (test == "basic_subject" & region == "np1" & gap == "nogap") |
            (test == "basic_object" & region == "end" & gap == "gap") | (test == "basic_object" & region == "np2" & gap == "nogap") |
            (test == "basic_pp" & region == "end" & gap == "gap") | (test == "basic_pp" & region == "np3" & gap == "nogap")) %>%
-  do({ bar_plot(., "./images/basic_licensing.png", c("subject", "object", "prep prhase"), "Basic Filler-Gap Licensing") })
+  do({ bar_plot(., "../images/basic_licensing.png", c("subject", "object", "prep prhase"), "Basic Filler-Gap Licensing") })
 
-
-stats_test = function(df, model) {
-  print(model);
-  df %>%
-    summarise(
-      e = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[4],
-      p = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[20],
-    )
-}
 
 # Statistics Test
 df_basic %>%
@@ -176,7 +182,7 @@ df_basic %>%
            (test == "basic_object" & region == "end" & gap == "gap") | (test == "basic_object" & region == "np2" & gap == "nogap") |
            (test == "basic_pp" & region == "end" & gap == "gap") | (test == "basic_pp" & region == "np3" & gap == "nogap")) %>%
   do({ binarize_predictors(.) }) %>%
-  group_by(test, model) %>% do(stats_test(., unique(.$model))) %>% arrange(model) %>% ungroup()
+  group_by(test, model) %>% do(stats_test(., unique(.$model), "surprisal~wh*gap+(1+gap||item)", "basic")) %>% arrange(model) %>% ungroup()
 
 
 ```
@@ -202,27 +208,17 @@ region_exemplars = c("I know\nthat/wh", "the footman believed", "the count", "in
 df_unbound %>%
   do({calc_wh_effects(.)}) %>%
   # Region-by-region plotting
-  do({ region_plot(.,"./images/unboundedness_region.png", "Unboundedness", region_order, region_exemplars) }) %>%
+  do({ region_plot(.,"../images/unboundedness_region.png", "Unboundedness", region_order, region_exemplars) }) %>%
   # Plot Bar Chart
   filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>% 
   do({ bar_plot(., "../images/unboundedness.png", c("2", "3", "4", "5"), "Unboundedness") })
 
 
-stats_test = function(df, model) {
-  print(model);
-  df %>%
-    summarise(
-      e = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[4],
-      p = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[20]
-
-    )
-}
-
 # Stats Testing
 df_unbound %>%
   filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>% 
   do({ binarize_predictors(.) }) %>%
-  group_by(test, model) %>% do(stats_test(., unique(.$model))) %>% arrange(model) %>% ungroup()
+  group_by(test, model) %>% do(stats_test(., unique(.$model), "surprisal~wh*gap+(1+gap||item)", "basic")) %>% arrange(model) %>% ungroup()
 
 
 ```
