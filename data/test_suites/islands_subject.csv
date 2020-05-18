@@ -1,0 +1,177 @@
+item,condition,prefix,compl,subj,np,obj,continuation
+1,that_nogap_obj,I know,that,the family saw,a painting by,Picasso,yesterday
+1,what_nogap_obj,I know,who,the family saw,a painting by,Picasso,yesterday
+1,that_gap_obj,I know,that,the family saw,a painting by,,yesterday
+1,what_gap_obj,I know,who,the family saw,a painting by,,yesterday
+1,that_nogap_subj,I know,that,,a painting by,Picasso,sold for a lot of money
+1,what_nogap_subj,I know,who,,a painting by,Picasso,sold for a lot of money
+1,that_gap_subj,I know,that,,a painting by,,sold for a lot of money
+1,what_gap_subj,I know,who,,a painting by,,sold for a lot of money
+2,that_nogap_obj,I remember,that,he took,a picture of,Einstein,many years ago
+2,what_nogap_obj,I remember,who,he took,a picture of,Einstein,many years ago
+2,that_gap_obj,I remember,that,he took,a picture of,,many years ago
+2,what_gap_obj,I remember,who,he took,a picture of,,many years ago
+2,that_nogap_subj,I remember,that,,a picture of,Einstein,is very valuable
+2,what_nogap_subj,I remember,who,,a picture of,Einstein,is very valuable
+2,that_gap_subj,I remember,that,,a picture of,,is very valuable
+2,what_gap_subj,I remember,who,,a picture of,,is very valuable
+3,that_nogap_obj,The newspaper reported,that,she wrote,a story about,a princess,last year
+3,what_nogap_obj,The newspaper reported,what,she wrote,a story about,a princess,last year
+3,that_gap_obj,The newspaper reported,that,she wrote,a story about,,last year
+3,what_gap_obj,The newspaper reported,what,she wrote,a story about,,last year
+3,that_nogap_subj,The newspaper reported,that,,a story about,a princess,is entertaining
+3,what_nogap_subj,The newspaper reported,what,,a story about,a princess,is entertaining
+3,that_gap_subj,The newspaper reported,that,,a story about,,is entertaining
+3,what_gap_subj,The newspaper reported,what,,a story about,,is entertaining
+4,that_nogap_obj,I know,that,the woman bought,a gift for,the girl,over the weekend
+4,what_nogap_obj,I know,who,the woman bought,a gift for,the girl,over the weekend
+4,that_gap_obj,I know,that,the woman bought,a gift for,,over the weekend
+4,what_gap_obj,I know,who,the woman bought,a gift for,,over the weekend
+4,that_nogap_subj,I know,that,,a gift for,the girl,over the weekend
+4,what_nogap_subj,I know,who,,a gift for,the girl,got lost in the mail
+4,that_gap_subj,I know,that,,a gift for,,got lost in the mail
+4,what_gap_subj,I know,who,,a gift for,,got lost in the mail
+5,that_nogap_obj,You remember,that,he misplaced,the delivery for,the shop owner,yesterday
+5,what_nogap_obj,You remember,who,he misplaced,the delivery for,the shop owner,yesterday
+5,that_gap_obj,You remember,that,he misplaced,the delivery for,,yesterday
+5,what_gap_obj,You remember,who,he misplaced,the delivery for,,yesterday
+5,that_nogap_subj,You remember,that,,the delivery for,the shop owner,arrived late
+5,what_nogap_subj,You remember,who,,the delivery for,the shop owner,arrived late
+5,that_gap_subj,You remember,that,,the delivery for,,arrived late
+5,what_gap_subj,You remember,who,,the delivery for,,arrived late
+6,that_nogap_obj,She told me,that,he disliked,the sonata by,Mozart,when he was young
+6,what_nogap_obj,She told me,who,he disliked,the sonata by,Mozart,when he was young
+6,that_gap_obj,She told me,that,he disliked,the sonata by,,when he was young
+6,what_gap_obj,She told me,who,he disliked,the sonata by,,when he was young
+6,that_nogap_subj,She told me,that,,the sonata by,Mozart,dragged on forever
+6,what_nogap_subj,She told me,who,,the sonata by,Mozart,dragged on forever
+6,that_gap_subj,She told me,that,,the sonata by,,dragged on forever
+6,what_gap_subj,She told me,who,,the sonata by,,dragged on forever
+7,that_nogap_obj,She knows,that,they read,the novel by,the comedian,recently
+7,what_nogap_obj,She knows,who,they read,the novel by,the comedian,recently
+7,that_gap_obj,She knows,that,they read,the novel by,,recently
+7,what_gap_obj,She knows,who,they read,the novel by,,recently
+7,that_nogap_subj,She knows,that,,the novel by,the comedian,received good reviews
+7,what_nogap_subj,She knows,who,,the novel by,the comedian,received good reviews
+7,that_gap_subj,She knows,that,,the novel by,,received good reviews
+7,what_gap_subj,She knows,who,,the novel by,,received good reviews
+8,that_nogap_obj,We all remember,that,he bought,a gift for,the girl,last week
+8,what_nogap_obj,We all remember,who,he bought,a gift for,the girl,last week
+8,that_gap_obj,We all remember,that,he bought,a gift for,,last week
+8,what_gap_obj,We all remember,who,he bought,a gift for,,last week
+8,that_nogap_subj,We all remember,that,,a gift for,the girl,cost a lot of money
+8,what_nogap_subj,We all remember,who,,a gift for,the girl,cost a lot of money
+8,that_gap_subj,We all remember,that,,a gift for,,cost a lot of money
+8,what_gap_subj,We all remember,who,,a gift for,,cost a lot of money
+9,that_nogap_obj,My friend reported,that,he knew,the director of,the bank,when he was young
+9,what_nogap_obj,My friend reported,what,he knew,the director of,the bank,when he was young
+9,that_gap_obj,My friend reported,that,he knew,the director of,,when he was young
+9,what_gap_obj,My friend reported,what,he knew,the director of,,when he was young
+9,that_nogap_subj,My friend reported,that,,the director of,the bank,shook his hand
+9,what_nogap_subj,My friend reported,what,,the director of,the bank,shook his hand
+9,that_gap_subj,My friend reported,that,,the director of,,shook his hand
+9,what_gap_subj,My friend reported,what,,the director of,,shook his hand
+10,that_nogap_obj,I have an idea about,that,they attended,a conference on,evolution,last week
+10,what_nogap_obj,I have an idea about,what,they attended,a conference on,evolution,last week
+10,that_gap_obj,I have an idea about,that,they attended,a conference on,,last week
+10,what_gap_obj,I have an idea about,what,they attended,a conference on,,last week
+10,that_nogap_subj,I have an idea about,that,,a conference on,evolution,ended yesterday
+10,what_nogap_subj,I have an idea about,what,,a conference on,evolution,ended yesterday
+10,that_gap_subj,I have an idea about,that,,a conference on,,ended yesterday
+10,what_gap_subj,I have an idea about,what,,a conference on,,ended yesterday
+11,that_nogap_obj,She can guess,that,he wrote,the speech about,politics,last year
+11,what_nogap_obj,She can guess,what,he wrote,the speech about,politics,last year
+11,that_gap_obj,She can guess,that,he wrote,the speech about,,last year
+11,what_gap_obj,She can guess,what,he wrote,the speech about,,last year
+11,that_nogap_subj,She can guess,that,,the speech about,politics,made headlines
+11,what_nogap_subj,She can guess,what,,the speech about,politics,made headlines
+11,that_gap_subj,She can guess,that,,the speech about,,made headlines
+11,what_gap_subj,She can guess,what,,the speech about,,made headlines
+12,that_nogap_obj,The newspaper reported,that,she liked,the novel by,Proust,a long time ago
+12,what_nogap_obj,The newspaper reported,who,she liked,the novel by,Proust,a long time ago
+12,that_gap_obj,The newspaper reported,that,she liked,the novel by,,a long time ago
+12,what_gap_obj,The newspaper reported,who,she liked,the novel by,,a long time ago
+12,that_nogap_subj,The newspaper reported,that,,the novel by,Proust,received praise
+12,what_nogap_subj,The newspaper reported,who,,the novel by,Proust,received praise
+12,that_gap_subj,The newspaper reported,that,,the novel by,,received praise
+12,what_gap_subj,The newspaper reported,who,,the novel by,,received praise
+13,that_nogap_obj,We recall,that,the footman delivered,a letter from,the countess,recently
+13,what_nogap_obj,We recall,who,the footman delivered,a letter from,the countess,recently
+13,that_gap_obj,We recall,that,the footman delivered,a letter from,,recently
+13,what_gap_obj,We recall,who,the footman delivered,a letter from,,recently
+13,that_nogap_subj,We recall,that,,a letter from,the countess,got lost in the mail
+13,what_nogap_subj,We recall,who,,a letter from,the countess,got lost in the mail
+13,that_gap_subj,We recall,that,,a letter from,,got lost in the mail
+13,what_gap_subj,We recall,who,,a letter from,,got lost in the mail
+14,that_nogap_obj,I remember,that,the journalist wrote,an article about,poverty,recently
+14,what_nogap_obj,I remember,what,the journalist wrote,an article about,poverty,recently
+14,that_gap_obj,I remember,that,the journalist wrote,an article about,,recently
+14,what_gap_obj,I remember,what,the journalist wrote,an article about,,recently
+14,that_nogap_subj,I remember,that,,an article about,poverty,won an award
+14,what_nogap_subj,I remember,what,,an article about,poverty,won an award
+14,that_gap_subj,I remember,that,,an article about,,won an award
+14,what_gap_subj,I remember,what,,an article about,,won an award
+15,that_nogap_obj,I know,that,he won,the argument about,politics,last week
+15,what_nogap_obj,I know,what,he won,the argument about,politics,last week
+15,that_gap_obj,I know,that,he won,the argument about,,last week
+15,what_gap_obj,I know,what,he won,the argument about,,last week
+15,that_nogap_subj,I know,that,,the argument about,politics,got very heated
+15,what_nogap_subj,I know,what,,the argument about,politics,got very heated
+15,that_gap_subj,I know,that,,the argument about,,got very heated
+15,what_gap_subj,I know,what,,the argument about,,got very heated
+16,that_nogap_obj,The mayor told me,that,he developed,an allergy to,peanuts,last year
+16,what_nogap_obj,The mayor told me,what,he developed,an allergy to,peanuts,last year
+16,that_gap_obj,The mayor told me,that,he developed,an allergy to,,last year
+16,what_gap_obj,The mayor told me,what,he developed,an allergy to,,last year
+16,that_nogap_subj,The mayor told me,that,,an allergy to,peanuts,kept him indoors
+16,what_nogap_subj,The mayor told me,what,,an allergy to,peanuts,kept him indoors
+16,that_gap_subj,The mayor told me,that,,an allergy to,,kept him indoors
+16,what_gap_subj,The mayor told me,what,,an allergy to,,kept him indoors
+17,that_nogap_obj,My friend remembers,that,he wrote,a description of,Sarah,last month
+17,what_nogap_obj,My friend remembers,who,he wrote,a description of,Sarah,last month
+17,that_gap_obj,My friend remembers,that,he wrote,a description of,,last month
+17,what_gap_obj,My friend remembers,who,he wrote,a description of,,last month
+17,that_nogap_subj,My friend remembers,that,,a description of,Sarah,appeared in the newspaper
+17,what_nogap_subj,My friend remembers,who,,a description of,Sarah,appeared in the newspaper
+17,that_gap_subj,My friend remembers,that,,a description of,,appeared in the newspaper
+17,what_gap_subj,My friend remembers,who,,a description of,,appeared in the newspaper
+18,that_nogap_obj,The newspaper said,that,they gave,a presentation about,the business plan,last week
+18,what_nogap_obj,The newspaper said,what,they gave,a presentation about,the business plan,last week
+18,that_gap_obj,The newspaper said,that,they gave,a presentation about,,last week
+18,what_gap_obj,The newspaper said,what,they gave,a presentation about,,last week
+18,that_nogap_subj,The newspaper said,that,,a presentation about,the business plan,earned them trust from the board
+18,what_nogap_subj,The newspaper said,what,,a presentation about,the business plan,earned them trust from the board
+18,that_gap_subj,The newspaper said,that,,a presentation about,,earned them trust from the board
+18,what_gap_subj,The newspaper said,what,,a presentation about,,earned them trust from the board
+19,that_nogap_obj,Our neighbor said,that,she delivered,a lecture on,French literature,on Wednesday
+19,what_nogap_obj,Our neighbor said,what,she delivered,a lecture on,French literature,on Wednesday
+19,that_gap_obj,Our neighbor said,that,she delivered,a lecture on,,on Wednesday
+19,what_gap_obj,Our neighbor said,what,she delivered,a lecture on,,on Wednesday
+19,that_nogap_subj,Our neighbor said,that,,a lecture on,French literature,inspired the students
+19,what_nogap_subj,Our neighbor said,what,,a lecture on,French literature,inspired the students
+19,that_gap_subj,Our neighbor said,that,,a lecture on,,inspired the students
+19,what_gap_subj,Our neighbor said,what,,a lecture on,,inspired the students
+20,that_nogap_obj,My friend told me,that,the professor gave,a talk about,physics,on Wednesday
+20,what_nogap_obj,My friend told me,what,the professor gave,a talk about,physics,on Wednesday
+20,that_gap_obj,My friend told me,that,the professor gave,a talk about,,on Wednesday
+20,what_gap_obj,My friend told me,what,the professor gave,a talk about,,on Wednesday
+20,that_nogap_subj,My friend told me,that,,a talk about,physics,on Wednesday
+20,what_nogap_subj,My friend told me,what,,a talk about,physics,bored the students
+20,that_gap_subj,My friend told me,that,,a talk about,,bored the students
+20,what_gap_subj,My friend told me,what,,a talk about,,bored the students
+21,that_nogap_obj,She can not believe,that,he had,a suspicion about,the mayor,last winter
+21,what_nogap_obj,She can not believe,who,he had,a suspicion about,the mayor,last winter
+21,that_gap_obj,She can not believe,that,he had,a suspicion about,,last winter
+21,what_gap_obj,She can not believe,who,he had,a suspicion about,,last winter
+21,that_nogap_subj,She can not believe,that,,a suspicion about,the mayor,lead to an investigation
+21,what_nogap_subj,She can not believe,who,,a suspicion about,the mayor,lead to an investigation
+21,that_gap_subj,She can not believe,that,,a suspicion about,,lead to an investigation
+21,what_gap_subj,She can not believe,who,,a suspicion about,,lead to an investigation
+22,that_nogap_obj,The newspaper reported,that,the police had,a hunch about,the witness,recently
+22,what_nogap_obj,The newspaper reported,who,the police had,a hunch about,the witness,recently
+22,that_gap_obj,The newspaper reported,that,the police had,a hunch about,,recently
+22,what_gap_obj,The newspaper reported,who,the police had,a hunch about,,recently
+22,that_nogap_subj,The newspaper reported,that,,a hunch about,the witness,proved wrong
+22,what_nogap_subj,The newspaper reported,who,,a hunch about,the witness,proved wrong
+22,that_gap_subj,The newspaper reported,that,,a hunch about,,proved wrong
+22,what_gap_subj,The newspaper reported,who,,a hunch about,,proved wrong

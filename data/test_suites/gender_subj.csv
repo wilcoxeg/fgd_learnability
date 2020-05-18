@@ -1,0 +1,153 @@
+item,condition,np,matrix_v,ss_setup,pronoun,obj,ending
+1,fem_fem_obj,The woman,knows,they sold the painting by,her,friends,
+1,fem_male_obj,The woman,knows,they sold the painting by,his,friends,
+1,male_fem_obj,The man,knows,they sold the painting by,her,friends,
+1,male_male_obj,The man,knows,they sold the painting by,his,friends,
+1,fem_fem_island,The woman,knows,the painting by,her,friends,will fetch a lot of money
+1,fem_male_island,The woman,knows,the painting by,his,friends,will fetch a lot of money
+1,male_fem_island,The man,knows,the painting by,her,friends,will fetch a lot of money
+1,male_male_island,The man,knows,the painting by,his,friends,will fetch a lot of money
+2,fem_fem_obj,The bride,thinks,they misplaced the delivery for,her,wedding,
+2,fem_male_obj,The bride,thinks,they misplaced the delivery for,his,wedding,
+2,male_fem_obj,The groom,thinks,they misplaced the delivery for,her,wedding,
+2,male_male_obj,The groom,thinks,they misplaced the delivery for,his,wedding,
+2,fem_fem_island,The bride,thinks,the delivery for,her,wedding,will be late
+2,fem_male_island,The bride,thinks,the delivery for,his,wedding,will be late
+2,male_fem_island,The groom,thinks,the delivery for,her,wedding,will be late
+2,male_male_island,The groom,thinks,the delivery for,his,wedding,will be late
+3,fem_fem_obj,The countess,knows,they will steal the plans for,her,castle,
+3,fem_male_obj,The countess,knows,they will steal the plans for,his,castle,
+3,male_fem_obj,The count,knows,they will steal the plans for,her,castle,
+3,male_male_obj,The count,knows,they will steal the plans for,his,castle,
+3,fem_fem_island,The countess,knows,the plans for,her,castle,will be stolen
+3,fem_male_island,The countess,knows,the plans for,his,castle,will be stolen
+3,male_fem_island,The count,knows,the plans for,her,castle,will be stolen
+3,male_male_island,The count,knows,the plans for,his,castle,will be stolen
+4,fem_fem_obj,My wife,believes,they will want the secret to,her,recipe,
+4,fem_male_obj,My wife,believes,they will want the secret to,his,recipe,
+4,male_fem_obj,My husband,believes,they will want the secret to,her,recipe,
+4,male_male_obj,My husband,believes,they will want the secret to,his,recipe,
+4,fem_fem_island,My wife,believes,the secret to,her,recipe,will be stolen
+4,fem_male_island,My wife,believes,the secret to,his,recipe,will be stolen
+4,male_fem_island,My husband,believes,the secret to,her,recipe,will be stolen
+4,male_male_island,My husband,believes,the secret to,his,recipe,will be stolen
+6,fem_fem_obj,My aunt,knows,they will read the letter for,her,friend,
+6,fem_male_obj,My aunt,knows,they will read the letter for,his,friend,
+6,male_fem_obj,My uncle,knows,they will read the letter for,her,friend,
+6,male_male_obj,My uncle,knows,they will read the letter for,his,friend,
+6,fem_fem_island,My aunt,knows,the letter for,her,friend,will be read
+6,fem_male_island,My aunt,knows,the letter for,his,friend,will be read
+6,male_fem_island,My uncle,knows,the letter for,her,friend,will be read
+6,male_male_island,My uncle,knows,the letter for,his,friend,will be read
+8,fem_fem_obj,The lady,hopes,they will enjoy the symphony by,her,friend,
+8,fem_male_obj,The lady,hopes,they will enjoy the symphony by,his,friend,
+8,male_fem_obj,The man,hopes,they will enjoy the symphony by,her,friend,
+8,male_male_obj,The man,hopes,they will enjoy the symphony by,his,friend,
+8,fem_fem_island,The lady,hopes,the symphony by,her,friend,will be enjoyed by all
+8,fem_male_island,The lady,hopes,the symphony by,his,friend,will be enjoyed by all
+8,male_fem_island,The man,hopes,the symphony by,her,friend,will be enjoyed by all
+8,male_male_island,The man,hopes,the symphony by,his,friend,will be enjoyed by all
+9,fem_fem_obj,The princess,knows,they will find the key to,her,safe,
+9,fem_male_obj,The princess,knows,they will find the key to,his,safe,
+9,male_fem_obj,The prince,knows,they will find the key to,her,safe,
+9,male_male_obj,The prince,knows,they will find the key to,his,safe,
+9,fem_fem_island,The princess,knows,the key to,her,safe,will be found
+9,fem_male_island,The princess,knows,the key to,his,safe,will be found
+9,male_fem_island,The prince,knows,the key to,her,safe,will be found
+9,male_male_island,The prince,knows,the key to,his,safe,will be found
+10,fem_fem_obj,The girl,thinks,they will admire the portrait of,her,mother,
+10,fem_male_obj,The girl,thinks,they will admire the portrait of,his,mother,
+10,male_fem_obj,The boy,thinks,they will admire the portrait of,her,mother,
+10,male_male_obj,The boy,thinks,they will admire the portrait of,his,mother,
+10,fem_fem_island,The girl,thinks,the portrait of,her,mother,will be admired by all
+10,fem_male_island,The girl,thinks,the portrait of,his,mother,will be admired by all
+10,male_fem_island,The boy,thinks,the portrait of,her,mother,will be admired by all
+10,male_male_island,The boy,thinks,the portrait of,his,mother,will be admired by all
+11,fem_fem_obj,The queen,hopes,they will like the ode by,her,favorite poet,
+11,fem_male_obj,The queen,hopes,they will like the ode by,his,favorite poet,
+11,male_fem_obj,The king,hopes,they will like the ode by,her,favorite poet,
+11,male_male_obj,The king,hopes,they will like the ode by,his,favorite poet,
+11,fem_fem_island,The queen,hopes,the ode by,her,favorite poet,will be long
+11,fem_male_island,The queen,hopes,the ode by,his,favorite poet,will be long
+11,male_fem_island,The king,hopes,the ode by,her,favorite poet,will be long
+11,male_male_island,The king,hopes,the ode by,his,favorite poet,will be long
+12,fem_fem_obj,Your mother,knows,they will deliver the present for,her,sister,
+12,fem_male_obj,Your mother,knows,they will deliver the present for,his,sister,
+12,male_fem_obj,Your father,knows,they will deliver the present for,her,sister,
+12,male_male_obj,Your father,knows,they will deliver the present for,his,sister,
+12,fem_fem_island,Your mother,knows,the present for,her,sister,will be delivered on time
+12,fem_male_island,Your mother,knows,the present for,his,sister,will be delivered on time
+12,male_fem_island,Your father,knows,the present for,her,sister,will be delivered on time
+12,male_male_island,Your father,knows,the present for,his,sister,will be delivered on time
+13,fem_fem_obj,The grandmother,assumes,they will open the package for,her,grandson,
+13,fem_male_obj,The grandmother,assumes,they will open the package for,his,grandson,
+13,male_fem_obj,The grandfather,assumes,they will open the package for,her,grandson,
+13,male_male_obj,The grandfather,assumes,they will open the package for,his,grandson,
+13,fem_fem_island,The grandmother,assumes,the package for,her,grandson,will be opened
+13,fem_male_island,The grandmother,assumes,the package for,his,grandson,will be opened
+13,male_fem_island,The grandfather,assumes,the package for,her,grandson,will be opened
+13,male_male_island,The grandfather,assumes,the package for,his,grandson,will be opened
+15,fem_fem_obj,The girl,worries,they will break the present for,her,mother,
+15,fem_male_obj,The girl,worries,they will break the present for,his,mother,
+15,male_fem_obj,The boy,worries,they will break the present for,her,mother,
+15,male_male_obj,The boy,worries,they will break the present for,his,mother,
+15,fem_fem_island,The girl,worries,the present for,her,toy,will break
+15,fem_male_island,The girl,worries,the present for,his,toy,will break
+15,male_fem_island,The boy,worries,the present for,her,toy,will break
+15,male_male_island,The boy,worries,the present for,his,toy,will break
+17,fem_fem_obj,The woman,believes,they will notice the address on,her,letter,
+17,fem_male_obj,The woman,believes,they will notice the address on,his,letter,
+17,male_fem_obj,The man,believes,they will notice the address on,her,letter,
+17,male_male_obj,The man,believes,they will notice the address on,his,letter,
+17,fem_fem_island,The woman,believes,the address on,her,letter,will be noticed
+17,fem_male_island,The woman,believes,the address on,his,letter,will be noticed
+17,male_fem_island,The man,believes,the address on,her,letter,will be noticed
+17,male_male_island,The man,believes,the address on,his,letter,will be noticed
+18,fem_fem_obj,The duchess,worries,they will ignore the invitation from,her,family,
+18,fem_male_obj,The duchess,worries,they will ignore the invitation from,his,family,
+18,male_fem_obj,The duke,worries,they will ignore the invitation from,her,family,
+18,male_male_obj,The duke,worries,they will ignore the invitation from,his,family,
+18,fem_fem_island,The duchess,worries,the invitation from,her,family,will be ignored
+18,fem_male_island,The duchess,worries,the invitation from,his,family,will be ignored
+18,male_fem_island,The duke,worries,the invitation from,her,family,will be ignored
+18,male_male_island,The duke,worries,the invitation from,his,family,will be ignored
+20,fem_fem_obj,The emperor,hopes,they will misplace the keys to,her,palace,
+20,fem_male_obj,The emperor,hopes,they will misplace the keys to,his,palace,
+20,male_fem_obj,The empress,hopes,they will misplace the keys to,her,palace,
+20,male_male_obj,The empress,hopes,they will misplace the keys to,his,palace,
+20,fem_fem_island,The emperor,hopes,the keys to,her,palace,will be misplaced
+20,fem_male_island,The emperor,hopes,the keys to,his,palace,will be misplaced
+20,male_fem_island,The empress,hopes,the keys to,her,palace,will be misplaced
+20,male_male_island,The empress,hopes,the keys to,his,palace,will be misplaced
+23,fem_fem_obj,My sister,knows,they will repair the cover for,her,watch,
+23,fem_male_obj,My sister,knows,they will repair the cover for,his,watch,
+23,male_fem_obj,My brother,knows,they will repair the cover for,her,watch,
+23,male_male_obj,My brother,knows,they will repair the cover for,his,watch,
+23,fem_fem_island,My sister,knows,the cover for,her,watch,will be repaired
+23,fem_male_island,My sister,knows,the cover for,his,watch,will be easy
+23,male_fem_island,My brother,knows,the cover for,her,watch,will be easy
+23,male_male_island,My brother,knows,the cover for,his,watch,will be repaired
+24,fem_fem_obj,The daughter,thinks,they will see the photograph of,her,friend,
+24,fem_male_obj,The daughter,thinks,they will see the photograph of,his,friend,
+24,male_fem_obj,The son,thinks,they will see the photograph of,her,friend,
+24,male_male_obj,The son,thinks,they will see the photograph of,his,friend,
+24,fem_fem_island,The daughter,thinks,the photograph of,her,friend,will be seen
+24,fem_male_island,The daughter,thinks,the photograph of,his,friend,will be seen
+24,male_fem_island,The son,thinks,the photograph of,her,friend,will be seen
+24,male_male_island,The son,thinks,the photograph of,his,friend,will be seen
+29,fem_fem_obj,The woman,hopes,they will like the novel by,her,friend,
+29,fem_male_obj,The woman,hopes,they will like the novel by,his,friend,
+29,male_fem_obj,The man,hopes,they will like the novel by,her,friend,
+29,male_male_obj,The man,hopes,they will like the novel by,his,friend,
+29,fem_fem_island,The woman,hopes,the novel by,her,friend,will be liked
+29,fem_male_island,The woman,hopes,the novel by,his,friend,will be easy
+29,male_fem_island,The man,hopes,the novel by,her,friend,will be easy
+29,male_male_island,The man,hopes,the novel by,his,friend,will be liked
+30,fem_fem_obj,Your wife,believes,they will say a prayer for,her,mother,
+30,fem_male_obj,Your wife,believes,they will say a prayer for,his,mother,
+30,male_fem_obj,Your husband,believes,they will say a prayer for,her,mother,
+30,male_male_obj,Your husband,believes,they will say a prayer for,his,mother,
+30,fem_fem_island,Your wife,believes,a prayer for,her,mother,will be said in church
+30,fem_male_island,Your wife,believes,a prayer for,his,mother,will be said in church
+30,male_fem_island,Your husband,believes,a prayer for,her,mother,will be said in church
+30,male_male_island,Your husband,believes,a prayer for,his,mother,will be said in church

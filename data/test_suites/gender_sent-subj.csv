@@ -1,0 +1,153 @@
+item,condition,np,matrix_v,ss_setup,pronoun,obj,ending
+1,fem_fem_obj,The woman,knows,they will like,her,friends,
+1,fem_male_obj,The woman,knows,they will like,his,friends,
+1,male_fem_obj,The man,knows,they will like,her,friends,
+1,male_male_obj,The man,knows,they will like,his,friends,
+1,fem_fem_island,The woman,knows,for them to like,her,friends,will be easy
+1,fem_male_island,The woman,knows,for them to like,his,friends,will be easy
+1,male_fem_island,The man,knows,for them to like,her,friends,will be easy
+1,male_male_island,The man,knows,for them to like,his,friends,will be easy
+2,fem_fem_obj,The bride,thinks,they will admire,her,ring,
+2,fem_male_obj,The bride,thinks,they will admire,his,ring,
+2,male_fem_obj,The groom,thinks,they will admire,her,ring,
+2,male_male_obj,The groom,thinks,they will admire,his,ring,
+2,fem_fem_island,The bride,thinks,for them to admire,her,ring,will be easy
+2,fem_male_island,The bride,thinks,for them to admire,his,ring,will be easy
+2,male_fem_island,The groom,thinks,for them to admire,her,ring,will be easy
+2,male_male_island,The groom,thinks,for them to admire,his,ring,will be easy
+3,fem_fem_obj,The countess,knows,they will attack,her,castle,
+3,fem_male_obj,The countess,knows,they will attack,his,castle,
+3,male_fem_obj,The count,knows,they will attack,her,castle,
+3,male_male_obj,The count,knows,they will attack,his,castle,
+3,fem_fem_island,The countess,knows,for them to attack,her,castle,will be easy
+3,fem_male_island,The countess,knows,for them to attack,his,castle,will be easy
+3,male_fem_island,The count,knows,for them to attack,her,castle,will be easy
+3,male_male_island,The count,knows,for them to attack,his,castle,will be easy
+4,fem_fem_obj,My wife,believes,they will enjoy,her,recipe,
+4,fem_male_obj,My wife,believes,they will enjoy,his,recipe,
+4,male_fem_obj,My husband,believes,they will enjoy,her,recipe,
+4,male_male_obj,My husband,believes,they will enjoy,his,recipe,
+4,fem_fem_island,My wife,believes,for them to enjoy,her,recipe,will be easy
+4,fem_male_island,My wife,believes,for them to enjoy,his,recipe,will be easy
+4,male_fem_island,My husband,believes,for them to enjoy,her,recipe,will be easy
+4,male_male_island,My husband,believes,for them to enjoy,his,recipe,will be easy
+6,fem_fem_obj,My aunt,knows,they will dislike,her,friend,
+6,fem_male_obj,My aunt,knows,they will dislike,his,friend,
+6,male_fem_obj,My uncle,knows,they will dislike,her,friend,
+6,male_male_obj,My uncle,knows,they will dislike,his,friend,
+6,fem_fem_island,My aunt,knows,for them to dislike,her,friend,will be easy
+6,fem_male_island,My aunt,knows,for them to dislike,his,friend,will be easy
+6,male_fem_island,My uncle,knows,for them to dislike,her,friend,will be easy
+6,male_male_island,My uncle,knows,for them to dislike,his,friend,will be easy
+8,fem_fem_obj,The lady,hopes,the will steal,her,fur coat,
+8,fem_male_obj,The lady,hopes,the will steal,his,fur coat,
+8,male_fem_obj,The man,hopes,the will steal,her,fur coat,
+8,male_male_obj,The man,hopes,the will steal,his,fur coat,
+8,fem_fem_island,The lady,hopes,for them to steal,her,fur coat,will be easy
+8,fem_male_island,The lady,hopes,for them to steal,his,fur coat,will be easy
+8,male_fem_island,The man,hopes,for them to steal,her,fur coat,will be easy
+8,male_male_island,The man,hopes,for them to steal,his,fur coat,will be easy
+9,fem_fem_obj,The princess,knows,they will find,her,valuables,
+9,fem_male_obj,The princess,knows,they will find,his,valuables,
+9,male_fem_obj,The prince,knows,they will find,her,valuables,
+9,male_male_obj,The prince,knows,they will find,his,valuables,
+9,fem_fem_island,The princess,knows,for them to find,her,valuables,will be easy
+9,fem_male_island,The princess,knows,for them to find,his,valuables,will be easy
+9,male_fem_island,The prince,knows,for them to find,her,valuables,will be easy
+9,male_male_island,The prince,knows,for them to find,his,valuables,will be easy
+10,fem_fem_obj,The girl,thinks,they look up to,her,mother,
+10,fem_male_obj,The girl,thinks,they look up to,his,mother,
+10,male_fem_obj,The boy,thinks,they look up to,her,mother,
+10,male_male_obj,The boy,thinks,they look up to,his,mother,
+10,fem_fem_island,The girl,thinks,for them to look up to,her,mother,will be easy
+10,fem_male_island,The girl,thinks,for them to look up to,his,mother,will be easy
+10,male_fem_island,The boy,thinks,for them to look up to,her,mother,will be easy
+10,male_male_island,The boy,thinks,for them to look up to,his,mother,will be easy
+11,fem_fem_obj,The queen,hopes,they will honnor,her,sovereignty,
+11,fem_male_obj,The queen,hopes,they will honnor,his,sovereignty,
+11,male_fem_obj,The king,hopes,they will honnor,her,sovereignty,
+11,male_male_obj,The king,hopes,they will honnor,his,sovereignty,
+11,fem_fem_island,The queen,hopes,for them to honnor,her,sovereignty,will be easy
+11,fem_male_island,The queen,hopes,for them to honnor,his,sovereignty,will be easy
+11,male_fem_island,The king,hopes,for them to honnor,her,sovereignty,will be easy
+11,male_male_island,The king,hopes,for them to honnor,his,sovereignty,will be easy
+12,fem_fem_obj,Your mother,knows,they will enjoy meeting,her,acquantience,
+12,fem_male_obj,Your mother,knows,they will enjoy meeting,his,acquantience,
+12,male_fem_obj,Your father,knows,they will enjoy meeting,her,acquantience,
+12,male_male_obj,Your father,knows,they will enjoy meeting,his,acquantience,
+12,fem_fem_island,Your mother,knows,for them to enjoy meeting,her,acquantience,will be easy
+12,fem_male_island,Your mother,knows,for them to enjoy meeting,his,acquantience,will be easy
+12,male_fem_island,Your father,knows,for them to enjoy meeting,her,acquantience,will be easy
+12,male_male_island,Your father,knows,for them to enjoy meeting,his,acquantience,will be easy
+13,fem_fem_obj,The grandmother,assumes,they will expel,her,grandson,
+13,fem_male_obj,The grandmother,assumes,they will expel,his,grandson,
+13,male_fem_obj,The grandfather,assumes,they will expel,her,grandson,
+13,male_male_obj,The grandfather,assumes,they will expel,his,grandson,
+13,fem_fem_island,The grandmother,assumes,for them to expel,her,grandson,will be easy
+13,fem_male_island,The grandmother,assumes,for them to expel,his,grandson,will be easy
+13,male_fem_island,The grandfather,assumes,for them to expel,her,grandson,will be easy
+13,male_male_island,The grandfather,assumes,for them to expel,his,grandson,will be easy
+15,fem_fem_obj,The girl,worries,they will break,her,toy,
+15,fem_male_obj,The girl,worries,they will break,his,toy,
+15,male_fem_obj,The boy,worries,they will break,her,toy,
+15,male_male_obj,The boy,worries,they will break,his,toy,
+15,fem_fem_island,The girl,worries,for them to break,her,toy,will be easy
+15,fem_male_island,The girl,worries,for them to break,his,toy,will be easy
+15,male_fem_island,The boy,worries,for them to break,her,toy,will be easy
+15,male_male_island,The boy,worries,for them to break,his,toy,will be easy
+17,fem_fem_obj,The woman,believes,they will read,her,letter,
+17,fem_male_obj,The woman,believes,they will read,his,letter,
+17,male_fem_obj,The man,believes,they will read,her,letter,
+17,male_male_obj,The man,believes,they will read,his,letter,
+17,fem_fem_island,The woman,believes,for them to read,her,letter,will be easy
+17,fem_male_island,The woman,believes,for them to read,his,letter,will be easy
+17,male_fem_island,The man,believes,for them to read,her,letter,will be easy
+17,male_male_island,The man,believes,for them to read,his,letter,will be easy
+18,fem_fem_obj,The duchess,worries,they will insult,her,family,
+18,fem_male_obj,The duchess,worries,they will insult,his,family,
+18,male_fem_obj,The duke,worries,they will insult,her,family,
+18,male_male_obj,The duke,worries,they will insult,his,family,
+18,fem_fem_island,The duchess,worries,for them to insult,her,family,will be easy
+18,fem_male_island,The duchess,worries,for them to insult,his,family,will be easy
+18,male_fem_island,The duke,worries,for them to insult,her,family,will be easy
+18,male_male_island,The duke,worries,for them to insult,his,family,will be easy
+20,fem_fem_obj,The emperor,hopes,they will renovate,her,palace,
+20,fem_male_obj,The emperor,hopes,they will renovate,his,palace,
+20,male_fem_obj,The empress,hopes,they will renovate,her,palace,
+20,male_male_obj,The empress,hopes,they will renovate,his,palace,
+20,fem_fem_island,The emperor,hopes,for them to renovate,her,palace,will be easy
+20,fem_male_island,The emperor,hopes,for them to renovate,his,palace,will be easy
+20,male_fem_island,The empress,hopes,for them to renovate,her,palace,will be easy
+20,male_male_island,The empress,hopes,for them to renovate,his,palace,will be easy
+23,fem_fem_obj,My sister,knows,they will repair,her,watch,
+23,fem_male_obj,My sister,knows,they will repair,his,watch,
+23,male_fem_obj,My brother,knows,they will repair,her,watch,
+23,male_male_obj,My brother,knows,they will repair,his,watch,
+23,fem_fem_island,My sister,knows,for them to repair,her,watch,will be easy
+23,fem_male_island,My sister,knows,for them to repair,his,watch,will be easy
+23,male_fem_island,My brother,knows,for them to repair,her,watch,will be easy
+23,male_male_island,My brother,knows,for them to repair,his,watch,will be easy
+24,fem_fem_obj,The daughter,thinks,they will like,her,friend,
+24,fem_male_obj,The daughter,thinks,they will like,his,friend,
+24,male_fem_obj,The son,thinks,they will like,her,friend,
+24,male_male_obj,The son,thinks,they will like,his,friend,
+24,fem_fem_island,The daughter,thinks,for them to like,her,friend,will be easy
+24,fem_male_island,The daughter,thinks,for them to like,his,friend,will be easy
+24,male_fem_island,The son,thinks,for them to like,her,friend,will be easy
+24,male_male_island,The son,thinks,for them to like,his,friend,will be easy
+29,fem_fem_obj,The woman,hopes,they will return,her,wallet,
+29,fem_male_obj,The woman,hopes,they will return,his,wallet,
+29,male_fem_obj,The man,hopes,they will return,her,wallet,
+29,male_male_obj,The man,hopes,they will return,his,wallet,
+29,fem_fem_island,The woman,hopes,for them to return,her,wallet,will be easy
+29,fem_male_island,The woman,hopes,for them to return,his,wallet,will be easy
+29,male_fem_island,The man,hopes,for them to return,her,wallet,will be easy
+29,male_male_island,The man,hopes,for them to return,his,wallet,will be easy
+30,fem_fem_obj,Your wife,believes,they will play,her,favorite song,
+30,fem_male_obj,Your wife,believes,they will play,his,favorite song,
+30,male_fem_obj,Your husband,believes,they will play,her,favorite song,
+30,male_male_obj,Your husband,believes,they will play,his,favorite song,
+30,fem_fem_island,Your wife,believes,for them to play,her,favorite song,will be easy
+30,fem_male_island,Your wife,believes,for them to play,his,favorite song,will be easy
+30,male_fem_island,Your husband,believes,for them to play,her,favorite song,will be easy
+30,male_male_island,Your husband,believes,for them to play,his,favorite song,will be easy

@@ -1,0 +1,289 @@
+item,condition,prefix,compl,subj,compl_2,embed_subj,embed_verb,embed_obj,continuation
+1,that_nogap_nocomp,I know,that,my brother said,,our aunt,grabbed,the food,at the party
+1,what_nogap_nocomp,I know,what,my brother said,,our aunt,grabbed,the food,at the party
+1,that_gap_nocomp,I know,that,my brother said,,our aunt,grabbed,,at the party
+1,what_gap_nocomp,I know,what,my brother said,,our aunt,grabbed,,at the party
+1,that_nogap_that,I know,that,my brother said,that,our aunt,grabbed,the food,at the party
+1,what_nogap_that,I know,what,my brother said,that,our aunt,grabbed,the food,at the party
+1,that_gap_that,I know,that,my brother said,that,our aunt,grabbed,,at the party
+1,what_gap_that,I know,what,my brother said,that,our aunt,grabbed,,at the party
+1,that_nogap_wh,I know,that,my brother said,whether,our aunt,grabbed,the food,at the party
+1,what_nogap_wh,I know,what,my brother said,whether,our aunt,grabbed,the food,at the party
+1,that_gap_wh,I know,that,my brother said,whether,our aunt,grabbed,,at the party
+1,what_gap_wh,I know,what,my brother said,whether,our aunt,grabbed,,at the party
+2,that_nogap_nocomp,My neighbor told me,that,the policeman believed,,the dog,caught,the mouse,in the garage
+2,what_nogap_nocomp,My neighbor told me,what,the policeman believed,,the dog,caught,the mouse,in the garage
+2,that_gap_nocomp,My neighbor told me,that,the policeman believed,,the dog,caught,,in the garage
+2,what_gap_nocomp,My neighbor told me,what,the policeman believed,,the dog,caught,,in the garage
+2,that_nogap_that,My neighbor told me,that,the policeman believed,that,the dog,caught,the mouse,in the garage
+2,what_nogap_that,My neighbor told me,what,the policeman believed,that,the dog,caught,the mouse,in the garage
+2,that_gap_that,My neighbor told me,that,the policeman believed,that,the dog,caught,,in the garage
+2,what_gap_that,My neighbor told me,what,the policeman believed,that,the dog,caught,,in the garage
+2,that_nogap_wh,My neighbor told me,that,the policeman believed,whether,the dog,caught,the mouse,in the garage
+2,what_nogap_wh,My neighbor told me,what,the policeman believed,whether,the dog,caught,the mouse,in the garage
+2,that_gap_wh,My neighbor told me,that,the policeman believed,whether,the dog,caught,,in the garage
+2,what_gap_wh,My neighbor told me,what,the policeman believed,whether,the dog,caught,,in the garage
+3,that_nogap_nocomp,I know,that,our assistant believed,,the committee,delivered,the report,by the deadline
+3,what_nogap_nocomp,I know,what,our assistant believed,,the committee,delivered,the report,by the deadline
+3,that_gap_nocomp,I know,that,our assistant believed,,the committee,delivered,,by the deadline
+3,what_gap_nocomp,I know,what,our assistant believed,,the committee,delivered,,by the deadline
+3,that_nogap_that,I know,that,our assistant believed,that,the committee,delivered,the report,by the deadline
+3,what_nogap_that,I know,what,our assistant believed,that,the committee,delivered,the report,by the deadline
+3,that_gap_that,I know,that,our assistant believed,that,the committee,delivered,,by the deadline
+3,what_gap_that,I know,what,our assistant believed,that,the committee,delivered,,by the deadline
+3,that_nogap_wh,I know,that,our assistant believed,whether,the committee,delivered,the report,by the deadline
+3,what_nogap_wh,I know,what,our assistant believed,whether,the committee,delivered,the report,by the deadline
+3,that_gap_wh,I know,that,our assistant believed,whether,the committee,delivered,,by the deadline
+3,what_gap_wh,I know,what,our assistant believed,whether,the committee,delivered,,by the deadline
+4,that_nogap_nocomp,You remember,that,I determined,,the water,ruined,the new carpet,during the flood
+4,what_nogap_nocomp,You remember,what,I determined,,the water,ruined,the new carpet,during the flood
+4,that_gap_nocomp,You remember,that,I determined,,the water,ruined,,during the flood
+4,what_gap_nocomp,You remember,what,I determined,,the water,ruined,,during the flood
+4,that_nogap_that,You remember,that,I determined,that,the water,ruined,the new carpet,during the flood
+4,what_nogap_that,You remember,what,I determined,that,the water,ruined,the new carpet,during the flood
+4,that_gap_that,You remember,that,I determined,that,the water,ruined,,during the flood
+4,what_gap_that,You remember,what,I determined,that,the water,ruined,,during the flood
+4,that_nogap_wh,You remember,that,I determined,whether,the water,ruined,the new carpet,during the flood
+4,what_nogap_wh,You remember,what,I determined,whether,the water,ruined,the new carpet,during the flood
+4,that_gap_wh,You remember,that,I determined,whether,the water,ruined,,during the flood
+4,what_gap_wh,You remember,what,I determined,whether,the water,ruined,,during the flood
+5,that_nogap_nocomp,She told me,that,the teacher knew,,the star student,stole,answers to the test,last year
+5,what_nogap_nocomp,She told me,what,the teacher knew,,the star student,stole,answers to the test,last year
+5,that_gap_nocomp,She told me,that,the teacher knew,,the star student,stole,,last year
+5,what_gap_nocomp,She told me,what,the teacher knew,,the star student,stole,,last year
+5,that_nogap_that,She told me,that,the teacher knew,that,the star student,stole,answers to the test,last year
+5,what_nogap_that,She told me,what,the teacher knew,that,the star student,stole,answers to the test,last year
+5,that_gap_that,She told me,that,the teacher knew,that,the star student,stole,,last year
+5,what_gap_that,She told me,what,the teacher knew,that,the star student,stole,,last year
+5,that_nogap_wh,She told me,that,the teacher knew,whether,the star student,stole,answers to the test,last year
+5,what_nogap_wh,She told me,what,the teacher knew,whether,the star student,stole,answers to the test,last year
+5,that_gap_wh,She told me,that,the teacher knew,whether,the star student,stole,,last year
+5,what_gap_wh,She told me,what,the teacher knew,whether,the star student,stole,,last year
+6,that_nogap_nocomp,She knows,that,the expert stated,,the collector,produced,the painting,with the help of modern technology
+6,what_nogap_nocomp,She knows,what,the expert stated,,the collector,produced,the painting,with the help of modern technology
+6,that_gap_nocomp,She knows,that,the expert stated,,the collector,produced,,with the help of modern technology
+6,what_gap_nocomp,She knows,what,the expert stated,,the collector,produced,,with the help of modern technology
+6,that_nogap_that,She knows,that,the expert stated,that,the collector,produced,the painting,with the help of modern technology
+6,what_nogap_that,She knows,what,the expert stated,that,the collector,produced,the painting,with the help of modern technology
+6,that_gap_that,She knows,that,the expert stated,that,the collector,produced,,with the help of modern technology
+6,what_gap_that,She knows,what,the expert stated,that,the collector,produced,,with the help of modern technology
+6,that_nogap_wh,She knows,that,the expert stated,whether,the collector,produced,the painting,with the help of modern technology
+6,what_nogap_wh,She knows,what,the expert stated,whether,the collector,produced,the painting,with the help of modern technology
+6,that_gap_wh,She knows,that,the expert stated,whether,the collector,produced,,with the help of modern technology
+6,what_gap_wh,She knows,what,the expert stated,whether,the collector,produced,,with the help of modern technology
+7,that_nogap_nocomp,We all remember,that,the politician said,,the convict,brought,a gun,into the prison
+7,what_nogap_nocomp,We all remember,what,the politician said,,the convict,brought,a gun,into the prison
+7,that_gap_nocomp,We all remember,that,the politician said,,the convict,brought,,into the prison
+7,what_gap_nocomp,We all remember,what,the politician said,,the convict,brought,,into the prison
+7,that_nogap_that,We all remember,that,the politician said,that,the convict,brought,a gun,into the prison
+7,what_nogap_that,We all remember,what,the politician said,that,the convict,brought,a gun,into the prison
+7,that_gap_that,We all remember,that,the politician said,that,the convict,brought,,into the prison
+7,what_gap_that,We all remember,what,the politician said,that,the convict,brought,,into the prison
+7,that_nogap_wh,We all remember,that,the politician said,whether,the convict,brought,a gun,into the prison
+7,what_nogap_wh,We all remember,what,the politician said,whether,the convict,brought,a gun,into the prison
+7,that_gap_wh,We all remember,that,the politician said,whether,the convict,brought,,into the prison
+7,what_gap_wh,We all remember,what,the politician said,whether,the convict,brought,,into the prison
+8,that_nogap_nocomp,My friend reported,that,the banker predicted,,the company,will sell,multiple assets,next quarter
+8,what_nogap_nocomp,My friend reported,what,the banker predicted,,the company,will sell,multiple assets,next quarter
+8,that_gap_nocomp,My friend reported,that,the banker predicted,,the company,will sell,,next quarter
+8,what_gap_nocomp,My friend reported,what,the banker predicted,,the company,will sell,,next quarter
+8,that_nogap_that,My friend reported,that,the banker predicted,that,the company,will sell,multiple assets,next quarter
+8,what_nogap_that,My friend reported,what,the banker predicted,that,the company,will sell,multiple assets,next quarter
+8,that_gap_that,My friend reported,that,the banker predicted,that,the company,will sell,,next quarter
+8,what_gap_that,My friend reported,what,the banker predicted,that,the company,will sell,,next quarter
+8,that_nogap_wh,My friend reported,that,the banker predicted,whether,the company,will sell,multiple assets,next quarter
+8,what_nogap_wh,My friend reported,what,the banker predicted,whether,the company,will sell,multiple assets,next quarter
+8,that_gap_wh,My friend reported,that,the banker predicted,whether,the company,will sell,,next quarter
+8,what_gap_wh,My friend reported,what,the banker predicted,whether,the company,will sell,,next quarter
+9,that_nogap_nocomp,I know,that,the actor suspected,,her rival,ruined,the audition,last week
+9,what_nogap_nocomp,I know,what,the actor suspected,,her rival,ruined,the audition,last week
+9,that_gap_nocomp,I know,that,the actor suspected,,her rival,ruined,,last week
+9,what_gap_nocomp,I know,what,the actor suspected,,her rival,ruined,,last week
+9,that_nogap_that,I know,that,the actor suspected,that,her rival,ruined,the audition,last week
+9,what_nogap_that,I know,what,the actor suspected,that,her rival,ruined,the audition,last week
+9,that_gap_that,I know,that,the actor suspected,that,her rival,ruined,,last week
+9,what_gap_that,I know,what,the actor suspected,that,her rival,ruined,,last week
+9,that_nogap_wh,I know,that,the actor suspected,whether,her rival,ruined,the audition,last week
+9,what_nogap_wh,I know,what,the actor suspected,whether,her rival,ruined,the audition,last week
+9,that_gap_wh,I know,that,the actor suspected,whether,her rival,ruined,,last week
+9,what_gap_wh,I know,what,the actor suspected,whether,her rival,ruined,,last week
+10,that_nogap_nocomp,She can guess,that,our friend noticed,,the movie star,will be awarded,a prize,for her hard work
+10,what_nogap_nocomp,She can guess,what,our friend noticed,,the movie star,will be awarded,a prize,for her hard work
+10,that_gap_nocomp,She can guess,that,our friend noticed,,the movie star,will be awarded,,for her hard work
+10,what_gap_nocomp,She can guess,what,our friend noticed,,the movie star,will be awarded,,for her hard work
+10,that_nogap_that,She can guess,that,our friend noticed,that,the movie star,will be awarded,a prize,for her hard work
+10,what_nogap_that,She can guess,what,our friend noticed,that,the movie star,will be awarded,a prize,for her hard work
+10,that_gap_that,She can guess,that,our friend noticed,that,the movie star,will be awarded,,for her hard work
+10,what_gap_that,She can guess,what,our friend noticed,that,the movie star,will be awarded,,for her hard work
+10,that_nogap_wh,She can guess,that,our friend noticed,whether,the movie star,will be awarded,a prize,for her hard work
+10,what_nogap_wh,She can guess,what,our friend noticed,whether,the movie star,will be awarded,a prize,for her hard work
+10,that_gap_wh,She can guess,that,our friend noticed,whether,the movie star,will be awarded,,for her hard work
+10,what_gap_wh,She can guess,what,our friend noticed,whether,the movie star,will be awarded,,for her hard work
+11,that_nogap_nocomp,The newspaper reported,that,the police knew,,the suspect,killed,the witness,in the middle of the night
+11,what_nogap_nocomp,The newspaper reported,what,the police knew,,the suspect,killed,the witness,in the middle of the night
+11,that_gap_nocomp,The newspaper reported,that,the police knew,,the suspect,killed,,in the middle of the night
+11,what_gap_nocomp,The newspaper reported,what,the police knew,,the suspect,killed,,in the middle of the night
+11,that_nogap_that,The newspaper reported,that,the police knew,that,the suspect,killed,the witness,in the middle of the night
+11,what_nogap_that,The newspaper reported,what,the police knew,that,the suspect,killed,the witness,in the middle of the night
+11,that_gap_that,The newspaper reported,that,the police knew,that,the suspect,killed,,in the middle of the night
+11,what_gap_that,The newspaper reported,what,the police knew,that,the suspect,killed,,in the middle of the night
+11,that_nogap_wh,The newspaper reported,that,the police knew,whether,the suspect,killed,the witness,in the middle of the night
+11,what_nogap_wh,The newspaper reported,what,the police knew,whether,the suspect,killed,the witness,in the middle of the night
+11,that_gap_wh,The newspaper reported,that,the police knew,whether,the suspect,killed,,in the middle of the night
+11,what_gap_wh,The newspaper reported,what,the police knew,whether,the suspect,killed,,in the middle of the night
+12,that_nogap_nocomp,We recall,that,the old lady remarked,,the hot tea,warmed,the young girl,after the shocking incident
+12,what_nogap_nocomp,We recall,what,the old lady remarked,,the hot tea,warmed,the young girl,after the shocking incident
+12,that_gap_nocomp,We recall,that,the old lady remarked,,the hot tea,warmed,,after the shocking incident
+12,what_gap_nocomp,We recall,what,the old lady remarked,,the hot tea,warmed,,after the shocking incident
+12,that_nogap_that,We recall,that,the old lady remarked,that,the hot tea,warmed,the young girl,after the shocking incident
+12,what_nogap_that,We recall,what,the old lady remarked,that,the hot tea,warmed,the young girl,after the shocking incident
+12,that_gap_that,We recall,that,the old lady remarked,that,the hot tea,warmed,,after the shocking incident
+12,what_gap_that,We recall,what,the old lady remarked,that,the hot tea,warmed,,after the shocking incident
+12,that_nogap_wh,We recall,that,the old lady remarked,whether,the hot tea,warmed,the young girl,after the shocking incident
+12,what_nogap_wh,We recall,what,the old lady remarked,whether,the hot tea,warmed,the young girl,after the shocking incident
+12,that_gap_wh,We recall,that,the old lady remarked,whether,the hot tea,warmed,,after the shocking incident
+12,what_gap_wh,We recall,what,the old lady remarked,whether,the hot tea,warmed,,after the shocking incident
+13,that_nogap_nocomp,I remember,that,the doctor decided,,the nurse,should administer,the new medicine,to the sick patient
+13,what_nogap_nocomp,I remember,what,the doctor decided,,the nurse,should administer,the new medicine,to the sick patient
+13,that_gap_nocomp,I remember,that,the doctor decided,,the nurse,should administer,,to the sick patient
+13,what_gap_nocomp,I remember,what,the doctor decided,,the nurse,should administer,,to the sick patient
+13,that_nogap_that,I remember,that,the doctor decided,that,the nurse,should administer,the new medicine,to the sick patient
+13,what_nogap_that,I remember,what,the doctor decided,that,the nurse,should administer,the new medicine,to the sick patient
+13,that_gap_that,I remember,that,the doctor decided,that,the nurse,should administer,,to the sick patient
+13,what_gap_that,I remember,what,the doctor decided,that,the nurse,should administer,,to the sick patient
+13,that_nogap_wh,I remember,that,the doctor decided,whether,the nurse,should administer,the new medicine,to the sick patient
+13,what_nogap_wh,I remember,what,the doctor decided,whether,the nurse,should administer,the new medicine,to the sick patient
+13,that_gap_wh,I remember,that,the doctor decided,whether,the nurse,should administer,,to the sick patient
+13,what_gap_wh,I remember,what,the doctor decided,whether,the nurse,should administer,,to the sick patient
+14,that_nogap_nocomp,Our friend guessed,that,my friend knew,,the gossip column,revealed,family secrets,to the whole town
+14,what_nogap_nocomp,Our friend guessed,what,my friend knew,,the gossip column,revealed,family secrets,to the whole town
+14,that_gap_nocomp,Our friend guessed,that,my friend knew,,the gossip column,revealed,,to the whole town
+14,what_gap_nocomp,Our friend guessed,what,my friend knew,,the gossip column,revealed,,to the whole town
+14,that_nogap_that,Our friend guessed,that,my friend knew,that,the gossip column,revealed,family secrets,to the whole town
+14,what_nogap_that,Our friend guessed,what,my friend knew,that,the gossip column,revealed,family secrets,to the whole town
+14,that_gap_that,Our friend guessed,that,my friend knew,that,the gossip column,revealed,,to the whole town
+14,what_gap_that,Our friend guessed,what,my friend knew,that,the gossip column,revealed,,to the whole town
+14,that_nogap_wh,Our friend guessed,that,my friend knew,whether,the gossip column,revealed,family secrets,to the whole town
+14,what_nogap_wh,Our friend guessed,what,my friend knew,whether,the gossip column,revealed,family secrets,to the whole town
+14,that_gap_wh,Our friend guessed,that,my friend knew,whether,the gossip column,revealed,,to the whole town
+14,what_gap_wh,Our friend guessed,what,my friend knew,whether,the gossip column,revealed,,to the whole town
+15,that_nogap_nocomp,The mayor told me,that,the town clerk acknowledged,,the town,repaired,the parking lot,over the summer
+15,what_nogap_nocomp,The mayor told me,what,the town clerk acknowledged,,the town,repaired,the parking lot,over the summer
+15,that_gap_nocomp,The mayor told me,that,the town clerk acknowledged,,the town,repaired,,over the summer
+15,what_gap_nocomp,The mayor told me,what,the town clerk acknowledged,,the town,repaired,,over the summer
+15,that_nogap_that,The mayor told me,that,the town clerk acknowledged,that,the town,repaired,the parking lot,over the summer
+15,what_nogap_that,The mayor told me,what,the town clerk acknowledged,that,the town,repaired,the parking lot,over the summer
+15,that_gap_that,The mayor told me,that,the town clerk acknowledged,that,the town,repaired,,over the summer
+15,what_gap_that,The mayor told me,what,the town clerk acknowledged,that,the town,repaired,,over the summer
+15,that_nogap_wh,The mayor told me,that,the town clerk acknowledged,whether,the town,repaired,the parking lot,over the summer
+15,what_nogap_wh,The mayor told me,what,the town clerk acknowledged,whether,the town,repaired,the parking lot,over the summer
+15,that_gap_wh,The mayor told me,that,the town clerk acknowledged,whether,the town,repaired,,over the summer
+15,what_gap_wh,The mayor told me,what,the town clerk acknowledged,whether,the town,repaired,,over the summer
+16,that_nogap_nocomp,My friend remembers,that,the senator testified,,the government,collected,personal data,over the past decade
+16,what_nogap_nocomp,My friend remembers,what,the senator testified,,the government,collected,personal data,over the past decade
+16,that_gap_nocomp,My friend remembers,that,the senator testified,,the government,collected,,over the past decade
+16,what_gap_nocomp,My friend remembers,what,the senator testified,,the government,collected,,over the past decade
+16,that_nogap_that,My friend remembers,that,the senator testified,that,the government,collected,personal data,over the past decade
+16,what_nogap_that,My friend remembers,what,the senator testified,that,the government,collected,personal data,over the past decade
+16,that_gap_that,My friend remembers,that,the senator testified,that,the government,collected,,over the past decade
+16,what_gap_that,My friend remembers,what,the senator testified,that,the government,collected,,over the past decade
+16,that_nogap_wh,My friend remembers,that,the senator testified,whether,the government,collected,personal data,over the past decade
+16,what_nogap_wh,My friend remembers,what,the senator testified,whether,the government,collected,personal data,over the past decade
+16,that_gap_wh,My friend remembers,that,the senator testified,whether,the government,collected,,over the past decade
+16,what_gap_wh,My friend remembers,what,the senator testified,whether,the government,collected,,over the past decade
+17,that_nogap_nocomp,The newspaper said,that,the bureaucrat testified,,the manager,followed,company regulations,during the financial crisis
+17,what_nogap_nocomp,The newspaper said,what,the bureaucrat testified,,the manager,followed,company regulations,during the financial crisis
+17,that_gap_nocomp,The newspaper said,that,the bureaucrat testified,,the manager,followed,,during the financial crisis
+17,what_gap_nocomp,The newspaper said,what,the bureaucrat testified,,the manager,followed,,during the financial crisis
+17,that_nogap_that,The newspaper said,that,the bureaucrat testified,that,the manager,followed,company regulations,during the financial crisis
+17,what_nogap_that,The newspaper said,what,the bureaucrat testified,that,the manager,followed,company regulations,during the financial crisis
+17,that_gap_that,The newspaper said,that,the bureaucrat testified,that,the manager,followed,,during the financial crisis
+17,what_gap_that,The newspaper said,what,the bureaucrat testified,that,the manager,followed,,during the financial crisis
+17,that_nogap_wh,The newspaper said,that,the bureaucrat testified,whether,the manager,followed,company regulations,during the financial crisis
+17,what_nogap_wh,The newspaper said,what,the bureaucrat testified,whether,the manager,followed,company regulations,during the financial crisis
+17,that_gap_wh,The newspaper said,that,the bureaucrat testified,whether,the manager,followed,,during the financial crisis
+17,what_gap_wh,The newspaper said,what,the bureaucrat testified,whether,the manager,followed,,during the financial crisis
+18,that_nogap_nocomp,Our neighbor said,that,the professor knows,,the student,hated,the assigned materials,last semester
+18,what_nogap_nocomp,Our neighbor said,what,the professor knows,,the student,hated,the assigned materials,last semester
+18,that_gap_nocomp,Our neighbor said,that,the professor knows,,the student,hated,,last semester
+18,what_gap_nocomp,Our neighbor said,what,the professor knows,,the student,hated,,last semester
+18,that_nogap_that,Our neighbor said,that,the professor knows,that,the student,hated,the assigned materials,last semester
+18,what_nogap_that,Our neighbor said,what,the professor knows,that,the student,hated,the assigned materials,last semester
+18,that_gap_that,Our neighbor said,that,the professor knows,that,the student,hated,,last semester
+18,what_gap_that,Our neighbor said,what,the professor knows,that,the student,hated,,last semester
+18,that_nogap_wh,Our neighbor said,that,the professor knows,whether,the student,hated,the assigned materials,last semester
+18,what_nogap_wh,Our neighbor said,what,the professor knows,whether,the student,hated,the assigned materials,last semester
+18,that_gap_wh,Our neighbor said,that,the professor knows,whether,the student,hated,,last semester
+18,what_gap_wh,Our neighbor said,what,the professor knows,whether,the student,hated,,last semester
+19,that_nogap_nocomp,My friend told me,that,the consultant assumed,,the university,hired,a new administrator,last week
+19,what_nogap_nocomp,My friend told me,what,the consultant assumed,,the university,hired,a new administrator,last week
+19,that_gap_nocomp,My friend told me,that,the consultant assumed,,the university,hired,,last week
+19,what_gap_nocomp,My friend told me,what,the consultant assumed,,the university,hired,,last week
+19,that_nogap_that,My friend told me,that,the consultant assumed,that,the university,hired,a new administrator,last week
+19,what_nogap_that,My friend told me,what,the consultant assumed,that,the university,hired,a new administrator,last week
+19,that_gap_that,My friend told me,that,the consultant assumed,that,the university,hired,,last week
+19,what_gap_that,My friend told me,what,the consultant assumed,that,the university,hired,,last week
+19,that_nogap_wh,My friend told me,that,the consultant assumed,whether,the university,hired,a new administrator,last week
+19,what_nogap_wh,My friend told me,what,the consultant assumed,whether,the university,hired,a new administrator,last week
+19,that_gap_wh,My friend told me,that,the consultant assumed,whether,the university,hired,,last week
+19,what_gap_wh,My friend told me,what,the consultant assumed,whether,the university,hired,,last week
+20,that_nogap_nocomp,She can not believe,that,I recalled,,my good friend,married,my cousin,last winter
+20,what_nogap_nocomp,She can not believe,what,I recalled,,my good friend,married,my cousin,last winter
+20,that_gap_nocomp,She can not believe,that,I recalled,,my good friend,married,,last winter
+20,what_gap_nocomp,She can not believe,what,I recalled,,my good friend,married,,last winter
+20,that_nogap_that,She can not believe,that,I recalled,that,my good friend,married,my cousin,last winter
+20,what_nogap_that,She can not believe,what,I recalled,that,my good friend,married,my cousin,last winter
+20,that_gap_that,She can not believe,that,I recalled,that,my good friend,married,,last winter
+20,what_gap_that,She can not believe,what,I recalled,that,my good friend,married,,last winter
+20,that_nogap_wh,She can not believe,that,I recalled,whether,my good friend,married,my cousin,last winter
+20,what_nogap_wh,She can not believe,what,I recalled,whether,my good friend,married,my cousin,last winter
+20,that_gap_wh,She can not believe,that,I recalled,whether,my good friend,married,,last winter
+20,what_gap_wh,She can not believe,what,I recalled,whether,my good friend,married,,last winter
+21,that_nogap_nocomp,Our neighbor reminded us,that,she remembered,,the truck,dragged,the car,out of the ditch
+21,what_nogap_nocomp,Our neighbor reminded us,what,she remembered,,the truck,dragged,the car,out of the ditch
+21,that_gap_nocomp,Our neighbor reminded us,that,she remembered,,the truck,dragged,,out of the ditch
+21,what_gap_nocomp,Our neighbor reminded us,what,she remembered,,the truck,dragged,,out of the ditch
+21,that_nogap_that,Our neighbor reminded us,that,she remembered,that,the truck,dragged,the car,out of the ditch
+21,what_nogap_that,Our neighbor reminded us,what,she remembered,that,the truck,dragged,the car,out of the ditch
+21,that_gap_that,Our neighbor reminded us,that,she remembered,that,the truck,dragged,,out of the ditch
+21,what_gap_that,Our neighbor reminded us,what,she remembered,that,the truck,dragged,,out of the ditch
+21,that_nogap_wh,Our neighbor reminded us,that,she remembered,whether,the truck,dragged,the car,out of the ditch
+21,what_nogap_wh,Our neighbor reminded us,what,she remembered,whether,the truck,dragged,the car,out of the ditch
+21,that_gap_wh,Our neighbor reminded us,that,she remembered,whether,the truck,dragged,,out of the ditch
+21,what_gap_wh,Our neighbor reminded us,what,she remembered,whether,the truck,dragged,,out of the ditch
+22,that_nogap_nocomp,The shop owner told me,that,the man said,,the restaurant,prepared,a new recipe,earlier that week
+22,what_nogap_nocomp,The shop owner told me,what,the man said,,the restaurant,prepared,a new recipe,earlier that week
+22,that_gap_nocomp,The shop owner told me,that,the man said,,the restaurant,prepared,,earlier that week
+22,what_gap_nocomp,The shop owner told me,what,the man said,,the restaurant,prepared,,earlier that week
+22,that_nogap_that,The shop owner told me,that,the man said,that,the restaurant,prepared,a new recipe,earlier that week
+22,what_nogap_that,The shop owner told me,what,the man said,that,the restaurant,prepared,a new recipe,earlier that week
+22,that_gap_that,The shop owner told me,that,the man said,that,the restaurant,prepared,,earlier that week
+22,what_gap_that,The shop owner told me,what,the man said,that,the restaurant,prepared,,earlier that week
+22,that_nogap_wh,The shop owner told me,that,the man said,whether,the restaurant,prepared,a new recipe,earlier that week
+22,what_nogap_wh,The shop owner told me,what,the man said,whether,the restaurant,prepared,a new recipe,earlier that week
+22,that_gap_wh,The shop owner told me,that,the man said,whether,the restaurant,prepared,,earlier that week
+22,what_gap_wh,The shop owner told me,what,the man said,whether,the restaurant,prepared,,earlier that week
+23,that_nogap_nocomp,My sister told me,that,our mother admitted,,the newspaper,published,a false story,last month
+23,what_nogap_nocomp,My sister told me,what,our mother admitted,,the newspaper,published,a false story,last month
+23,that_gap_nocomp,My sister told me,that,our mother admitted,,the newspaper,published,,last month
+23,what_gap_nocomp,My sister told me,what,our mother admitted,,the newspaper,published,,last month
+23,that_nogap_that,My sister told me,that,our mother admitted,that,the newspaper,published,a false story,last month
+23,what_nogap_that,My sister told me,what,our mother admitted,that,the newspaper,published,a false story,last month
+23,that_gap_that,My sister told me,that,our mother admitted,that,the newspaper,published,,last month
+23,what_gap_that,My sister told me,what,our mother admitted,that,the newspaper,published,,last month
+23,that_nogap_wh,My sister told me,that,our mother admitted,whether,the newspaper,published,a false story,last month
+23,what_nogap_wh,My sister told me,what,our mother admitted,whether,the newspaper,published,a false story,last month
+23,that_gap_wh,My sister told me,that,our mother admitted,whether,the newspaper,published,,last month
+23,what_gap_wh,My sister told me,what,our mother admitted,whether,the newspaper,published,,last month
+24,that_nogap_nocomp,We remember,that,the judge decided,,the lawyer,must destroy,the evidence,before the trial
+24,what_nogap_nocomp,We remember,what,the judge decided,,the lawyer,must destroy,the evidence,before the trial
+24,that_gap_nocomp,We remember,that,the judge decided,,the lawyer,must destroy,,before the trial
+24,what_gap_nocomp,We remember,what,the judge decided,,the lawyer,must destroy,,before the trial
+24,that_nogap_that,We remember,that,the judge decided,that,the lawyer,must destroy,the evidence,before the trial
+24,what_nogap_that,We remember,what,the judge decided,that,the lawyer,must destroy,the evidence,before the trial
+24,that_gap_that,We remember,that,the judge decided,that,the lawyer,must destroy,,before the trial
+24,what_gap_that,We remember,what,the judge decided,that,the lawyer,must destroy,,before the trial
+24,that_nogap_wh,We remember,that,the judge decided,whether,the lawyer,must destroy,the evidence,before the trial
+24,what_nogap_wh,We remember,what,the judge decided,whether,the lawyer,must destroy,the evidence,before the trial
+24,that_gap_wh,We remember,that,the judge decided,whether,the lawyer,must destroy,,before the trial
+24,what_gap_wh,We remember,what,the judge decided,whether,the lawyer,must destroy,,before the trial

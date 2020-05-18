@@ -1,0 +1,337 @@
+item,condition,prefix,compl,subj,modifier,verb,obj,rc_cmpl,rc_verb,rc_obj,continuation
+1,that_nogap_obj,I know,that,the family,from the big city,saw,,,,the general,last year
+1,what_nogap_obj,I know,who,the family,from the big city,saw,,,,the general,last year
+1,that_gap_obj,I know,that,the family,from the big city,saw,,,,,last year
+1,what_gap_obj,I know,who,the family,from the big city,saw,,,,,last year
+1,that_nogap_wh,I know,that,the family,,saw,a painting,which,depicted,the general,last year
+1,what_nogap_wh,I know,who,the family,,saw,a painting,which,depicted,the general,last year
+1,that_gap_wh,I know,that,the family,,saw,a painting,which,depicted,,last year
+1,what_gap_wh,I know,who,the family,,saw,a painting,which,depicted,,last year
+1,that_nogap_that,I know,that,the family,,saw,a painting,that,depicted,the general,last year
+1,what_nogap_that,I know,who,the family,,saw,a painting,that,depicted,the general,last year
+1,that_gap_that,I know,that,the family,,saw,a painting,that,depicted,,last year
+1,what_gap_that,I know,who,the family,,saw,a painting,that,depicted,,last year
+2,that_nogap_obj,I remember,that,the woman,with the blue hat,bought,,,,a gift card,yesterday
+2,what_nogap_obj,I remember,what,the woman,with the blue hat,bought,,,,a gift card,yesterday
+2,that_gap_obj,I remember,that,the woman,with the blue hat,bought,,,,,yesterday
+2,what_gap_obj,I remember,what,the woman,with the blue hat,bought,,,,,yesterday
+2,that_nogap_wh,I remember,that,the woman,,bought,a gift,which,included,a gift card,yesterday
+2,what_nogap_wh,I remember,what,the woman,,bought,a gift,which,included,a gift card,yesterday
+2,that_gap_wh,I remember,that,the woman,,bought,a gift,which,included,,yesterday
+2,what_gap_wh,I remember,what,the woman,,bought,a gift,which,included,,yesterday
+2,that_nogap_that,I remember,that,the woman,,bought,a gift,that,included,a gift card,yesterday
+2,what_nogap_that,I remember,what,the woman,,bought,a gift,that,included,a gift card,yesterday
+2,that_gap_that,I remember,that,the woman,,bought,a gift,that,included,,yesterday
+2,what_gap_that,I remember,what,the woman,,bought,a gift,that,included,,yesterday
+3,that_nogap_obj,The newspaper reported,that,the man,from far away,liked,,,,the actress,recently
+3,what_nogap_obj,The newspaper reported,who,the man,from far away,liked,,,,the actress,recently
+3,that_gap_obj,The newspaper reported,that,the man,from far away,liked,,,,,recently
+3,what_gap_obj,The newspaper reported,who,the man,from far away,liked,,,,,recently
+3,that_nogap_wh,The newspaper reported,that,the man,,liked,the movie,which,featured,the actress,recently
+3,what_nogap_wh,The newspaper reported,who,the man,,liked,the movie,which,featured,the actress,recently
+3,that_gap_wh,The newspaper reported,that,the man,,liked,the movie,which,featured,,recently
+3,what_gap_wh,The newspaper reported,who,the man,,liked,the movie,which,featured,,recently
+3,that_nogap_that,The newspaper reported,that,the man,,liked,the movie,that,featured,the actress,recently
+3,what_nogap_that,The newspaper reported,who,the man,,liked,the movie,that,featured,the actress,recently
+3,that_gap_that,The newspaper reported,that,the man,,liked,the movie,that,featured,,recently
+3,what_gap_that,The newspaper reported,who,the man,,liked,the movie,that,featured,,recently
+4,that_nogap_obj,She told me,that,the executive,with the red tie,discovered,,,,illegal activity,last quarter
+4,what_nogap_obj,She told me,what,the executive,with the red tie,discovered,,,,illegal activity,last quarter
+4,that_gap_obj,She told me,that,the executive,with the red tie,discovered,,,,,last quarter
+4,what_gap_obj,She told me,what,the executive,with the red tie,discovered,,,,,last quarter
+4,that_nogap_wh,She told me,that,the executive,,discovered,the business plan,which,included,illegal activity,last quarter
+4,what_nogap_wh,She told me,what,the executive,,discovered,the business plan,which,included,illegal activity,last quarter
+4,that_gap_wh,She told me,that,the executive,,discovered,the business plan,which,included,,last quarter
+4,what_gap_wh,She told me,what,the executive,,discovered,the business plan,which,included,,last quarter
+4,that_nogap_that,She told me,that,the executive,,discovered,the business plan,that,included,illegal activity,last quarter
+4,what_nogap_that,She told me,what,the executive,,discovered,the business plan,that,included,illegal activity,last quarter
+4,that_gap_that,She told me,that,the executive,,discovered,the business plan,that,included,,last quarter
+4,what_gap_that,She told me,what,the executive,,discovered,the business plan,that,included,,last quarter
+5,that_nogap_obj,He knows,that,the lawyer,in the dark suit,believed,,,,the defendant,last month
+5,what_nogap_obj,He knows,who,the lawyer,in the dark suit,believed,,,,the defendant,last month
+5,that_gap_obj,He knows,that,the lawyer,in the dark suit,believed,,,,,last month
+5,what_gap_obj,He knows,who,the lawyer,in the dark suit,believed,,,,,last month
+5,that_nogap_wh,He knows,that,the lawyer,,believed,the witness,who,saw,the defendant,last month
+5,what_nogap_wh,He knows,who,the lawyer,,believed,the witness,who,saw,the defendant,last month
+5,that_gap_wh,He knows,that,the lawyer,,believed,the witness,who,saw,,last month
+5,what_gap_wh,He knows,who,the lawyer,,believed,the witness,who,saw,,last month
+5,that_nogap_that,He knows,that,the lawyer,,believed,the witness,that,saw,the defendant,last month
+5,what_nogap_that,He knows,who,the lawyer,,believed,the witness,that,saw,the defendant,last month
+5,that_gap_that,He knows,that,the lawyer,,believed,the witness,that,saw,,last month
+5,what_gap_that,He knows,who,the lawyer,,believed,the witness,that,saw,,last month
+6,that_nogap_obj,You remember,that,the president,from the foreign nation,promised,,,,improvements,recently
+6,what_nogap_obj,You remember,what,the president,from the foreign nation,promised,,,,improvements,recently
+6,that_gap_obj,You remember,that,the president,from the foreign nation,promised,,,,,recently
+6,what_gap_obj,You remember,what,the president,from the foreign nation,promised,,,,,recently
+6,that_nogap_wh,You remember,that,the president,,promised,a plan,which,proposed,improvements,recently
+6,what_nogap_wh,You remember,what,the president,,promised,a plan,which,proposed,improvements,recently
+6,that_gap_wh,You remember,that,the president,,promised,a plan,which,proposed,,recently
+6,what_gap_wh,You remember,what,the president,,promised,a plan,which,proposed,,recently
+6,that_nogap_that,You remember,that,the president,,promised,a plan,that,proposed,improvements,recently
+6,what_nogap_that,You remember,what,the president,,promised,a plan,that,proposed,improvements,recently
+6,that_gap_that,You remember,that,the president,,promised,a plan,that,proposed,,recently
+6,what_gap_that,You remember,what,the president,,promised,a plan,that,proposed,,recently
+7,that_nogap_obj,The newspaper reported,that,the policeman,in the blue uniform,knew,,,,the judge,for a long time
+7,what_nogap_obj,The newspaper reported,who,the policeman,in the blue uniform,knew,,,,the judge,for a long time
+7,that_gap_obj,The newspaper reported,that,the policeman,in the blue uniform,knew,,,,,for a long time
+7,what_gap_obj,The newspaper reported,who,the policeman,in the blue uniform,knew,,,,,for a long time
+7,that_nogap_wh,The newspaper reported,that,the policeman,,knew,the mayor,who,bribed,the judge,for a long time
+7,what_nogap_wh,The newspaper reported,who,the policeman,,knew,the mayor,who,bribed,the judge,for a long time
+7,that_gap_wh,The newspaper reported,that,the policeman,,knew,the mayor,who,bribed,,for a long time
+7,what_gap_wh,The newspaper reported,who,the policeman,,knew,the mayor,who,bribed,,for a long time
+7,that_nogap_that,The newspaper reported,that,the policeman,,knew,the mayor,that,bribed,the judge,for a long time
+7,what_nogap_that,The newspaper reported,who,the policeman,,knew,the mayor,that,bribed,the judge,for a long time
+7,that_gap_that,The newspaper reported,that,the policeman,,knew,the mayor,that,bribed,,for a long time
+7,what_gap_that,The newspaper reported,who,the policeman,,knew,the mayor,that,bribed,,for a long time
+8,that_nogap_obj,,that,the accountant,from the rival firm,saw,,,,the plans,last week
+8,what_nogap_obj,,what,the accountant,from the rival firm,saw,,,,the plans,last week
+8,that_gap_obj,,that,the accountant,from the rival firm,saw,,,,,last week
+8,what_gap_obj,,what,the accountant,from the rival firm,saw,,,,,last week
+8,that_nogap_wh,,that,the accountant,,saw,the documents,which,outlined,the plans,last week
+8,what_nogap_wh,,what,the accountant,,saw,the documents,which,outlined,the plans,last week
+8,that_gap_wh,,that,the accountant,,saw,the documents,which,outlined,,last week
+8,what_gap_wh,,what,the accountant,,saw,the documents,which,outlined,,last week
+8,that_nogap_that,,that,the accountant,,saw,the documents,that,outlined,the plans,last week
+8,what_nogap_that,,what,the accountant,,saw,the documents,that,outlined,the plans,last week
+8,that_gap_that,,that,the accountant,,saw,the documents,that,outlined,,last week
+8,what_gap_that,,what,the accountant,,saw,the documents,that,outlined,,last week
+9,that_nogap_obj,They recall,that,the nurse,with the white shirt,helped,,,,the surgeon,last night
+9,what_nogap_obj,They recall,who,the nurse,with the white shirt,helped,,,,the surgeon,last night
+9,that_gap_obj,They recall,that,the nurse,with the white shirt,helped,,,,,last night
+9,what_gap_obj,They recall,who,the nurse,with the white shirt,helped,,,,,last night
+9,that_nogap_wh,They recall,that,the nurse,,helped,the doctor,who,liked,the surgeon,last night
+9,what_nogap_wh,They recall,who,the nurse,,helped,the doctor,who,liked,the surgeon,last night
+9,that_gap_wh,They recall,that,the nurse,,helped,the doctor,who,liked,,last night
+9,what_gap_wh,They recall,who,the nurse,,helped,the doctor,who,liked,,last night
+9,that_nogap_that,They recall,that,the nurse,,helped,the doctor,that,liked,the surgeon,last night
+9,what_nogap_that,They recall,who,the nurse,,helped,the doctor,that,liked,the surgeon,last night
+9,that_gap_that,They recall,that,the nurse,,helped,the doctor,that,liked,,last night
+9,what_gap_that,They recall,who,the nurse,,helped,the doctor,that,liked,,last night
+10,that_nogap_obj,He told me,that,the family,from down the street,criticized,,,,the government,frequently
+10,what_nogap_obj,He told me,what,the family,from down the street,criticized,,,,the government,frequently
+10,that_gap_obj,He told me,that,the family,from down the street,criticized,,,,,frequently
+10,what_gap_obj,He told me,what,the family,from down the street,criticized,,,,,frequently
+10,that_nogap_wh,He told me,that,the family,,criticized,the television show,which,mocked,the government,frequently
+10,what_nogap_wh,He told me,what,the family,,criticized,the television show,which,mocked,the government,frequently
+10,that_gap_wh,He told me,that,the family,,criticized,the television show,which,mocked,,frequently
+10,what_gap_wh,He told me,what,the family,,criticized,the television show,which,mocked,,frequently
+10,that_nogap_that,He told me,that,the family,,criticized,the television show,that,mocked,the government,frequently
+10,what_nogap_that,He told me,what,the family,,criticized,the television show,that,mocked,the government,frequently
+10,that_gap_that,He told me,that,the family,,criticized,the television show,that,mocked,,frequently
+10,what_gap_that,He told me,what,the family,,criticized,the television show,that,mocked,,frequently
+11,that_nogap_obj,She told me,that,the politician,with the loud voice,disliked,,,,the president,last year
+11,what_nogap_obj,She told me,who,the politician,with the loud voice,disliked,,,,the president,last year
+11,that_gap_obj,She told me,that,the politician,with the loud voice,disliked,,,,,last year
+11,what_gap_obj,She told me,who,the politician,with the loud voice,disliked,,,,,last year
+11,that_nogap_wh,She told me,that,the politician,,disliked,the congressman,who,criticized,the president,last year
+11,what_nogap_wh,She told me,who,the politician,,disliked,the congressman,who,criticized,the president,last year
+11,that_gap_wh,She told me,that,the politician,,disliked,the congressman,who,criticized,,last year
+11,what_gap_wh,She told me,who,the politician,,disliked,the congressman,who,criticized,,last year
+11,that_nogap_that,She told me,that,the politician,,disliked,the congressman,that,criticized,the president,last year
+11,what_nogap_that,She told me,who,the politician,,disliked,the congressman,that,criticized,the president,last year
+11,that_gap_that,She told me,that,the politician,,disliked,the congressman,that,criticized,,last year
+11,what_gap_that,She told me,who,the politician,,disliked,the congressman,that,criticized,,last year
+12,that_nogap_obj,He knows,that,the janitor,with the black hair,cleaned,,,,the computers,for a long time
+12,what_nogap_obj,He knows,what,the janitor,with the black hair,cleaned,,,,the computers,for a long time
+12,that_gap_obj,He knows,that,the janitor,with the black hair,cleaned,,,,,for a long time
+12,what_gap_obj,He knows,what,the janitor,with the black hair,cleaned,,,,,for a long time
+12,that_nogap_wh,He knows,that,the janitor,,cleaned,the room,which,housed,the computers,for a long time
+12,what_nogap_wh,He knows,what,the janitor,,cleaned,the room,which,housed,the computers,for a long time
+12,that_gap_wh,He knows,that,the janitor,,cleaned,the room,which,housed,,for a long time
+12,what_gap_wh,He knows,what,the janitor,,cleaned,the room,which,housed,,for a long time
+12,that_nogap_that,He knows,that,the janitor,,cleaned,the room,that,housed,the computers,for a long time
+12,what_nogap_that,He knows,what,the janitor,,cleaned,the room,that,housed,the computers,for a long time
+12,that_gap_that,He knows,that,the janitor,,cleaned,the room,that,housed,,for a long time
+12,what_gap_that,He knows,what,the janitor,,cleaned,the room,that,housed,,for a long time
+13,that_nogap_obj,He said,that,the mailman,with the quick gait,feared,,,,thunderstorms,when he was young
+13,what_nogap_obj,He said,what,the mailman,with the quick gait,feared,,,,thunderstorms,when he was young
+13,that_gap_obj,He said,that,the mailman,with the quick gait,feared,,,,,when he was young
+13,what_gap_obj,He said,what,the mailman,with the quick gait,feared,,,,,when he was young
+13,that_nogap_wh,He said,that,the mailman,,feared,the dog,who,disliked,thunderstorms,when he was young
+13,what_nogap_wh,He said,what,the mailman,,feared,the dog,who,disliked,thunderstorms,when he was young
+13,that_gap_wh,He said,that,the mailman,,feared,the dog,who,disliked,,when he was young
+13,what_gap_wh,He said,what,the mailman,,feared,the dog,who,disliked,,when he was young
+13,that_nogap_that,He said,that,the mailman,,feared,the dog,that,disliked,thunderstorms,when he was young
+13,what_nogap_that,He said,what,the mailman,,feared,the dog,that,disliked,thunderstorms,when he was young
+13,that_gap_that,He said,that,the mailman,,feared,the dog,that,disliked,,when he was young
+13,what_gap_that,He said,what,the mailman,,feared,the dog,that,disliked,,when he was young
+14,that_nogap_obj,The newspaper reported,that,the lawyer,with the sly smile,defended,,,,his friend,last year
+14,what_nogap_obj,The newspaper reported,who,the lawyer,with the sly smile,defended,,,,his friend,last year
+14,that_gap_obj,The newspaper reported,that,the lawyer,with the sly smile,defended,,,,,last year
+14,what_gap_obj,The newspaper reported,who,the lawyer,with the sly smile,defended,,,,,last year
+14,that_nogap_wh,The newspaper reported,that,the lawyer,,defended,the criminal,who,murdered,his friend,last year
+14,what_nogap_wh,The newspaper reported,who,the lawyer,,defended,the criminal,who,murdered,his friend,last year
+14,that_gap_wh,The newspaper reported,that,the lawyer,,defended,the criminal,who,murdered,,last year
+14,what_gap_wh,The newspaper reported,who,the lawyer,,defended,the criminal,who,murdered,,last year
+14,that_nogap_that,The newspaper reported,that,the lawyer,,defended,the criminal,that,murdered,his friend,last year
+14,what_nogap_that,The newspaper reported,who,the lawyer,,defended,the criminal,that,murdered,his friend,last year
+14,that_gap_that,The newspaper reported,that,the lawyer,,defended,the criminal,that,murdered,,last year
+14,what_gap_that,The newspaper reported,who,the lawyer,,defended,the criminal,that,murdered,,last year
+15,that_nogap_obj,You remember,that,the boy,with the bond hair,chased,,,,mice,recently
+15,what_nogap_obj,You remember,what,the boy,with the bond hair,chased,,,,mice,recently
+15,that_gap_obj,You remember,that,the boy,with the bond hair,chased,,,,,recently
+15,what_gap_obj,You remember,what,the boy,with the bond hair,chased,,,,,recently
+15,that_nogap_wh,You remember,that,the boy,,chased,the cat,which,hunted,mice,recently
+15,what_nogap_wh,You remember,what,the boy,,chased,the cat,which,hunted,mice,recently
+15,that_gap_wh,You remember,that,the boy,,chased,the cat,which,hunted,,recently
+15,what_gap_wh,You remember,what,the boy,,chased,the cat,which,hunted,,recently
+15,that_nogap_that,You remember,that,the boy,,chased,the cat,that,hunted,mice,recently
+15,what_nogap_that,You remember,what,the boy,,chased,the cat,that,hunted,mice,recently
+15,that_gap_that,You remember,that,the boy,,chased,the cat,that,hunted,,recently
+15,what_gap_that,You remember,what,the boy,,chased,the cat,that,hunted,,recently
+16,that_nogap_obj,He told me,that,the girl,with the ponytail,loved,,,,apples,last summer
+16,what_nogap_obj,He told me,what,the girl,with the ponytail,loved,,,,apples,last summer
+16,that_gap_obj,He told me,that,the girl,with the ponytail,loved,,,,,last summer
+16,what_gap_obj,He told me,what,the girl,with the ponytail,loved,,,,,last summer
+16,that_nogap_wh,He told me,that,the girl,,loved,the horses,which,ate,apples,last summer
+16,what_nogap_wh,He told me,what,the girl,,loved,the horses,which,ate,apples,last summer
+16,that_gap_wh,He told me,that,the girl,,loved,the horses,which,ate,,last summer
+16,what_gap_wh,He told me,what,the girl,,loved,the horses,which,ate,,last summer
+16,that_nogap_that,He told me,that,the girl,,loved,the horses,that,ate,apples,last summer
+16,what_nogap_that,He told me,what,the girl,,loved,the horses,that,ate,apples,last summer
+16,that_gap_that,He told me,that,the girl,,loved,the horses,that,ate,,last summer
+16,what_gap_that,He told me,what,the girl,,loved,the horses,that,ate,,last summer
+17,that_nogap_obj,He knows,that,the neighbor,from down the street,rebuked,,,,the planner,last year
+17,what_nogap_obj,He knows,who,the neighbor,from down the street,rebuked,,,,the planner,last year
+17,that_gap_obj,He knows,that,the neighbor,from down the street,rebuked,,,,,last year
+17,what_gap_obj,He knows,who,the neighbor,from down the street,rebuked,,,,,last year
+17,that_nogap_wh,He knows,that,the neighbor,,rebuked,the mayor,who,appointed,the planner,last year
+17,what_nogap_wh,He knows,who,the neighbor,,rebuked,the mayor,who,appointed,the planner,last year
+17,that_gap_wh,He knows,that,the neighbor,,rebuked,the mayor,who,appointed,,last year
+17,what_gap_wh,He knows,who,the neighbor,,rebuked,the mayor,who,appointed,,last year
+17,that_nogap_that,He knows,that,the neighbor,,rebuked,the mayor,that,appointed,the planner,last year
+17,what_nogap_that,He knows,who,the neighbor,,rebuked,the mayor,that,appointed,the planner,last year
+17,that_gap_that,He knows,that,the neighbor,,rebuked,the mayor,that,appointed,,last year
+17,what_gap_that,He knows,who,the neighbor,,rebuked,the mayor,that,appointed,,last year
+18,that_nogap_obj,They recall,that,the lady,with the little dog,admired,,,,the princess,last week
+18,what_nogap_obj,They recall,who,the lady,with the little dog,admired,,,,the princess,last week
+18,that_gap_obj,They recall,that,the lady,with the little dog,admired,,,,,last week
+18,what_gap_obj,They recall,who,the lady,with the little dog,admired,,,,,last week
+18,that_nogap_wh,They recall,that,the lady,,admired,the count,who,loved,the princess,last week
+18,what_nogap_wh,They recall,who,the lady,,admired,the count,who,loved,the princess,last week
+18,that_gap_wh,They recall,that,the lady,,admired,the count,who,loved,,last week
+18,what_gap_wh,They recall,who,the lady,,admired,the count,who,loved,,last week
+18,that_nogap_that,They recall,that,the lady,,admired,the count,that,loved,the princess,last week
+18,what_nogap_that,They recall,who,the lady,,admired,the count,that,loved,the princess,last week
+18,that_gap_that,They recall,that,the lady,,admired,the count,that,loved,,last week
+18,what_gap_that,They recall,who,the lady,,admired,the count,that,loved,,last week
+19,that_nogap_obj,The newspaper reported,that,the prince,with the gold crown,believed,,,,the queen,last winter
+19,what_nogap_obj,The newspaper reported,who,the prince,with the gold crown,believed,,,,the queen,last winter
+19,that_gap_obj,The newspaper reported,that,the prince,with the gold crown,believed,,,,,last winter
+19,what_gap_obj,The newspaper reported,who,the prince,with the gold crown,believed,,,,,last winter
+19,that_nogap_wh,The newspaper reported,that,the prince,,believed,the advisor,who,avoided,the queen,last winter
+19,what_nogap_wh,The newspaper reported,who,the prince,,believed,the advisor,who,avoided,the queen,last winter
+19,that_gap_wh,The newspaper reported,that,the prince,,believed,the advisor,who,avoided,,last winter
+19,what_gap_wh,The newspaper reported,who,the prince,,believed,the advisor,who,avoided,,last winter
+19,that_nogap_that,The newspaper reported,that,the prince,,believed,the advisor,that,avoided,the queen,last winter
+19,what_nogap_that,The newspaper reported,who,the prince,,believed,the advisor,that,avoided,the queen,last winter
+19,that_gap_that,The newspaper reported,that,the prince,,believed,the advisor,that,avoided,,last winter
+19,what_gap_that,The newspaper reported,who,the prince,,believed,the advisor,that,avoided,,last winter
+20,that_nogap_obj,You remember,that,the knight,with the shiny armor,saw,,,,the treasure,last night
+20,what_nogap_obj,You remember,what,the knight,with the shiny armor,saw,,,,the treasure,last night
+20,that_gap_obj,You remember,that,the knight,with the shiny armor,saw,,,,,last night
+20,what_gap_obj,You remember,what,the knight,with the shiny armor,saw,,,,,last night
+20,that_nogap_wh,You remember,that,the knight,,saw,the dragon,which,guarded,the treasure,last night
+20,what_nogap_wh,You remember,what,the knight,,saw,the dragon,which,guarded,the treasure,last night
+20,that_gap_wh,You remember,that,the knight,,saw,the dragon,which,guarded,,last night
+20,what_gap_wh,You remember,what,the knight,,saw,the dragon,which,guarded,,last night
+20,that_nogap_that,You remember,that,the knight,,saw,the dragon,that,guarded,the treasure,last night
+20,what_nogap_that,You remember,what,the knight,,saw,the dragon,that,guarded,the treasure,last night
+20,that_gap_that,You remember,that,the knight,,saw,the dragon,that,guarded,,last night
+20,what_gap_that,You remember,what,the knight,,saw,the dragon,that,guarded,,last night
+21,that_nogap_obj,She told me,that,the banker,with the fancy suit,met,,,,the investor,recently
+21,what_nogap_obj,She told me,who,the banker,with the fancy suit,met,,,,the investor,recently
+21,that_gap_obj,She told me,that,the banker,with the fancy suit,met,,,,,recently
+21,what_gap_obj,She told me,who,the banker,with the fancy suit,met,,,,,recently
+21,that_nogap_wh,She told me,that,the banker,,met,the executive,who,trusted,the investor,recently
+21,what_nogap_wh,She told me,who,the banker,,met,the executive,who,trusted,the investor,recently
+21,that_gap_wh,She told me,that,the banker,,met,the executive,who,trusted,,recently
+21,what_gap_wh,She told me,who,the banker,,met,the executive,who,trusted,,recently
+21,that_nogap_that,She told me,that,the banker,,met,the executive,that,trusted,the investor,recently
+21,what_nogap_that,She told me,who,the banker,,met,the executive,that,trusted,the investor,recently
+21,that_gap_that,She told me,that,the banker,,met,the executive,that,trusted,,recently
+21,what_gap_that,She told me,who,the banker,,met,the executive,that,trusted,,recently
+22,that_nogap_obj,He knows,that,the waitress,in the white dress,thanked,,,,the manager,after the meal
+22,what_nogap_obj,He knows,who,the waitress,in the white dress,thanked,,,,the manager,after the meal
+22,that_gap_obj,He knows,that,the waitress,in the white dress,thanked,,,,,after the meal
+22,what_gap_obj,He knows,who,the waitress,in the white dress,thanked,,,,,after the meal
+22,that_nogap_wh,He knows,that,the waitress,,thanked,the customers,who,knew,the manager,after the meal
+22,what_nogap_wh,He knows,who,the waitress,,thanked,the customers,who,knew,the manager,after the meal
+22,that_gap_wh,He knows,that,the waitress,,thanked,the customers,who,knew,,after the meal
+22,what_gap_wh,He knows,who,the waitress,,thanked,the customers,who,knew,,after the meal
+22,that_nogap_that,He knows,that,the waitress,,thanked,the customers,that,knew,the manager,after the meal
+22,what_nogap_that,He knows,who,the waitress,,thanked,the customers,that,knew,the manager,after the meal
+22,that_gap_that,He knows,that,the waitress,,thanked,the customers,that,knew,,after the meal
+22,what_gap_that,He knows,who,the waitress,,thanked,the customers,that,knew,,after the meal
+23,that_nogap_obj,I know,that,the priest,in the black robe,congratulated,,,,the alter boy,during the ceremony
+23,what_nogap_obj,I know,who,the priest,in the black robe,congratulated,,,,the alter boy,during the ceremony
+23,that_gap_obj,I know,that,the priest,in the black robe,congratulated,,,,,during the ceremony
+23,what_gap_obj,I know,who,the priest,in the black robe,congratulated,,,,,during the ceremony
+23,that_nogap_wh,I know,that,the priest,,congratulated,the couple,who,admired,the alter boy,during the ceremony
+23,what_nogap_wh,I know,who,the priest,,congratulated,the couple,who,admired,the alter boy,during the ceremony
+23,that_gap_wh,I know,that,the priest,,congratulated,the couple,who,admired,,during the ceremony
+23,what_gap_wh,I know,who,the priest,,congratulated,the couple,who,admired,,during the ceremony
+23,that_nogap_that,I know,that,the priest,,congratulated,the couple,that,admired,the alter boy,during the ceremony
+23,what_nogap_that,I know,who,the priest,,congratulated,the couple,that,admired,the alter boy,during the ceremony
+23,that_gap_that,I know,that,the priest,,congratulated,the couple,that,admired,,during the ceremony
+23,what_gap_that,I know,who,the priest,,congratulated,the couple,that,admired,,during the ceremony
+24,that_nogap_obj,She knows,that,the detective,from the special crimes unit,reassured,,,,the boy,last night
+24,what_nogap_obj,She knows,who,the detective,from the special crimes unit,reassured,,,,the boy,last night
+24,that_gap_obj,She knows,that,the detective,from the special crimes unit,reassured,,,,,last night
+24,what_gap_obj,She knows,who,the detective,from the special crimes unit,reassured,,,,,last night
+24,that_nogap_wh,She knows,that,the detective,,reassured,the man,who,found,the boy,last night
+24,what_nogap_wh,She knows,who,the detective,,reassured,the man,who,found,the boy,last night
+24,that_gap_wh,She knows,that,the detective,,reassured,the man,who,found,,last night
+24,what_gap_wh,She knows,who,the detective,,reassured,the man,who,found,,last night
+24,that_nogap_that,She knows,that,the detective,,reassured,the man,that,found,the boy,last night
+24,what_nogap_that,She knows,who,the detective,,reassured,the man,that,found,the boy,last night
+24,that_gap_that,She knows,that,the detective,,reassured,the man,that,found,,last night
+24,what_gap_that,She knows,who,the detective,,reassured,the man,that,found,,last night
+25,that_nogap_obj,I know,that,the spy,in the sunglasses,informed,,,,the dictator,about an attack
+25,what_nogap_obj,I know,who,the spy,in the sunglasses,informed,,,,the dictator,about an attack
+25,that_gap_obj,I know,that,the spy,in the sunglasses,informed,,,,,about an attack
+25,what_gap_obj,I know,who,the spy,in the sunglasses,informed,,,,,about an attack
+25,that_nogap_wh,I know,that,the spy,,informed,the politician,who,supported,the dictator,about an attack
+25,what_nogap_wh,I know,who,the spy,,informed,the politician,who,supported,the dictator,about an attack
+25,that_gap_wh,I know,that,the spy,,informed,the politician,who,supported,,about an attack
+25,what_gap_wh,I know,who,the spy,,informed,the politician,who,supported,,about an attack
+25,that_nogap_that,I know,that,the spy,,informed,the politician,that,supported,the dictator,about an attack
+25,what_nogap_that,I know,who,the spy,,informed,the politician,that,supported,the dictator,about an attack
+25,that_gap_that,I know,that,the spy,,informed,the politician,that,supported,,about an attack
+25,what_gap_that,I know,who,the spy,,informed,the politician,that,supported,,about an attack
+26,that_nogap_obj,They know,that,the metal grate,with rust spikes,blocked,,,,the streets,downtown
+26,what_nogap_obj,They know,what,the metal grate,with rust spikes,blocked,,,,the streets,downtown
+26,that_gap_obj,They know,that,the metal grate,with rust spikes,blocked,,,,,downtown
+26,what_gap_obj,They know,what,the metal grate,with rust spikes,blocked,,,,,downtown
+26,that_nogap_wh,They know,that,the metal grate,,blocked,the alley,which,connects,the streets,downtown
+26,what_nogap_wh,They know,what,the metal grate,,blocked,the alley,which,connects,the streets,downtown
+26,that_gap_wh,They know,that,the metal grate,,blocked,the alley,which,connects,,downtown
+26,what_gap_wh,They know,what,the metal grate,,blocked,the alley,which,connects,,downtown
+26,that_nogap_that,They know,that,the metal grate,,blocked,the alley,that,connects,the streets,downtown
+26,what_nogap_that,They know,what,the metal grate,,blocked,the alley,that,connects,the streets,downtown
+26,that_gap_that,They know,that,the metal grate,,blocked,the alley,that,connects,,downtown
+26,what_gap_that,They know,what,the metal grate,,blocked,the alley,that,connects,,downtown
+27,that_nogap_obj,He knows,that,the cheetah,with black spots,pursued,,,,the hunters,this morning
+27,what_nogap_obj,He knows,what,the cheetah,with black spots,pursued,,,,the hunters,this morning
+27,that_gap_obj,He knows,that,the cheetah,with black spots,pursued,,,,,this morning
+27,what_gap_obj,He knows,what,the cheetah,with black spots,pursued,,,,,this morning
+27,that_nogap_wh,He knows,that,the cheetah,,pursued,the gazelle,which,avoided,the hunters,this morning
+27,what_nogap_wh,He knows,what,the cheetah,,pursued,the gazelle,which,avoided,the hunters,this morning
+27,that_gap_wh,He knows,that,the cheetah,,pursued,the gazelle,which,avoided,,this morning
+27,what_gap_wh,He knows,what,the cheetah,,pursued,the gazelle,which,avoided,,this morning
+27,that_nogap_that,He knows,that,the cheetah,,pursued,the gazelle,that,avoided,the hunters,this morning
+27,what_nogap_that,He knows,what,the cheetah,,pursued,the gazelle,that,avoided,the hunters,this morning
+27,that_gap_that,He knows,that,the cheetah,,pursued,the gazelle,that,avoided,,this morning
+27,what_gap_that,He knows,what,the cheetah,,pursued,the gazelle,that,avoided,,this morning
+28,that_nogap_obj,He said,that,the scientist,from the small lab,cured,,,,cancer,last year
+28,what_nogap_obj,He said,what,the scientist,from the small lab,cured,,,,cancer,last year
+28,that_gap_obj,He said,that,the scientist,from the small lab,cured,,,,,last year
+28,what_gap_obj,He said,what,the scientist,from the small lab,cured,,,,,last year
+28,that_nogap_wh,He said,that,the scientist,,cured,the disease,which,caused,cancer,last year
+28,what_nogap_wh,He said,what,the scientist,,cured,the disease,which,caused,cancer,last year
+28,that_gap_wh,He said,that,the scientist,,cured,the disease,which,caused,,last year
+28,what_gap_wh,He said,what,the scientist,,cured,the disease,which,caused,,last year
+28,that_nogap_that,He said,that,the scientist,,cured,the disease,that,caused,cancer,last year
+28,what_nogap_that,He said,what,the scientist,,cured,the disease,that,caused,cancer,last year
+28,that_gap_that,He said,that,the scientist,,cured,the disease,that,caused,,last year
+28,what_gap_that,He said,what,the scientist,,cured,the disease,that,caused,,last year

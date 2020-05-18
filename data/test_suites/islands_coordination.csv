@@ -1,0 +1,253 @@
+item,condition,prefix,compl,obj,obj_modifier,verb,conj1,and,conj2,continuation
+1,that_nogap_obj,I know,that,the man,and woman,bought,a table,and,a lamp,at the antique shop
+1,what_nogap_obj,I know,what,the man,and woman,bought,a table,and,a lamp,at the antique shop
+1,that_gap_obj,I know,that,the man,and woman,bought,,,,at the antique shop
+1,what_gap_obj,I know,what,the man,and woman,bought,,,,at the antique shop
+1,that_nogap_first,I know,that,the man,and woman,bought,a table,and,a lamp,at the antique shop
+1,what_nogap_first,I know,what,the man,and woman,bought,a table,and,a lamp,at the antique shop
+1,that_gap_first,I know,that,the man,and woman,bought,,and,a lamp,at the antique shop
+1,what_gap_first,I know,what,the man,and woman,bought,,and,a lamp,at the antique shop
+1,that_nogap_second,I know,that,the man,,bought,a table,and,a lamp,at the antique shop
+1,what_nogap_second,I know,what,the man,,bought,a table,and,a lamp,at the antique shop
+1,that_gap_second,I know,that,the man,,bought,a table,and,,at the antique shop
+1,what_gap_second,I know,what,the man,,bought,a table,and,,at the antique shop
+2,that_nogap_obj,She told me,that,my brother,and sister,ate,a burger,and,a plate of fries,for dinner
+2,what_nogap_obj,She told me,what,my brother,and sister,ate,a burger,and,a plate of fries,for dinner
+2,that_gap_obj,She told me,that,my brother,and sister,ate,,,,for dinner
+2,what_gap_obj,She told me,what,my brother,and sister,ate,,,,for dinner
+2,that_nogap_first,She told me,that,my brother,and sister,ate,a burger,and,a plate of fries,for dinner
+2,what_nogap_first,She told me,what,my brother,and sister,ate,a burger,and,a plate of fries,for dinner
+2,that_gap_first,She told me,that,my brother,and sister,ate,,and,a plate of fries,for dinner
+2,what_gap_first,She told me,what,my brother,and sister,ate,,and,a plate of fries,for dinner
+2,that_nogap_second,She told me,that,my brother,,ate,a burger,and,a plate of fries,for dinner
+2,what_nogap_second,She told me,what,my brother,,ate,a burger,and,a plate of fries,for dinner
+2,that_gap_second,She told me,that,my brother,,ate,a burger,and,,for dinner
+2,what_gap_second,She told me,what,my brother,,ate,a burger,and,,for dinner
+3,that_nogap_obj,He knows,that,the manager,and the assistant,prepared,a presentation,and,a report,for the meeting
+3,what_nogap_obj,He knows,what,the manager,and the assistant,prepared,a presentation,and,a report,for the meeting
+3,that_gap_obj,He knows,that,the manager,and the assistant,prepared,,,,for the meeting
+3,what_gap_obj,He knows,what,the manager,and the assistant,prepared,,,,for the meeting
+3,that_nogap_first,He knows,that,the manager,and the assistant,prepared,a presentation,and,a report,for the meeting
+3,what_nogap_first,He knows,what,the manager,and the assistant,prepared,a presentation,and,a report,for the meeting
+3,that_gap_first,He knows,that,the manager,and the assistant,prepared,,and,a report,for the meeting
+3,what_gap_first,He knows,what,the manager,and the assistant,prepared,,and,a report,for the meeting
+3,that_nogap_second,He knows,that,the manager,,prepared,a presentation,and,a report,for the meeting
+3,what_nogap_second,He knows,what,the manager,,prepared,a presentation,and,a report,for the meeting
+3,that_gap_second,He knows,that,the manager,,prepared,a presentation,and,,for the meeting
+3,what_gap_second,He knows,what,the manager,,prepared,a presentation,and,,for the meeting
+4,that_nogap_obj,He told me,that,the mailman,and the receptionist,delivered,a package,and,a letter,to the senior center
+4,what_nogap_obj,He told me,what,the mailman,and the receptionist,delivered,a package,and,a letter,to the senior center
+4,that_gap_obj,He told me,that,the mailman,and the receptionist,delivered,,,,to the senior center
+4,what_gap_obj,He told me,what,the mailman,and the receptionist,delivered,,,,to the senior center
+4,that_nogap_first,He told me,that,the mailman,and the receptionist,delivered,a package,and,a letter,to the senior center
+4,what_nogap_first,He told me,what,the mailman,and the receptionist,delivered,a package,and,a letter,to the senior center
+4,that_gap_first,He told me,that,the mailman,and the receptionist,delivered,,and,a letter,to the senior center
+4,what_gap_first,He told me,what,the mailman,and the receptionist,delivered,,and,a letter,to the senior center
+4,that_nogap_second,He told me,that,the mailman,,delivered,a package,and,a letter,to the senior center
+4,what_nogap_second,He told me,what,the mailman,,delivered,a package,and,a letter,to the senior center
+4,that_gap_second,He told me,that,the mailman,,delivered,a package,and,,to the senior center
+4,what_gap_second,He told me,what,the mailman,,delivered,a package,and,,to the senior center
+5,that_nogap_obj,I remember,that,the mayor,and his assistant,spoke with,the clerk,and,the accountant,after the meeting
+5,what_nogap_obj,I remember,what,the mayor,and his assistant,spoke with,the clerk,and,the accountant,after the meeting
+5,that_gap_obj,I remember,that,the mayor,and his assistant,spoke with,,,,after the meeting
+5,what_gap_obj,I remember,what,the mayor,and his assistant,spoke with,,,,after the meeting
+5,that_nogap_first,I remember,that,the mayor,and his assistant,spoke with,the clerk,and,the accountant,after the meeting
+5,what_nogap_first,I remember,what,the mayor,and his assistant,spoke with,the clerk,and,the accountant,after the meeting
+5,that_gap_first,I remember,that,the mayor,and his assistant,spoke with,,and,the accountant,after the meeting
+5,what_gap_first,I remember,what,the mayor,and his assistant,spoke with,,and,the accountant,after the meeting
+5,that_nogap_second,I remember,that,the mayor,,spoke with,the clerk,and,the accountant,after the meeting
+5,what_nogap_second,I remember,what,the mayor,,spoke with,the clerk,and,the accountant,after the meeting
+5,that_gap_second,I remember,that,the mayor,,spoke with,the clerk,and,,after the meeting
+5,what_gap_second,I remember,what,the mayor,,spoke with,the clerk,and,,after the meeting
+6,that_nogap_obj,He remembered,that,the soldier,and the marine,cleaned,his boots,and,his gun,after dinner
+6,what_nogap_obj,He remembered,what,the soldier,and the marine,cleaned,his boots,and,his gun,after dinner
+6,that_gap_obj,He remembered,that,the soldier,and the marine,cleaned,,,,after dinner
+6,what_gap_obj,He remembered,what,the soldier,and the marine,cleaned,,,,after dinner
+6,that_nogap_first,He remembered,that,the soldier,and the marine,cleaned,his boots,and,his gun,after dinner
+6,what_nogap_first,He remembered,what,the soldier,and the marine,cleaned,his boots,and,his gun,after dinner
+6,that_gap_first,He remembered,that,the soldier,and the marine,cleaned,,and,his gun,after dinner
+6,what_gap_first,He remembered,what,the soldier,and the marine,cleaned,,and,his gun,after dinner
+6,that_nogap_second,He remembered,that,the soldier,,cleaned,his boots,and,his gun,after dinner
+6,what_nogap_second,He remembered,what,the soldier,,cleaned,his boots,and,his gun,after dinner
+6,that_gap_second,He remembered,that,the soldier,,cleaned,his boots,and,,after dinner
+6,what_gap_second,He remembered,what,the soldier,,cleaned,his boots,and,,after dinner
+7,that_nogap_obj,The newspaper reported,that,the nurse,and the doctor,visited,the new patient,and,the worried family,last night
+7,what_nogap_obj,The newspaper reported,what,the nurse,and the doctor,visited,the new patient,and,the worried family,last night
+7,that_gap_obj,The newspaper reported,that,the nurse,and the doctor,visited,,,,last night
+7,what_gap_obj,The newspaper reported,what,the nurse,and the doctor,visited,,,,last night
+7,that_nogap_first,The newspaper reported,that,the nurse,and the doctor,visited,the new patient,and,the worried family,last night
+7,what_nogap_first,The newspaper reported,what,the nurse,and the doctor,visited,the new patient,and,the worried family,last night
+7,that_gap_first,The newspaper reported,that,the nurse,and the doctor,visited,,and,the worried family,last night
+7,what_gap_first,The newspaper reported,what,the nurse,and the doctor,visited,,and,the worried family,last night
+7,that_nogap_second,The newspaper reported,that,the nurse,,visited,the new patient,and,the worried family,last night
+7,what_nogap_second,The newspaper reported,what,the nurse,,visited,the new patient,and,the worried family,last night
+7,that_gap_second,The newspaper reported,that,the nurse,,visited,the new patient,and,,last night
+7,what_gap_second,The newspaper reported,what,the nurse,,visited,the new patient,and,,last night
+8,that_nogap_obj,We remembered,that,my mother,and my father,read,a new novel,and,a book of poetry,on vacation
+8,what_nogap_obj,We remembered,what,my mother,and my father,read,a new novel,and,a book of poetry,on vacation
+8,that_gap_obj,We remembered,that,my mother,and my father,read,,,,on vacation
+8,what_gap_obj,We remembered,what,my mother,and my father,read,,,,on vacation
+8,that_nogap_first,We remembered,that,my mother,and my father,read,a new novel,and,a book of poetry,on vacation
+8,what_nogap_first,We remembered,what,my mother,and my father,read,a new novel,and,a book of poetry,on vacation
+8,that_gap_first,We remembered,that,my mother,and my father,read,,and,a book of poetry,on vacation
+8,what_gap_first,We remembered,what,my mother,and my father,read,,and,a book of poetry,on vacation
+8,that_nogap_second,We remembered,that,my mother,,read,a new novel,and,a book of poetry,on vacation
+8,what_nogap_second,We remembered,what,my mother,,read,a new novel,and,a book of poetry,on vacation
+8,that_gap_second,We remembered,that,my mother,,read,a new novel,and,,on vacation
+8,what_gap_second,We remembered,what,my mother,,read,a new novel,and,,on vacation
+9,that_nogap_obj,They remembered,that,the boy,and the girl,watched,a movie,and,a basketball game,on television
+9,what_nogap_obj,They remembered,what,the boy,and the girl,watched,a movie,and,a basketball game,on television
+9,that_gap_obj,They remembered,that,the boy,and the girl,watched,,,,on television
+9,what_gap_obj,They remembered,what,the boy,and the girl,watched,,,,on television
+9,that_nogap_first,They remembered,that,the boy,and the girl,watched,a movie,and,a basketball game,on television
+9,what_nogap_first,They remembered,what,the boy,and the girl,watched,a movie,and,a basketball game,on television
+9,that_gap_first,They remembered,that,the boy,and the girl,watched,,and,a basketball game,on television
+9,what_gap_first,They remembered,what,the boy,and the girl,watched,,and,a basketball game,on television
+9,that_nogap_second,They remembered,that,the boy,,watched,a movie,and,a basketball game,on television
+9,what_nogap_second,They remembered,what,the boy,,watched,a movie,and,a basketball game,on television
+9,that_gap_second,They remembered,that,the boy,,watched,a movie,and,,on television
+9,what_gap_second,They remembered,what,the boy,,watched,a movie,and,,on television
+10,that_nogap_obj,We all know,that,the man,and the woman,dislike,broccoli ,and,kidney beans,with a great passion
+10,what_nogap_obj,We all know,what,the man,and the woman,dislike,broccoli ,and,kidney beans,with a great passion
+10,that_gap_obj,We all know,that,the man,and the woman,dislike,,,,with a great passion
+10,what_gap_obj,We all know,what,the man,and the woman,dislike,,,,with a great passion
+10,that_nogap_first,We all know,that,the man,and the woman,dislike,broccoli ,and,kidney beans,with a great passion
+10,what_nogap_first,We all know,what,the man,and the woman,dislike,broccoli ,and,kidney beans,with a great passion
+10,that_gap_first,We all know,that,the man,and the woman,dislike,,and,kidney beans,with a great passion
+10,what_gap_first,We all know,what,the man,and the woman,dislike,,and,kidney beans,with a great passion
+10,that_nogap_second,We all know,that,the man,,dislike,broccoli ,and,kidney beans,with a great passion
+10,what_nogap_second,We all know,what,the man,,dislike,broccoli ,and,kidney beans,with a great passion
+10,that_gap_second,We all know,that,the man,,dislike,broccoli ,and,,with a great passion
+10,what_gap_second,We all know,what,the man,,dislike,broccoli ,and,,with a great passion
+11,that_nogap_obj,The newspaper reported,that,the tourists,and their friends,saw,the church,and,the museum,on the tour
+11,what_nogap_obj,The newspaper reported,what,the tourists,and their friends,saw,the church,and,the museum,on the tour
+11,that_gap_obj,The newspaper reported,that,the tourists,and their friends,saw,,,,on the tour
+11,what_gap_obj,The newspaper reported,what,the tourists,and their friends,saw,,,,on the tour
+11,that_nogap_first,The newspaper reported,that,the tourists,and their friends,saw,the church,and,the museum,on the tour
+11,what_nogap_first,The newspaper reported,what,the tourists,and their friends,saw,the church,and,the museum,on the tour
+11,that_gap_first,The newspaper reported,that,the tourists,and their friends,saw,,and,the museum,on the tour
+11,what_gap_first,The newspaper reported,what,the tourists,and their friends,saw,,and,the museum,on the tour
+11,that_nogap_second,The newspaper reported,that,the tourists,,saw,the church,and,the museum,on the tour
+11,what_nogap_second,The newspaper reported,what,the tourists,,saw,the church,and,the museum,on the tour
+11,that_gap_second,The newspaper reported,that,the tourists,,saw,the church,and,,on the tour
+11,what_gap_second,The newspaper reported,what,the tourists,,saw,the church,and,,on the tour
+12,that_nogap_obj,He knows,that,the carpenter,and the mason,crafted,a new table,and,a bedstand,over the weekend
+12,what_nogap_obj,He knows,what,the carpenter,and the mason,crafted,a new table,and,a bedstand,over the weekend
+12,that_gap_obj,He knows,that,the carpenter,and the mason,crafted,,,,over the weekend
+12,what_gap_obj,He knows,what,the carpenter,and the mason,crafted,,,,over the weekend
+12,that_nogap_first,He knows,that,the carpenter,and the mason,crafted,a new table,and,a bedstand,over the weekend
+12,what_nogap_first,He knows,what,the carpenter,and the mason,crafted,a new table,and,a bedstand,over the weekend
+12,that_gap_first,He knows,that,the carpenter,and the mason,crafted,,and,a bedstand,over the weekend
+12,what_gap_first,He knows,what,the carpenter,and the mason,crafted,,and,a bedstand,over the weekend
+12,that_nogap_second,He knows,that,the carpenter,,crafted,a new table,and,a bedstand,over the weekend
+12,what_nogap_second,He knows,what,the carpenter,,crafted,a new table,and,a bedstand,over the weekend
+12,that_gap_second,He knows,that,the carpenter,,crafted,a new table,and,,over the weekend
+12,what_gap_second,He knows,what,the carpenter,,crafted,a new table,and,,over the weekend
+13,that_nogap_obj,I remember,that,the children,and their friends,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,what_nogap_obj,I remember,what,the children,and their friends,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,that_gap_obj,I remember,that,the children,and their friends,visited,,,,during the afternoon
+13,what_gap_obj,I remember,what,the children,and their friends,visited,,,,during the afternoon
+13,that_nogap_first,I remember,that,the children,and their friends,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,what_nogap_first,I remember,what,the children,and their friends,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,that_gap_first,I remember,that,the children,and their friends,visited,,and,an ice cream parlor,during the afternoon
+13,what_gap_first,I remember,what,the children,and their friends,visited,,and,an ice cream parlor,during the afternoon
+13,that_nogap_second,I remember,that,the children,,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,what_nogap_second,I remember,what,the children,,visited,a boutique,and,an ice cream parlor,during the afternoon
+13,that_gap_second,I remember,that,the children,,visited,a boutique,and,,during the afternoon
+13,what_gap_second,I remember,what,the children,,visited,a boutique,and,,during the afternoon
+14,that_nogap_obj,She told me,that,the businessman,and his assistant,wore,a blue suit,and,a tie,last week
+14,what_nogap_obj,She told me,what,the businessman,and his assistant,wore,a blue suit,and,a tie,last week
+14,that_gap_obj,She told me,that,the businessman,and his assistant,wore,,,,last week
+14,what_gap_obj,She told me,what,the businessman,and his assistant,wore,,,,last week
+14,that_nogap_first,She told me,that,the businessman,and his assistant,wore,a blue suit,and,a tie,last week
+14,what_nogap_first,She told me,what,the businessman,and his assistant,wore,a blue suit,and,a tie,last week
+14,that_gap_first,She told me,that,the businessman,and his assistant,wore,,and,a tie,last week
+14,what_gap_first,She told me,what,the businessman,and his assistant,wore,,and,a tie,last week
+14,that_nogap_second,She told me,that,the businessman,,wore,a blue suit,and,a tie,last week
+14,what_nogap_second,She told me,what,the businessman,,wore,a blue suit,and,a tie,last week
+14,that_gap_second,She told me,that,the businessman,,wore,a blue suit,and,,last week
+14,what_gap_second,She told me,what,the businessman,,wore,a blue suit,and,,last week
+15,that_nogap_obj,The newspaper described,that,the lawyers,and their clients,destroyed,the email server,and,the court records,late at night
+15,what_nogap_obj,The newspaper described,what,the lawyers,and their clients,destroyed,the email server,and,the court records,late at night
+15,that_gap_obj,The newspaper described,that,the lawyers,and their clients,destroyed,,,,late at night
+15,what_gap_obj,The newspaper described,what,the lawyers,and their clients,destroyed,,,,late at night
+15,that_nogap_first,The newspaper described,that,the lawyers,and their clients,destroyed,the email server,and,the court records,late at night
+15,what_nogap_first,The newspaper described,what,the lawyers,and their clients,destroyed,the email server,and,the court records,late at night
+15,that_gap_first,The newspaper described,that,the lawyers,and their clients,destroyed,,and,the court records,late at night
+15,what_gap_first,The newspaper described,what,the lawyers,and their clients,destroyed,,and,the court records,late at night
+15,that_nogap_second,The newspaper described,that,the lawyers,,destroyed,the email server,and,the court records,late at night
+15,what_nogap_second,The newspaper described,what,the lawyers,,destroyed,the email server,and,the court records,late at night
+15,that_gap_second,The newspaper described,that,the lawyers,,destroyed,the email server,and,,late at night
+15,what_gap_second,The newspaper described,what,the lawyers,,destroyed,the email server,and,,late at night
+16,that_nogap_obj,The blog post described,that,the senators,and the lobbyists,discussed,the new bill,and,a salary increase,on television
+16,what_nogap_obj,The blog post described,what,the senators,and the lobbyists,discussed,the new bill,and,a salary increase,on television
+16,that_gap_obj,The blog post described,that,the senators,and the lobbyists,discussed,,,,on television
+16,what_gap_obj,The blog post described,what,the senators,and the lobbyists,discussed,,,,on television
+16,that_nogap_first,The blog post described,that,the senators,and the lobbyists,discussed,the new bill,and,a salary increase,on television
+16,what_nogap_first,The blog post described,what,the senators,and the lobbyists,discussed,the new bill,and,a salary increase,on television
+16,that_gap_first,The blog post described,that,the senators,and the lobbyists,discussed,,and,a salary increase,on television
+16,what_gap_first,The blog post described,what,the senators,and the lobbyists,discussed,,and,a salary increase,on television
+16,that_nogap_second,The blog post described,that,the senators,,discussed,the new bill,and,a salary increase,on television
+16,what_nogap_second,The blog post described,what,the senators,,discussed,the new bill,and,a salary increase,on television
+16,that_gap_second,The blog post described,that,the senators,,discussed,the new bill,and,,on television
+16,what_gap_second,The blog post described,what,the senators,,discussed,the new bill,and,,on television
+17,that_nogap_obj,The biography said,that,the athlete,and the coach,played,football,and,soccer,for many years
+17,what_nogap_obj,The biography said,what,the athlete,and the coach,played,football,and,soccer,for many years
+17,that_gap_obj,The biography said,that,the athlete,and the coach,played,,,,for many years
+17,what_gap_obj,The biography said,what,the athlete,and the coach,played,,,,for many years
+17,that_nogap_first,The biography said,that,the athlete,and the coach,played,,,,for many years
+17,what_nogap_first,The biography said,what,the athlete,and the coach,played,football,and,soccer,for many years
+17,that_gap_first,The biography said,that,the athlete,and the coach,played,football,and,soccer,for many years
+17,what_gap_first,The biography said,what,the athlete,and the coach,played,,and,soccer,for many years
+17,that_nogap_second,The biography said,that,the athlete,,played,,and,soccer,for many years
+17,what_nogap_second,The biography said,what,the athlete,,played,football,and,soccer,for many years
+17,that_gap_second,The biography said,that,the athlete,,played,football,and,,for many years
+17,what_gap_second,The biography said,what,the athlete,,played,football,and,,for many years
+18,that_nogap_obj,The newspaper reported,that,the electrician,and the carpenter,fixed,the fridge,and,the microwave,during his visit
+18,what_nogap_obj,The newspaper reported,what,the electrician,and the carpenter,fixed,the fridge,and,the microwave,during his visit
+18,that_gap_obj,The newspaper reported,that,the electrician,and the carpenter,fixed,,,,during his visit
+18,what_gap_obj,The newspaper reported,what,the electrician,and the carpenter,fixed,,,,during his visit
+18,that_nogap_first,The newspaper reported,that,the electrician,and the carpenter,fixed,the fridge,and,the microwave,during his visit
+18,what_nogap_first,The newspaper reported,what,the electrician,and the carpenter,fixed,the fridge,and,the microwave,during his visit
+18,that_gap_first,The newspaper reported,that,the electrician,and the carpenter,fixed,,and,the microwave,during his visit
+18,what_gap_first,The newspaper reported,what,the electrician,and the carpenter,fixed,,and,the microwave,during his visit
+18,that_nogap_second,The newspaper reported,that,the electrician,,fixed,the fridge,and,the microwave,during his visit
+18,what_nogap_second,The newspaper reported,what,the electrician,,fixed,the fridge,and,the microwave,during his visit
+18,that_gap_second,The newspaper reported,that,the electrician,,fixed,the fridge,and,,during his visit
+18,what_gap_second,The newspaper reported,what,the electrician,,fixed,the fridge,and,,during his visit
+19,that_nogap_obj,I remember,that,the professor,and her husband,taught,roman law,and,greek theater,for many years
+19,what_nogap_obj,I remember,what,the professor,and her husband,taught,roman law,and,greek theater,for many years
+19,that_gap_obj,I remember,that,the professor,and her husband,taught,,,,for many years
+19,what_gap_obj,I remember,what,the professor,and her husband,taught,,,,for many years
+19,that_nogap_first,I remember,that,the professor,and her husband,taught,roman law,and,greek theater,for many years
+19,what_nogap_first,I remember,what,the professor,and her husband,taught,roman law,and,greek theater,for many years
+19,that_gap_first,I remember,that,the professor,and her husband,taught,,and,greek theater,for many years
+19,what_gap_first,I remember,what,the professor,and her husband,taught,,and,greek theater,for many years
+19,that_nogap_second,I remember,that,the professor,,taught,roman law,and,greek theater,for many years
+19,what_nogap_second,I remember,what,the professor,,taught,roman law,and,greek theater,for many years
+19,that_gap_second,I remember,that,the professor,,taught,roman law,and,,for many years
+19,what_gap_second,I remember,what,the professor,,taught,roman law,and,,for many years
+20,that_nogap_obj,I know,that,the principal,and the teachers,admired,the school nurse,and,the gym teacher,for many years
+20,what_nogap_obj,I know,what,the principal,and the teachers,admired,the school nurse,and,the gym teacher,for many years
+20,that_gap_obj,I know,that,the principal,and the teachers,admired,,,,for many years
+20,what_gap_obj,I know,what,the principal,and the teachers,admired,,,,for many years
+20,that_nogap_first,I know,that,the principal,and the teachers,admired,the school nurse,and,the gym teacher,for many years
+20,what_nogap_first,I know,what,the principal,and the teachers,admired,the school nurse,and,the gym teacher,for many years
+20,that_gap_first,I know,that,the principal,and the teachers,admired,,and,the gym teacher,for many years
+20,what_gap_first,I know,what,the principal,and the teachers,admired,,and,the gym teacher,for many years
+20,that_nogap_second,I know,that,the principal,,admired,the school nurse,and,the gym teacher,for many years
+20,what_nogap_second,I know,what,the principal,,admired,the school nurse,and,the gym teacher,for many years
+20,that_gap_second,I know,that,the principal,,admired,the school nurse,and,,for many years
+20,what_gap_second,I know,what,the principal,,admired,the school nurse,and,,for many years
+21,,She told me,that,my friend,and her boyfriend,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,what,my friend,and her boyfriend,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,that,my friend,and her boyfriend,toured,,,,during the holiday
+21,,She told me,what,my friend,and her boyfriend,toured,,,,during the holiday
+21,,She told me,that,my friend,and her boyfriend,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,what,my friend,and her boyfriend,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,that,my friend,and her boyfriend,toured,,and,the Spanish coast,during the holiday
+21,,She told me,what,my friend,and her boyfriend,toured,,and,the Spanish coast,during the holiday
+21,,She told me,that,my friend,,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,what,my friend,,toured,northern Africa,and,the Spanish coast,during the holiday
+21,,She told me,that,my friend,,toured,northern Africa,and,,during the holiday
+21,,She told me,what,my friend,,toured,northern Africa,and,,during the holiday

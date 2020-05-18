@@ -1,0 +1,201 @@
+item,condition,prefix,wh,verb1,host,verb2,continuation
+1,that_gap_tense,I know,that,you read,,before she shredded,last night
+1,what_gap_tense,I know,what,you read,,before she shredded,last night
+1,that_nogap_tense,I know,that,you read,the document,before she shredded,last night
+1,what_nogap_tense,I know,what,you read,the document,before she shredded,last night
+1,that_gap_ger,I know,that,you read,,before shredding,last night
+1,what_gap_ger,I know,what,you read,,before shredding,last night
+1,that_nogap_ger,I know,that,you read,the document,before shredding,last night
+1,what_nogap_ger,I know,what,you read,the document,before shredding,last night
+2,that_gap_tense,My mother mentioned,that,she picked,,before she dropped,yesterday afternoon
+2,what_gap_tense,My mother mentioned,what,she picked,,before she dropped,yesterday afternoon
+2,that_nogap_tense,My mother mentioned,that,she picked,the apple,before she dropped,yesterday afternoon
+2,what_nogap_tense,My mother mentioned,what,she picked,the apple,before she dropped,yesterday afternoon
+2,that_gap_ger,My mother mentioned,that,she picked,,before dropping,yesterday afternoon
+2,what_gap_ger,My mother mentioned,what,she picked,,before dropping,yesterday afternoon
+2,that_nogap_ger,My mother mentioned,that,she picked,the apple,before dropping,yesterday afternoon
+2,what_nogap_ger,My mother mentioned,what,she picked,the apple,before dropping,yesterday afternoon
+3,that_gap_tense,We all know,that,he claimed to love,,after he met,last fall
+3,what_gap_tense,We all know,who,he claimed to love,,after he met,last fall
+3,that_nogap_tense,We all know,that,he claimed to love,the princess,after he met,last fall
+3,what_nogap_tense,We all know,who,he claimed to love,the princess,after he met,last fall
+3,that_gap_ger,We all know,that,he claimed to love,,after meeting,last fall
+3,what_gap_ger,We all know,who,he claimed to love,,after meeting,last fall
+3,that_nogap_ger,We all know,that,he claimed to love,the princess,after meeting,last fall
+3,what_nogap_ger,We all know,who,he claimed to love,the princess,after meeting,last fall
+4,that_gap_tense,The report mentioned,that,the nurse admitted,,after she inspected,upon arrival
+4,what_gap_tense,The report mentioned,who,the nurse admitted,,after she inspected,upon arrival
+4,that_nogap_tense,The report mentioned,that,the nurse admitted,the patient,after she inspected,upon arrival
+4,what_nogap_tense,The report mentioned,who,the nurse admitted,the patient,after she inspected,upon arrival
+4,that_gap_ger,The report mentioned,that,the nurse admitted,,after inspecting,upon arrival
+4,what_gap_ger,The report mentioned,who,the nurse admitted,,after inspecting,upon arrival
+4,that_nogap_ger,The report mentioned,that,the nurse admitted,the patient,after inspecting,upon arrival
+4,what_nogap_ger,The report mentioned,who,the nurse admitted,the patient,after inspecting,upon arrival
+5,that_gap_tense,The clients knew,that,she bought,,before she investigated,last winter
+5,what_gap_tense,The clients knew,what,she bought,,before she investigated,last winter
+5,that_nogap_tense,The clients knew,that,she bought,the stock,before she investigated,last winter
+5,what_nogap_tense,The clients knew,what,she bought,the stock,before she investigated,last winter
+5,that_gap_ger,The clients knew,that,she bought,,before investigating,last winter
+5,what_gap_ger,The clients knew,what,she bought,,before investigating,last winter
+5,that_nogap_ger,The clients knew,that,she bought,the stock,before investigating,last winter
+5,what_nogap_ger,The clients knew,what,she bought,the stock,before investigating,last winter
+6,that_gap_tense,We know,that,the investor bought,,after he researched,last week
+6,what_gap_tense,We know,what,the investor bought,,after he researched,last week
+6,that_nogap_tense,We know,that,the investor bought,the stock,after he researched,last week
+6,what_nogap_tense,We know,what,the investor bought,the stock,after he researched,last week
+6,that_gap_ger,We know,that,the investor bought,,after researching,last week
+6,what_gap_ger,We know,what,the investor bought,,after researching,last week
+6,that_nogap_ger,We know,that,the investor bought,the stock,after researching,last week
+6,what_nogap_ger,We know,what,the investor bought,the stock,after researching,last week
+7,that_gap_tense,The coworkers figured out,that,the manager hired,,after he telephoned,over the weekend
+7,what_gap_tense,The coworkers figured out,who,the manager hired,,after he telephoned,over the weekend
+7,that_nogap_tense,The coworkers figured out,that,the manager hired,the candidate,after he telephoned,over the weekend
+7,what_nogap_tense,The coworkers figured out,who,the manager hired,the candidate,after he telephoned,over the weekend
+7,that_gap_ger,The coworkers figured out,that,the manager hired,,after telephoning,over the weekend
+7,what_gap_ger,The coworkers figured out,who,the manager hired,,after telephoning,over the weekend
+7,that_nogap_ger,The coworkers figured out,that,the manager hired,the candidate,after telephoning,over the weekend
+7,what_nogap_ger,The coworkers figured out,who,the manager hired,the candidate,after telephoning,over the weekend
+8,that_gap_tense,I can see,that,the journalist wrote about,,after he interviewed,recently
+8,what_gap_tense,I can see,who,the journalist wrote about,,after he interviewed,recently
+8,that_nogap_tense,I can see,that,the journalist wrote about,the senator,after he interviewed,recently
+8,what_nogap_tense,I can see,who,the journalist wrote about,the senator,after he interviewed,recently
+8,that_gap_ger,I can see,that,the journalist wrote about,,after interviewing,recently
+8,what_gap_ger,I can see,who,the journalist wrote about,,after interviewing,recently
+8,that_nogap_ger,I can see,that,the journalist wrote about,the senator,after interviewing,recently
+8,what_nogap_ger,I can see,who,the journalist wrote about,the senator,after interviewing,recently
+9,that_gap_tense,My mother recalled,that,she ordered,,after she tasted,in the restaurant
+9,what_gap_tense,My mother recalled,what,she ordered,,after she tasted,in the restaurant
+9,that_nogap_tense,My mother recalled,that,she ordered,the wine,after she tasted,in the restaurant
+9,what_nogap_tense,My mother recalled,what,she ordered,the wine,after she tasted,in the restaurant
+9,that_gap_ger,My mother recalled,that,she ordered,,after tasting,in the restaurant
+9,what_gap_ger,My mother recalled,what,she ordered,,after tasting,in the restaurant
+9,that_nogap_ger,My mother recalled,that,she ordered,the wine,after tasting,in the restaurant
+9,what_nogap_ger,My mother recalled,what,she ordered,the wine,after tasting,in the restaurant
+10,that_gap_tense,She told me,that,they ate,,after he harvested,in the shop
+10,what_gap_tense,She told me,what,they ate,,after he harvested,in the shop
+10,that_nogap_tense,She told me,that,they ate,the vegetables,after he harvested,in the shop
+10,what_nogap_tense,She told me,what,they ate,the vegetables,after he harvested,in the shop
+10,that_gap_ger,She told me,that,they ate,,after harvesting,in the shop
+10,what_gap_ger,She told me,what,they ate,,after harvesting,in the shop
+10,that_nogap_ger,She told me,that,they ate,the vegetables,after harvesting,in the shop
+10,what_nogap_ger,She told me,what,they ate,the vegetables,after harvesting,in the shop
+11,that_gap_tense,We remember,that,the police arrested,,after they interrogated,last night
+11,what_gap_tense,We remember,what,the police arrested,,after they interrogated,last night
+11,that_nogap_tense,We remember,that,the police arrested,the suspect,after they interrogated,last night
+11,what_nogap_tense,We remember,what,the police arrested,the suspect,after they interrogated,last night
+11,that_gap_ger,We remember,that,the police arrested,,after interrogating,last night
+11,what_gap_ger,We remember,what,the police arrested,,after interrogating,last night
+11,that_nogap_ger,We remember,that,the police arrested,the suspect,after interrogating,last night
+11,what_nogap_ger,We remember,what,the police arrested,the suspect,after interrogating,last night
+12,that_gap_tense,My father told me,that,she ignored,,after she bothered,this morning
+12,what_gap_tense,My father told me,who,she ignored,,after she bothered,this morning
+12,that_nogap_tense,My father told me,that,she ignored,her brother,after she bothered,this morning
+12,what_nogap_tense,My father told me,who,she ignored,her brother,after she bothered,this morning
+12,that_gap_ger,My father told me,that,she ignored,,after bothering,this morning
+12,what_gap_ger,My father told me,who,she ignored,,after bothering,this morning
+12,that_nogap_ger,My father told me,that,she ignored,her brother,after bothering,this morning
+12,what_nogap_ger,My father told me,who,she ignored,her brother,after bothering,this morning
+13,that_gap_tense,The accountant told us,that,the witness insulted,,after he incriminated,during the trial
+13,what_gap_tense,The accountant told us,what,the witness insulted,,after he incriminated,during the trial
+13,that_nogap_tense,The accountant told us,that,the witness insulted,the lawyer,after he incriminated,during the trial
+13,what_nogap_tense,The accountant told us,what,the witness insulted,the lawyer,after he incriminated,during the trial
+13,that_gap_ger,The accountant told us,that,the witness insulted,,after incriminating,during the trial
+13,what_gap_ger,The accountant told us,what,the witness insulted,,after incriminating,during the trial
+13,that_nogap_ger,The accountant told us,that,the witness insulted,the lawyer,after incriminating,during the trial
+13,what_nogap_ger,The accountant told us,what,the witness insulted,the lawyer,after incriminating,during the trial
+14,that_gap_tense,The newspaper reported,that,the author bought,,before he reviewed,last year
+14,what_gap_tense,The newspaper reported,what,the author bought,,before he reviewed,last year
+14,that_nogap_tense,The newspaper reported,that,the author bought,the book,before he reviewed,last year
+14,what_nogap_tense,The newspaper reported,what,the author bought,the book,before he reviewed,last year
+14,that_gap_ger,The newspaper reported,that,the author bought,,after reviewing,last year
+14,what_gap_ger,The newspaper reported,what,the author bought,,after reviewing,last year
+14,that_nogap_ger,The newspaper reported,that,the author bought,the book,after reviewing,last year
+14,what_nogap_ger,The newspaper reported,what,the author bought,the book,after reviewing,last year
+15,that_gap_tense,We know,that,you fixed,,after you crashed,last fall
+15,what_gap_tense,We know,what,you fixed,,after you crashed,last fall
+15,that_nogap_tense,We know,that,you fixed,the car,after you crashed,last fall
+15,what_nogap_tense,We know,what,you fixed,the car,after you crashed,last fall
+15,that_gap_ger,We know,that,you fixed,,after crashing,last fall
+15,what_gap_ger,We know,what,you fixed,,after crashing,last fall
+15,that_nogap_ger,We know,that,you fixed,the car,after crashing,last fall
+15,what_nogap_ger,We know,what,you fixed,the car,after crashing,last fall
+16,that_gap_tense,I remember,that,she bought,,before she fixed,over the winter
+16,what_gap_tense,I remember,what,she bought,,before she fixed,over the winter
+16,that_nogap_tense,I remember,that,she bought,the bike,before she fixed,over the winter
+16,what_nogap_tense,I remember,what,she bought,the bike,before she fixed,over the winter
+16,that_gap_ger,I remember,that,she bought,,after fixing,over the winter
+16,what_gap_ger,I remember,what,she bought,,after fixing,over the winter
+16,that_nogap_ger,I remember,that,she bought,the bike,after fixing,over the winter
+16,what_nogap_ger,I remember,what,she bought,the bike,after fixing,over the winter
+17,that_gap_tense,My sister knows,that,the man invited,,after he reassured,at the party
+17,what_gap_tense,My sister knows,who,the man invited,,after he reassured,at the party
+17,that_nogap_tense,My sister knows,that,the man invited,the acquantience,after he reassured,at the party
+17,what_nogap_tense,My sister knows,who,the man invited,the acquantience,after he reassured,at the party
+17,that_gap_ger,My sister knows,that,the man invited,,after reassuring,at the party
+17,what_gap_ger,My sister knows,who,the man invited,,after reassuring,at the party
+17,that_nogap_ger,My sister knows,that,the man invited,the acquantience,after reassuring,at the party
+17,what_nogap_ger,My sister knows,who,the man invited,the acquantience,after reassuring,at the party
+18,that_gap_tense,The biography said,that,the millionaire purchased,,before he demolished,last year
+18,what_gap_tense,The biography said,what,the millionaire purchased,,before he demolished,last year
+18,that_nogap_tense,The biography said,that,the millionaire purchased,the house,before he demolished,last year
+18,what_nogap_tense,The biography said,what,the millionaire purchased,the house,before he demolished,last year
+18,that_gap_ger,The biography said,that,the millionaire purchased,,after demolishing,last year
+18,what_gap_ger,The biography said,what,the millionaire purchased,,after demolishing,last year
+18,that_nogap_ger,The biography said,that,the millionaire purchased,the house,after demolishing,last year
+18,what_nogap_ger,The biography said,what,the millionaire purchased,the house,after demolishing,last year
+19,that_gap_tense,I can guess,that,the tailor bought,,after he mended,last week
+19,what_gap_tense,I can guess,what,the tailor bought,,after he mended,last week
+19,that_nogap_tense,I can guess,that,the tailor bought,the black suit,after he mended,last week
+19,what_nogap_tense,I can guess,what,the tailor bought,the black suit,after he mended,last week
+19,that_gap_ger,I can guess,that,the tailor bought,,after mending,last week
+19,what_gap_ger,I can guess,what,the tailor bought,,after mending,last week
+19,that_nogap_ger,I can guess,that,the tailor bought,the black suit,after mending,last week
+19,what_nogap_ger,I can guess,what,the tailor bought,the black suit,after mending,last week
+20,that_gap_tense,I know,that,the critic insulted,,after he encountered,in the museum
+20,what_gap_tense,I know,what,the critic insulted,,after he encountered,in the museum
+20,that_nogap_tense,I know,that,the critic insulted,the painting,after he encountered,in the museum
+20,what_nogap_tense,I know,what,the critic insulted,the painting,after he encountered,in the museum
+20,that_gap_ger,I know,that,the critic insulted,,after encountering,in the museum
+20,what_gap_ger,I know,what,the critic insulted,,after encountering,in the museum
+20,that_nogap_ger,I know,that,the critic insulted,the painting,after encountering,in the museum
+20,what_nogap_ger,I know,what,the critic insulted,the painting,after encountering,in the museum
+21,that_gap_tense,She mentioned,that,he fired,,after he promoted,last month
+21,what_gap_tense,She mentioned,what,he fired,,after he promoted,last month
+21,that_nogap_tense,She mentioned,that,he fired,the accountant,after he promoted,last month
+21,what_nogap_tense,She mentioned,what,he fired,the accountant,after he promoted,last month
+21,that_gap_ger,She mentioned,that,he fired,,after promoting,last month
+21,what_gap_ger,She mentioned,what,he fired,,after promoting,last month
+21,that_nogap_ger,She mentioned,that,he fired,the accountant,after promoting,last month
+21,what_nogap_ger,She mentioned,what,he fired,the accountant,after promoting,last month
+22,that_gap_tense,He know,that,the old man missed,,after he abandoned,many years ago
+22,what_gap_tense,He know,who,the old man missed,,after he abandoned,many years ago
+22,that_nogap_tense,He know,that,the old man missed,the dog,after he abandoned,many years ago
+22,what_nogap_tense,He know,who,the old man missed,the dog,after he abandoned,many years ago
+22,that_gap_ger,He know,that,the old man missed,,after abandoning,many years ago
+22,what_gap_ger,He know,who,the old man missed,,after abandoning,many years ago
+22,that_nogap_ger,He know,that,the old man missed,the dog,after abandoning,many years ago
+22,what_nogap_ger,He know,who,the old man missed,the dog,after abandoning,many years ago
+23,that_gap_tense,They recall,that,the woman avoided,,after she divorced,two years ago
+23,what_gap_tense,They recall,who,the woman avoided,,after she divorced,two years ago
+23,that_nogap_tense,They recall,that,the woman avoided,the man,after she divorced,two years ago
+23,what_nogap_tense,They recall,who,the woman avoided,the man,after she divorced,two years ago
+23,that_gap_ger,They recall,that,the woman avoided,,after divorcing,two years ago
+23,what_gap_ger,They recall,who,the woman avoided,,after divorcing,two years ago
+23,that_nogap_ger,They recall,that,the woman avoided,the man,after divorcing,two years ago
+23,what_nogap_ger,They recall,who,the woman avoided,the man,after divorcing,two years ago
+24,that_gap_tense,We know,that,the old woman reassured,,after she frightened,last night
+24,what_gap_tense,We know,who,the old woman reassured,,after she frightened,last night
+24,that_nogap_tense,We know,that,the old woman reassured,the children,after she frightened,last night
+24,what_nogap_tense,We know,who,the old woman reassured,the children,after she frightened,last night
+24,that_gap_ger,We know,that,the old woman reassured,,after frightening,last night
+24,what_gap_ger,We know,who,the old woman reassured,,after frightening,last night
+24,that_nogap_ger,We know,that,the old woman reassured,the children,after frightening,last night
+24,what_nogap_ger,We know,who,the old woman reassured,the children,after frightening,last night
+25,that_gap_tense,You mentioned,that,the doctor billed,,after he cured,last week
+25,what_gap_tense,You mentioned,who,the doctor billed,,after he cured,last week
+25,that_nogap_tense,You mentioned,that,the doctor billed,the patient,after he cured,last week
+25,what_nogap_tense,You mentioned,who,the doctor billed,the patient,after he cured,last week
+25,that_gap_ger,You mentioned,that,the doctor billed,,after curing,last week
+25,what_gap_ger,You mentioned,who,the doctor billed,,after curing,last week
+25,that_nogap_ger,You mentioned,that,the doctor billed,the patient,after curing,last week
+25,what_nogap_ger,You mentioned,who,the doctor billed,the patient,after curing,last week

@@ -1,0 +1,161 @@
+item,condition,prefix,compl,compl_obj,subj,det,adj,obj,continuation
+1,that_nogap_obj,I know,that,,he insulted,a,good,person,last weekend
+1,what_nogap_obj,I know,how good,a person,he insulted,a,good,person,last weekend
+1,that_gap_obj,I know,that,,he insulted,,,,last weekend
+1,what_gap_obj,I know,how good,a person,he insulted,,,,last weekend
+1,that_nogap_lb,I know,that,,he insulted,a,good,person,last weekend
+1,what_nogap_lb,I know,how good,,he insulted,a,good,person,last weekend
+1,that_gap_lb,I know,that,,he insulted,a,,person,last weekend
+1,what_gap_lb,I know,how good,,he insulted,a,,person,last weekend
+2,that_nogap_obj,We realize,that,,she trusted,a,close,friend,with the secret
+2,what_nogap_obj,We realize,how close,a friend,she trusted,a,close,friend,with the secret
+2,that_gap_obj,We realize,that,,she trusted,,,,with the secret
+2,what_gap_obj,We realize,how close,a friend,she trusted,,,,with the secret
+2,that_nogap_lb,We realize,that,,she trusted,a,close,friend,with the secret
+2,what_nogap_lb,We realize,how close,,she trusted,a,close,friend,with the secret
+2,that_gap_lb,We realize,that,,she trusted,a,,friend,with the secret
+2,what_gap_lb,We realize,how close,,she trusted,a,,friend,with the secret
+3,that_nogap_obj,She wondered,that,,he punched,a,dangerous,criminal,last night
+3,what_nogap_obj,She wondered,how dangerous,a criminal,he punched,a,dangerous,criminal,last night
+3,that_gap_obj,She wondered,that,,he punched,,,,last night
+3,what_gap_obj,She wondered,how dangerous,a criminal,he punched,,,,last night
+3,that_nogap_lb,She wondered,that,,he punched,a,dangerous,criminal,last night
+3,what_nogap_lb,She wondered,how dangerous,,he punched,a,dangerous,criminal,last night
+3,that_gap_lb,She wondered,that,,he punched,a,,criminal,last night
+3,what_gap_lb,She wondered,how dangerous,,he punched,a,,criminal,last night
+4,that_nogap_obj,My friend told me,that,,they met,a,beautiful,dancer,at the party
+4,what_nogap_obj,My friend told me,how beautiful,a dancer,they met,a,beautiful,dancer,at the party
+4,that_gap_obj,My friend told me,that,,they met,,,,at the party
+4,what_gap_obj,My friend told me,how beautiful,a dancer,they met,,,,at the party
+4,that_nogap_lb,My friend told me,that,,they met,a,beautiful,dancer,at the party
+4,what_nogap_lb,My friend told me,how beautiful,,they met,a,beautiful,dancer,at the party
+4,that_gap_lb,My friend told me,that,,they met,a,,dancer,at the party
+4,what_gap_lb,My friend told me,how beautiful,,they met,a,,dancer,at the party
+5,that_nogap_obj,We discovered,that,,the manager fired,an,unreliable,employee,yesterday
+5,what_nogap_obj,We discovered,how unreliable,an employee,the manager fired,an,unreliable,employee,yesterday
+5,that_gap_obj,We discovered,that,,the manager fired,,,,yesterday
+5,what_gap_obj,We discovered,how unreliable,an employee,the manager fired,,,,yesterday
+5,that_nogap_lb,We discovered,that,,the manager fired,an,unreliable,employee,yesterday
+5,what_nogap_lb,We discovered,how unreliable,,the manager fired,an,unreliable,employee,yesterday
+5,that_gap_lb,We discovered,that,,the manager fired,an,,employee,yesterday
+5,what_gap_lb,We discovered,how unreliable,,the manager fired,an,,employee,yesterday
+6,that_nogap_obj,He knows,that,,the lawyers represented,a,famous,politician,at the party
+6,what_nogap_obj,He knows,how famous,a politician,the lawyers represented,a,famous,politician,at the party
+6,that_gap_obj,He knows,that,,the lawyers represented,,,,at the party
+6,what_gap_obj,He knows,how famous,a politician,the lawyers represented,,,,at the party
+6,that_nogap_lb,He knows,that,,the lawyers represented,a,famous,politician,at the party
+6,what_nogap_lb,He knows,how famous,,the lawyers represented,a,famous,politician,at the party
+6,that_gap_lb,He knows,that,,the lawyers represented,a,,politician,at the party
+6,what_gap_lb,He knows,how famous,,the lawyers represented,a,,politician,at the party
+7,that_nogap_obj,They know,that,,the cavalry attacked,a,strong,position,during the battle
+7,what_nogap_obj,They know,how strong,a position,the cavalry attacked,a,strong,position,during the battle
+7,that_gap_obj,They know,that,,the cavalry attacked,,,,during the battle
+7,what_gap_obj,They know,how strong,a position,the cavalry attacked,,,,during the battle
+7,that_nogap_lb,They know,that,,the cavalry attacked,a,strong,position,during the battle
+7,what_nogap_lb,They know,how strong,,the cavalry attacked,a,strong,position,during the battle
+7,that_gap_lb,They know,that,,the cavalry attacked,a,,position,during the battle
+7,what_gap_lb,They know,how strong,,the cavalry attacked,a,,position,during the battle
+8,that_nogap_obj,She knows,that,,the mayor insulted,a,wealthy,doner,at the reception
+8,what_nogap_obj,She knows,how wealthy,a donor,the mayor insulted,a,wealthy,doner,at the reception
+8,that_gap_obj,She knows,that,,the mayor insulted,,,,at the reception
+8,what_gap_obj,She knows,how wealthy,a donor,the mayor insulted,,,,at the reception
+8,that_nogap_lb,She knows,that,,the mayor insulted,a,wealthy,doner,at the reception
+8,what_nogap_lb,She knows,how wealthy,,the mayor insulted,a,wealthy,doner,at the reception
+8,that_gap_lb,She knows,that,,the mayor insulted,a,,doner,at the reception
+8,what_gap_lb,She knows,how wealthy,,the mayor insulted,a,,doner,at the reception
+9,that_nogap_obj,He reported,that,,the detective observed,a,sly,suspect,for three hours
+9,what_nogap_obj,He reported,how sly,a suspect,the detective observed,a,sly,suspect,for three hours
+9,that_gap_obj,He reported,that,,the detective observed,,,,for three hours
+9,what_gap_obj,He reported,how sly,a suspect,the detective observed,,,,for three hours
+9,that_nogap_lb,He reported,that,,the detective observed,a,sly,suspect,for three hours
+9,what_nogap_lb,He reported,how sly,,the detective observed,a,sly,suspect,for three hours
+9,that_gap_lb,He reported,that,,the detective observed,a,,suspect,for three hours
+9,what_gap_lb,He reported,how sly,,the detective observed,a,,suspect,for three hours
+10,that_nogap_obj,I know,that,,the assassin shot,a,popular,candidate,at the rally
+10,what_nogap_obj,I know,how popular,a candidate,the assassin shot,a,popular,candidate,at the rally
+10,that_gap_obj,I know,that,,the assassin shot,,,,at the rally
+10,what_gap_obj,I know,how popular,a candidate,the assassin shot,,,,at the rally
+10,that_nogap_lb,I know,that,,the assassin shot,a,popular,candidate,at the rally
+10,what_nogap_lb,I know,how popular,,the assassin shot,a,popular,candidate,at the rally
+10,that_gap_lb,I know,that,,the assassin shot,a,,candidate,at the rally
+10,what_gap_lb,I know,how popular,,the assassin shot,a,,candidate,at the rally
+11,that_nogap_obj,The newspaper reported,that,,the witness identified,a,central,witness,during the trial
+11,what_nogap_obj,The newspaper reported,how central,a suspect,the witness identified,a,central,witness,during the trial
+11,that_gap_obj,The newspaper reported,that,,the witness identified,,,,during the trial
+11,what_gap_obj,The newspaper reported,how central,a suspect,the witness identified,,,,during the trial
+11,that_nogap_lb,The newspaper reported,that,,the witness identified,a,central,witness,during the trial
+11,what_nogap_lb,The newspaper reported,how central,,the witness identified,a,central,witness,during the trial
+11,that_gap_lb,The newspaper reported,that,,the witness identified,a,,witness,during the trial
+11,what_gap_lb,The newspaper reported,how central,,the witness identified,a,,witness,during the trial
+12,that_nogap_obj,She found out,that,,the lobbyist bribed,a,powerful,senator,last month
+12,what_nogap_obj,She found out,how powerful,a senator,the lobbyist bribed,a,powerful,senator,last month
+12,that_gap_obj,She found out,that,,the lobbyist bribed,,,,last month
+12,what_gap_obj,She found out,how powerful,a senator,the lobbyist bribed,,,,last month
+12,that_nogap_lb,She found out,that,,the lobbyist bribed,a,powerful,senator,last month
+12,what_nogap_lb,She found out,how powerful,,the lobbyist bribed,a,powerful,senator,last month
+12,that_gap_lb,She found out,that,,the lobbyist bribed,a,,senator,last month
+12,what_gap_lb,She found out,how powerful,,the lobbyist bribed,a,,senator,last month
+13,that_nogap_obj,We discovered,that,,the sergeant insulted,a,touchy,citizen,two hours ago
+13,what_nogap_obj,We discovered,how touchy,a citizen,the sergeant insulted,a,touchy,citizen,two hours ago
+13,that_gap_obj,We discovered,that,,the sergeant insulted,,,,two hours ago
+13,what_gap_obj,We discovered,how touchy,a citizen,the sergeant insulted,,,,two hours ago
+13,that_nogap_lb,We discovered,that,,the sergeant insulted,a,touchy,citizen,two hours ago
+13,what_nogap_lb,We discovered,how touchy,,the sergeant insulted,a,touchy,citizen,two hours ago
+13,that_gap_lb,We discovered,that,,the sergeant insulted,a,,citizen,two hours ago
+13,what_gap_lb,We discovered,how touchy,,the sergeant insulted,a,,citizen,two hours ago
+14,that_nogap_obj,I realized,that,,my brother married,a,beautiful,woman,last winter
+14,what_nogap_obj,I realized,how beautiful,a woman,my brother married,a,beautiful,woman,last winter
+14,that_gap_obj,I realized,that,,my brother married,,,,last winter
+14,what_gap_obj,I realized,how beautiful,a woman,my brother married,,,,last winter
+14,that_nogap_lb,I realized,that,,my brother married,a,beautiful,woman,last winter
+14,what_nogap_lb,I realized,how beautiful,,my brother married,a,beautiful,woman,last winter
+14,that_gap_lb,I realized,that,,my brother married,a,,woman,last winter
+14,what_gap_lb,I realized,how beautiful,,my brother married,a,,woman,last winter
+15,that_nogap_obj,We all know,that,,our friend despises,a,rude,manager,with great passion
+15,what_nogap_obj,We all know,how rude,a manager,our friend despises,a,rude,manager,with great passion
+15,that_gap_obj,We all know,that,,our friend despises,,,,with great passion
+15,what_gap_obj,We all know,how rude,a manager,our friend despises,,,,with great passion
+15,that_nogap_lb,We all know,that,,our friend despises,a,rude,manager,with great passion
+15,what_nogap_lb,We all know,how rude,,our friend despises,a,rude,manager,with great passion
+15,that_gap_lb,We all know,that,,our friend despises,a,,manager,with great passion
+15,what_gap_lb,We all know,how rude,,our friend despises,a,,manager,with great passion
+16,that_nogap_obj,They know,that,,the police followed,a,smart,killer,last weekend
+16,what_nogap_obj,They know,how smart,a killer,the police followed,a,smart,killer,last weekend
+16,that_gap_obj,They know,that,,the police followed,,,,last weekend
+16,what_gap_obj,They know,how smart,a killer,the police followed,,,,last weekend
+16,that_nogap_lb,They know,that,,the police followed,a,smart,killer,last weekend
+16,what_nogap_lb,They know,how smart,,the police followed,a,smart,killer,last weekend
+16,that_gap_lb,They know,that,,the police followed,a,,killer,last weekend
+16,what_gap_lb,They know,how smart,,the police followed,a,,killer,last weekend
+17,that_nogap_obj,She knows,that,,the nun spanked,a,naughty,boy,last week
+17,what_nogap_obj,She knows,how naughty,a boy,the nun spanked,a,naughty,boy,last week
+17,that_gap_obj,She knows,that,,the nun spanked,,,,last week
+17,what_gap_obj,She knows,how naughty,a boy,the nun spanked,,,,last week
+17,that_nogap_lb,She knows,that,,the nun spanked,a,naughty,boy,last week
+17,what_nogap_lb,She knows,how naughty,,the nun spanked,a,naughty,boy,last week
+17,that_gap_lb,She knows,that,,the nun spanked,a,,boy,last week
+17,what_gap_lb,She knows,how naughty,,the nun spanked,a,,boy,last week
+18,that_nogap_obj,The officer said,that,,the fireman saved,a,cranky,lady,during the fire
+18,what_nogap_obj,The officer said,how cranky,a lady,the fireman saved,a,cranky,lady,during the fire
+18,that_gap_obj,The officer said,that,,the fireman saved,,,,during the fire
+18,what_gap_obj,The officer said,how cranky,a lady,the fireman saved,,,,during the fire
+18,that_nogap_lb,The officer said,that,,the fireman saved,a,cranky,lady,during the fire
+18,what_nogap_lb,The officer said,how cranky,,the fireman saved,a,cranky,lady,during the fire
+18,that_gap_lb,The officer said,that,,the fireman saved,a,,lady,during the fire
+18,what_gap_lb,The officer said,how cranky,,the fireman saved,a,,lady,during the fire
+19,that_nogap_obj,The nurse said,that,,the patient admires,a,selfless,doctor,at the hospital
+19,what_nogap_obj,The nurse said,how selfless,a doctor,the patient admires,a,selfless,doctor,at the hospital
+19,that_gap_obj,The nurse said,that,,the patient admires,,,,at the hospital
+19,what_gap_obj,The nurse said,how selfless,a doctor,the patient admires,,,,at the hospital
+19,that_nogap_lb,The nurse said,that,,the patient admires,a,selfless,doctor,at the hospital
+19,what_nogap_lb,The nurse said,how selfless,,the patient admires,a,selfless,doctor,at the hospital
+19,that_gap_lb,The nurse said,that,,the patient admires,a,,doctor,at the hospital
+19,what_gap_lb,The nurse said,how selfless,,the patient admires,a,,doctor,at the hospital
+20,that_nogap_obj,I know,that,,he believed,a,truthful,friend,during the fight
+20,what_nogap_obj,I know,how truthful,a friend,he believed,a,truthful,friend,during the fight
+20,that_gap_obj,I know,that,,he believed,,,,during the fight
+20,what_gap_obj,I know,how truthful,a friend,he believed,,,,during the fight
+20,that_nogap_lb,I know,that,,he believed,a,truthful,friend,during the fight
+20,what_nogap_lb,I know,how truthful,,he believed,a,truthful,friend,during the fight
+20,that_gap_lb,I know,that,,he believed,a,,friend,during the fight
+20,what_gap_lb,I know,how truthful,,he believed,a,,friend,during the fight

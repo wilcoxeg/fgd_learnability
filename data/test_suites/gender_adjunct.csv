@@ -1,0 +1,153 @@
+item,condition,np,adjunct,verb,pronoun,obj
+1,fem_fem_obj,The woman,,insulted,her,friends
+1,fem_male_obj,The woman,,insulted,his,friends
+1,male_fem_obj,The man,,insulted,her,friends
+1,male_male_obj,The man,,insulted,his,friends
+1,fem_fem_island,The woman,got mad after they,insulted,her,friends
+1,fem_male_island,The woman,got mad after they,insulted,his,friends
+1,male_fem_island,The man,got mad after they,insulted,her,friends
+1,male_male_island,The man,got mad after they,insulted,his,friends
+2,fem_fem_obj,The bride,,invited,her,family
+2,fem_male_obj,The bride,,invited,his,family
+2,male_fem_obj,The groom,,invited,her,family
+2,male_male_obj,The groom,,invited,his,family
+2,fem_fem_island,The bride,wrote a letter as soon as they,invited,her,family
+2,fem_male_island,The bride,wrote a letter as soon as they,invited,his,family
+2,male_fem_island,The groom,wrote a letter as soon as they,invited,her,family
+2,male_male_island,The groom,wrote a letter as soon as they,invited,his,family
+3,fem_fem_obj,The countess,,advised,her,husband
+3,fem_male_obj,The countess,,advised,his,husband
+3,male_fem_obj,The count,,advised,her,husband
+3,male_male_obj,The count,,advised,his,husband
+3,fem_fem_island,The countess,became worried when they,advised,her,husband
+3,fem_male_island,The countess,became worried when they,advised,his,husband
+3,male_fem_island,The count,became worried when they,advised,her,husband
+3,male_male_island,The count,became worried when they,advised,his,husband
+4,fem_fem_obj,My wife,,called,her,mother
+4,fem_male_obj,My wife,,called,his,mother
+4,male_fem_obj,My husband,,called,her,mother
+4,male_male_obj,My husband,,called,his,mother
+4,fem_fem_island,My wife,went home after they,called,her,mother
+4,fem_male_island,My wife,went home after they,called,his,mother
+4,male_fem_island,My husband,went home after they,called,her,mother
+4,male_male_island,My husband,went home after they,called,his,mother
+6,fem_fem_obj,My aunt,,brushed,her,teeth
+6,fem_male_obj,My aunt,,brushed,his,teeth
+6,male_fem_obj,My uncle,,brushed,her,teeth
+6,male_male_obj,My uncle,,brushed,his,teeth
+6,fem_fem_island,My aunt,watched as they,brushed,her,teeth
+6,fem_male_island,My aunt,watched as they,brushed,his,teeth
+6,male_fem_island,My uncle,watched as they,brushed,her,teeth
+6,male_male_island,My uncle,watched as they,brushed,his,teeth
+8,fem_fem_obj,The lady,,visited,her,family
+8,fem_male_obj,The lady,,visited,his,family
+8,male_fem_obj,The man,,visited,her,family
+8,male_male_obj,The man,,visited,his,family
+8,fem_fem_island,The lady,baked a cake after they,visited,her,family
+8,fem_male_island,The lady,baked a cake after they,visited,his,family
+8,male_fem_island,The man,baked a cake after they,visited,her,family
+8,male_male_island,The man,baked a cake after they,visited,his,family
+9,fem_fem_obj,The princess,,questioned,her,maid
+9,fem_male_obj,The princess,,questioned,his,maid
+9,male_fem_obj,The prince,,questioned,her,maid
+9,male_male_obj,The prince,,questioned,his,maid
+9,fem_fem_island,The princess,sat silently while they,questioned,her,maid
+9,fem_male_island,The princess,sat silently while they,questioned,his,maid
+9,male_fem_island,The prince,sat silently while they,questioned,her,maid
+9,male_male_island,The prince,sat silently while they,questioned,his,maid
+10,fem_fem_obj,The girl,,met,her,friends
+10,fem_male_obj,The girl,,met,his,friends
+10,male_fem_obj,The boy,,met,her,friends
+10,male_male_obj,The boy,,met,his,friends
+10,fem_fem_island,The girl,ran away before they,met,her,friends
+10,fem_male_island,The girl,ran away before they,met,his,friends
+10,male_fem_island,The boy,ran away before they,met,her,friends
+10,male_male_island,The boy,ran away before they,met,his,friends
+11,fem_fem_obj,The queen,,commanded,her,generals
+11,fem_male_obj,The queen,,commanded,his,generals
+11,male_fem_obj,The king,,commanded,her,generals
+11,male_male_obj,The king,,commanded,his,generals
+11,fem_fem_island,The queen,grew mad after they,commanded,her,generals
+11,fem_male_island,The queen,grew mad after they,commanded,his,generals
+11,male_fem_island,The king,grew mad after they,commanded,her,generals
+11,male_male_island,The king,grew mad after they,commanded,his,generals
+12,fem_fem_obj,Your mother,,gossiped with,her,acquaintances
+12,fem_male_obj,Your mother,,gossiped with,his,acquaintances
+12,male_fem_obj,Your father,,gossiped with,her,acquaintances
+12,male_male_obj,Your father,,gossiped with,his,acquaintances
+12,fem_fem_island,Your mother,left the party before they,gossiped with,her,acquaintances
+12,fem_male_island,Your mother,left the party before they,gossiped with,his,acquaintances
+12,male_fem_island,Your father,left the party before they,gossiped with,her,acquaintances
+12,male_male_island,Your father,left the party before they,gossiped with,his,acquaintances
+13,fem_fem_obj,The grandmother,served the dishes while they,talked with,her,son
+13,fem_male_obj,The grandmother,,talked with,his,son
+13,male_fem_obj,The grandfather,,talked with,her,son
+13,male_male_obj,The grandfather,,talked with,his,son
+13,fem_fem_island,The grandmother,,talked with,her,son
+13,fem_male_island,The grandmother,served the dishes while they,talked with,his,son
+13,male_fem_island,The grandfather,served the dishes while they,talked with,her,son
+13,male_male_island,The grandfather,served the dishes while they,talked with,his,son
+15,fem_fem_obj,The girl,,played tag with,her,classmates
+15,fem_male_obj,The girl,,played tag with,his,classmates
+15,male_fem_obj,The boy,,played tag with,her,classmates
+15,male_male_obj,The boy,,played tag with,his,classmates
+15,fem_fem_island,The girl,returned home after they,played tag with,her,classmates
+15,fem_male_island,The girl,returned home after they,played tag with,his,classmates
+15,male_fem_island,The boy,returned home after they,played tag with,her,classmates
+15,male_male_island,The boy,returned home after they,played tag with,his,classmates
+17,fem_fem_obj,The woman,,checked,her,agenda
+17,fem_male_obj,The woman,,checked,his,agenda
+17,male_fem_obj,The man,,checked,her,agenda
+17,male_male_obj,The man,,checked,his,agenda
+17,fem_fem_island,The woman,talked to this investors while they,checked,her,agenda
+17,fem_male_island,The woman,talked to this investors while they,checked,his,agenda
+17,male_fem_island,The man,talked to this investors while they,checked,her,agenda
+17,male_male_island,The man,talked to this investors while they,checked,his,agenda
+18,fem_fem_obj,The duchess,,commanded,her,army
+18,fem_male_obj,The duchess,,commanded,his,army
+18,male_fem_obj,The duke,,commanded,her,army
+18,male_male_obj,The duke,,commanded,his,army
+18,fem_fem_island,The duchess,went hunting while they,commanded,her,army
+18,fem_male_island,The duchess,went hunting while they,commanded,his,army
+18,male_fem_island,The duke,went hunting while they,commanded,her,army
+18,male_male_island,The duke,went hunting while they,commanded,his,army
+20,fem_fem_obj,The emperor,,talked with,her,councilors
+20,fem_male_obj,The emperor,,talked with,his,councilors
+20,male_fem_obj,The empress,,talked with,her,councilors
+20,male_male_obj,The empress,,talked with,his,councilors
+20,fem_fem_island,The emperor,read a book while they,talked with,her,councilors
+20,fem_male_island,The emperor,read a book while they,talked with,his,councilors
+20,male_fem_island,The empress,read a book while they,talked with,her,councilors
+20,male_male_island,The empress,read a book while they,talked with,his,councilors
+23,fem_fem_obj,My sister,,travelled with,her,soccer team
+23,fem_male_obj,My sister,,travelled with,his,soccer team
+23,male_fem_obj,My brother,,travelled with,her,soccer team
+23,male_male_obj,My brother,,travelled with,his,soccer team
+23,fem_fem_island,My sister,went to the hospital while they,travelled with,her,soccer team
+23,fem_male_island,My sister,went to the hospital while they,travelled with,his,soccer team
+23,male_fem_island,My brother,went to the hospital while they,travelled with,her,soccer team
+23,male_male_island,My brother,went to the hospital while they,travelled with,his,soccer team
+24,fem_fem_obj,The daughter,,mailed a letter to,her,mother
+24,fem_male_obj,The daughter,,mailed a letter to,his,mother
+24,male_fem_obj,The son,,mailed a letter to,her,mother
+24,male_male_obj,The son,,mailed a letter to,his,mother
+24,fem_fem_island,The daughter,arrived before they,mailed a letter to,her,mother
+24,fem_male_island,The daughter,arrived before they,mailed a letter to,his,mother
+24,male_fem_island,The son,arrived before they,mailed a letter to,her,mother
+24,male_male_island,The son,arrived before they,mailed a letter to,his,mother
+29,fem_fem_obj,The woman,,met,her,friends
+29,fem_male_obj,The woman,,met,his,friends
+29,male_fem_obj,The man,,met,her,friends
+29,male_male_obj,The man,,met,his,friends
+29,fem_fem_island,The woman,left before they,met,her,friends
+29,fem_male_island,The woman,left before they,met,his,friends
+29,male_fem_island,The man,left before they,met,her,friends
+29,male_male_island,The man,left before they,met,his,friends
+30,fem_fem_obj,Your wife,,saw,her,brother
+30,fem_male_obj,Your wife,,saw,his,brother
+30,male_fem_obj,Your husband,,saw,her,brother
+30,male_male_obj,Your husband,,saw,his,brother
+30,fem_fem_island,Your wife,went home before they,saw,her,brother
+30,fem_male_island,Your wife,went home before they,saw,his,brother
+30,male_fem_island,Your husband,went home before they,saw,her,brother
+30,male_male_island,Your husband,went home before they,saw,his,brother

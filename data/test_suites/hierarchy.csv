@@ -1,0 +1,361 @@
+item,condition,prefix,subj_subj,subj_wh,subj_embed,subject_gap,filler,matrix_verb,matrix_gap,continuation
+1,what_nogap_subj,The fact that,my brother said,who,his friend surprised,our uncle,at the party,surprised,my daughter,yesterday afternoon
+1,that_nogap_subj,The fact that,my brother said,that,his friend surprised,our uncle,at the party,surprised,my daughter,yesterday afternoon
+1,what_gap_subj,The fact that,my brother said,who,his friend surprised,,at the party,surprised,my daughter,yesterday afternoon
+1,that_gap_subj,The fact that,my brother said,that,his friend surprised,,at the party,surprised,my daughter,yesterday afternoon
+1,what_nogap_matrix,The fact that,my brother said,who,his friend surprised,our uncle,at the party,surprised,my daughter,yesterday afternoon
+1,that_nogap_matrix,The fact that,my brother said,that,his friend surprised,our uncle,at the party,surprised,my daughter,yesterday afternoon
+1,what_gap_matrix,The fact that,my brother said,who,his friend surprised,our uncle,at the party,surprised,,yesterday afternoon
+1,that_gap_matrix,The fact that,my brother said,that,his friend surprised,our uncle,at the party,surprised,,yesterday afternoon
+2,what_nogap_subj,The fact that,the manager knows,who,the comedian pleased,the old woman,with a joke,pleased,my friend,last year
+2,that_nogap_subj,The fact that,the manager knows,that,the comedian pleased,the old woman,with a joke,pleased,my friend,last year
+2,what_gap_subj,The fact that,the manager knows,who,the comedian pleased,,with a joke,pleased,my friend,last year
+2,that_gap_subj,The fact that,the manager knows,that,the comedian pleased,,with a joke,pleased,my friend,last year
+2,what_nogap_matrix,The fact that,the manager knows,who,the comedian pleased,the old woman,with a joke,pleased,my friend,last year
+2,that_nogap_matrix,The fact that,the manager knows,that,the comedian pleased,the old woman,with a joke,pleased,my friend,last year
+2,what_gap_matrix,The fact that,the manager knows,who,the comedian pleased,the old woman,with a joke,pleased,,last year
+2,that_gap_matrix,The fact that,the manager knows,that,the comedian pleased,the old woman,with a joke,pleased,,last year
+3,what_nogap_subj,The fact that,our grandmother said,who,my uncle delighted,my daughter,with a gift,delighted,the whole family,over the holidays
+3,that_nogap_subj,The fact that,our grandmother said,that,my uncle delighted,my daughter,with a gift,delighted,the whole family,over the holidays
+3,what_gap_subj,The fact that,our grandmother said,who,my uncle delighted,,with a gift,delighted,the whole family,over the holidays
+3,that_gap_subj,The fact that,our grandmother said,that,my uncle delighted,,with a gift,delighted,the whole family,over the holidays
+3,what_nogap_matrix,The fact that,our grandmother said,who,my uncle delighted,my daughter,with a gift,delighted,the whole family,over the holidays
+3,that_nogap_matrix,The fact that,our grandmother said,that,my uncle delighted,my daughter,with a gift,delighted,the whole family,over the holidays
+3,what_gap_matrix,The fact that,our grandmother said,who,my uncle delighted,my daughter,with a gift,delighted,,over the holidays
+3,that_gap_matrix,The fact that,our grandmother said,that,my uncle delighted,my daughter,with a gift,delighted,,over the holidays
+4,what_nogap_subj,The fact that,the reporter knows,who,the witness shocked,the jurry,with new testimony,shocked,the lawyer,during the trial
+4,that_nogap_subj,The fact that,the reporter knows,that,the witness shocked,the jurry,with new testimony,shocked,the lawyer,during the trial
+4,what_gap_subj,The fact that,the reporter knows,who,the witness shocked,,with new testimony,shocked,the lawyer,during the trial
+4,that_gap_subj,The fact that,the reporter knows,that,the witness shocked,,with new testimony,shocked,the lawyer,during the trial
+4,what_nogap_matrix,The fact that,the reporter knows,who,the witness shocked,the jurry,with new testimony,shocked,the lawyer,during the trial
+4,that_nogap_matrix,The fact that,the reporter knows,that,the witness shocked,the jurry,with new testimony,shocked,the lawyer,during the trial
+4,what_gap_matrix,The fact that,the reporter knows,who,the witness shocked,the jurry,with new testimony,shocked,,during the trial
+4,that_gap_matrix,The fact that,the reporter knows,that,the witness shocked,the jurry,with new testimony,shocked,,during the trial
+5,what_nogap_subj,The fact that,everybody knows,who,the teenager worried,his mother,with his sullen behavior,worried,the therapist,during the session
+5,that_nogap_subj,The fact that,everybody knows,that,the teenager worried,his mother,with his sullen behavior,worried,the therapist,during the session
+5,what_gap_subj,The fact that,everybody knows,who,the teenager worried,,with his sullen behavior,worried,the therapist,during the session
+5,that_gap_subj,The fact that,everybody knows,that,the teenager worried,,with his sullen behavior,worried,the therapist,during the session
+5,what_nogap_matrix,The fact that,everybody knows,who,the teenager worried,his mother,with his sullen behavior,worried,the therapist,during the session
+5,that_nogap_matrix,The fact that,everybody knows,that,the teenager worried,his mother,with his sullen behavior,worried,the therapist,during the session
+5,what_gap_matrix,The fact that,everybody knows,who,the teenager worried,his mother,with his sullen behavior,worried,,during the session
+5,that_gap_matrix,The fact that,everybody knows,that,the teenager worried,his mother,with his sullen behavior,worried,,during the session
+6,what_nogap_subj,The fact that,the administrated said,who,the professor confused,the students,with a bad explination,confused,the committee,during the review
+6,that_nogap_subj,The fact that,the administrated said,that,the professor confused,the students,with a bad explination,confused,the committee,during the review
+6,what_gap_subj,The fact that,the administrated said,who,the professor confused,,with a bad explination,confused,the committee,during the review
+6,that_gap_subj,The fact that,the administrated said,that,the professor confused,,with a bad explination,confused,the committee,during the review
+6,what_nogap_matrix,The fact that,the administrated said,who,the professor confused,the students,with a bad explination,confused,the committee,during the review
+6,that_nogap_matrix,The fact that,the administrated said,that,the professor confused,the students,with a bad explination,confused,the committee,during the review
+6,what_gap_matrix,The fact that,the administrated said,who,the professor confused,the students,with a bad explination,confused,,during the review
+6,that_gap_matrix,The fact that,the administrated said,that,the professor confused,the students,with a bad explination,confused,,during the review
+7,what_nogap_subj,The fact that,the father saw,who,the baby annoyed,the nanny,with her yelling,annoyed,the committee,last night
+7,that_nogap_subj,The fact that,the father saw,that,the baby annoyed,the nanny,with her yelling,annoyed,the committee,last night
+7,what_gap_subj,The fact that,the father saw,who,the baby annoyed,,with her yelling,annoyed,the committee,last night
+7,that_gap_subj,The fact that,the father saw,that,the baby annoyed,,with her yelling,annoyed,the committee,last night
+7,what_nogap_matrix,The fact that,the father saw,who,the baby annoyed,the nanny,with her yelling,annoyed,the committee,last night
+7,that_nogap_matrix,The fact that,the father saw,that,the baby annoyed,the nanny,with her yelling,annoyed,the committee,last night
+7,what_gap_matrix,The fact that,the father saw,who,the baby annoyed,the nanny,with her yelling,annoyed,,last night
+7,that_gap_matrix,The fact that,the father saw,that,the baby annoyed,the nanny,with her yelling,annoyed,,last night
+8,what_nogap_subj,The fact that,the police know,who,the burglar frightened,the children,with his gun,frightened,the parents,last night
+8,that_nogap_subj,The fact that,the police know,that,the burglar frightened,the children,with his gun,frightened,the parents,last night
+8,what_gap_subj,The fact that,the police know,who,the burglar frightened,,with his gun,frightened,the parents,last night
+8,that_gap_subj,The fact that,the police know,that,the burglar frightened,,with his gun,frightened,the parents,last night
+8,what_nogap_matrix,The fact that,the police know,who,the burglar frightened,the children,with his gun,frightened,the parents,last night
+8,that_nogap_matrix,The fact that,the police know,that,the burglar frightened,the children,with his gun,frightened,the parents,last night
+8,what_gap_matrix,The fact that,the police know,who,the burglar frightened,the children,with his gun,frightened,,last night
+8,that_gap_matrix,The fact that,the police know,that,the burglar frightened,the children,with his gun,frightened,,last night
+9,what_nogap_subj,The fact that,we know,who,the news enraged,the lobbyist,during the hearing,enraged,the politician,yesterday
+9,that_nogap_subj,The fact that,we know,that,the news enraged,the lobbyist,during the hearing,enraged,the politician,yesterday
+9,what_gap_subj,The fact that,we know,who,the news enraged,,during the hearing,enraged,the politician,yesterday
+9,that_gap_subj,The fact that,we know,that,the news enraged,,during the hearing,enraged,the politician,yesterday
+9,what_nogap_matrix,The fact that,we know,who,the news enraged,the lobbyist,during the hearing,enraged,the politician,yesterday
+9,that_nogap_matrix,The fact that,we know,that,the news enraged,the lobbyist,during the hearing,enraged,the politician,yesterday
+9,what_gap_matrix,The fact that,we know,who,the news enraged,the lobbyist,during the hearing,enraged,,yesterday
+9,that_gap_matrix,The fact that,we know,that,the news enraged,the lobbyist,during the hearing,enraged,,yesterday
+10,what_nogap_subj,The fact that,he knows,who,the bully offended,the students,after class,offended,the teacher,last week
+10,that_nogap_subj,The fact that,he knows,that,the bully offended,the students,after class,offended,the teacher,last week
+10,what_gap_subj,The fact that,he knows,who,the bully offended,,after class,offended,the teacher,last week
+10,that_gap_subj,The fact that,he knows,that,the bully offended,,after class,offended,the teacher,last week
+10,what_nogap_matrix,The fact that,he knows,who,the bully offended,the students,after class,offended,the teacher,last week
+10,that_nogap_matrix,The fact that,he knows,that,the bully offended,the students,after class,offended,the teacher,last week
+10,what_gap_matrix,The fact that,he knows,who,the bully offended,the students,after class,offended,,last week
+10,that_gap_matrix,The fact that,he knows,that,the bully offended,the students,after class,offended,,last week
+11,what_nogap_subj,The fact that,the assistant knew,who,the news saddened,the mother,from the foreign country,saddened,the social worker,over the weekend
+11,that_nogap_subj,The fact that,the assistant knew,that,the news saddened,the mother,from the foreign country,saddened,the social worker,over the weekend
+11,what_gap_subj,The fact that,the assistant knew,who,the news saddened,,from the foreign country,saddened,the social worker,over the weekend
+11,that_gap_subj,The fact that,the assistant knew,that,the news saddened,,from the foreign country,saddened,the social worker,over the weekend
+11,what_nogap_matrix,The fact that,the assistant knew,who,the news saddened,the mother,from the foreign country,saddened,the social worker,over the weekend
+11,that_nogap_matrix,The fact that,the assistant knew,that,the news saddened,the mother,from the foreign country,saddened,the social worker,over the weekend
+11,what_gap_matrix,The fact that,the assistant knew,who,the news saddened,the mother,from the foreign country,saddened,,over the weekend
+11,that_gap_matrix,The fact that,the assistant knew,that,the news saddened,the mother,from the foreign country,saddened,,over the weekend
+12,what_nogap_subj,The fact that,the bartender saw,who,the magician perplexed,the audience,with his tricks,perplexed,the waiters,over the weekend
+12,that_nogap_subj,The fact that,the bartender saw,that,the magician perplexed,the audience,with his tricks,perplexed,the waiters,over the weekend
+12,what_gap_subj,The fact that,the bartender saw,who,the magician perplexed,,with his tricks,perplexed,the waiters,over the weekend
+12,that_gap_subj,The fact that,the bartender saw,that,the magician perplexed,,with his tricks,perplexed,the waiters,over the weekend
+12,what_nogap_matrix,The fact that,the bartender saw,who,the magician perplexed,the audience,with his tricks,perplexed,the waiters,over the weekend
+12,that_nogap_matrix,The fact that,the bartender saw,that,the magician perplexed,the audience,with his tricks,perplexed,the waiters,over the weekend
+12,what_gap_matrix,The fact that,the bartender saw,who,the magician perplexed,the audience,with his tricks,perplexed,,over the weekend
+12,that_gap_matrix,The fact that,the bartender saw,that,the magician perplexed,the audience,with his tricks,perplexed,,over the weekend
+13,what_nogap_subj,The fact that,the neighbors reported,who,the policeman upset,the children,with his loud voice,upset,their mothers,last night
+13,that_nogap_subj,The fact that,the neighbors reported,that,the policeman upset,the children,with his loud voice,upset,their mothers,last night
+13,what_gap_subj,The fact that,the neighbors reported,who,the policeman upset,,with his loud voice,upset,their mothers,last night
+13,that_gap_subj,The fact that,the neighbors reported,that,the policeman upset,,with his loud voice,upset,their mothers,last night
+13,what_nogap_matrix,The fact that,the neighbors reported,who,the policeman upset,the children,with his loud voice,upset,their mothers,last night
+13,that_nogap_matrix,The fact that,the neighbors reported,that,the policeman upset,the children,with his loud voice,upset,their mothers,last night
+13,what_gap_matrix,The fact that,the neighbors reported,who,the policeman upset,the children,with his loud voice,upset,,last night
+13,that_gap_matrix,The fact that,the neighbors reported,that,the policeman upset,the children,with his loud voice,upset,,last night
+14,what_nogap_subj,The fact that,the old lady knows,who,the novel cheered,the young girl,from the big city,cheered,her mother,when she heard the news
+14,that_nogap_subj,The fact that,the old lady knows,that,the novel cheered,the young girl,from the big city,cheered,her mother,when she heard the news
+14,what_gap_subj,The fact that,the old lady knows,who,the novel cheered,,from the big city,cheered,her mother,when she heard the news
+14,that_gap_subj,The fact that,the old lady knows,that,the novel cheered,,from the big city,cheered,her mother,when she heard the news
+14,what_nogap_matrix,The fact that,the old lady knows,who,the novel cheered,the young girl,from the big city,cheered,her mother,when she heard the news
+14,that_nogap_matrix,The fact that,the old lady knows,that,the novel cheered,the young girl,from the big city,cheered,her mother,when she heard the news
+14,what_gap_matrix,The fact that,the old lady knows,who,the novel cheered,the young girl,from the big city,cheered,,when she heard the news
+14,that_gap_matrix,The fact that,the old lady knows,that,the novel cheered,the young girl,from the big city,cheered,,when she heard the news
+15,what_nogap_subj,The fact that,the officer knew,who,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,the general,early in the morning
+15,that_nogap_subj,The fact that,the officer knew,that,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,the general,early in the morning
+15,what_gap_subj,The fact that,the officer knew,who,the kind words encouraged,,in the blue uniforms,encouraged,the general,early in the morning
+15,that_gap_subj,The fact that,the officer knew,that,the kind words encouraged,,in the blue uniforms,encouraged,the general,early in the morning
+15,what_nogap_matrix,The fact that,the officer knew,who,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,the general,early in the morning
+15,that_nogap_matrix,The fact that,the officer knew,that,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,the general,early in the morning
+15,what_gap_matrix,The fact that,the officer knew,who,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,,early in the morning
+15,that_gap_matrix,The fact that,the officer knew,that,the kind words encouraged,the soldiers,in the blue uniforms,encouraged,,early in the morning
+16,what_nogap_subj,The fact that,the reporter knew,who,the news surprised,the politician,with high approval ratings,surprised,the lobbyists,over the weekend
+16,that_nogap_subj,The fact that,the reporter knew,that,the news surprised,the politician,with high approval ratings,surprised,the lobbyists,over the weekend
+16,what_gap_subj,The fact that,the reporter knew,who,the news surprised,,with high approval ratings,surprised,the lobbyists,over the weekend
+16,that_gap_subj,The fact that,the reporter knew,that,the news surprised,,with high approval ratings,surprised,the lobbyists,over the weekend
+16,what_nogap_matrix,The fact that,the reporter knew,who,the news surprised,the politician,with high approval ratings,surprised,the lobbyists,over the weekend
+16,that_nogap_matrix,The fact that,the reporter knew,that,the news surprised,the politician,with high approval ratings,surprised,the lobbyists,over the weekend
+16,what_gap_matrix,The fact that,the reporter knew,who,the news surprised,the politician,with high approval ratings,surprised,,over the weekend
+16,that_gap_matrix,The fact that,the reporter knew,that,the news surprised,the politician,with high approval ratings,surprised,,over the weekend
+17,what_nogap_subj,The fact that,everybody knows,who,the young man pleased,his girlfriend,with a compliment,pleased,the chaperones,last night
+17,that_nogap_subj,The fact that,everybody knows,that,the young man pleased,his girlfriend,with a compliment,pleased,the chaperones,last night
+17,what_gap_subj,The fact that,everybody knows,who,the young man pleased,,with a compliment,pleased,the chaperones,last night
+17,that_gap_subj,The fact that,everybody knows,that,the young man pleased,,with a compliment,pleased,the chaperones,last night
+17,what_nogap_matrix,The fact that,everybody knows,who,the young man pleased,his girlfriend,with a compliment,pleased,the chaperones,last night
+17,that_nogap_matrix,The fact that,everybody knows,that,the young man pleased,his girlfriend,with a compliment,pleased,the chaperones,last night
+17,what_gap_matrix,The fact that,everybody knows,who,the young man pleased,his girlfriend,with a compliment,pleased,,last night
+17,that_gap_matrix,The fact that,everybody knows,that,the young man pleased,his girlfriend,with a compliment,pleased,,last night
+18,what_nogap_subj,The fact that,the principal knows,who,the teacher delighted,her students,with an early recess,delighted,the parents,last week
+18,that_nogap_subj,The fact that,the principal knows,that,the teacher delighted,her students,with an early recess,delighted,the parents,last week
+18,what_gap_subj,The fact that,the principal knows,who,the teacher delighted,,with an early recess,delighted,the parents,last week
+18,that_gap_subj,The fact that,the principal knows,that,the teacher delighted,,with an early recess,delighted,the parents,last week
+18,what_nogap_matrix,The fact that,the principal knows,who,the teacher delighted,her students,with an early recess,delighted,the parents,last week
+18,that_nogap_matrix,The fact that,the principal knows,that,the teacher delighted,her students,with an early recess,delighted,the parents,last week
+18,what_gap_matrix,The fact that,the principal knows,who,the teacher delighted,her students,with an early recess,delighted,,last week
+18,that_gap_matrix,The fact that,the principal knows,that,the teacher delighted,her students,with an early recess,delighted,,last week
+19,what_nogap_subj,The fact that,the nurse knows,who,the doctor shocked,the family,with the bad news,shocked,the onlookers,last evening
+19,that_nogap_subj,The fact that,the nurse knows,that,the doctor shocked,the family,with the bad news,shocked,the onlookers,last evening
+19,what_gap_subj,The fact that,the nurse knows,who,the doctor shocked,,with the bad news,shocked,the onlookers,last evening
+19,that_gap_subj,The fact that,the nurse knows,that,the doctor shocked,,with the bad news,shocked,the onlookers,last evening
+19,what_nogap_matrix,The fact that,the nurse knows,who,the doctor shocked,the family,with the bad news,shocked,the onlookers,last evening
+19,that_nogap_matrix,The fact that,the nurse knows,that,the doctor shocked,the family,with the bad news,shocked,the onlookers,last evening
+19,what_gap_matrix,The fact that,the nurse knows,who,the doctor shocked,the family,with the bad news,shocked,,last evening
+19,that_gap_matrix,The fact that,the nurse knows,that,the doctor shocked,the family,with the bad news,shocked,,last evening
+20,what_nogap_subj,The fact that,the onlookers know,who,the nurse worried,the patient,with inconclusive tests,worried,the doctor,last week
+20,that_nogap_subj,The fact that,the onlookers know,that,the nurse worried,the patient,with inconclusive tests,worried,the doctor,last week
+20,what_gap_subj,The fact that,the onlookers know,who,the nurse worried,,with inconclusive tests,worried,the doctor,last week
+20,that_gap_subj,The fact that,the onlookers know,that,the nurse worried,,with inconclusive tests,worried,the doctor,last week
+20,what_nogap_matrix,The fact that,the onlookers know,who,the nurse worried,the patient,with inconclusive tests,worried,the doctor,last week
+20,that_nogap_matrix,The fact that,the onlookers know,that,the nurse worried,the patient,with inconclusive tests,worried,the doctor,last week
+20,what_gap_matrix,The fact that,the onlookers know,who,the nurse worried,the patient,with inconclusive tests,worried,,last week
+20,that_gap_matrix,The fact that,the onlookers know,that,the nurse worried,the patient,with inconclusive tests,worried,,last week
+21,what_nogap_subj,The fact that,the councilor knows,who,the teenager confused,her parents,with her erratic behavior,confused,the therapist,last summer
+21,that_nogap_subj,The fact that,the councilor knows,that,the teenager confused,her parents,with her erratic behavior,confused,the therapist,last summer
+21,what_gap_subj,The fact that,the councilor knows,who,the teenager confused,,with her erratic behavior,confused,the therapist,last summer
+21,that_gap_subj,The fact that,the councilor knows,that,the teenager confused,,with her erratic behavior,confused,the therapist,last summer
+21,what_nogap_matrix,The fact that,the councilor knows,who,the teenager confused,her parents,with her erratic behavior,confused,the therapist,last summer
+21,that_nogap_matrix,The fact that,the councilor knows,that,the teenager confused,her parents,with her erratic behavior,confused,the therapist,last summer
+21,what_gap_matrix,The fact that,the councilor knows,who,the teenager confused,her parents,with her erratic behavior,confused,,last summer
+21,that_gap_matrix,The fact that,the councilor knows,that,the teenager confused,her parents,with her erratic behavior,confused,,last summer
+22,what_nogap_subj,The fact that,the reporter knows,who,the bureaucrat annoyed,the business owner,with regulations,annoyed,the city council,last fall
+22,that_nogap_subj,The fact that,the reporter knows,that,the bureaucrat annoyed,the business owner,with regulations,annoyed,the city council,last fall
+22,what_gap_subj,The fact that,the reporter knows,who,the bureaucrat annoyed,,with regulations,annoyed,the city council,last fall
+22,that_gap_subj,The fact that,the reporter knows,that,the bureaucrat annoyed,,with regulations,annoyed,the city council,last fall
+22,what_nogap_matrix,The fact that,the reporter knows,who,the bureaucrat annoyed,the business owner,with regulations,annoyed,the city council,last fall
+22,that_nogap_matrix,The fact that,the reporter knows,that,the bureaucrat annoyed,the business owner,with regulations,annoyed,the city council,last fall
+22,what_gap_matrix,The fact that,the reporter knows,who,the bureaucrat annoyed,the business owner,with regulations,annoyed,,last fall
+22,that_gap_matrix,The fact that,the reporter knows,that,the bureaucrat annoyed,the business owner,with regulations,annoyed,,last fall
+23,what_nogap_subj,The fact that,the mafia boss knows,who,the criminal frightened,the victim,with a gun,frightened,the onlookers,last night
+23,that_nogap_subj,The fact that,the mafia boss knows,that,the criminal frightened,the victim,with a gun,frightened,the onlookers,last night
+23,what_gap_subj,The fact that,the mafia boss knows,who,the criminal frightened,,with a gun,frightened,the onlookers,last night
+23,that_gap_subj,The fact that,the mafia boss knows,that,the criminal frightened,,with a gun,frightened,the onlookers,last night
+23,what_nogap_matrix,The fact that,the mafia boss knows,who,the criminal frightened,the victim,with a gun,frightened,the onlookers,last night
+23,that_nogap_matrix,The fact that,the mafia boss knows,that,the criminal frightened,the victim,with a gun,frightened,the onlookers,last night
+23,what_gap_matrix,The fact that,the mafia boss knows,who,the criminal frightened,the victim,with a gun,frightened,,last night
+23,that_gap_matrix,The fact that,the mafia boss knows,that,the criminal frightened,the victim,with a gun,frightened,,last night
+24,what_nogap_subj,The fact that,the agent knows,who,the comedian offended,the audience,with a bad joke,offended,the bartender,yesterday night
+24,that_nogap_subj,The fact that,the agent knows,that,the comedian offended,the audience,with a bad joke,offended,the bartender,yesterday night
+24,what_gap_subj,The fact that,the agent knows,who,the comedian offended,,with a bad joke,offended,the bartender,yesterday night
+24,that_gap_subj,The fact that,the agent knows,that,the comedian offended,,with a bad joke,offended,the bartender,yesterday night
+24,what_nogap_matrix,The fact that,the agent knows,who,the comedian offended,the audience,with a bad joke,offended,the bartender,yesterday night
+24,that_nogap_matrix,The fact that,the agent knows,that,the comedian offended,the audience,with a bad joke,offended,the bartender,yesterday night
+24,what_gap_matrix,The fact that,the agent knows,who,the comedian offended,the audience,with a bad joke,offended,,yesterday night
+24,that_gap_matrix,The fact that,the agent knows,that,the comedian offended,the audience,with a bad joke,offended,,yesterday night
+25,what_nogap_subj,The fact that,he knows,who,we surprised,our friends,with a visit,surprised,everyone,last week
+25,that_nogap_subj,The fact that,he knows,that,we surprised,our friends,with a visit,surprised,everyone,last week
+25,what_gap_subj,The fact that,he knows,who,we surprised,,with a visit,surprised,everyone,last week
+25,that_gap_subj,The fact that,he knows,that,we surprised,,with a visit,surprised,everyone,last week
+25,what_nogap_matrix,The fact that,he knows,who,we surprised,our friends,with a visit,surprised,everyone,last week
+25,that_nogap_matrix,The fact that,he knows,that,we surprised,our friends,with a visit,surprised,everyone,last week
+25,what_gap_matrix,The fact that,he knows,who,we surprised,our friends,with a visit,surprised,,last week
+25,that_gap_matrix,The fact that,he knows,that,we surprised,our friends,with a visit,surprised,,last week
+26,what_nogap_subj,The fact that,we know,who,he worried,his friends,with erratic behavior,worried,the teachers,last year
+26,that_nogap_subj,The fact that,we know,that,he worried,his friends,with erratic behavior,worried,the teachers,last year
+26,what_gap_subj,The fact that,we know,who,he worried,,with erratic behavior,worried,the teachers,last year
+26,that_gap_subj,The fact that,we know,that,he worried,,with erratic behavior,worried,the teachers,last year
+26,what_nogap_matrix,The fact that,we know,who,he worried,his friends,with erratic behavior,worried,the teachers,last year
+26,that_nogap_matrix,The fact that,we know,that,he worried,his friends,with erratic behavior,worried,the teachers,last year
+26,what_gap_matrix,The fact that,we know,who,he worried,his friends,with erratic behavior,worried,,last year
+26,that_gap_matrix,The fact that,we know,that,he worried,his friends,with erratic behavior,worried,,last year
+27,what_nogap_subj,The fact that,he knows,who,the teacher confused,the students,with a bad example,confused,the administrators,at the school
+27,that_nogap_subj,The fact that,he knows,that,the teacher confused,the students,with a bad example,confused,the administrators,at the school
+27,what_gap_subj,The fact that,he knows,who,the teacher confused,,with a bad example,confused,the administrators,at the school
+27,that_gap_subj,The fact that,he knows,that,the teacher confused,,with a bad example,confused,the administrators,at the school
+27,what_nogap_matrix,The fact that,he knows,who,the teacher confused,the students,with a bad example,confused,the administrators,at the school
+27,that_nogap_matrix,The fact that,he knows,that,the teacher confused,the students,with a bad example,confused,the administrators,at the school
+27,what_gap_matrix,The fact that,he knows,who,the teacher confused,the students,with a bad example,confused,,at the school
+27,that_gap_matrix,The fact that,he knows,that,the teacher confused,the students,with a bad example,confused,,at the school
+28,what_nogap_subj,The fact that,she knows,who,they frightened,their friends,with masks,frightened,the others,at the party
+28,that_nogap_subj,The fact that,she knows,that,they frightened,their friends,with masks,frightened,the others,at the party
+28,what_gap_subj,The fact that,she knows,who,they frightened,,with masks,frightened,the others,at the party
+28,that_gap_subj,The fact that,she knows,that,they frightened,,with masks,frightened,the others,at the party
+28,what_nogap_matrix,The fact that,she knows,who,they frightened,their friends,with masks,frightened,the others,at the party
+28,that_nogap_matrix,The fact that,she knows,that,they frightened,their friends,with masks,frightened,the others,at the party
+28,what_gap_matrix,The fact that,she knows,who,they frightened,their friends,with masks,frightened,,at the party
+28,that_gap_matrix,The fact that,she knows,that,they frightened,their friends,with masks,frightened,,at the party
+29,what_nogap_subj,The fact that,they know,who,he delighted,his parents,with good grades,delighted,the teacher,at the school
+29,that_nogap_subj,The fact that,they know,that,he delighted,his parents,with good grades,delighted,the teacher,at the school
+29,what_gap_subj,The fact that,they know,who,he delighted,,with good grades,delighted,the teacher,at the school
+29,that_gap_subj,The fact that,they know,that,he delighted,,with good grades,delighted,the teacher,at the school
+29,what_nogap_matrix,The fact that,they know,who,he delighted,his parents,with good grades,delighted,the teacher,at the school
+29,that_nogap_matrix,The fact that,they know,that,he delighted,his parents,with good grades,delighted,the teacher,at the school
+29,what_gap_matrix,The fact that,they know,who,he delighted,his parents,with good grades,delighted,,at the school
+29,that_gap_matrix,The fact that,they know,that,he delighted,his parents,with good grades,delighted,,at the school
+30,what_nogap_subj,The fact that,we know,who,she shocked,her mother,with a bad haircut,shocked,her friends,last week
+30,that_nogap_subj,The fact that,we know,that,she shocked,her mother,with a bad haircut,shocked,her friends,last week
+30,what_gap_subj,The fact that,we know,who,she shocked,,with a bad haircut,shocked,her friends,last week
+30,that_gap_subj,The fact that,we know,that,she shocked,,with a bad haircut,shocked,her friends,last week
+30,what_nogap_matrix,The fact that,we know,who,she shocked,her mother,with a bad haircut,shocked,her friends,last week
+30,that_nogap_matrix,The fact that,we know,that,she shocked,her mother,with a bad haircut,shocked,her friends,last week
+30,what_gap_matrix,The fact that,we know,who,she shocked,her mother,with a bad haircut,shocked,,last week
+30,that_gap_matrix,The fact that,we know,that,she shocked,her mother,with a bad haircut,shocked,,last week
+31,what_nogap_subj,The fact that,he knows,who,you annoyed,your mother,recently,annoyed,the family,over the holidays
+31,that_nogap_subj,The fact that,he knows,that,you annoyed,your mother,recently,annoyed,the family,over the holidays
+31,what_gap_subj,The fact that,he knows,who,you annoyed,,recently,annoyed,the family,over the holidays
+31,that_gap_subj,The fact that,he knows,that,you annoyed,,recently,annoyed,the family,over the holidays
+31,what_nogap_matrix,The fact that,he knows,who,you annoyed,your mother,recently,annoyed,the family,over the holidays
+31,that_nogap_matrix,The fact that,he knows,that,you annoyed,your mother,recently,annoyed,the family,over the holidays
+31,what_gap_matrix,The fact that,he knows,who,you annoyed,your mother,recently,annoyed,,over the holidays
+31,that_gap_matrix,The fact that,he knows,that,you annoyed,your mother,recently,annoyed,,over the holidays
+32,what_nogap_subj,The fact that,I know,who,she surprised,her husband,with a gift,surprised,the therapist,last year
+32,that_nogap_subj,The fact that,I know,that,she surprised,her husband,with a gift,surprised,the therapist,last year
+32,what_gap_subj,The fact that,I know,who,she surprised,,with a gift,surprised,the therapist,last year
+32,that_gap_subj,The fact that,I know,that,she surprised,,with a gift,surprised,the therapist,last year
+32,what_nogap_matrix,The fact that,I know,who,she surprised,her husband,with a gift,surprised,the therapist,last year
+32,that_nogap_matrix,The fact that,I know,that,she surprised,her husband,with a gift,surprised,the therapist,last year
+32,what_gap_matrix,The fact that,I know,who,she surprised,her husband,with a gift,surprised,,last year
+32,that_gap_matrix,The fact that,I know,that,she surprised,her husband,with a gift,surprised,,last year
+33,what_nogap_subj,The fact that,we know,who,they worried,the children,with bad news,worried,their parents,yesterday night
+33,that_nogap_subj,The fact that,we know,that,they worried,the children,with bad news,worried,their parents,yesterday night
+33,what_gap_subj,The fact that,we know,who,they worried,,with bad news,worried,their parents,yesterday night
+33,that_gap_subj,The fact that,we know,that,they worried,,with bad news,worried,their parents,yesterday night
+33,what_nogap_matrix,The fact that,we know,who,they worried,the children,with bad news,worried,their parents,yesterday night
+33,that_nogap_matrix,The fact that,we know,that,they worried,the children,with bad news,worried,their parents,yesterday night
+33,what_gap_matrix,The fact that,we know,who,they worried,the children,with bad news,worried,,yesterday night
+33,that_gap_matrix,The fact that,we know,that,they worried,the children,with bad news,worried,,yesterday night
+34,what_nogap_subj,The fact that,you know,who,the man confused,the tourists,with bad directions,confused,his partner,last week
+34,that_nogap_subj,The fact that,you know,that,the man confused,the tourists,with bad directions,confused,his partner,last week
+34,what_gap_subj,The fact that,you know,who,the man confused,,with bad directions,confused,his partner,last week
+34,that_gap_subj,The fact that,you know,that,the man confused,,with bad directions,confused,his partner,last week
+34,what_nogap_matrix,The fact that,you know,who,the man confused,the tourists,with bad directions,confused,his partner,last week
+34,that_nogap_matrix,The fact that,you know,that,the man confused,the tourists,with bad directions,confused,his partner,last week
+34,what_gap_matrix,The fact that,you know,who,the man confused,the tourists,with bad directions,confused,,last week
+34,that_gap_matrix,The fact that,you know,that,the man confused,the tourists,with bad directions,confused,,last week
+35,what_nogap_subj,The fact that,he knows,who,the executive frightened,the board,with pay cuts,frightened,the stock holders,last quarter
+35,that_nogap_subj,The fact that,he knows,that,the executive frightened,the board,with pay cuts,frightened,the stock holders,last quarter
+35,what_gap_subj,The fact that,he knows,who,the executive frightened,,with pay cuts,frightened,the stock holders,last quarter
+35,that_gap_subj,The fact that,he knows,that,the executive frightened,,with pay cuts,frightened,the stock holders,last quarter
+35,what_nogap_matrix,The fact that,he knows,who,the executive frightened,the board,with pay cuts,frightened,the stock holders,last quarter
+35,that_nogap_matrix,The fact that,he knows,that,the executive frightened,the board,with pay cuts,frightened,the stock holders,last quarter
+35,what_gap_matrix,The fact that,he knows,who,the executive frightened,the board,with pay cuts,frightened,,last quarter
+35,that_gap_matrix,The fact that,he knows,that,the executive frightened,the board,with pay cuts,frightened,,last quarter
+36,what_nogap_subj,The fact that,she knows,who,the actor delighted,the audience,with a good joke,delighted,the critics,last night
+36,that_nogap_subj,The fact that,she knows,that,the actor delighted,the audience,with a good joke,delighted,the critics,last night
+36,what_gap_subj,The fact that,she knows,who,the actor delighted,,with a good joke,delighted,the critics,last night
+36,that_gap_subj,The fact that,she knows,that,the actor delighted,,with a good joke,delighted,the critics,last night
+36,what_nogap_matrix,The fact that,she knows,who,the actor delighted,the audience,with a good joke,delighted,the critics,last night
+36,that_nogap_matrix,The fact that,she knows,that,the actor delighted,the audience,with a good joke,delighted,the critics,last night
+36,what_gap_matrix,The fact that,she knows,who,the actor delighted,the audience,with a good joke,delighted,,last night
+36,that_gap_matrix,The fact that,she knows,that,the actor delighted,the audience,with a good joke,delighted,,last night
+37,what_nogap_subj,The fact that,you know,who,the accountant shocked,his colleagues,with his skill,shocked,the managers,last quarter
+37,that_nogap_subj,The fact that,you know,that,the accountant shocked,his colleagues,with his skill,shocked,the managers,last quarter
+37,what_gap_subj,The fact that,you know,who,the accountant shocked,,with his skill,shocked,the managers,last quarter
+37,that_gap_subj,The fact that,you know,that,the accountant shocked,,with his skill,shocked,the managers,last quarter
+37,what_nogap_matrix,The fact that,you know,who,the accountant shocked,his colleagues,with his skill,shocked,the managers,last quarter
+37,that_nogap_matrix,The fact that,you know,that,the accountant shocked,his colleagues,with his skill,shocked,,last quarter
+37,what_gap_matrix,The fact that,you know,who,the accountant shocked,his colleagues,with his skill,shocked,,last quarter
+37,that_gap_matrix,The fact that,you know,that,the accountant shocked,his colleagues,with his skill,shocked,the managers,last quarter
+38,what_nogap_subj,The fact that,he knows,who,the secretary annoyed,the clerk,with smalltalk,annoyed,the janitor,late at night
+38,that_nogap_subj,The fact that,he knows,that,the secretary annoyed,the clerk,with smalltalk,annoyed,the janitor,late at night
+38,what_gap_subj,The fact that,he knows,who,the secretary annoyed,,with smalltalk,annoyed,the janitor,late at night
+38,that_gap_subj,The fact that,he knows,that,the secretary annoyed,,with smalltalk,annoyed,the janitor,late at night
+38,what_nogap_matrix,The fact that,he knows,who,the secretary annoyed,the clerk,with smalltalk,annoyed,the janitor,late at night
+38,that_nogap_matrix,The fact that,he knows,that,the secretary annoyed,the clerk,with smalltalk,annoyed,the janitor,late at night
+38,what_gap_matrix,The fact that,he knows,who,the secretary annoyed,the clerk,with smalltalk,annoyed,,late at night
+38,that_gap_matrix,The fact that,he knows,that,the secretary annoyed,the clerk,with smalltalk,annoyed,,late at night
+39,what_nogap_subj,The fact that,she knows,who,the mayor surprised,the reporter,at the press conference,surprised,the city council,last week
+39,that_nogap_subj,The fact that,she knows,that,the mayor surprised,the reporter,at the press conference,surprised,the city council,last week
+39,what_gap_subj,The fact that,she knows,who,the mayor surprised,,at the press conference,surprised,the city council,last week
+39,that_gap_subj,The fact that,she knows,that,the mayor surprised,,at the press conference,surprised,the city council,last week
+39,what_nogap_matrix,The fact that,she knows,who,the mayor surprised,the reporter,at the press conference,surprised,the city council,last week
+39,that_nogap_matrix,The fact that,she knows,that,the mayor surprised,the reporter,at the press conference,surprised,the city council,last week
+39,what_gap_matrix,The fact that,she knows,who,the mayor surprised,the reporter,at the press conference,surprised,,last week
+39,that_gap_matrix,The fact that,she knows,that,the mayor surprised,the reporter,at the press conference,surprised,,last week
+40,what_nogap_subj,The fact that,they know,who,we worried,our mother,with our bad habits,worried,her friends,constantly
+40,that_nogap_subj,The fact that,they know,that,we worried,our mother,with our bad habits,worried,her friends,constantly
+40,what_gap_subj,The fact that,they know,who,we worried,,with our bad habits,worried,her friends,constantly
+40,that_gap_subj,The fact that,they know,that,we worried,,with our bad habits,worried,her friends,constantly
+40,what_nogap_matrix,The fact that,they know,who,we worried,our mother,with our bad habits,worried,her friends,constantly
+40,that_nogap_matrix,The fact that,they know,that,we worried,our mother,with our bad habits,worried,her friends,constantly
+40,what_gap_matrix,The fact that,they know,who,we worried,our mother,with our bad habits,worried,,constantly
+40,that_gap_matrix,The fact that,they know,that,we worried,our mother,with our bad habits,worried,,constantly
+41,what_nogap_subj,The fact that,you know,who,he confused,me,with the directions,confused,my spouse,on our holiday
+41,that_nogap_subj,The fact that,you know,that,he confused,me,with the directions,confused,my spouse,on our holiday
+41,what_gap_subj,The fact that,you know,who,he confused,,with the directions,confused,my spouse,on our holiday
+41,that_gap_subj,The fact that,you know,that,he confused,,with the directions,confused,my spouse,on our holiday
+41,what_nogap_matrix,The fact that,you know,who,he confused,me,with the directions,confused,my spouse,on our holiday
+41,that_nogap_matrix,The fact that,you know,that,he confused,me,with the directions,confused,my spouse,on our holiday
+41,what_gap_matrix,The fact that,you know,who,he confused,me,with the directions,confused,,on our holiday
+41,that_gap_matrix,The fact that,you know,that,he confused,me,with the directions,confused,,on our holiday
+42,what_nogap_subj,The fact that,I know,who,the clown frightened,the kids,with its laugh,frightened,the adults,at the birthday party
+42,that_nogap_subj,The fact that,I know,that,the clown frightened,the kids,with its laugh,frightened,the adults,at the birthday party
+42,what_gap_subj,The fact that,I know,who,the clown frightened,,with its laugh,frightened,the adults,at the birthday party
+42,that_gap_subj,The fact that,I know,that,the clown frightened,,with its laugh,frightened,the adults,at the birthday party
+42,what_nogap_matrix,The fact that,I know,who,the clown frightened,the kids,with its laugh,frightened,the adults,at the birthday party
+42,that_nogap_matrix,The fact that,I know,that,the clown frightened,the kids,with its laugh,frightened,the adults,at the birthday party
+42,what_gap_matrix,The fact that,I know,who,the clown frightened,the kids,with its laugh,frightened,,at the birthday party
+42,that_gap_matrix,The fact that,I know,that,the clown frightened,the kids,with its laugh,frightened,,at the birthday party
+43,what_nogap_subj,The fact that,he knows,who,we delighted,our relatives,during the visit,delighted,everyone,last year
+43,that_nogap_subj,The fact that,he knows,that,we delighted,our relatives,during the visit,delighted,everyone,last year
+43,what_gap_subj,The fact that,he knows,who,we delighted,,during the visit,delighted,everyone,last year
+43,that_gap_subj,The fact that,he knows,that,we delighted,,during the visit,delighted,everyone,last year
+43,what_nogap_matrix,The fact that,he knows,who,we delighted,our relatives,during the visit,delighted,everyone,last year
+43,that_nogap_matrix,The fact that,he knows,that,we delighted,our relatives,during the visit,delighted,everyone,last year
+43,what_gap_matrix,The fact that,he knows,who,we delighted,our relatives,during the visit,delighted,,last year
+43,that_gap_matrix,The fact that,he knows,that,we delighted,our relatives,during the visit,delighted,,last year
+44,what_nogap_subj,The fact that,she knows,who,he shocked,his coworkers,with bad news,shocked,the manager,at the meeting
+44,that_nogap_subj,The fact that,she knows,that,he shocked,his coworkers,with bad news,shocked,the manager,at the meeting
+44,what_gap_subj,The fact that,she knows,who,he shocked,,with bad news,shocked,the manager,at the meeting
+44,that_gap_subj,The fact that,she knows,that,he shocked,,with bad news,shocked,the manager,at the meeting
+44,what_nogap_matrix,The fact that,she knows,who,he shocked,his coworkers,with bad news,shocked,the manager,at the meeting
+44,that_nogap_matrix,The fact that,she knows,that,he shocked,his coworkers,with bad news,shocked,the manager,at the meeting
+44,what_gap_matrix,The fact that,she knows,who,he shocked,his coworkers,with bad news,shocked,,at the meeting
+44,that_gap_matrix,The fact that,she knows,that,he shocked,his coworkers,with bad news,shocked,,at the meeting
+45,what_nogap_subj,The fact that,they know,who,she annoyed,her friends,with constant requests,annoyed,everyone,constantly
+45,that_nogap_subj,The fact that,they know,that,she annoyed,her friends,with constant requests,annoyed,everyone,constantly
+45,what_gap_subj,The fact that,they know,who,she annoyed,,with constant requests,annoyed,everyone,constantly
+45,that_gap_subj,The fact that,they know,that,she annoyed,,with constant requests,annoyed,everyone,constantly
+45,what_nogap_matrix,The fact that,they know,who,she annoyed,her friends,with constant requests,annoyed,everyone,constantly
+45,that_nogap_matrix,The fact that,they know,that,she annoyed,her friends,with constant requests,annoyed,everyone,constantly
+45,what_gap_matrix,The fact that,they know,who,she annoyed,her friends,with constant requests,annoyed,,constantly
+45,that_gap_matrix,The fact that,they know,that,she annoyed,her friends,with constant requests,annoyed,,constantly

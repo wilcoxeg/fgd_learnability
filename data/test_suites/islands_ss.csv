@@ -1,0 +1,169 @@
+item,condition,prefix,compl,for,subj,subj_tense,verb,obj,continuation
+1,that_nogap_obj,I know,that,,the seniors,,triumphed over,the freshman,last week
+1,what_nogap_obj,I know,who,,the seniors,,triumphed over,the freshman,last week
+1,that_gap_obj,I know,that,,the seniors,,triumphed over,,last week
+1,what_gap_obj,I know,who,,the seniors,,triumphed over,,last week
+1,that_nogap_ss,I know,that,for,the seniors,to triumph over,,the freshman,will be trivial
+1,what_nogap_ss,I know,who,for,the seniors,to triumph over,,the freshman,will be trivial
+1,that_gap_ss,I know,that,for,the seniors,to triumph over,,,will be trivial
+1,what_gap_ss,I know,who,for,the seniors,to triumph over,,,will be trivial
+2,that_nogap_obj,The builder wondered,that,,the bridge,,spanned,the river,for thirty years
+2,what_nogap_obj,The builder wondered,what,,the bridge,,spanned,the river,for thirty years
+2,that_gap_obj,The builder wondered,that,,the bridge,,spanned,,for thirty years
+2,what_gap_obj,The builder wondered,what,,the bridge,,spanned,,for thirty years
+2,that_nogap_ss,The builder wondered,that,for,the bridge,to span,,the river,will require a feat of engineering
+2,what_nogap_ss,The builder wondered,what,for,the bridge,to span,,the river,will require a feat of engineering
+2,that_gap_ss,The builder wondered,that,for,the bridge,to span,,,will require a feat of engineering
+2,what_gap_ss,The builder wondered,what,for,the bridge,to span,,,will require a feat of engineering
+3,that_nogap_obj,The coach told me,that,,the athlete,,swam across,the channel,last winter
+3,what_nogap_obj,The coach told me,what,,the athlete,,swam across,the channel,last winter
+3,that_gap_obj,The coach told me,that,,the athlete,,swam across,,last winter
+3,what_gap_obj,The coach told me,what,,the athlete,,swam across,,last winter
+3,that_nogap_ss,The coach told me,that,for,the athlete,to swim across,,the channel,will require extensive training
+3,what_nogap_ss,The coach told me,what,for,the athlete,to swim across,,the channel,will require extensive training
+3,that_gap_ss,The coach told me,that,for,the athlete,to swim across,,,will require extensive training
+3,what_gap_ss,The coach told me,what,for,the athlete,to swim across,,,will require extensive training
+4,that_nogap_obj,We discovered,that,,the grand master,,beat,the amateur,yesterday
+4,what_nogap_obj,We discovered,who,,the grand master,,beat,the amateur,yesterday
+4,that_gap_obj,We discovered,that,,the grand master,,beat,,yesterday
+4,what_gap_obj,We discovered,who,,the grand master,,beat,,yesterday
+4,that_nogap_ss,We discovered,that,for,the grand master,to bead,,the amateur,is easy
+4,what_nogap_ss,We discovered,who,for,the grand master,to bead,,the amateur,is easy
+4,that_gap_ss,We discovered,that,for,the grand master,to bead,,,is easy
+4,what_gap_ss,We discovered,who,for,the grand master,to bead,,,is easy
+5,that_nogap_obj,The director found out,that,,the theater troupe,,performed,the play,last weekend
+5,what_nogap_obj,The director found out,what,,the theater troupe,,performed,the play,last weekend
+5,that_gap_obj,The director found out,that,,the theater troupe,,performed,,last weekend
+5,what_gap_obj,The director found out,what,,the theater troupe,,performed,,last weekend
+5,that_nogap_ss,The director found out,that,for,the theater troupe,to perform,,the play,will require extra rehearsal
+5,what_nogap_ss,The director found out,what,for,the theater troupe,to perform,,the play,will require extra rehearsal
+5,that_gap_ss,The director found out,that,for,the theater troupe,to perform,,,will require extra rehearsal
+5,what_gap_ss,The director found out,what,for,the theater troupe,to perform,,,will require extra rehearsal
+6,that_nogap_obj,My friend knows,that,,the mechanic,,fixed,the car,over the weekend
+6,what_nogap_obj,My friend knows,what,,the mechanic,,fixed,the car,over the weekend
+6,that_gap_obj,My friend knows,that,,the mechanic,,fixed,,over the weekend
+6,what_gap_obj,My friend knows,what,,the mechanic,,fixed,,over the weekend
+6,that_nogap_ss,My friend knows,that,for,the mechanic,to fix,,the car,will take an extra two days
+6,what_nogap_ss,My friend knows,what,for,the mechanic,to fix,,the car,will take an extra two days
+6,that_gap_ss,My friend knows,that,for,the mechanic,to fix,,,will take an extra two days
+6,what_gap_ss,My friend knows,what,for,the mechanic,to fix,,,will take an extra two days
+7,that_nogap_obj,The principal discovered,that,,the lazy student,,impressed,the teacher,easily
+7,what_nogap_obj,The principal discovered,who,,the lazy student,,impressed,the teacher,easily
+7,that_gap_obj,The principal discovered,that,,the lazy student,,impressed,,easily
+7,what_gap_obj,The principal discovered,who,,the lazy student,,impressed,,easily
+7,that_nogap_ss,The principal discovered,that,for,the lazy student,to impress,,the teacher,will not be easy
+7,what_nogap_ss,The principal discovered,who,for,the lazy student,to impress,,the teacher,will not be easy
+7,that_gap_ss,The principal discovered,that,for,the lazy student,to impress,,,will not be easy
+7,what_gap_ss,The principal discovered,who,for,the lazy student,to impress,,,will not be easy
+8,that_nogap_obj,We all know,that,,the president,,met,the convict,two days ago
+8,what_nogap_obj,We all know,who,,the president,,met,the convict,two days ago
+8,that_gap_obj,We all know,that,,the president,,met,,two days ago
+8,what_gap_obj,We all know,who,,the president,,met,,two days ago
+8,that_nogap_ss,We all know,that,for,the president,to meet,,the convict,will not be possible
+8,what_nogap_ss,We all know,who,for,the president,to meet,,the convict,will not be possible
+8,that_gap_ss,We all know,that,for,the president,to meet,,,will not be possible
+8,what_gap_ss,We all know,who,for,the president,to meet,,,will not be possible
+9,that_nogap_obj,I know,that,,the orchestra,,mastered,the symphony,in three days
+9,what_nogap_obj,I know,what,,the orchestra,,mastered,the symphony,in three days
+9,that_gap_obj,I know,that,,the orchestra,,mastered,,in three days
+9,what_gap_obj,I know,what,,the orchestra,,mastered,,in three days
+9,that_nogap_ss,I know,that,for,the orchestra,to master,,the symphony,will require additional practice
+9,what_nogap_ss,I know,what,for,the orchestra,to master,,the symphony,will require additional practice
+9,that_gap_ss,I know,that,for,the orchestra,to master,,,will require additional practice
+9,what_gap_ss,I know,what,for,the orchestra,to master,,,will require additional practice
+10,that_nogap_obj,The newspaper reported,that,,the author,,wrote about,the incident,last year
+10,what_nogap_obj,The newspaper reported,what,,the author,,wrote about,the incident,last year
+10,that_gap_obj,The newspaper reported,that,,the author,,wrote about,,last year
+10,what_gap_obj,The newspaper reported,what,,the author,,wrote about,,last year
+10,that_nogap_ss,The newspaper reported,that,for,the author,to write about,,the incident,will require emotional strength
+10,what_nogap_ss,The newspaper reported,what,for,the author,to write about,,the incident,will require emotional strength
+10,that_gap_ss,The newspaper reported,that,for,the author,to write about,,,will require emotional strength
+10,what_gap_ss,The newspaper reported,what,for,the author,to write about,,,will require emotional strength
+11,that_nogap_obj,Her friend found out,that,,the journalist,,reported accurately about,the bribery,last week
+11,what_nogap_obj,Her friend found out,what,,the journalist,,reported accurately about,the bribery,last week
+11,that_gap_obj,Her friend found out,that,,the journalist,,reported accurately about,,last week
+11,what_gap_obj,Her friend found out,what,,the journalist,,reported accurately about,,last week
+11,that_nogap_ss,Her friend found out,that,for,the journalist,to report accurately about,,the bribery,will require additional sources
+11,what_nogap_ss,Her friend found out,what,for,the journalist,to report accurately about,,the bribery,will require additional sources
+11,that_gap_ss,Her friend found out,that,for,the journalist,to report accurately about,,,will require additional sources
+11,what_gap_ss,Her friend found out,what,for,the journalist,to report accurately about,,,will require additional sources
+12,that_nogap_obj,I realized,that,,the president,,enacted,his agenda,last year
+12,what_nogap_obj,I realized,what,,the president,,enacted,his agenda,last year
+12,that_gap_obj,I realized,that,,the president,,enacted,,last year
+12,what_gap_obj,I realized,what,,the president,,enacted,,last year
+12,that_nogap_ss,I realized,that,for,the president,to enact,,his agenda,will require cooperation
+12,what_nogap_ss,I realized,what,for,the president,to enact,,his agenda,will require cooperation
+12,that_gap_ss,I realized,that,for,the president,to enact,,,will require cooperation
+12,what_gap_ss,I realized,what,for,the president,to enact,,,will require cooperation
+13,that_nogap_obj,The newspaper revealed,that,,the traitor,,earned,immunity,two decades ago
+13,what_nogap_obj,The newspaper revealed,what,,the traitor,,earned,immunity,two decades ago
+13,that_gap_obj,The newspaper revealed,that,,the traitor,,earned,,two decades ago
+13,what_gap_obj,The newspaper revealed,what,,the traitor,,earned,,two decades ago
+13,that_nogap_ss,The newspaper revealed,that,for,the traitor,to earn,,immunity,will take an act of congress
+13,what_nogap_ss,The newspaper revealed,what,for,the traitor,to earn,,immunity,will take an act of congress
+13,that_gap_ss,The newspaper revealed,that,for,the traitor,to earn,,,will take an act of congress
+13,what_gap_ss,The newspaper revealed,what,for,the traitor,to earn,,,will take an act of congress
+14,that_nogap_obj,We all know,that,,the ship,,survived,the storm,last night
+14,what_nogap_obj,We all know,what,,the ship,,survived,the storm,last night
+14,that_gap_obj,We all know,that,,the ship,,survived,,last night
+14,what_gap_obj,We all know,what,,the ship,,survived,,last night
+14,that_nogap_ss,We all know,that,for,the ship,to survive,,the storm,will take a miracle
+14,what_nogap_ss,We all know,what,for,the ship,to survive,,the storm,will take a miracle
+14,that_gap_ss,We all know,that,for,the ship,to survive,,,will take a miracle
+14,what_gap_ss,We all know,what,for,the ship,to survive,,,will take a miracle
+15,that_nogap_obj,I know,that,,the students,,finished,their report,two hours ago
+15,what_nogap_obj,I know,what,,the students,,finished,their report,two hours ago
+15,that_gap_obj,I know,that,,the students,,finished,,two hours ago
+15,what_gap_obj,I know,what,,the students,,finished,,two hours ago
+15,that_nogap_ss,I know,that,for,the students,to finish,,their report,will take an extra six days
+15,what_nogap_ss,I know,what,for,the students,to finish,,their report,will take an extra six days
+15,that_gap_ss,I know,that,for,the students,to finish,,,will take an extra six days
+15,what_gap_ss,I know,what,for,the students,to finish,,,will take an extra six days
+16,that_nogap_obj,My contacts all know,that,,the government,,built,a new bridge,last spring
+16,what_nogap_obj,My contacts all know,what,,the government,,built,a new bridge,last spring
+16,that_gap_obj,My contacts all know,that,,the government,,built,,last spring
+16,what_gap_obj,My contacts all know,what,,the government,,built,,last spring
+16,that_nogap_ss,My contacts all know,that,for,the government,to build,,a new bridge,will take additional funding
+16,what_nogap_ss,My contacts all know,what,for,the government,to build,,a new bridge,will take additional funding
+16,that_gap_ss,My contacts all know,that,for,the government,to build,,,will take additional funding
+16,what_gap_ss,My contacts all know,what,for,the government,to build,,,will take additional funding
+17,that_nogap_obj,The officer said,that,,the mayor,,persuaded,the police chief,to support the bill
+17,what_nogap_obj,The officer said,who,,the mayor,,persuaded,the police chief,to support the bill
+17,that_gap_obj,The officer said,that,,the mayor,,persuaded,,to support the bill
+17,what_gap_obj,The officer said,who,,the mayor,,persuaded,,to support the bill
+17,that_nogap_ss,The officer said,that,for,the mayor,to persuade,,the police chief,will require bribery
+17,what_nogap_ss,The officer said,who,for,the mayor,to persuade,,the police chief,will require bribery
+17,that_gap_ss,The officer said,that,for,the mayor,to persuade,,,will require bribery
+17,what_gap_ss,The officer said,who,for,the mayor,to persuade,,,will require bribery
+18,that_nogap_obj,I know,that,,the assassin,,shot,the president,at the reception
+18,what_nogap_obj,I know,who,,the assassin,,shot,the president,at the reception
+18,that_gap_obj,I know,that,,the assassin,,shot,,at the reception
+18,what_gap_obj,I know,who,,the assassin,,shot,,at the reception
+18,that_nogap_ss,I know,that,for,the assassin,to shoot,,the president,will be easy
+18,what_nogap_ss,I know,who,for,the assassin,to shoot,,the president,will be easy
+18,that_gap_ss,I know,that,for,the assassin,to shoot,,,will be easy
+18,what_gap_ss,I know,who,for,the assassin,to shoot,,,will be easy
+19,that_nogap_obj,The coach realized,that,,the athlete,,hit,the baseball,with great force
+19,what_nogap_obj,The coach realized,what,,the athlete,,hit,the baseball,with great force
+19,that_gap_obj,The coach realized,that,,the athlete,,hit,,with great force
+19,what_gap_obj,The coach realized,what,,the athlete,,hit,,with great force
+19,that_nogap_ss,The coach realized,that,for,the athlete,to hit,,the baseball,will be trivial
+19,what_nogap_ss,The coach realized,what,for,the athlete,to hit,,the baseball,will be trivial
+19,that_gap_ss,The coach realized,that,for,the athlete,to hit,,,will be trivial
+19,what_gap_ss,The coach realized,what,for,the athlete,to hit,,,will be trivial
+20,that_nogap_obj,She said,that,,the librarian,,resolved,the argument,earlier today
+20,what_nogap_obj,She said,what,,the librarian,,resolved,the argument,earlier today
+20,that_gap_obj,She said,that,,the librarian,,resolved,,earlier today
+20,what_gap_obj,She said,what,,the librarian,,resolved,,earlier today
+20,that_nogap_ss,She said,that,for,the librarian,to resolve,,the argument,will be easy
+20,what_nogap_ss,She said,what,for,the librarian,to resolve,,the argument,will be easy
+20,that_gap_ss,She said,that,for,the librarian,to resolve,,,will be easy
+20,what_gap_ss,She said,what,for,the librarian,to resolve,,,will be easy
+21,that_nogap_obj,We all know,that,,student,,passed,the test,yesterday
+21,what_nogap_obj,We all know,what,,student,,passed,the test,yesterday
+21,that_gap_obj,We all know,that,,student,,passed,,yesterday
+21,what_gap_obj,We all know,what,,student,,passed,,yesterday
+21,that_nogap_ss,We all know,that,for,student,to pass,,the test,will require additional studying
+21,what_nogap_ss,We all know,what,for,student,to pass,,the test,will require additional studying
+21,that_gap_ss,We all know,that,for,student,to pass,,,will require additional studying
+21,what_gap_ss,We all know,what,for,student,to pass,,,will require additional studying

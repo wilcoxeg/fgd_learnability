@@ -1,0 +1,153 @@
+item,condition,np,adjunct,verb,pronoun,obj
+1,fem_fem_obj,The woman,said they met,,her,friends
+1,fem_male_obj,The woman,said they met,,his,friends
+1,male_fem_obj,The man,said they met,,her,friends
+1,male_male_obj,The man,said they met,,his,friends
+1,fem_fem_island,The woman,said they met,the person who insulted,her,friends
+1,fem_male_island,The woman,said they met,the person who insulted,his,friends
+1,male_fem_island,The man,said they met,the person who insulted,her,friends
+1,male_male_island,The man,said they met,the person who insulted,his,friends
+2,fem_fem_obj,The bride,believes they lost,,her,ring
+2,fem_male_obj,The bride,believes they lost,,his,ring
+2,male_fem_obj,The groom,believes they lost,,her,ring
+2,male_male_obj,The groom,believes they lost,,his,ring
+2,fem_fem_island,The bride,believes they lost,the box that contained,her,ring
+2,fem_male_island,The bride,believes they lost,the box that contained,his,ring
+2,male_fem_island,The groom,believes they lost,the box that contained,her,ring
+2,male_male_island,The groom,believes they lost,the box that contained,his,ring
+3,fem_fem_obj,The countess,worries they tunneled under,,her,castle
+3,fem_male_obj,The countess,worries they tunneled under,,his,castle
+3,male_fem_obj,The count,worries they tunneled under,,her,castle
+3,male_male_obj,The count,worries they tunneled under,,his,castle
+3,fem_fem_island,The countess,worries they tunneled under,the wall that protects,her,castle
+3,fem_male_island,The countess,worries they tunneled under,the wall that protects,his,castle
+3,male_fem_island,The count,worries they tunneled under,the wall that protects,her,castle
+3,male_male_island,The count,worries they tunneled under,the wall that protects,his,castle
+4,fem_fem_obj,My wife,believes they dislike,,her,recipe
+4,fem_male_obj,My wife,believes they dislike,,his,recipe
+4,male_fem_obj,My husband,believes they dislike,,her,recipe
+4,male_male_obj,My husband,believes they dislike,,his,recipe
+4,fem_fem_island,My wife,believes they dislike,the book that features,her,recipe
+4,fem_male_island,My wife,believes they dislike,the book that features,his,recipe
+4,male_fem_island,My husband,believes they dislike,the book that features,her,recipe
+4,male_male_island,My husband,believes they dislike,the book that features,his,recipe
+6,fem_fem_obj,My aunt,said they know,,her,friend
+6,fem_male_obj,My aunt,said they know,,his,friend
+6,male_fem_obj,My uncle,said they know,,her,friend
+6,male_male_obj,My uncle,said they know,,his,friend
+6,fem_fem_island,My aunt,said they know,the song that was written by,her,friend
+6,fem_male_island,My aunt,said they know,the song that was written by,his,friend
+6,male_fem_island,My uncle,said they know,the song that was written by,her,friend
+6,male_male_island,My uncle,said they know,the song that was written by,his,friend
+8,fem_fem_obj,The lady,believes they misplaced,,her,fur coat
+8,fem_male_obj,The lady,believes they misplaced,,his,fur coat
+8,male_fem_obj,The man,believes they misplaced,,her,fur coat
+8,male_male_obj,The man,believes they misplaced,,his,fur coat
+8,fem_fem_island,The lady,believes they misplaced,the bag that contains,her,fur coat
+8,fem_male_island,The lady,believes they misplaced,the bag that contains,his,fur coat
+8,male_fem_island,The man,believes they misplaced,the bag that contains,her,fur coat
+8,male_male_island,The man,believes they misplaced,the bag that contains,his,fur coat
+9,fem_fem_obj,The princess,knows they are searching for,,her,valuables
+9,fem_male_obj,The princess,knows they are searching for,,his,valuables
+9,male_fem_obj,The prince,knows they are searching for,,her,valuables
+9,male_male_obj,The prince,knows they are searching for,,his,valuables
+9,fem_fem_island,The princess,knows they are searching for,the vault that contains,her,valuables
+9,fem_male_island,The princess,knows they are searching for,the vault that contains,his,valuables
+9,male_fem_island,The prince,knows they are searching for,the vault that contains,her,valuables
+9,male_male_island,The prince,knows they are searching for,the vault that contains,his,valuables
+10,fem_fem_obj,The girl,believes they love,,her,mother
+10,fem_male_obj,The girl,believes they love,,his,mother
+10,male_fem_obj,The boy,believes they love,,her,mother
+10,male_male_obj,The boy,believes they love,,his,mother
+10,fem_fem_island,The girl,believes they love,the dish that was cooked by,her,mother
+10,fem_male_island,The girl,believes they love,the dish that was cooked by,his,mother
+10,male_fem_island,The boy,believes they love,the dish that was cooked by,her,mother
+10,male_male_island,The boy,believes they love,the dish that was cooked by,his,mother
+11,fem_fem_obj,The queen,knows they take pride in,,her,sovereignty
+11,fem_male_obj,The queen,knows they take pride in,,his,sovereignty
+11,male_fem_obj,The king,knows they take pride in,,her,sovereignty
+11,male_male_obj,The king,knows they take pride in,,his,sovereignty
+11,fem_fem_island,The queen,knows they take pride in,the song that honors,her,sovereignty
+11,fem_male_island,The queen,knows they take pride in,the song that honors,his,sovereignty
+11,male_fem_island,The king,knows they take pride in,the song that honors,her,sovereignty
+11,male_male_island,The king,knows they take pride in,the song that honors,his,sovereignty
+12,fem_fem_obj,Your mother,thinks they like,,her,acquantience
+12,fem_male_obj,Your mother,thinks they like,,his,acquantience
+12,male_fem_obj,Your father,thinks they like,,her,acquantience
+12,male_male_obj,Your father,thinks they like,,his,acquantience
+12,fem_fem_island,Your mother,thinks they like,the novel that was written by,her,acquantience
+12,fem_male_island,Your mother,thinks they like,the novel that was written by,his,acquantience
+12,male_fem_island,Your father,thinks they like,the novel that was written by,her,acquantience
+12,male_male_island,Your father,thinks they like,the novel that was written by,his,acquantience
+13,fem_fem_obj,The grandmother,worries they will expel,,her,grandson
+13,fem_male_obj,The grandmother,worries they will expel,,his,grandson
+13,male_fem_obj,The grandfather,worries they will expel,,her,grandson
+13,male_male_obj,The grandfather,worries they will expel,,his,grandson
+13,fem_fem_island,The grandmother,worries they will expel,the boy who punched,her,grandson
+13,fem_male_island,The grandmother,worries they will expel,the boy who punched,his,grandson
+13,male_fem_island,The grandfather,worries they will expel,the boy who punched,her,grandson
+13,male_male_island,The grandfather,worries they will expel,the boy who punched,his,grandson
+15,fem_fem_obj,The girl,thinks they lost,,her,airplane
+15,fem_male_obj,The girl,thinks they lost,,his,airplane
+15,male_fem_obj,The boy,thinks they lost,,her,airplane
+15,male_male_obj,The boy,thinks they lost,,his,airplane
+15,fem_fem_island,The girl,thinks they lost,the box that contained,her,airplane
+15,fem_male_island,The girl,thinks they lost,the box that contained,his,airplane
+15,male_fem_island,The boy,thinks they lost,the box that contained,her,airplane
+15,male_male_island,The boy,thinks they lost,the box that contained,his,airplane
+17,fem_fem_obj,The woman,believes they tore up,,her,letter
+17,fem_male_obj,The woman,believes they tore up,,his,letter
+17,male_fem_obj,The man,believes they tore up,,her,letter
+17,male_male_obj,The man,believes they tore up,,his,letter
+17,fem_fem_island,The woman,believes they tore up,the envelope that contains,her,letter
+17,fem_male_island,The woman,believes they tore up,the envelope that contains,his,letter
+17,male_fem_island,The man,believes they tore up,the envelope that contains,her,letter
+17,male_male_island,The man,believes they tore up,the envelope that contains,his,letter
+18,fem_fem_obj,The duchess,suspects they detest,,her,family
+18,fem_male_obj,The duchess,suspects they detest,,his,family
+18,male_fem_obj,The duke,suspects they detest,,her,family
+18,male_male_obj,The duke,suspects they detest,,his,family
+18,fem_fem_island,The duchess,suspects they detest,the painting that depicts,her,family
+18,fem_male_island,The duchess,suspects they detest,the painting that depicts,his,family
+18,male_fem_island,The duke,suspects they detest,the painting that depicts,her,family
+18,male_male_island,The duke,suspects they detest,the painting that depicts,his,family
+20,fem_fem_obj,The emperor,knows they are awed by,,her,palace
+20,fem_male_obj,The emperor,knows they are awed by,,his,palace
+20,male_fem_obj,The empress,knows they are awed by,,her,palace
+20,male_male_obj,The empress,knows they are awed by,,his,palace
+20,fem_fem_island,The emperor,knows they are awed by,the keys that unlock,her,palace
+20,fem_male_island,The emperor,knows they are awed by,the keys that unlock,his,palace
+20,male_fem_island,The empress,knows they are awed by,the keys that unlock,her,palace
+20,male_male_island,The empress,knows they are awed by,the keys that unlock,his,palace
+23,fem_fem_obj,My sister,believes they hid,,her,watch
+23,fem_male_obj,My sister,believes they hid,,his,watch
+23,male_fem_obj,My brother,believes they hid,,her,watch
+23,male_male_obj,My brother,believes they hid,,his,watch
+23,fem_fem_island,My sister,believes they hid,the chain that holds,her,watch
+23,fem_male_island,My sister,believes they hid,the chain that holds,his,watch
+23,male_fem_island,My brother,believes they hid,the chain that holds,her,watch
+23,male_male_island,My brother,believes they hid,the chain that holds,his,watch
+24,fem_fem_obj,The daughter,wonders whether they like,,her,friend
+24,fem_male_obj,The daughter,wonders whether they like,,his,friend
+24,male_fem_obj,The son,wonders whether they like,,her,friend
+24,male_male_obj,The son,wonders whether they like,,his,friend
+24,fem_fem_island,The daughter,wonders whether they like,the book that was written by,her,friend
+24,fem_male_island,The daughter,wonders whether they like,the book that was written by,his,friend
+24,male_fem_island,The son,wonders whether they like,the book that was written by,her,friend
+24,male_male_island,The son,wonders whether they like,the book that was written by,his,friend
+29,fem_fem_obj,The woman,hopes they recovered,,her,wallet
+29,fem_male_obj,The woman,hopes they recovered,,his,wallet
+29,male_fem_obj,The man,hopes they recovered,,her,wallet
+29,male_male_obj,The man,hopes they recovered,,his,wallet
+29,fem_fem_island,The woman,hopes they recovered,the backpack that contains,her,wallet
+29,fem_male_island,The woman,hopes they recovered,the backpack that contains,his,wallet
+29,male_fem_island,The man,hopes they recovered,the backpack that contains,her,wallet
+29,male_male_island,The man,hopes they recovered,the backpack that contains,his,wallet
+30,fem_fem_obj,Your wife,knows they dislike,,her,favorite song
+30,fem_male_obj,Your wife,knows they dislike,,his,favorite song
+30,male_fem_obj,Your husband,knows they dislike,,her,favorite song
+30,male_male_obj,Your husband,knows they dislike,,his,favorite song
+30,fem_fem_island,Your wife,knows they dislike,the movie that featured,her,favorite song
+30,fem_male_island,Your wife,knows they dislike,the movie that featured,his,favorite song
+30,male_fem_island,Your husband,knows they dislike,the movie that featured,her,favorite song
+30,male_male_island,Your husband,knows they dislike,the movie that featured,his,favorite song

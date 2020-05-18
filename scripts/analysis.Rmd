@@ -1,0 +1,242 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+### Imports and Options 
+```{r}
+library(tidyverse)
+library(brms)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+library(stringr)
+library(readxl)
+library(VGAM)
+library(jsonlite)
+library(viridis)
+library(broom)
+
+options(scipen = 999)
+
+```
+
+### Global Preprocessing
+```{r}
+df = read.csv("combined_results.csv")%>%
+   select(-X)
+```
+
+
+### Critical Region Plotting -- bar Chart
+```{r}
+bar_plot = function(df, plotname, condition_labels, title) {
+   
+   df %>%
+     ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
+       theme_bw() +
+       geom_hline(yintercept=0, color="grey") +
+       geom_bar(stat="identity", position="dodge") +
+       geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
+       facet_grid(~model) +
+       scale_fill_manual(values = c("#52CF74", "#2D56A7")) +
+       scale_x_discrete(labels= condition_labels) +
+       ylab("Wh-Effect") +
+       xlab("Gap Location") +
+       ggtitle(title) +
+       theme(legend.position="right", 
+             axis.text=element_text(size=12),
+             axis.text.x= element_text(angle=45, hjust=1),
+             axis.title=element_text(size=12),
+             legend.title=element_blank())
+   ggsave(plotname,height=4,width=10)
+   
+   return(df)
+}
+
+```
+
+### Region - by - Region Plotting
+```{r}
+
+region_plot = function(df, plotname, title, region_order, region_exemplars ) {
+  
+  
+  df %>%
+    mutate(region = factor(region, levels = region_order),
+           region = as.numeric(region),
+           gap = factor(gap, levels = c("nogap", "gap"))) %>%
+    ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, linetype=gap, color=test)) +
+        theme_bw() +
+        geom_hline(yintercept=0, color="grey") +
+        geom_line(size=0.8 ) +
+        geom_errorbar(linetype="solid", width=.1, alpha=0.5) +
+        facet_grid(~model) +
+        scale_x_continuous(breaks=seq(1, length(region_order)), labels=region_exemplars) +
+    
+        ylab("Wh-Effect") +
+        xlab("Gap Location") +
+        ggtitle(title) +
+        theme(legend.position="bottom", 
+              axis.text=element_text(size=10),
+              axis.text.x= element_text(angle=45, hjust=1),
+              axis.title=element_text(size=12),
+              legend.title=element_blank())
+    ggsave(plotname,height=5,width=6)
+  
+    return(df)
+}
+
+```
+
+
+#### Calc Wh Effects
+```{r}
+calc_wh_effects = function(df) {
+   df = df %>%
+     spread(wh, surprisal) %>%
+     mutate(whf = what-that) %>%
+     select(-that, -what) %>%
+     group_by(model, test, item, region) %>%
+       mutate(item_mean=mean(whf)) %>%
+     ungroup() %>%
+     group_by(model, test, gap, region) %>%
+       summarise(m=mean(whf),
+               s=std.error(whf - item_mean),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+     ungroup()
+   
+   return(df)
+ }
+```
+
+#### Agregate Regions
+```{r}
+agregate_regions = function(df) {
+  
+  df = df %>%
+    separate(condition, sep="_", into=c("wh", "gap")) %>%
+    gather(model, surprisal, 7:10) %>%
+    group_by(test, item, wh, gap, region, model) %>%
+      summarise(surprisal = sum(surprisal)) %>%
+    ungroup()
+  
+  return(df)
+}
+```
+
+#### Binarize Predictions
+```{r}
+binarize_predictors = function(df) {
+  df = df %>%
+    mutate(gap=factor(gap, levels=c("nogap", "gap")),
+           gap = if_else(gap == "gap", 1, -1),
+           wh = if_else(wh == "what", 1, -1))
+  return(df)
+}
+```
+
+
+### Basic Licensing
+
+```{r}
+# Formatting
+ df_basic = df %>%
+   filter((test == "basic_object") | (test == "basic_pp") | (test == "basic_subject")) %>%
+   do({ aggregate_regions(.) }) %>%
+   mutate(test=factor(test, levels=c("basic_subject", "basic_object", "basic_pp")))
+
+region_order = c("prefix", "apposotive", "np1", "verb", "np2", "prep", "np3", "end")
+region_exemplars = c("I know\nthat/wh", "...", "the CEO", "showed", "the slides", "to", "the guests", "after lunch")
+
+df_basic %>%
+  do({ calc_wh_effects(.) }) %>%
+  # Region-by-region plot
+  do({ region_plot(.,"../images/basic_region.png", "Basic Filler-Gap Licensing", region_order, region_exemplars) }) %>%
+  # Bar Plot
+   filter((test == "basic_subject" & region == "verb" & gap == "gap") | (test == "basic_subject" & region == "np1" & gap == "nogap") |
+           (test == "basic_object" & region == "end" & gap == "gap") | (test == "basic_object" & region == "np2" & gap == "nogap") |
+           (test == "basic_pp" & region == "end" & gap == "gap") | (test == "basic_pp" & region == "np3" & gap == "nogap")) %>%
+  do({ bar_plot(., "./images/basic_licensing.png", c("subject", "object", "prep prhase"), "Basic Filler-Gap Licensing") })
+
+
+stats_test = function(df, model) {
+  print(model);
+  df %>%
+    summarise(
+      e = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[4],
+      p = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[20],
+    )
+}
+
+# Statistics Test
+df_basic %>%
+  filter((test == "basic_subject" & region == "verb" & gap == "gap") | (test == "basic_subject" & region == "np1" & gap == "nogap") |
+           (test == "basic_object" & region == "end" & gap == "gap") | (test == "basic_object" & region == "np2" & gap == "nogap") |
+           (test == "basic_pp" & region == "end" & gap == "gap") | (test == "basic_pp" & region == "np3" & gap == "nogap")) %>%
+  do({ binarize_predictors(.) }) %>%
+  group_by(test, model) %>% do(stats_test(., unique(.$model))) %>% arrange(model) %>% ungroup()
+
+
+```
+
+### Unboundedness
+
+```{r}
+# Processing
+df_unbound = df %>%
+  filter(test == "embed1" | test == "embed2" | test == "embed3" | test == "embed4") %>%
+  mutate(region = as.character(region),
+         region = if_else(region == "comp", "prefix", region),
+         region = if_else(region == "Unnamed: 7", "obj", region)) %>%
+  do({ aggregate_regions(.) }) %>%
+  mutate(gap = if_else(gap == "no-gap", "nogap", "gap"),
+         gap = as.factor(gap)) %>%
+  mutate(test=factor(test, levels=c("embed1", "embed2", "embed3", "embed4")))
+    
+region_order = c("prefix", "embedding", "subj", "verb", "obj", "continuation")
+region_exemplars = c("I know\nthat/wh", "the footman believed", "the count", "insulted", "the baroness", "yesterday")
+  
+# Plotting
+df_unbound %>%
+  do({calc_wh_effects(.)}) %>%
+  # Region-by-region plotting
+  do({ region_plot(.,"./images/unboundedness_region.png", "Unboundedness", region_order, region_exemplars) }) %>%
+  # Plot Bar Chart
+  filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>% 
+  do({ bar_plot(., "../images/unboundedness.png", c("2", "3", "4", "5"), "Unboundedness") })
+
+
+stats_test = function(df, model) {
+  print(model);
+  df %>%
+    summarise(
+      e = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[4],
+      p = summary(lmer(surprisal~wh*gap+(1+gap||item), data = df))$coefficients[20]
+
+    )
+}
+
+# Stats Testing
+df_unbound %>%
+  filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>% 
+  do({ binarize_predictors(.) }) %>%
+  group_by(test, model) %>% do(stats_test(., unique(.$model))) %>% arrange(model) %>% ungroup()
+
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+

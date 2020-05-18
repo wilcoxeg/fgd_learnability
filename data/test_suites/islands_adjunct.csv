@@ -1,0 +1,425 @@
+item,condition,prefix,compl,adj_setup,temporal,subj,modifier,verb,obj,continuation
+1,that_nogap_gram,The teacher realized,that,,,the student,in the first year,was studying for,the test,with great enthusiasm
+1,what_nogap_gram,The teacher realized,what,,,the student,in the first year,was studying for,the test,with great enthusiasm
+1,that_gap_gram,The teacher realized,that,,,the student,in the first year,was studying for,,with great enthusiasm
+1,what_gap_gram,The teacher realized,what,,,the student,in the first year,was studying for,,with great enthusiasm
+1,that_nogap_island,The teacher realized,that,the storm rolled in,while,the student,,was studying for,the test,with great enthusiasm
+1,what_nogap_island,The teacher realized,what,the storm rolled in,while,the student,,was studying for,the test,with great enthusiasm
+1,that_gap_island,The teacher realized,that,the storm rolled in,while,the student,,was studying for,,with great enthusiasm
+1,what_gap_island,The teacher realized,what,the storm rolled in,while,the student,,was studying for,,with great enthusiasm
+2,that_nogap_gram,The policeman discovered,that,,,the convict,with the shaved head,brought,a gun,into the prison
+2,what_nogap_gram,The policeman discovered,what,,,the convict,with the shaved head,brought,a gun,into the prison
+2,that_gap_gram,The policeman discovered,that,,,the convict,with the shaved head,brought,,into the prison
+2,what_gap_gram,The policeman discovered,what,,,the convict,with the shaved head,brought,,into the prison
+2,that_nogap_island,The policeman discovered,that,the protest erupted,after,the convict,,brought,a gun,into the prison
+2,what_nogap_island,The policeman discovered,what,the protest erupted,after,the convict,,brought,a gun,into the prison
+2,that_gap_island,The policeman discovered,that,the protest erupted,after,the convict,,brought,,into the prison
+2,what_gap_island,The policeman discovered,what,the protest erupted,after,the convict,,brought,,into the prison
+3,that_nogap_gram,The shop owner realized,that,,,the waiter,in the white jacket,placed,a lighter,near the white linen
+3,what_nogap_gram,The shop owner realized,what,,,the waiter,in the white jacket,placed,a lighter,near the white linen
+3,that_gap_gram,The shop owner realized,that,,,the waiter,in the white jacket,placed,,near the white linen
+3,what_gap_gram,The shop owner realized,what,,,the waiter,in the white jacket,placed,,near the white linen
+3,that_nogap_island,The shop owner realized,that,the fire started,after,the waiter,,placed,a lighter,near the white linen
+3,what_nogap_island,The shop owner realized,what,the fire started,after,the waiter,,placed,a lighter,near the white linen
+3,that_gap_island,The shop owner realized,that,the fire started,after,the waiter,,placed,,near the white linen
+3,what_gap_island,The shop owner realized,what,the fire started,after,the waiter,,placed,,near the white linen
+4,that_nogap_gram,The committee asked,that,,,the banker,from the big company,sold,a mortgage,with faulty credit
+4,what_nogap_gram,The committee asked,what,,,the banker,from the big company,sold,a mortgage,with faulty credit
+4,that_gap_gram,The committee asked,that,,,the banker,from the big company,sold,,with faulty credit
+4,what_gap_gram,The committee asked,what,,,the banker,from the big company,sold,,with faulty credit
+4,that_nogap_island,The committee asked,that,the regulations took effect,before,the banker,,sold,a mortgage,with faulty credit
+4,what_nogap_island,The committee asked,what,the regulations took effect,before,the banker,,sold,a mortgage,with faulty credit
+4,that_gap_island,The committee asked,that,the regulations took effect,before,the banker,,sold,,with faulty credit
+4,what_gap_island,The committee asked,what,the regulations took effect,before,the banker,,sold,,with faulty credit
+5,that_nogap_gram,The first mate said,that,,,the worker,in the rain jacket,pulled,a line,with all his might
+5,what_nogap_gram,The first mate said,what,,,the worker,in the rain jacket,pulled,a line,with all his might
+5,that_gap_gram,The first mate said,that,,,the worker,in the rain jacket,pulled,,with all his might
+5,what_gap_gram,The first mate said,what,,,the worker,in the rain jacket,pulled,,with all his might
+5,that_nogap_island,The first mate said,that,the captain gripped the wheel,while,the worker,,pulled,a line,with all his might
+5,what_nogap_island,The first mate said,what,the captain gripped the wheel,while,the worker,,pulled,a line,with all his might
+5,that_gap_island,The first mate said,that,the captain gripped the wheel,while,the worker,,pulled,,with all his might
+5,what_gap_island,The first mate said,what,the captain gripped the wheel,while,the worker,,pulled,,with all his might
+6,that_nogap_gram,The newspaper said,that,,,the soccer player,from the rival team,scored,a goal,during the championship
+6,what_nogap_gram,The newspaper said,what,,,the soccer player,from the rival team,scored,a goal,during the championship
+6,that_gap_gram,The newspaper said,that,,,the soccer player,from the rival team,scored,,during the championship
+6,what_gap_gram,The newspaper said,what,,,the soccer player,from the rival team,scored,,during the championship
+6,that_nogap_island,The newspaper said,that,the fans protested,after,the soccer player,,scored,a goal,during the championship
+6,what_nogap_island,The newspaper said,what,the fans protested,after,the soccer player,,scored,a goal,during the championship
+6,that_gap_island,The newspaper said,that,the fans protested,after,the soccer player,,scored,,during the championship
+6,what_gap_island,The newspaper said,what,the fans protested,after,the soccer player,,scored,,during the championship
+7,that_nogap_gram,The husband saw,that,,,the maid,from the new cleaning service,broke,a plate,in the parlor
+7,what_nogap_gram,The husband saw,what,,,the maid,from the new cleaning service,broke,a plate,in the parlor
+7,that_gap_gram,The husband saw,that,,,the maid,from the new cleaning service,broke,,in the parlor
+7,what_gap_gram,The husband saw,what,,,the maid,from the new cleaning service,broke,,in the parlor
+7,that_nogap_island,The husband saw,that,the woman cut her foot,after,the maid,,broke,a plate,in the parlor
+7,what_nogap_island,The husband saw,what,the woman cut her foot,after,the maid,,broke,a plate,in the parlor
+7,that_gap_island,The husband saw,that,the woman cut her foot,after,the maid,,broke,,in the parlor
+7,what_gap_island,The husband saw,what,the woman cut her foot,after,the maid,,broke,,in the parlor
+8,that_nogap_gram,The administrator discovered,that,,,the students,who were all very hard workers,wrote about,philosophy,for their term paper
+8,what_nogap_gram,The administrator discovered,what,,,the students,who were all very hard workers,wrote about,philosophy,for their term paper
+8,that_gap_gram,The administrator discovered,that,,,the students,who were all very hard workers,wrote about,,for their term paper
+8,what_gap_gram,The administrator discovered,what,,,the students,who were all very hard workers,wrote about,,for their term paper
+8,that_nogap_island,The administrator discovered,that,the professor was impressed,after,the students,,wrote about,philosophy,for their term paper
+8,what_nogap_island,The administrator discovered,what,the professor was impressed,after,the students,,wrote about,philosophy,for their term paper
+8,that_gap_island,The administrator discovered,that,the professor was impressed,after,the students,,wrote about,,for their term paper
+8,what_gap_island,The administrator discovered,what,the professor was impressed,after,the students,,wrote about,,for their term paper
+9,that_nogap_gram,My mother recalled,that,,,the policeman,who only recently started working for the department,rescued,her dog,from the burning building
+9,what_nogap_gram,My mother recalled,what,,,the policeman,who only recently started working for the department,rescued,her dog,from the burning building
+9,that_gap_gram,My mother recalled,that,,,the policeman,who only recently started working for the department,rescued,,from the burning building
+9,what_gap_gram,My mother recalled,what,,,the policeman,who only recently started working for the department,rescued,,from the burning building
+9,that_nogap_island,My mother recalled,that,lady nearly had a heart attack,after,the policeman,,rescued,her dog,from the burning building
+9,what_nogap_island,My mother recalled,what,lady nearly had a heart attack,after,the policeman,,rescued,her dog,from the burning building
+9,that_gap_island,My mother recalled,that,lady nearly had a heart attack,after,the policeman,,rescued,,from the burning building
+9,what_gap_island,My mother recalled,what,lady nearly had a heart attack,after,the policeman,,rescued,,from the burning building
+10,that_nogap_gram,Our friend said,that,,,the customer,who had never owned a vehicle before,offered to by,the new car,on credit
+10,what_nogap_gram,Our friend said,what,,,the customer,who had never owned a vehicle before,offered to by,the new car,on credit
+10,that_gap_gram,Our friend said,that,,,the customer,who had never owned a vehicle before,offered to by,,on credit
+10,what_gap_gram,Our friend said,what,,,the customer,who had never owned a vehicle before,offered to by,,on credit
+10,that_nogap_island,Our friend said,that,the salesman made a quick calculation,before,the customer,,offered to by,the new car,on credit
+10,what_nogap_island,Our friend said,what,the salesman made a quick calculation,before,the customer,,offered to by,the new car,on credit
+10,that_gap_island,Our friend said,that,the salesman made a quick calculation,before,the customer,,offered to by,,on credit
+10,what_gap_island,Our friend said,what,the salesman made a quick calculation,before,the customer,,offered to by,,on credit
+11,that_nogap_gram,The article recounted,that,,,the tennis player,who hoped to win the big competition,was thinking about,her serve,before the match
+11,what_nogap_gram,The article recounted,what,,,the tennis player,who hoped to win the big competition,was thinking about,her serve,before the match
+11,that_gap_gram,The article recounted,that,,,the tennis player,who hoped to win the big competition,was thinking about,,before the match
+11,what_gap_gram,The article recounted,what,,,the tennis player,who hoped to win the big competition,was thinking about,,before the match
+11,that_nogap_island,The article recounted,that,the coach took a drink of water,while,the tennis player,,was thinking about,her serve,before the match
+11,what_nogap_island,The article recounted,what,the coach took a drink of water,while,the tennis player,,was thinking about,her serve,before the match
+11,that_gap_island,The article recounted,that,the coach took a drink of water,while,the tennis player,,was thinking about,,before the match
+11,what_gap_island,The article recounted,what,the coach took a drink of water,while,the tennis player,,was thinking about,,before the match
+12,that_nogap_gram,Your father noticed,that,,,the author,who the fans loved ,signed,a copy of his book,after the reading
+12,what_nogap_gram,Your father noticed,what,,,the author,who the fans loved ,signed,a copy of his book,after the reading
+12,that_gap_gram,Your father noticed,that,,,the author,who the fans loved ,signed,,after the reading
+12,what_gap_gram,Your father noticed,what,,,the author,who the fans loved ,signed,,after the reading
+12,that_nogap_island,Your father noticed,that,the reporters took photographs,while,the author,,signed,a copy of his book,after the reading
+12,what_nogap_island,Your father noticed,what,the reporters took photographs,while,the author,,signed,a copy of his book,after the reading
+12,that_gap_island,Your father noticed,that,the reporters took photographs,while,the author,,signed,,after the reading
+12,what_gap_island,Your father noticed,what,the reporters took photographs,while,the author,,signed,,after the reading
+13,that_nogap_gram,The report described,that,,,the guard,who was sleeping on the job,lost track of,a lion,in the park
+13,what_nogap_gram,The report described,what,,,the guard,who was sleeping on the job,lost track of,a lion,in the park
+13,that_gap_gram,The report described,that,,,the guard,who was sleeping on the job,lost track of,,in the park
+13,what_gap_gram,The report described,what,,,the guard,who was sleeping on the job,lost track of,,in the park
+13,that_nogap_island,The report described,that,the police responded quickly,after,the guard,,lost track of,a lion,in the park
+13,what_nogap_island,The report described,what,the police responded quickly,after,the guard,,lost track of,a lion,in the park
+13,that_gap_island,The report described,that,the police responded quickly,after,the guard,,lost track of,,in the park
+13,what_gap_island,The report described,what,the police responded quickly,after,the guard,,lost track of,,in the park
+14,that_nogap_gram,The reporter said,that,,,the citizens,who cared about civic participation,talked about,a new bill,at the town hall meeting
+14,what_nogap_gram,The reporter said,what,,,the citizens,who cared about civic participation,talked about,a new bill,at the town hall meeting
+14,that_gap_gram,The reporter said,that,,,the citizens,who cared about civic participation,talked about,,at the town hall meeting
+14,what_gap_gram,The reporter said,what,,,the citizens,who cared about civic participation,talked about,,at the town hall meeting
+14,that_nogap_island,The reporter said,that,the mayor paid attention,while,the citizens,,talked about,a new bill,at the town hall meeting
+14,what_nogap_island,The reporter said,what,the mayor paid attention,while,the citizens,,talked about,a new bill,at the town hall meeting
+14,that_gap_island,The reporter said,that,the mayor paid attention,while,the citizens,,talked about,,at the town hall meeting
+14,what_gap_island,The reporter said,what,the mayor paid attention,while,the citizens,,talked about,,at the town hall meeting
+15,that_nogap_gram,The assistant realized,that,,,the nurse,in the white uniform,reassured,the patient,in the waiting room
+15,what_nogap_gram,The assistant realized,what,,,the nurse,in the white uniform,reassured,the patient,in the waiting room
+15,that_gap_gram,The assistant realized,that,,,the nurse,in the white uniform,reassured,,in the waiting room
+15,what_gap_gram,The assistant realized,what,,,the nurse,in the white uniform,reassured,,in the waiting room
+15,that_nogap_island,The assistant realized,that,the doctor slept,while,the nurse,,reassured,the patient,in the waiting room
+15,what_nogap_island,The assistant realized,what,the doctor slept,while,the nurse,,reassured,the patient,in the waiting room
+15,that_gap_island,The assistant realized,that,the doctor slept,while,the nurse,,reassured,,in the waiting room
+15,what_gap_island,The assistant realized,what,the doctor slept,while,the nurse,,reassured,,in the waiting room
+16,that_nogap_gram,Your friend said,that,,,the librarian,in the dark brown jacket,placed,the book,on the wrong shelf
+16,what_nogap_gram,Your friend said,what,,,the librarian,in the dark brown jacket,placed,the book,on the wrong shelf
+16,that_gap_gram,Your friend said,that,,,the librarian,in the dark brown jacket,placed,,on the wrong shelf
+16,what_gap_gram,Your friend said,what,,,the librarian,in the dark brown jacket,placed,,on the wrong shelf
+16,that_nogap_island,Your friend said,that,the patron got angry,after,the librarian,,placed,the book,on the wrong shelf
+16,what_nogap_island,Your friend said,what,the patron got angry,after,the librarian,,placed,the book,on the wrong shelf
+16,that_gap_island,Your friend said,that,the patron got angry,after,the librarian,,placed,,on the wrong shelf
+16,what_gap_island,Your friend said,what,the patron got angry,after,the librarian,,placed,,on the wrong shelf
+17,that_nogap_gram,The witness realized,that,,,the lawyers,in dark suits and ties,shredded,the documents,late at night
+17,what_nogap_gram,The witness realized,what,,,the lawyers,in dark suits and ties,shredded,the documents,late at night
+17,that_gap_gram,The witness realized,that,,,the lawyers,in dark suits and ties,shredded,,late at night
+17,what_gap_gram,The witness realized,what,,,the lawyers,in dark suits and ties,shredded,,late at night
+17,that_nogap_island,The witness realized,that,the assistant made coffee,while,the lawyers,,shredded,the documents,late at night
+17,what_nogap_island,The witness realized,what,the assistant made coffee,while,the lawyers,,shredded,the documents,late at night
+17,that_gap_island,The witness realized,that,the assistant made coffee,while,the lawyers,,shredded,,late at night
+17,what_gap_island,The witness realized,what,the assistant made coffee,while,the lawyers,,shredded,,late at night
+18,that_nogap_gram,The article said,that,,,the chef,who was originally from France,prepared,the soup,before the dinner rush
+18,what_nogap_gram,The article said,what,,,the chef,who was originally from France,prepared,the soup,before the dinner rush
+18,that_gap_gram,The article said,that,,,the chef,who was originally from France,prepared,,before the dinner rush
+18,what_gap_gram,The article said,what,,,the chef,who was originally from France,prepared,,before the dinner rush
+18,that_nogap_island,The article said,that,the waiters set the table,while,the chef,,prepared,the soup,before the dinner rush
+18,what_nogap_island,The article said,what,the waiters set the table,while,the chef,,prepared,the soup,before the dinner rush
+18,that_gap_island,The article said,that,the waiters set the table,while,the chef,,prepared,,before the dinner rush
+18,what_gap_island,The article said,what,the waiters set the table,while,the chef,,prepared,,before the dinner rush
+19,that_nogap_gram,The insurance company concluded,that,,,the taxi driver,in the large cap,hit,the animal,while driving recklessly
+19,what_nogap_gram,The insurance company concluded,what,,,the taxi driver,in the large cap,hit,the animal,while driving recklessly
+19,that_gap_gram,The insurance company concluded,that,,,the taxi driver,in the large cap,hit,,while driving recklessly
+19,what_gap_gram,The insurance company concluded,what,,,the taxi driver,in the large cap,hit,,while driving recklessly
+19,that_nogap_island,The insurance company concluded,that,the driver turned,after,the taxi driver,,hit,the animal,while driving recklessly
+19,what_nogap_island,The insurance company concluded,what,the driver turned,after,the taxi driver,,hit,the animal,while driving recklessly
+19,that_gap_island,The insurance company concluded,that,the driver turned,after,the taxi driver,,hit,,while driving recklessly
+19,what_gap_island,The insurance company concluded,what,the driver turned,after,the taxi driver,,hit,,while driving recklessly
+20,that_nogap_gram,The museum director realized,that,,,the robbers,who posed as a visitor,stole,the painting,last night
+20,what_nogap_gram,The museum director realized,what,,,the robbers,who posed as a visitor,stole,the painting,last night
+20,that_gap_gram,The museum director realized,that,,,the robbers,who posed as a visitor,stole,,last night
+20,what_gap_gram,The museum director realized,what,,,the robbers,who posed as a visitor,stole,,last night
+20,that_nogap_island,The museum director realized,that,the security guard slept,while,the robbers,,stole,the painting,last night
+20,what_nogap_island,The museum director realized,what,the security guard slept,while,the robbers,,stole,the painting,last night
+20,that_gap_island,The museum director realized,that,the security guard slept,while,the robbers,,stole,,last night
+20,what_gap_island,The museum director realized,what,the security guard slept,while,the robbers,,stole,,last night
+22,that_nogap_gram,I know,that,,,the priest,in the black robes,congratulated,the couple,after the service
+22,what_nogap_gram,I know,who,,,the priest,in the black robes,congratulated,the couple,after the service
+22,that_gap_gram,I know,that,,,the priest,in the black robes,congratulated,,after the service
+22,what_gap_gram,I know,who,,,the priest,in the black robes,congratulated,,after the service
+22,that_nogap_island,I know,that,the congregation left,after,the priest,,congratulated,the couple,after the service
+22,what_nogap_island,I know,who,the congregation left,after,the priest,,congratulated,the couple,after the service
+22,that_gap_island,I know,that,the congregation left,after,the priest,,congratulated,,after the service
+22,what_gap_island,I know,who,the congregation left,after,the priest,,congratulated,,after the service
+23,that_nogap_gram,You know,that,,,the young woman,with blond hair,introduced,her friend,to her mother
+23,what_nogap_gram,You know,who,,,the young woman,with blond hair,introduced,her friend,to her mother
+23,that_gap_gram,You know,that,,,the young woman,with blond hair,introduced,,to her mother
+23,what_gap_gram,You know,who,,,the young woman,with blond hair,introduced,,to her mother
+23,that_nogap_island,You know,that,the movie started,before,the young woman,,introduced,her friend,to her mother
+23,what_nogap_island,You know,who,the movie started,before,the young woman,,introduced,her friend,to her mother
+23,that_gap_island,You know,that,the movie started,before,the young woman,,introduced,,to her mother
+23,what_gap_island,You know,who,the movie started,before,the young woman,,introduced,,to her mother
+24,that_nogap_gram,He knows,that,,,the police,from downtown,interrogated,the spy,in the prison
+24,what_nogap_gram,He knows,who,,,the police,from downtown,interrogated,the spy,in the prison
+24,that_gap_gram,He knows,that,,,the police,from downtown,interrogated,,in the prison
+24,what_gap_gram,He knows,who,,,the police,from downtown,interrogated,,in the prison
+24,that_nogap_island,He knows,that,the news broke,after,the police,,interrogated,the spy,in the prison
+24,what_nogap_island,He knows,who,the news broke,after,the police,,interrogated,the spy,in the prison
+24,that_gap_island,He knows,that,the news broke,after,the police,,interrogated,,in the prison
+24,what_gap_island,He knows,who,the news broke,after,the police,,interrogated,,in the prison
+25,that_nogap_gram,She knows,that,,,the woman,in the black sweater,thanked,the waitress,after the meal
+25,what_nogap_gram,She knows,who,,,the woman,in the black sweater,thanked,the waitress,after the meal
+25,that_gap_gram,She knows,that,,,the woman,in the black sweater,thanked,,after the meal
+25,what_gap_gram,She knows,who,,,the woman,in the black sweater,thanked,,after the meal
+25,that_nogap_island,She knows,that,the cook washed,while,the woman,,thanked,the waitress,after the meal
+25,what_nogap_island,She knows,who,the cook washed,while,the woman,,thanked,the waitress,after the meal
+25,that_gap_island,She knows,that,the cook washed,while,the woman,,thanked,,after the meal
+25,what_gap_island,She knows,who,the cook washed,while,the woman,,thanked,,after the meal
+26,that_nogap_gram,They know,that,,,the nurse,in the white uniform,reassured,the old woman,at the hospital
+26,what_nogap_gram,They know,who,,,the nurse,in the white uniform,reassured,the old woman,at the hospital
+26,that_gap_gram,They know,that,,,the nurse,in the white uniform,reassured,,at the hospital
+26,what_gap_gram,They know,who,,,the nurse,in the white uniform,reassured,,at the hospital
+26,that_nogap_island,They know,that,the doctor entered,after,the nurse,,reassured,the old woman,at the hospital
+26,what_nogap_island,They know,who,the doctor entered,after,the nurse,,reassured,the old woman,at the hospital
+26,that_gap_island,They know,that,the doctor entered,after,the nurse,,reassured,,at the hospital
+26,what_gap_island,They know,who,the doctor entered,after,the nurse,,reassured,,at the hospital
+27,that_nogap_gram,He reported,that,,,the cowboy,with the black hat,abandoned,his partner,in the desert
+27,what_nogap_gram,He reported,who,,,the cowboy,with the black hat,abandoned,his partner,in the desert
+27,that_gap_gram,He reported,that,,,the cowboy,with the black hat,abandoned,,in the desert
+27,what_gap_gram,He reported,who,,,the cowboy,with the black hat,abandoned,,in the desert
+27,that_nogap_island,He reported,that,the cows ran away,while,the cowboy,,abandoned,his partner,in the desert
+27,what_nogap_island,He reported,who,the cows ran away,while,the cowboy,,abandoned,his partner,in the desert
+27,that_gap_island,He reported,that,the cows ran away,while,the cowboy,,abandoned,,in the desert
+27,what_gap_island,He reported,who,the cows ran away,while,the cowboy,,abandoned,,in the desert
+28,that_nogap_gram,They reported,that,,,the manager,with the red tie,promoted,the accountant,yesterday
+28,what_nogap_gram,They reported,who,,,the manager,with the red tie,promoted,the accountant,yesterday
+28,that_gap_gram,They reported,that,,,the manager,with the red tie,promoted,,yesterday
+28,what_gap_gram,They reported,who,,,the manager,with the red tie,promoted,,yesterday
+28,that_nogap_island,They reported,that,the scandal broke,before,the manager,,promoted,the accountant,yesterday
+28,what_nogap_island,They reported,who,the scandal broke,before,the manager,,promoted,the accountant,yesterday
+28,that_gap_island,They reported,that,the scandal broke,before,the manager,,promoted,,yesterday
+28,what_gap_island,They reported,who,the scandal broke,before,the manager,,promoted,,yesterday
+29,that_nogap_gram,They recalled,that,,,the heiress,from the south,divorced,the count,last year
+29,what_nogap_gram,They recalled,who,,,the heiress,from the south,divorced,the count,last year
+29,that_gap_gram,They recalled,that,,,the heiress,from the south,divorced,,last year
+29,what_gap_gram,They recalled,who,,,the heiress,from the south,divorced,,last year
+29,that_nogap_island,They recalled,that,the lawyers arrived,after,the heiress,,divorced,the count,last year
+29,what_nogap_island,They recalled,who,the lawyers arrived,after,the heiress,,divorced,the count,last year
+29,that_gap_island,They recalled,that,the lawyers arrived,after,the heiress,,divorced,,last year
+29,what_gap_island,They recalled,who,the lawyers arrived,after,the heiress,,divorced,,last year
+30,that_nogap_gram,We recalled,that,,,the clown,in the white wig,frightened,the children,at the party
+30,what_nogap_gram,We recalled,who,,,the clown,in the white wig,frightened,the children,at the party
+30,that_gap_gram,We recalled,that,,,the clown,in the white wig,frightened,,at the party
+30,what_gap_gram,We recalled,who,,,the clown,in the white wig,frightened,,at the party
+30,that_nogap_island,We recalled,that,the parents frowned,while,the clown,,frightened,the children,at the party
+30,what_nogap_island,We recalled,who,the parents frowned,while,the clown,,frightened,the children,at the party
+30,that_gap_island,We recalled,that,the parents frowned,while,the clown,,frightened,,at the party
+30,what_gap_island,We recalled,who,the parents frowned,while,the clown,,frightened,,at the party
+31,that_nogap_gram,He recalled,that,,,the terrorist,with the black moustache,assassinated,the politician,last night
+31,what_nogap_gram,He recalled,who,,,the terrorist,with the black moustache,assassinated,the politician,last night
+31,that_gap_gram,He recalled,that,,,the terrorist,with the black moustache,assassinated,,last night
+31,what_gap_gram,He recalled,who,,,the terrorist,with the black moustache,assassinated,,last night
+31,that_nogap_island,He recalled,that,the detective gave up,before,the terrorist,,assassinated,the politician,last night
+31,what_nogap_island,He recalled,who,the detective gave up,before,the terrorist,,assassinated,the politician,last night
+31,that_gap_island,He recalled,that,the detective gave up,before,the terrorist,,assassinated,,last night
+31,what_gap_island,He recalled,who,the detective gave up,before,the terrorist,,assassinated,,last night
+32,that_nogap_gram,I know,that,,,the librarian,with the big glasses,greeted,the man,early in the morning
+32,what_nogap_gram,I know,who,,,the librarian,with the big glasses,greeted,the man,early in the morning
+32,that_gap_gram,I know,that,,,the librarian,with the big glasses,greeted,,early in the morning
+32,what_gap_gram,I know,who,,,the librarian,with the big glasses,greeted,,early in the morning
+32,that_nogap_island,I know,that,the library opened,after,the librarian,,greeted,the man,early in the morning
+32,what_nogap_island,I know,who,the library opened,after,the librarian,,greeted,the man,early in the morning
+32,that_gap_island,I know,that,the library opened,after,the librarian,,greeted,,early in the morning
+32,what_gap_island,I know,who,the library opened,after,the librarian,,greeted,,early in the morning
+33,that_nogap_gram,You know,that,,,the millionaire,from the city,supported,the candidate,last year
+33,what_nogap_gram,You know,who,,,the millionaire,from the city,supported,the candidate,last year
+33,that_gap_gram,You know,that,,,the millionaire,from the city,supported,,last year
+33,what_gap_gram,You know,who,,,the millionaire,from the city,supported,,last year
+33,that_nogap_island,You know,that,the politicians were happy,while,the millionaire,,supported,the candidate,last year
+33,what_nogap_island,You know,who,the politicians were happy,while,the millionaire,,supported,the candidate,last year
+33,that_gap_island,You know,that,the politicians were happy,while,the millionaire,,supported,,last year
+33,what_gap_island,You know,who,the politicians were happy,while,the millionaire,,supported,,last year
+34,that_nogap_gram,I know,that,,,the president,of the company,congratulated,the athletes,over lunch
+34,what_nogap_gram,I know,who,,,the president,of the company,congratulated,the athletes,over lunch
+34,that_gap_gram,I know,that,,,the president,of the company,congratulated,,over lunch
+34,what_gap_gram,I know,who,,,the president,of the company,congratulated,,over lunch
+34,that_nogap_island,I know,that,the coach gave a speech,before,the president,,congratulated,the athletes,over lunch
+34,what_nogap_island,I know,who,the coach gave a speech,before,the president,,congratulated,the athletes,over lunch
+34,that_gap_island,I know,that,the coach gave a speech,before,the president,,congratulated,,over lunch
+34,what_gap_island,I know,who,the coach gave a speech,before,the president,,congratulated,,over lunch
+35,that_nogap_gram,You know,that,,,the man,from far away,introduced,his friends,to his family
+35,what_nogap_gram,You know,who,,,the man,from far away,introduced,his friends,to his family
+35,that_gap_gram,You know,that,,,the man,from far away,introduced,,to his family
+35,what_gap_gram,You know,who,,,the man,from far away,introduced,,to his family
+35,that_nogap_island,You know,that,the play began,after,the man,,introduced,his friends,to his family
+35,what_nogap_island,You know,who,the play began,after,the man,,introduced,his friends,to his family
+35,that_gap_island,You know,that,the play began,after,the man,,introduced,,to his family
+35,what_gap_island,You know,who,the play began,after,the man,,introduced,,to his family
+36,that_nogap_gram,He knows,that,,,the woman,from far away,waited for,her friend,at the bus stop
+36,what_nogap_gram,He knows,who,,,the woman,from far away,waited for,her friend,at the bus stop
+36,that_gap_gram,He knows,that,,,the woman,from far away,waited for,,at the bus stop
+36,what_gap_gram,He knows,who,,,the woman,from far away,waited for,,at the bus stop
+36,that_nogap_island,He knows,that,it began to rain,while,the woman,,waited for,her friend,at the bus stop
+36,what_nogap_island,He knows,who,it began to rain,while,the woman,,waited for,her friend,at the bus stop
+36,that_gap_island,He knows,that,it began to rain,while,the woman,,waited for,,at the bus stop
+36,what_gap_island,He knows,who,it began to rain,while,the woman,,waited for,,at the bus stop
+37,that_nogap_gram,She knows,that,,,the inspectors,in trench coats,interrogated,the criminal,last night
+37,what_nogap_gram,She knows,who,,,the inspectors,in trench coats,interrogated,the criminal,last night
+37,that_gap_gram,She knows,that,,,the inspectors,in trench coats,interrogated,,last night
+37,what_gap_gram,She knows,who,,,the inspectors,in trench coats,interrogated,,last night
+37,that_nogap_island,She knows,that,the plane crashed,before,the inspectors,,interrogated,the criminal,last night
+37,what_nogap_island,She knows,who,the plane crashed,before,the inspectors,,interrogated,the criminal,last night
+37,that_gap_island,She knows,that,the plane crashed,before,the inspectors,,interrogated,,last night
+37,what_gap_island,She knows,who,the plane crashed,before,the inspectors,,interrogated,,last night
+38,that_nogap_gram,They know,that,,,the old man,with the white hair,thanked,the tailor,on the street
+38,what_nogap_gram,They know,who,,,the old man,with the white hair,thanked,the tailor,on the street
+38,that_gap_gram,They know,that,,,the old man,with the white hair,thanked,,on the street
+38,what_gap_gram,They know,who,,,the old man,with the white hair,thanked,,on the street
+38,that_nogap_island,They know,that,it began to snow,after,the old man,,thanked,the tailor,on the street
+38,what_nogap_island,They know,who,it began to snow,after,the old man,,thanked,the tailor,on the street
+38,that_gap_island,They know,that,it began to snow,after,the old man,,thanked,,on the street
+38,what_gap_island,They know,who,it began to snow,after,the old man,,thanked,,on the street
+39,that_nogap_gram,He reported,that,,,the doctor,in the white coat,reassured,the patient,before surgery
+39,what_nogap_gram,He reported,who,,,the doctor,in the white coat,reassured,the patient,before surgery
+39,that_gap_gram,He reported,that,,,the doctor,in the white coat,reassured,,before surgery
+39,what_gap_gram,He reported,who,,,the doctor,in the white coat,reassured,,before surgery
+39,that_nogap_island,He reported,that,the family waited,while,the doctor,,reassured,the patient,before surgery
+39,what_nogap_island,He reported,who,the family waited,while,the doctor,,reassured,the patient,before surgery
+39,that_gap_island,He reported,that,the family waited,while,the doctor,,reassured,,before surgery
+39,what_gap_island,He reported,who,the family waited,while,the doctor,,reassured,,before surgery
+40,that_nogap_gram,They reported,that,,,the woman,who was very poor,abandoned,the children,on the side of the road
+40,what_nogap_gram,They reported,who,,,the woman,who was very poor,abandoned,the children,on the side of the road
+40,that_gap_gram,They reported,that,,,the woman,who was very poor,abandoned,,on the side of the road
+40,what_gap_gram,They reported,who,,,the woman,who was very poor,abandoned,,on the side of the road
+40,that_nogap_island,They reported,that,the police arrived,before,the woman,,abandoned,the children,on the side of the road
+40,what_nogap_island,They reported,who,the police arrived,before,the woman,,abandoned,the children,on the side of the road
+40,that_gap_island,They reported,that,the police arrived,before,the woman,,abandoned,,on the side of the road
+40,what_gap_island,They reported,who,the police arrived,before,the woman,,abandoned,,on the side of the road
+41,that_nogap_gram,They recalled,that,,,the executive,in the blue suit,promoted,the secretary,last week
+41,what_nogap_gram,They recalled,who,,,the executive,in the blue suit,promoted,the secretary,last week
+41,that_gap_gram,They recalled,that,,,the executive,in the blue suit,promoted,,last week
+41,what_gap_gram,They recalled,who,,,the executive,in the blue suit,promoted,,last week
+41,that_nogap_island,They recalled,that,the boss fired his assistant,after,the executive,,promoted,the secretary,last week
+41,what_nogap_island,They recalled,who,the boss fired his assistant,after,the executive,,promoted,the secretary,last week
+41,that_gap_island,They recalled,that,the boss fired his assistant,after,the executive,,promoted,,last week
+41,what_gap_island,They recalled,who,the boss fired his assistant,after,the executive,,promoted,,last week
+42,that_nogap_gram,We recalled,that,,,the millionaire,from the city,divorced,his wife,last week
+42,what_nogap_gram,We recalled,who,,,the millionaire,from the city,divorced,his wife,last week
+42,that_gap_gram,We recalled,that,,,the millionaire,from the city,divorced,,last week
+42,what_gap_gram,We recalled,who,,,the millionaire,from the city,divorced,,last week
+42,that_nogap_island,We recalled,that,our friends gossiped,while,the millionaire,,divorced,his wife,last week
+42,what_nogap_island,We recalled,who,our friends gossiped,while,the millionaire,,divorced,his wife,last week
+42,that_gap_island,We recalled,that,our friends gossiped,while,the millionaire,,divorced,,last week
+42,what_gap_island,We recalled,who,our friends gossiped,while,the millionaire,,divorced,,last week
+43,that_nogap_gram,He recalled,that,,,the police,from downtown,frightened,the protesters,over the weekend
+43,what_nogap_gram,He recalled,who,,,the police,from downtown,frightened,the protesters,over the weekend
+43,that_gap_gram,He recalled,that,,,the police,from downtown,frightened,,over the weekend
+43,what_gap_gram,He recalled,who,,,the police,from downtown,frightened,,over the weekend
+43,that_nogap_island,He recalled,that,it stopped raining,before,the police,,frightened,the protesters,over the weekend
+43,what_nogap_island,He recalled,who,it stopped raining,before,the police,,frightened,the protesters,over the weekend
+43,that_gap_island,He recalled,that,it stopped raining,before,the police,,frightened,,over the weekend
+43,what_gap_island,He recalled,who,it stopped raining,before,the police,,frightened,,over the weekend
+44,that_nogap_gram,I know,that,,,the spy,from the foreign country,assassinated,the politician,yesterday night
+44,what_nogap_gram,I know,who,,,the spy,from the foreign country,assassinated,the politician,yesterday night
+44,that_gap_gram,I know,that,,,the spy,from the foreign country,assassinated,,yesterday night
+44,what_gap_gram,I know,who,,,the spy,from the foreign country,assassinated,,yesterday night
+44,that_nogap_island,I know,that,the detectives showed up,after,the spy,,assassinated,the politician,yesterday night
+44,what_nogap_island,I know,who,the detectives showed up,after,the spy,,assassinated,the politician,yesterday night
+44,that_gap_island,I know,that,the detectives showed up,after,the spy,,assassinated,,yesterday night
+44,what_gap_island,I know,who,the detectives showed up,after,the spy,,assassinated,,yesterday night
+45,that_nogap_gram,You know,that,,,the firefighter,in the red hat,greeted,the teacher,on the sidewalk
+45,what_nogap_gram,You know,who,,,the firefighter,in the red hat,greeted,the teacher,on the sidewalk
+45,that_gap_gram,You know,that,,,the firefighter,in the red hat,greeted,,on the sidewalk
+45,what_gap_gram,You know,who,,,the firefighter,in the red hat,greeted,,on the sidewalk
+45,that_nogap_island,You know,that,I walked by,while,the firefighter,,greeted,the teacher,on the sidewalk
+45,what_nogap_island,You know,who,I walked by,while,the firefighter,,greeted,the teacher,on the sidewalk
+45,that_gap_island,You know,that,I walked by,while,the firefighter,,greeted,,on the sidewalk
+45,what_gap_island,You know,who,I walked by,while,the firefighter,,greeted,,on the sidewalk
+46,that_nogap_gram,He knows,that,,,the mayor,of the small town,supported,the principal,during the town meeting
+46,what_nogap_gram,He knows,who,,,the mayor,of the small town,supported,the principal,during the town meeting
+46,that_gap_gram,He knows,that,,,the mayor,of the small town,supported,,during the town meeting
+46,what_gap_gram,He knows,who,,,the mayor,of the small town,supported,,during the town meeting
+46,that_nogap_island,He knows,that,the politicians met,before,the mayor,,supported,the principal,during the town meeting
+46,what_nogap_island,He knows,who,the politicians met,before,the mayor,,supported,the principal,during the town meeting
+46,that_gap_island,He knows,that,the politicians met,before,the mayor,,supported,,during the town meeting
+46,what_gap_island,He knows,who,the politicians met,before,the mayor,,supported,,during the town meeting
+47,that_nogap_gram,She knows,that,,,the man,in the dark suit,congratulated,the writer,after the ceremony
+47,what_nogap_gram,She knows,who,,,the man,in the dark suit,congratulated,the writer,after the ceremony
+47,that_gap_gram,She knows,that,,,the man,in the dark suit,congratulated,,after the ceremony
+47,what_gap_gram,She knows,who,,,the man,in the dark suit,congratulated,,after the ceremony
+47,that_nogap_island,She knows,that,we went for lunch,before,the man,,congratulated,the writer,after the ceremony
+47,what_nogap_island,She knows,who,we went for lunch,before,the man,,congratulated,the writer,after the ceremony
+47,that_gap_island,She knows,that,we went for lunch,before,the man,,congratulated,,after the ceremony
+47,what_gap_island,She knows,who,we went for lunch,before,the man,,congratulated,,after the ceremony
+48,that_nogap_gram,I know,that,,,the hostess,of the restaurant,introduced,her friend,to the regular customer
+48,what_nogap_gram,I know,who,,,the hostess,of the restaurant,introduced,her friend,to the regular customer
+48,that_gap_gram,I know,that,,,the hostess,of the restaurant,introduced,,to the regular customer
+48,what_gap_gram,I know,who,,,the hostess,of the restaurant,introduced,,to the regular customer
+48,that_nogap_island,I know,that,the customer waited,while,the hostess,,introduced,her friend,to the regular customer
+48,what_nogap_island,I know,who,the customer waited,while,the hostess,,introduced,her friend,to the regular customer
+48,that_gap_island,I know,that,the customer waited,while,the hostess,,introduced,,to the regular customer
+48,what_gap_island,I know,who,the customer waited,while,the hostess,,introduced,,to the regular customer
+49,that_nogap_gram,You know,that,,,the young woman,in the blue skirt,waited for,her mother,at the movie theater
+49,what_nogap_gram,You know,who,,,the young woman,in the blue skirt,waited for,her mother,at the movie theater
+49,that_gap_gram,You know,that,,,the young woman,in the blue skirt,waited for,,at the movie theater
+49,what_gap_gram,You know,who,,,the young woman,in the blue skirt,waited for,,at the movie theater
+49,that_nogap_island,You know,that,we arrived,before,the young woman,,waited for,her mother,at the movie theater
+49,what_nogap_island,You know,who,we arrived,before,the young woman,,waited for,her mother,at the movie theater
+49,that_gap_island,You know,that,we arrived,before,the young woman,,waited for,,at the movie theater
+49,what_gap_island,You know,who,we arrived,before,the young woman,,waited for,,at the movie theater
+50,that_nogap_gram,He knows,that,,,the police,from the station,interrogated,the suspect,in the basement
+50,what_nogap_gram,He knows,who,,,the police,from the station,interrogated,the suspect,in the basement
+50,that_gap_gram,He knows,that,,,the police,from the station,interrogated,,in the basement
+50,what_gap_gram,He knows,who,,,the police,from the station,interrogated,,in the basement
+50,that_nogap_island,He knows,that,the lawyer arrived,after,the police,,interrogated,the suspect,in the basement
+50,what_nogap_island,He knows,who,the lawyer arrived,after,the police,,interrogated,the suspect,in the basement
+50,that_gap_island,He knows,that,the lawyer arrived,after,the police,,interrogated,,in the basement
+50,what_gap_island,He knows,who,the lawyer arrived,after,the police,,interrogated,,in the basement
+51,that_nogap_gram,She knows,that,,,the soldier,in the green uniform,thanked,the cook,in the mess hall
+51,what_nogap_gram,She knows,who,,,the soldier,in the green uniform,thanked,the cook,in the mess hall
+51,that_gap_gram,She knows,that,,,the soldier,in the green uniform,thanked,,in the mess hall
+51,what_gap_gram,She knows,who,,,the soldier,in the green uniform,thanked,,in the mess hall
+51,that_nogap_island,She knows,that,the captain exercised,while,the soldier,,thanked,the cook,in the mess hall
+51,what_nogap_island,She knows,who,the captain exercised,while,the soldier,,thanked,the cook,in the mess hall
+51,that_gap_island,She knows,that,the captain exercised,while,the soldier,,thanked,,in the mess hall
+51,what_gap_island,She knows,who,the captain exercised,while,the soldier,,thanked,,in the mess hall
+52,that_nogap_gram,They know,that,,,the lawyer,in the dark suit,reassured,his client,last night
+52,what_nogap_gram,They know,who,,,the lawyer,in the dark suit,reassured,his client,last night
+52,that_gap_gram,They know,that,,,the lawyer,in the dark suit,reassured,,last night
+52,what_gap_gram,They know,who,,,the lawyer,in the dark suit,reassured,,last night
+52,that_nogap_island,They know,that,we left,before,the lawyer,,reassured,his client,last night
+52,what_nogap_island,They know,who,we left,before,the lawyer,,reassured,his client,last night
+52,that_gap_island,They know,that,we left,before,the lawyer,,reassured,,last night
+52,what_gap_island,They know,who,we left,before,the lawyer,,reassured,,last night
+53,that_nogap_gram,He reported,that,,,the pirate,with the parrot,abandoned,his comrades,on the sinking ship
+53,what_nogap_gram,He reported,who,,,the pirate,with the parrot,abandoned,his comrades,on the sinking ship
+53,that_gap_gram,He reported,that,,,the pirate,with the parrot,abandoned,,on the sinking ship
+53,what_gap_gram,He reported,who,,,the pirate,with the parrot,abandoned,,on the sinking ship
+53,that_nogap_island,He reported,that,the captain arrived,after,the pirate,,abandoned,his comrades,on the sinking ship
+53,what_nogap_island,He reported,who,the captain arrived,after,the pirate,,abandoned,his comrades,on the sinking ship
+53,that_gap_island,He reported,that,the captain arrived,after,the pirate,,abandoned,,on the sinking ship
+53,what_gap_island,He reported,who,the captain arrived,after,the pirate,,abandoned,,on the sinking ship
+54,that_nogap_gram,They reported,that,,,the boss,from our division,promoted,the accountant,last quarter
+54,what_nogap_gram,They reported,who,,,the boss,from our division,promoted,the accountant,last quarter
+54,that_gap_gram,They reported,that,,,the boss,from our division,promoted,,last quarter
+54,what_gap_gram,They reported,who,,,the boss,from our division,promoted,,last quarter
+54,that_nogap_island,They reported,that,I quit,before,the boss,,promoted,the accountant,last quarter
+54,what_nogap_island,They reported,who,I quit,before,the boss,,promoted,the accountant,last quarter
+54,that_gap_island,They reported,that,I quit,before,the boss,,promoted,,last quarter
+54,what_gap_island,They reported,who,I quit,before,the boss,,promoted,,last quarter

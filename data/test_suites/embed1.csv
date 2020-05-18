@@ -1,0 +1,217 @@
+item,condition,prefix,comp,embedding,subj,verb,,continuation
+1,what_gap,I know,what,our mother said,your friend,threw,,into the trash can
+1,that_gap,I know,that,our mother said,your friend,threw,,into the trash can
+1,what_no-gap,I know,what,our mother said,your friend,threw,the plastic,into the trash can
+1,that_no-gap,I know,that,our mother said,your friend,threw,the plastic,into the trash can
+2,what_gap,The accountant knew,who,the security guard believed,the secretary,introduced,,to her friend
+2,that_gap,The accountant knew,that,the security guard believed,the secretary,introduced,,to her friend
+2,what_no-gap,The accountant knew,who,the security guard believed,the secretary,introduced,the new woman,to her friend
+2,that_no-gap,The accountant knew,that,the security guard believed,the secretary,introduced,the new woman,to her friend
+3,what_gap,The assistant told me,what,the man knew,the pilot,sent,,to his family
+3,that_gap,The assistant told me,that,the man knew,the pilot,sent,,to his family
+3,what_no-gap,The assistant told me,what,the man knew,the pilot,sent,the package,to his family
+3,that_no-gap,The assistant told me,that,the man knew,the pilot,sent,the package,to his family
+4,what_gap,We discovered,what,the delivery boy remarked,the funny actor,told,,about the woman
+4,that_gap,We discovered,that,the delivery boy remarked,the funny actor,told,,about the woman
+4,what_no-gap,We discovered,what,the delivery boy remarked,the funny actor,told,a story,about the woman
+4,that_no-gap,We discovered,that,the delivery boy remarked,the funny actor,told,a story,about the woman
+5,what_gap,The neighbors found out,what,her mother heard,the young woman,bought,,for her parents
+5,that_gap,The neighbors found out,that,her mother heard,the young woman,bought,,for her parents
+5,what_no-gap,The neighbors found out,what,her mother heard,the young woman,bought,a gift,for her parents
+5,that_no-gap,The neighbors found out,that,her mother heard,the young woman,bought,a gift,for her parents
+6,what_gap,My friend knows,what,the judge thought,the successful architect,handed,,for her mother
+6,that_gap,My friend knows,that,the judge thought,the successful architect,handed,,for her mother
+6,what_no-gap,My friend knows,what,the judge thought,the successful architect,handed,an award,for her mother
+6,that_no-gap,My friend knows,that,the judge thought,the successful architect,handed,an award,for her mother
+7,what_gap,The commissioner discovered,what,the report stated,the police detective,lent,,to the man
+7,that_gap,The commissioner discovered,that,the report stated,the police detective,lent,,to the man
+7,what_no-gap,The commissioner discovered,what,the report stated,the police detective,lent,some money,to the man
+7,that_no-gap,The commissioner discovered,that,the report stated,the police detective,lent,some money,to the man
+8,what_gap,We all know,what,the accountant said,the investor,repaid,,to the criminal kingpin 
+8,that_gap,We all know,that,the accountant said,the investor,repaid,,to the criminal kingpin
+8,what_no-gap,We all know,what,the accountant said,the investor,repaid,his debt,to the criminal kingpin 
+8,that_no-gap,We all know,that,the accountant said,the investor,repaid,his debt,to the criminal kingpin
+9,what_gap,I know,what,the secretary said,the business man,promised,,to the factory workers
+9,that_gap,I know,that,the secretary said,the business man,promised,,to the factory workers
+9,what_no-gap,I know,what,the secretary said,the business man,promised,a raise,to the factory workers
+9,that_no-gap,I know,that,the secretary said,the business man,promised,a raise,to the factory workers
+10,what_gap,The newspaper reported,what,the investigator thought,the boss,sold,,to his friend
+10,that_gap,The newspaper reported,that,the investigator thought,the boss,sold,,to his friend
+10,what_no-gap,The newspaper reported,what,the investigator thought,the boss,sold,a car,to his friend
+10,that_no-gap,The newspaper reported,that,the investigator thought,the boss,sold,a car,to his friend
+11,what_gap,Her friend found out,what,my friend believes,the visitor,told,,to the guests
+11,that_gap,Her friend found out,that,my friend believes,the visitor,told,,to the guests
+11,what_no-gap,Her friend found out,what,my friend believes,the visitor,told,a story,to the guests
+11,that_no-gap,Her friend found out,that,my friend believes,the visitor,told,a story,to the guests
+12,what_gap,I realized,what,the painter believed,the suffering artist,saw,,at the museum
+12,that_gap,I realized,that,the painter believed,the suffering artist,saw,,at the museum
+12,what_no-gap,I realized,what,the painter believed,the suffering artist,saw,a painting,at the museum
+12,that_no-gap,I realized,that,the painter believed,the suffering artist,saw,a painting,at the museum
+13,what_gap,The novel revealed,what,our friend thought,the young politician,said,,to his donors
+13,that_gap,The novel revealed,that,our friend thought,the young politician,said,,to his donors
+13,what_no-gap,The novel revealed,what,our friend thought,the young politician,said,something,to his donors
+13,that_no-gap,The novel revealed,that,our friend thought,the young politician,said,something,to his donors
+14,what_gap,We all know,what,my neighbor said,the young professional,assembled,,for his parents
+14,that_gap,We all know,that,my neighbor said,the young professional,assembled,,for his parents
+14,what_no-gap,We all know,what,my neighbor said,the young professional,assembled,the bed,for his parents
+14,that_no-gap,We all know,that,my neighbor said,the young professional,assembled,the bed,for his parents
+15,what_gap,I know,what,their friend said,the elderly lady,found,,on the bus
+15,that_gap,I know,that,their friend said,the elderly lady,found,,on the bus
+15,what_no-gap,I know,what,their friend said,the elderly lady,found,a quarter,on the bus
+15,that_no-gap,I know,that,their friend said,the elderly lady,found,a quarter,on the bus
+16,what_gap,My friends all know,what,her friend knew,the single mother,described,,to her friends
+16,that_gap,My friends all know,that,her friend knew,the single mother,described,,to her friends
+16,what_no-gap,My friends all know,what,her friend knew,the single mother,described,her woes,to her friends
+16,that_no-gap,My friends all know,that,her friend knew,the single mother,described,her woes,to her friends
+17,what_gap,The visitor said,who,my friend said,the human resources officer,talked with,,in her office
+17,that_gap,The visitor said,that,my friend said,the human resources officer,talked with,,in her office
+17,what_no-gap,The visitor said,who,my friend said,the human resources officer,talked with,the new manager,in her office
+17,that_no-gap,The visitor said,that,my friend said,the human resources officer,talked with,the new manager,in her office
+18,what_gap,I know,what,the woman believed,the five star general,found,,in the office
+18,that_gap,I know,that,the woman believed,the five star general,found,,in the office
+18,what_no-gap,I know,what,the woman believed,the five star general,found,a gun,in the office
+18,that_no-gap,I know,that,the woman believed,the five star general,found,a gun,in the office
+19,what_gap,The colleagues realized,what,her mother stated,the journalist,discovered,,two weeks ago
+19,that_gap,The colleagues realized,that,her mother stated,the journalist,discovered,,two weeks ago
+19,what_no-gap,The colleagues realized,what,her mother stated,the journalist,discovered,the bribery,two weeks ago
+19,that_no-gap,The colleagues realized,that,her mother stated,the journalist,discovered,the bribery,two weeks ago
+20,what_gap,She said,what,the politician stated,the reporter,put,,on the table
+20,that_gap,She said,that,the politician stated,the reporter,put,,on the table
+20,what_no-gap,She said,what,the politician stated,the reporter,put,the microphone,on the table
+20,that_no-gap,She said,that,the politician stated,the reporter,put,the microphone,on the table
+21,what_gap,We all know,what,the old man thinks,the teacher,gave,,to her students
+21,that_gap,We all know,that,the old man thinks,the teacher,gave,,to her students
+21,what_no-gap,We all know,what,the old man thinks,the teacher,gave,a test,to her students
+21,that_no-gap,We all know,that,the old man thinks,the teacher,gave,a test,to her students
+22,what_gap,I know,who,the man thinks,the priest,congratulated,,after the service
+22,that_gap,I know,that,the man thinks,the priest,congratulated,,after the service
+22,what_no-gap,I know,who,the man thinks,the priest,congratulated,the couple,after the service
+22,that_no-gap,I know,that,the man thinks,the priest,congratulated,the couple,after the service
+23,what_gap,You know,who,we all believe,the young woman,introduced,,to her mother
+23,that_gap,You know,that,we all believe,the young woman,introduced,,to her mother
+23,what_no-gap,You know,who,we all believe,the young woman,introduced,her friend,to her mother
+23,that_no-gap,You know,that,we all believe,the young woman,introduced,her friend,to her mother
+24,what_gap,He knows,who,the inspector said,the police,interrogated,,in the prison
+24,that_gap,He knows,that,the inspector said,the police,interrogated,,in the prison
+24,what_no-gap,He knows,who,the inspector said,the police,interrogated,the spy,in the prison
+24,that_no-gap,He knows,that,the inspector said,the police,interrogated,the spy,in the prison
+25,what_gap,She knows,who,the waiter said,the woman,thanked,,after the meal
+25,that_gap,She knows,that,the waiter said,the woman,thanked,,after the meal
+25,what_no-gap,She knows,who,the waiter said,the woman,thanked,the waitress,after the meal
+25,that_no-gap,She knows,that,the waiter said,the woman,thanked,the waitress,after the meal
+26,what_gap,They know,who,the doctor believed,the nurse,reassured,,at the hospital
+26,that_gap,They know,that,the doctor believed,the nurse,reassured,,at the hospital
+26,what_no-gap,They know,who,the doctor believed,the nurse,reassured,the old woman,at the hospital
+26,that_no-gap,They know,that,the doctor believed,the nurse,reassured,the old woman,at the hospital
+27,what_gap,He reported,who,the farmer said,the cowboy,abandoned,,in the desert
+27,that_gap,He reported,that,the farmer said,the cowboy,abandoned,,in the desert
+27,what_no-gap,He reported,who,the farmer said,the cowboy,abandoned,his partner,in the desert
+27,that_no-gap,He reported,that,the farmer said,the cowboy,abandoned,his partner,in the desert
+28,what_gap,They reported,who,the executive said,the manager,promoted,,yesterday
+28,that_gap,They reported,that,the executive said,the manager,promoted,,yesterday
+28,what_no-gap,They reported,who,the executive said,the manager,promoted,the accountant,yesterday
+28,that_no-gap,They reported,that,the executive said,the manager,promoted,the accountant,yesterday
+29,what_gap,They recalled,who,the writer thought,the heiress,divorced,,last year
+29,that_gap,They recalled,that,the writer thought,the heiress,divorced,,last year
+29,what_no-gap,They recalled,who,the writer thought,the heiress,divorced,the count,last year
+29,that_no-gap,They recalled,that,the writer thought,the heiress,divorced,the count,last year
+30,what_gap,We recalled,who,the actor said,the clown,frightened,,at the party
+30,that_gap,We recalled,that,the actor said,the clown,frightened,,at the party
+30,what_no-gap,We recalled,who,the actor said,the clown,frightened,the children,at the party
+30,that_no-gap,We recalled,that,the actor said,the clown,frightened,the children,at the party
+31,what_gap,He recalled,who,the president said,the terrorist,assassinated,,last night
+31,that_gap,He recalled,that,the president said,the terrorist,assassinated,,last night
+31,what_no-gap,He recalled,who,the president said,the terrorist,assassinated,the politician,last night
+31,that_no-gap,He recalled,that,the president said,the terrorist,assassinated,the politician,last night
+32,what_gap,I know,who,the mayor said,the librarian,greeted,,early in the morning
+32,that_gap,I know,that,the mayor said,the librarian,greeted,,early in the morning
+32,what_no-gap,I know,who,the mayor said,the librarian,greeted,the man,early in the morning
+32,that_no-gap,I know,that,the mayor said,the librarian,greeted,the man,early in the morning
+33,what_gap,You know,who,the lobbyist believed,the millionaire,supported,,last year
+33,that_gap,You know,that,the lobbyist believed,the millionaire,supported,,last year
+33,what_no-gap,You know,who,the lobbyist believed,the millionaire,supported,the candidate,last year
+33,that_no-gap,You know,that,the lobbyist believed,the millionaire,supported,the candidate,last year
+34,what_gap,I know,who,the coach said,the president,congratulated,,over lunch
+34,that_gap,I know,that,the coach said,the president,congratulated,,over lunch
+34,what_no-gap,I know,who,the coach said,the president,congratulated,the athletes,over lunch
+34,that_no-gap,I know,that,the coach said,the president,congratulated,the athletes,over lunch
+35,what_gap,You know,who,the woman said,the man,introduced,,to his family
+35,that_gap,You know,that,the woman said,the man,introduced,,to his family
+35,what_no-gap,You know,who,the woman said,the man,introduced,his friends,to his family
+35,that_no-gap,You know,that,the woman said,the man,introduced,his friends,to his family
+36,what_gap,He knows,who,the man believed,the woman,waited for,,at the bus stop
+36,that_gap,He knows,that,the man believed,the woman,waited for,,at the bus stop
+36,what_no-gap,He knows,who,the man believed,the woman,waited for,her friend,at the bus stop
+36,that_no-gap,He knows,that,the man believed,the woman,waited for,her friend,at the bus stop
+37,what_gap,She knows,who,the police said,the inspectors,interrogated,,last night
+37,that_gap,She knows,that,the police said,the inspectors,interrogated,,last night
+37,what_no-gap,She knows,who,the police said,the inspectors,interrogated,the criminal,last night
+37,that_no-gap,She knows,that,the police said,the inspectors,interrogated,the criminal,last night
+38,what_gap,They know,who,the nurse said,the old man,thanked,,on the street
+38,that_gap,They know,that,the nurse said,the old man,thanked,,on the street
+38,what_no-gap,They know,who,the nurse said,the old man,thanked,the tailor,on the street
+38,that_no-gap,They know,that,the nurse said,the old man,thanked,the tailor,on the street
+39,what_gap,He reported,who,the nurse believed,the doctor,reassured,,before surgery
+39,that_gap,He reported,that,the nurse believed,the doctor,reassured,,before surgery
+39,what_no-gap,He reported,who,the nurse believed,the doctor,reassured,the patient,before surgery
+39,that_no-gap,He reported,that,the nurse believed,the doctor,reassured,the patient,before surgery
+40,what_gap,They reported,who,the man claimed,the woman,abandoned,,on the side of the road
+40,that_gap,They reported,that,the man claimed,the woman,abandoned,,on the side of the road
+40,what_no-gap,They reported,who,the man claimed,the woman,abandoned,the children,on the side of the road
+40,that_no-gap,They reported,that,the man claimed,the woman,abandoned,the children,on the side of the road
+41,what_gap,They recalled,who,the journalist believed,the executive,promoted,,last week
+41,that_gap,They recalled,that,the journalist believed,the executive,promoted,,last week
+41,what_no-gap,They recalled,who,the journalist believed,the executive,promoted,the secretary,last week
+41,that_no-gap,They recalled,that,the journalist believed,the executive,promoted,the secretary,last week
+42,what_gap,We recalled,who,the woman said,the millionaire,divorced,,last week
+42,that_gap,We recalled,that,the woman said,the millionaire,divorced,,last week
+42,what_no-gap,We recalled,who,the woman said,the millionaire,divorced,his wife,last week
+42,that_no-gap,We recalled,that,the woman said,the millionaire,divorced,his wife,last week
+43,what_gap,He recalled,who,the inspector believed,the police,frightened,,over the weekend
+43,that_gap,He recalled,that,the inspector believed,the police,frightened,,over the weekend
+43,what_no-gap,He recalled,who,the inspector believed,the police,frightened,the protesters,over the weekend
+43,that_no-gap,He recalled,that,the inspector believed,the police,frightened,the protesters,over the weekend
+44,what_gap,I know,who,the agent thought,the spy,assassinated,,yesterday night
+44,that_gap,I know,that,the agent thought,the spy,assassinated,,yesterday night
+44,what_no-gap,I know,who,the agent thought,the spy,assassinated,the politician,yesterday night
+44,that_no-gap,I know,that,the agent thought,the spy,assassinated,the politician,yesterday night
+45,what_gap,You know,who,the woman reported,the firefighter,greeted,,on the sidewalk
+45,that_gap,You know,that,the woman reported,the firefighter,greeted,,on the sidewalk
+45,what_no-gap,You know,who,the woman reported,the firefighter,greeted,the teacher,on the sidewalk
+45,that_no-gap,You know,that,the woman reported,the firefighter,greeted,the teacher,on the sidewalk
+46,what_gap,He knows,who,the politician believed,the mayor,supported,,during the town meeting
+46,that_gap,He knows,that,the politician believed,the mayor,supported,,during the town meeting
+46,what_no-gap,He knows,who,the politician believed,the mayor,supported,the principal,during the town meeting
+46,that_no-gap,He knows,that,the politician believed,the mayor,supported,the principal,during the town meeting
+47,what_gap,She knows,who,the woman said,the man,congratulated,,after the ceremony
+47,that_gap,She knows,that,the woman said,the man,congratulated,,after the ceremony
+47,what_no-gap,She knows,who,the woman said,the man,congratulated,the writer,after the ceremony
+47,that_no-gap,She knows,that,the woman said,the man,congratulated,the writer,after the ceremony
+48,what_gap,I know,who,the heiress believed,the hostess,introduced,,to the regular customer
+48,that_gap,I know,that,the heiress believed,the hostess,introduced,,to the regular customer
+48,what_no-gap,I know,who,the heiress believed,the hostess,introduced,her friend,to the regular customer
+48,that_no-gap,I know,that,the heiress believed,the hostess,introduced,her friend,to the regular customer
+49,what_gap,You know,who,the man said,the young woman,waited for,,at the movie theater
+49,that_gap,You know,that,the man said,the young woman,waited for,,at the movie theater
+49,what_no-gap,You know,who,the man said,the young woman,waited for,her mother,at the movie theater
+49,that_no-gap,You know,that,the man said,the young woman,waited for,her mother,at the movie theater
+50,what_gap,He knows,who,the inspector believed,the police,interrogated,,in the basement
+50,that_gap,He knows,that,the inspector believed,the police,interrogated,,in the basement
+50,what_no-gap,He knows,who,the inspector believed,the police,interrogated,the suspect,in the basement
+50,that_no-gap,He knows,that,the inspector believed,the police,interrogated,the suspect,in the basement
+51,what_gap,She knows,who,the captain said,the soldier,thanked,,in the mess hall
+51,that_gap,She knows,that,the captain said,the soldier,thanked,,in the mess hall
+51,what_no-gap,She knows,who,the captain said,the soldier,thanked,the cook,in the mess hall
+51,that_no-gap,She knows,that,the captain said,the soldier,thanked,the cook,in the mess hall
+52,what_gap,They know,who,the man said,the lawyer,reassured,,last night
+52,that_gap,They know,that,the man said,the lawyer,reassured,,last night
+52,what_no-gap,They know,who,the man said,the lawyer,reassured,his client,last night
+52,that_no-gap,They know,that,the man said,the lawyer,reassured,his client,last night
+53,what_gap,He reported,who,the sailor believed,the pirate,abandoned,,on the sinking ship
+53,that_gap,He reported,that,the sailor believed,the pirate,abandoned,,on the sinking ship
+53,what_no-gap,He reported,who,the sailor believed,the pirate,abandoned,his comrades,on the sinking ship
+53,that_no-gap,He reported,that,the sailor believed,the pirate,abandoned,his comrades,on the sinking ship
+54,what_gap,They reported,who,the man said,the boss,promoted,,last quarter
+54,that_gap,They reported,that,the man said,the boss,promoted,,last quarter
+54,what_no-gap,They reported,who,the man said,the boss,promoted,the accountant,last quarter
+54,that_no-gap,They reported,that,the man said,the boss,promoted,the accountant,last quarter

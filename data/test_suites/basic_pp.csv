@@ -1,0 +1,201 @@
+item,condition,prefix,comp,apposotive,np1,verb,np2,prep,np3,end
+1,what_nogap,I know,who,with gusto,our uncle,grabbed,the food,in front of,the guests,at the holiday party
+1,that_nogap,I know,that,with gusto,our uncle,grabbed,the food,in front of,the guests,at the holiday party
+1,what_gap,I know,who,with gusto,our uncle,grabbed,the food,in front of,,at the holiday party
+1,that_gap,I know,that,with gusto,our uncle,grabbed,the food,in front of,,at the holiday party
+2,what_nogap,My neighbor told me,who,with skill,the dog,caught,the mouse,for,his neighbors,yesterday
+2,that_nogap,My neighbor told me,that,with skill,the dog,caught,the mouse,for,his neighbors,yesterday
+2,what_gap,My neighbor told me,who,with skill,the dog,caught,the mouse,for,,yesterday
+2,that_gap,My neighbor told me,that,with skill,the dog,caught,the mouse,for,,yesterday
+3,what_nogap,I know,who,with passion,the committee,delivered,the report,to,the president,by the deadline
+3,that_nogap,I know,that,with passion,the committee,delivered,the report,to,the president,by the deadline
+3,what_gap,I know,who,with passion,the committee,delivered,the report,to,,by the deadline
+3,that_gap,I know,that,with passion,the committee,delivered,the report,to,,by the deadline
+4,what_nogap,You remember,who,without thinking,the businessman,showed,the presentation,to,the visitors,after lunch
+4,that_nogap,You remember,that,without thinking,the businessman,showed,the presentation,to,the visitors,after lunch
+4,what_gap,You remember,who,without thinking,the businessman,showed,the presentation,to,,after lunch
+4,that_gap,You remember,that,without thinking,the businessman,showed,the presentation,to,,after lunch
+5,what_nogap,She told me,who,secretly,the star student,stole,answers to the test,from,the teacher,last year
+5,that_nogap,She told me,that,secretly,the star student,stole,answers to the test,from,the teacher,last year
+5,what_gap,She told me,who,secretly,the star student,stole,answers to the test,from,,last year
+5,that_gap,She told me,that,secretly,the star student,stole,answers to the test,from,,last year
+6,what_nogap,She knows,what,with skill,the collector,forged,the painting,with,a brush,a short while ago
+6,that_nogap,She knows,that,with skill,the collector,forged,the painting,with,a brush,a short while ago
+6,what_gap,She knows,what,with skill,the collector,forged,the painting,with,,a short while ago
+6,that_gap,She knows,that,with skill,the collector,forged,the painting,with,,a short while ago
+7,what_nogap,We all remember,what,illegally,the convict,brought,a gun,into,the prison,two weeks ago
+7,that_nogap,We all remember,that,illegally,the convict,brought,a gun,into,the prison,two weeks ago
+7,what_gap,We all remember,what,illegally,the convict,brought,a gun,into,,two weeks ago
+7,that_gap,We all remember,that,illegally,the convict,brought,a gun,into,,two weeks ago
+8,what_nogap,My friend reported,who,illegally,the company,sold,multiple assets,to,stock holders,last quarter
+8,that_nogap,My friend reported,that,illegally,the company,sold,multiple assets,to,stock holders,last quarter
+8,what_gap,My friend reported,who,illegally,the company,sold,multiple assets,to,,last quarter
+8,that_gap,My friend reported,that,illegally,the company,sold,multiple assets,to,,last quarter
+9,what_nogap,I do not know,what,with malice,her rival,derailed,the performance,with,a cruel plan,last week
+9,that_nogap,I do not know,that,with malice,her rival,derailed,the performance,with,a cruel plan,last week
+9,what_gap,I do not know,what,with malice,her rival,derailed,the performance,with,,last week
+9,that_gap,I do not know,that,with malice,her rival,derailed,the performance,with,,last week
+10,what_nogap,She can guess,what,with much fanfare,the movie star,received,a prize,for,her hard work,during the award ceremony
+10,that_nogap,She can guess,that,with much fanfare,the movie star,received,a prize,for,her hard work,during the award ceremony
+10,what_gap,She can guess,what,with much fanfare,the movie star,received,a prize,for,,during the award ceremony
+10,that_gap,She can guess,that,with much fanfare,the movie star,received,a prize,for,,during the award ceremony
+11,what_nogap,The newspaper reported,what,brutally,the suspect,killed,the witness,with,a gun,in the middle of the night
+11,that_nogap,The newspaper reported,that,brutally,the suspect,killed,the witness,with,a gun,in the middle of the night
+11,what_gap,The newspaper reported,what,brutally,the suspect,killed,the witness,with,,in the middle of the night
+11,that_gap,The newspaper reported,that,brutally,the suspect,killed,the witness,with,,in the middle of the night
+12,what_nogap,We recall,what,clumsily,the man,placed,a delicate plate,next to,the oven,over an hour ago
+12,that_nogap,We recall,that,clumsily,the man,placed,a delicate plate,next to,the oven,over an hour ago
+12,what_gap,We recall,what,clumsily,the man,placed,a delicate plate,next to,,over an hour ago
+12,that_gap,We recall,that,clumsily,the man,placed,a delicate plate,next to,,over an hour ago
+13,what_nogap,I remember,who,with skill,the nurse,administered,the new medicine,to,the patient,without any delay
+13,that_nogap,I remember,that,with skill,the nurse,administered,the new medicine,to,the patient,without any delay
+13,what_gap,I remember,who,with skill,the nurse,administered,the new medicine,to,,without any delay
+13,that_gap,I remember,that,with skill,the nurse,administered,the new medicine,to,,without any delay
+14,what_nogap,Our friend knew,who,without tact,the gossip column,revealed,family secrets,to,the public,yesterday
+14,that_nogap,Our friend knew,that,without tact,the gossip column,revealed,family secrets,to,the public,yesterday
+14,what_gap,Our friend knew,who,without tact,the gossip column,revealed,family secrets,to,,yesterday
+14,that_gap,Our friend knew,that,without tact,the gossip column,revealed,family secrets,to,,yesterday
+15,what_nogap,The mayor told me,what,with public funds,the workers,repaired,the bridge,for,the town,over the summer
+15,that_nogap,The mayor told me,that,with public funds,the workers,repaired,the bridge,for,the town,over the summer
+15,what_gap,The mayor told me,what,with public funds,the workers,repaired,the bridge,for,,over the summer
+15,that_gap,The mayor told me,that,with public funds,the workers,repaired,the bridge,for,,over the summer
+16,what_nogap,My friend remembers,what,secretly,the government,collected,sensitive data,about,foreign threats,using illegal methods
+16,that_nogap,My friend remembers,that,secretly,the government,collected,sensitive data,about,foreign threats,using illegal methods
+16,what_gap,My friend remembers,what,secretly,the government,collected,sensitive data,about,,using illegal methods
+16,that_gap,My friend remembers,that,secretly,the government,collected,sensitive data,about,,using illegal methods
+17,what_nogap,The newspaper said,who,secretly,the neighbors,sold,a convertible,to,the new couple,last month
+17,that_nogap,The newspaper said,that,secretly,the neighbors,sold,a convertible,to,the new couple,last month
+17,what_gap,The newspaper said,who,secretly,the neighbors,sold,a convertible,to,,last month
+17,that_gap,The newspaper said,that,secretly,the neighbors,sold,a convertible,to,,last month
+18,what_nogap,Our neighbor said,who,we believe,the student,sent,a package,to,her mother,over a week ago
+18,that_nogap,Our neighbor said,that,we believe,the student,sent,a package,to,her mother,over a week ago
+18,what_gap,Our neighbor said,who,we believe,the student,sent,a package,to,,over a week ago
+18,that_gap,Our neighbor said,that,we believe,the student,sent,a package,to,,over a week ago
+19,what_nogap,My friend told me,what,recently,the university,hired,a new administrator,to help with,increased enrollment,for the following year
+19,that_nogap,My friend told me,that,recently,the university,hired,a new administrator,to help with,increased enrollment,for the following year
+19,what_gap,My friend told me,what,recently,the university,hired,a new administrator,to help with,,for the following year
+19,that_gap,My friend told me,that,recently,the university,hired,a new administrator,to help with,,for the following year
+20,what_nogap,She can not believe,what,recently,my friend,stole,a candy bar,from,the store,when he was young
+20,that_nogap,She can not believe,that,recently,my friend,stole,a candy bar,from,the store,when he was young
+20,what_gap,She can not believe,what,recently,my friend,stole,a candy bar,from,,when he was young
+20,that_gap,She can not believe,that,recently,my friend,stole,a candy bar,from,,when he was young
+21,what_nogap,Our neighbor reminded us,what,with effort,the truck,dragged,the car,out of,the swamp,last spring
+21,that_nogap,Our neighbor reminded us,that,with effort,the truck,dragged,the car,out of,the swamp,last spring
+21,what_gap,Our neighbor reminded us,what,with effort,the truck,dragged,the car,out of,,last spring
+21,that_gap,Our neighbor reminded us,that,with effort,the truck,dragged,the car,out of,,last spring
+22,what_nogap,The shop owner told me,who,with care,the chef,prepared,a great meal,for,the guests,yesterday evening
+22,that_nogap,The shop owner told me,that,with care,the chef,prepared,a great meal,for,the guests,yesterday evening
+22,what_gap,The shop owner told me,who,with care,the chef,prepared,a great meal,for,,yesterday evening
+22,that_gap,The shop owner told me,that,with care,the chef,prepared,a great meal,for,,yesterday evening
+23,what_nogap,My sister told me,who,we believe,the newspaper,published,a long story,about,the mayor,last month
+23,that_nogap,My sister told me,that,we believe,the newspaper,published,a long story,about,the mayor,last month
+23,what_gap,My sister told me,who,we believe,the newspaper,published,a long story,about,,last month
+23,that_gap,My sister told me,that,we believe,the newspaper,published,a long story,about,,last month
+24,what_nogap,We remember,what,warmly,our new friend,brought,a large present,to,the birthday party,last weekend
+24,that_nogap,We remember,that,warmly,our new friend,brought,a large present,to,the birthday party,last weekend
+24,what_gap,We remember,what,warmly,our new friend,brought,a large present,to,,last weekend
+24,that_gap,We remember,that,warmly,our new friend,brought,a large present,to,,last weekend
+25,what_nogap,I know,who,warmly,the teacher,congratulated,the couple,in front of,the children,at school
+25,that_nogap,I know,that,warmly,the teacher,congratulated,the couple,in front of,the children,at school
+25,what_gap,I know,who,warmly,the teacher,congratulated,the couple,in front of,,at school
+25,that_gap,I know,that,warmly,the teacher,congratulated,the couple,in front of,,at school
+26,what_nogap,You know,who,graciously,the journalist,introduced,her friend,to,her family,last year
+26,that_nogap,You know,that,graciously,the journalist,introduced,her friend,to,her family,last year
+26,what_gap,You know,who,graciously,the journalist,introduced,her friend,to,,last year
+26,that_gap,You know,that,graciously,the journalist,introduced,her friend,to,,last year
+27,what_nogap,She knows,what,warmly,the young man,waited for,his date,next to,the theater,last night
+27,that_nogap,She knows,that,warmly,the young man,waited for,his date,next to,the theater,last night
+27,what_gap,She knows,what,warmly,the young man,waited for,his date,next to,,last night
+27,that_gap,She knows,that,warmly,the young man,waited for,his date,next to,,last night
+28,what_nogap,He knows,what,carefully,the lawyer,interrogated,the spy,with,bright lights,yesterday
+28,that_nogap,He knows,that,carefully,the lawyer,interrogated,the spy,with,bright lights,yesterday
+28,what_gap,He knows,what,carefully,the lawyer,interrogated,the spy,with,,yesterday
+28,that_gap,He knows,that,carefully,the lawyer,interrogated,the spy,with,,yesterday
+29,what_nogap,They recall,what,warmly,the woman,thanked,the waitress,with,a big tip,last week
+29,that_nogap,They recall,that,warmly,the woman,thanked,the waitress,with,a big tip,last week
+29,what_gap,They recall,what,warmly,the woman,thanked,the waitress,with,,last week
+29,that_gap,They recall,that,warmly,the woman,thanked,the waitress,with,,last week
+30,what_nogap,He remembers,who,skillfully,the family,reassured,the old woman,about,her daughter,yesterday evening
+30,that_nogap,He remembers,that,skillfully,the family,reassured,the old woman,about,her daughter,yesterday evening
+30,what_gap,He remembers,who,skillfully,the family,reassured,the old woman,about,,yesterday evening
+30,that_gap,He remembers,that,skillfully,the family,reassured,the old woman,about,,yesterday evening
+31,what_nogap,You said,who,unkindly,the young man,abandoned,his partner,with,mounting debts,last evening
+31,that_nogap,You said,that,unkindly,the young man,abandoned,his partner,with,mounting debts,last evening
+31,what_gap,You said,who,unkindly,the young man,abandoned,his partner,with,,last evening
+31,that_gap,You said,that,unkindly,the young man,abandoned,his partner,with,,last evening
+32,what_nogap,We recall,who,hesitantly,the student,delivered,the paper,to,the professor,over the summer
+32,that_nogap,We recall,that,hesitantly,the student,delivered,the paper,to,the professor,over the summer
+32,what_gap,We recall,who,hesitantly,the student,delivered,the paper,to,,over the summer
+32,that_gap,We recall,that,hesitantly,the student,delivered,the paper,to,,over the summer
+33,what_nogap,He said,who,hesitantly,the company,collected,information,about,their rivals,last night
+33,that_nogap,He said,that,hesitantly,the company,collected,information,about,their rivals,last night
+33,what_gap,He said,who,hesitantly,the company,collected,information,about,,last night
+33,that_gap,He said,that,hesitantly,the company,collected,information,about,,last night
+34,what_nogap,They know,what,rudely,the couple,frightened,the children,with,threats,last night
+34,that_nogap,They know,that,rudely,the couple,frightened,the children,with,threats,last night
+34,what_gap,They know,what,rudely,the couple,frightened,the children,with,,last night
+34,that_gap,They know,that,rudely,the couple,frightened,the children,with,,last night
+35,what_nogap,He knows,what,with skill,the spy,assassinated,the politician,with,a gun,last year
+35,that_nogap,He knows,that,with skill,the spy,assassinated,the politician,with,a gun,last year
+35,what_gap,He knows,what,with skill,the spy,assassinated,the politician,with,,last year
+35,that_gap,He knows,that,with skill,the spy,assassinated,the politician,with,,last year
+36,what_nogap,I know,what,warmly,the lawyer,greeted,the man,with,a smile,over lunch
+36,that_nogap,I know,that,warmly,the lawyer,greeted,the man,with,a smile,over lunch
+36,what_gap,I know,what,warmly,the lawyer,greeted,the man,with,,over lunch
+36,that_gap,I know,that,warmly,the lawyer,greeted,the man,with,,over lunch
+37,what_nogap,You know,what,skillfully,the maid,collected,water,from,the brook,last year
+37,that_nogap,You know,that,skillfully,the maid,collected,water,from,the brook,last year
+37,what_gap,You know,what,skillfully,the maid,collected,water,from,,last year
+37,that_gap,You know,that,skillfully,the maid,collected,water,from,,last year
+38,what_nogap,She knows,who,cooly,the woman,congratulated,the athletes,with,her husband,last summer
+38,that_nogap,She knows,that,cooly,the woman,congratulated,the athletes,with,her husband,last summer
+38,what_gap,She knows,who,cooly,the woman,congratulated,the athletes,with,,last summer
+38,that_gap,She knows,that,cooly,the woman,congratulated,the athletes,with,,last summer
+39,what_nogap,He knows,who,cheerfully,the hunter,introduced,his friends,to,his family,last winter
+39,that_nogap,He knows,that,cheerfully,the hunter,introduced,his friends,to,his family,last winter
+39,what_gap,He knows,who,cheerfully,the hunter,introduced,the athletes,to,,last winter
+39,that_gap,He knows,that,cheerfully,the hunter,introduced,the athletes,to,,last winter
+40,what_nogap,They recall,what,with sadness,the man,waited for,her friend,in,the rain,last night
+40,that_nogap,They recall,that,with sadness,the man,waited for,her friend,in,the rain,last night
+40,what_gap,They recall,what,with sadness,the man,waited for,her friend,in,,last night
+40,that_gap,They recall,that,with sadness,the man,waited for,her friend,in,,last night
+41,what_nogap,He remembers,what,brutally,the detective,interrogated,the criminal,in,his cell,yesterday
+41,that_nogap,He remembers,that,brutally,the detective,interrogated,the criminal,in,his cell,yesterday
+41,what_gap,He remembers,what,brutally,the detective,interrogated,the criminal,in,,yesterday
+41,that_gap,He remembers,that,brutally,the detective,interrogated,the criminal,in,,yesterday
+42,what_nogap,You said,what,skillfully,the theif,stole,a painting,from,the museum,last night
+42,that_nogap,You said,that,skillfully,the theif,stole,a painting,from,the museum,last night
+42,what_gap,You said,what,skillfully,the theif,stole,a painting,from,,last night
+42,that_gap,You said,that,skillfully,the theif,stole,a painting,from,,last night
+43,what_nogap,We recall,who,sadly,the doctor,administered,medicine,to,the old woman,yesterday
+43,that_nogap,We recall,that,sadly,the doctor,administered,medicine,to,the old woman,yesterday
+43,what_gap,We recall,who,sadly,the doctor,administered,medicine,to,,yesterday
+43,that_gap,We recall,that,sadly,the doctor,administered,medicine,to,,yesterday
+44,what_nogap,He said,what,anxiously,the mother,waited for,her daughter,in,the car,over the winter
+44,that_nogap,He said,that,anxiously,the mother,waited for,her daughter,in,the car,over the winter
+44,what_gap,He said,what,anxiously,the motehr,waited for,her daughter,in,,over the winter
+44,that_gap,He said,that,anxiously,the mother,waited for,her daughter,in,,over the winter
+45,what_nogap,They know,what,suddenly,the woman,chased,the intruder,with,a broom,yesterday morning
+45,that_nogap,They know,that,suddenly,the woman,chased,the intruder,with,a broom,yesterday morning
+45,what_gap,They know,what,suddenly,the woman,chased,the intruder,with,,yesterday morning
+45,that_gap,They know,that,suddenly,the woman,chased,the intruder,with,,yesterday morning
+46,what_nogap,He knows,what,quickly,the scientists,delivered,the article,to,the journal,last night
+46,that_nogap,He knows,that,quickly,the scientists,delivered,the article,to,the journal,last night
+46,what_gap,He knows,what,quickly,the scientists,delivered,the article,to,,last night
+46,that_gap,He knows,that,quickly,the scientists,delivered,the article,to,,last night
+47,what_nogap,I know,what,brutally,the police,frightened,the protesters,with,their guns,last night
+47,that_nogap,I know,that,brutally,the police,frightened,the protesters,with,their guns,last night
+47,what_gap,I know,what,brutally,the police,frightened,the protesters,with,,last night
+47,that_gap,I know,that,brutally,the police,frightened,the protesters,with,,last night
+48,what_nogap,You know,what,with skill,the radical,assassinated,the politician,with,a bomb,yesterday
+48,that_nogap,You know,that,with skill,the radical,assassinated,the politician,with,a bomb,yesterday
+48,what_gap,You know,what,with skill,the radical,assassinated,the politician,with,,yesterday
+48,that_gap,You know,that,with skill,the radical,assassinated,the politician,with,,yesterday
+49,what_nogap,She knows,what,cheerfully,the mechanic,greeted,the teacher,with,a wave,yesterday
+49,that_nogap,She knows,that,cheerfully,the mechanic,greeted,the teacher,with,a wave,yesterday
+49,what_gap,She knows,what,cheerfully,the mechanic,greeted,the teacher,with,,yesterday
+49,that_gap,She knows,that,cheerfully,the mechanic,greeted,the teacher,with,,yesterday
+50,what_nogap,He knows,what,kindly,the students,reassured,the principal,with,kind words,last night
+50,that_nogap,He knows,that,kindly,the students,reassured,the principal,with,kind words,last night
+50,what_gap,He knows,what,kindly,the students,reassured,the principal,with,,last night
+50,that_gap,He knows,that,kindly,the students,reassured,the principal,with,,last night

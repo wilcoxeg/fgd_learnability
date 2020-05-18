@@ -1,0 +1,153 @@
+item,condition,np,verb1,adjunct,verb,pronoun,obj
+1,fem_fem_obj,The woman,said,that they,insulted,her,friends
+1,fem_male_obj,The woman,said,that they,insulted,his,friends
+1,male_fem_obj,The man,said,that they,insulted,her,friends
+1,male_male_obj,The man,said,that they,insulted,his,friends
+1,fem_fem_island,The woman,said,whether they,insulted,her,friends
+1,fem_male_island,The woman,said,whether they,insulted,his,friends
+1,male_fem_island,The man,said,whether they,insulted,her,friends
+1,male_male_island,The man,said,whether they,insulted,his,friends
+2,fem_fem_obj,The bride,knows,that they,invited,her,family
+2,fem_male_obj,The bride,knows,that they,invited,his,family
+2,male_fem_obj,The groom,knows,that they,invited,her,family
+2,male_male_obj,The groom,knows,that they,invited,his,family
+2,fem_fem_island,The bride,knows,whether they,invited,her,family
+2,fem_male_island,The bride,knows,whether they,invited,his,family
+2,male_fem_island,The groom,knows,whether they,invited,her,family
+2,male_male_island,The groom,knows,whether they,invited,his,family
+3,fem_fem_obj,The countess,said,that they,advised,her,husband
+3,fem_male_obj,The countess,said,that they,advised,his,husband
+3,male_fem_obj,The count,said,that they,advised,her,husband
+3,male_male_obj,The count,said,that they,advised,his,husband
+3,fem_fem_island,The countess,said,whether they,advised,her,husband
+3,fem_male_island,The countess,said,whether they,advised,his,husband
+3,male_fem_island,The count,said,whether they,advised,her,husband
+3,male_male_island,The count,said,whether they,advised,his,husband
+4,fem_fem_obj,My wife,guessed,that they,called,her,mother
+4,fem_male_obj,My wife,guessed,that they,called,his,mother
+4,male_fem_obj,My husband,guessed,that they,called,her,mother
+4,male_male_obj,My husband,guessed,that they,called,his,mother
+4,fem_fem_island,My wife,guessed,whether they,called,her,mother
+4,fem_male_island,My wife,guessed,whether they,called,his,mother
+4,male_fem_island,My husband,guessed,whether they,called,her,mother
+4,male_male_island,My husband,guessed,whether they,called,his,mother
+6,fem_fem_obj,My aunt,remembers,that they,brushed,her,teeth
+6,fem_male_obj,My aunt,remembers,that they,brushed,his,teeth
+6,male_fem_obj,My uncle,remembers,that they,brushed,her,teeth
+6,male_male_obj,My uncle,remembers,that they,brushed,his,teeth
+6,fem_fem_island,My aunt,remembers,whether they,brushed,her,teeth
+6,fem_male_island,My aunt,remembers,whether they,brushed,his,teeth
+6,male_fem_island,My uncle,remembers,whether they,brushed,her,teeth
+6,male_male_island,My uncle,remembers,whether they,brushed,his,teeth
+8,fem_fem_obj,The lady,recalls,that they,visited,her,family
+8,fem_male_obj,The lady,recalls,that they,visited,his,family
+8,male_fem_obj,The man,recalls,that they,visited,her,family
+8,male_male_obj,The man,recalls,that they,visited,his,family
+8,fem_fem_island,The lady,recalls,whether they,visited,her,family
+8,fem_male_island,The lady,recalls,whether they,visited,his,family
+8,male_fem_island,The man,recalls,whether they,visited,her,family
+8,male_male_island,The man,recalls,whether they,visited,his,family
+9,fem_fem_obj,The princess,knows,that they,questioned,her,maid
+9,fem_male_obj,The princess,knows,that they,questioned,his,maid
+9,male_fem_obj,The prince,knows,that they,questioned,her,maid
+9,male_male_obj,The prince,knows,that they,questioned,his,maid
+9,fem_fem_island,The princess,knows,whether they,questioned,her,maid
+9,fem_male_island,The princess,knows,whether they,questioned,his,maid
+9,male_fem_island,The prince,knows,whether they,questioned,her,maid
+9,male_male_island,The prince,knows,whether they,questioned,his,maid
+10,fem_fem_obj,The girl,guessed,that they,met,her,friends
+10,fem_male_obj,The girl,guessed,that they,met,his,friends
+10,male_fem_obj,The boy,guessed,that they,met,her,friends
+10,male_male_obj,The boy,guessed,that they,met,his,friends
+10,fem_fem_island,The girl,guessed,whether they,met,her,friends
+10,fem_male_island,The girl,guessed,whether they,met,his,friends
+10,male_fem_island,The boy,guessed,whether they,met,her,friends
+10,male_male_island,The boy,guessed,whether they,met,his,friends
+11,fem_fem_obj,The queen,knows,that they,commanded,her,generals
+11,fem_male_obj,The queen,knows,that they,commanded,his,generals
+11,male_fem_obj,The king,knows,that they,commanded,her,generals
+11,male_male_obj,The king,knows,that they,commanded,his,generals
+11,fem_fem_island,The queen,knows,whether they,commanded,her,generals
+11,fem_male_island,The queen,knows,whether they,commanded,his,generals
+11,male_fem_island,The king,knows,whether they,commanded,her,generals
+11,male_male_island,The king,knows,whether they,commanded,his,generals
+12,fem_fem_obj,Your mother,said,that they,gossiped with,her,acquaintances
+12,fem_male_obj,Your mother,said,that they,gossiped with,his,acquaintances
+12,male_fem_obj,Your father,said,that they,gossiped with,her,acquaintances
+12,male_male_obj,Your father,said,that they,gossiped with,his,acquaintances
+12,fem_fem_island,Your mother,said,whether they,gossiped with,her,acquaintances
+12,fem_male_island,Your mother,said,whether they,gossiped with,his,acquaintances
+12,male_fem_island,Your father,said,whether they,gossiped with,her,acquaintances
+12,male_male_island,Your father,said,whether they,gossiped with,his,acquaintances
+13,fem_fem_obj,The grandmother,knows,that they,talked with,her,son
+13,fem_male_obj,The grandmother,knows,that they,talked with,his,son
+13,male_fem_obj,The grandfather,knows,that they,talked with,her,son
+13,male_male_obj,The grandfather,knows,that they,talked with,his,son
+13,fem_fem_island,The grandmother,knows,whether they,talked with,her,son
+13,fem_male_island,The grandmother,knows,whether they,talked with,his,son
+13,male_fem_island,The grandfather,knows,whether they,talked with,her,son
+13,male_male_island,The grandfather,knows,whether they,talked with,his,son
+15,fem_fem_obj,The girl,said,that they,played tag with,her,classmates
+15,fem_male_obj,The girl,said,that they,played tag with,his,classmates
+15,male_fem_obj,The boy,said,that they,played tag with,her,classmates
+15,male_male_obj,The boy,said,that they,played tag with,his,classmates
+15,fem_fem_island,The girl,said,whether they,played tag with,her,classmates
+15,fem_male_island,The girl,said,whether they,played tag with,his,classmates
+15,male_fem_island,The boy,said,whether they,played tag with,her,classmates
+15,male_male_island,The boy,said,whether they,played tag with,his,classmates
+17,fem_fem_obj,The woman,guessed,that they,checked,her,agenda
+17,fem_male_obj,The woman,guessed,that they,checked,his,agenda
+17,male_fem_obj,The man,guessed,that they,checked,her,agenda
+17,male_male_obj,The man,guessed,that they,checked,his,agenda
+17,fem_fem_island,The woman,guessed,whether they,checked,her,agenda
+17,fem_male_island,The woman,guessed,whether they,checked,his,agenda
+17,male_fem_island,The man,guessed,whether they,checked,her,agenda
+17,male_male_island,The man,guessed,whether they,checked,his,agenda
+18,fem_fem_obj,The duchess,recalled,that they,commanded,her,army
+18,fem_male_obj,The duchess,recalled,that they,commanded,his,army
+18,male_fem_obj,The duke,recalled,that they,commanded,her,army
+18,male_male_obj,The duke,recalled,that they,commanded,his,army
+18,fem_fem_island,The duchess,recalled,whether they,commanded,her,army
+18,fem_male_island,The duchess,recalled,whether they,commanded,his,army
+18,male_fem_island,The duke,recalled,whether they,commanded,her,army
+18,male_male_island,The duke,recalled,whether they,commanded,his,army
+20,fem_fem_obj,The emperor,thinks,that they,talked with,her,councilors
+20,fem_male_obj,The emperor,thinks,that they,talked with,his,councilors
+20,male_fem_obj,The empress,thinks,that they,talked with,her,councilors
+20,male_male_obj,The empress,thinks,that they,talked with,his,councilors
+20,fem_fem_island,The emperor,thinks,whether they,talked with,her,councilors
+20,fem_male_island,The emperor,thinks,whether they,talked with,his,councilors
+20,male_fem_island,The empress,thinks,whether they,talked with,her,councilors
+20,male_male_island,The empress,thinks,whether they,talked with,his,councilors
+23,fem_fem_obj,My sister,said,that they,travelled with,her,soccer team
+23,fem_male_obj,My sister,said,that they,travelled with,his,soccer team
+23,male_fem_obj,My brother,said,that they,travelled with,her,soccer team
+23,male_male_obj,My brother,said,that they,travelled with,his,soccer team
+23,fem_fem_island,My sister,said,whether they,travelled with,her,soccer team
+23,fem_male_island,My sister,said,whether they,travelled with,his,soccer team
+23,male_fem_island,My brother,said,whether they,travelled with,her,soccer team
+23,male_male_island,My brother,said,whether they,travelled with,his,soccer team
+24,fem_fem_obj,The daughter,knows,that they,mailed a letter to,her,mother
+24,fem_male_obj,The daughter,knows,that they,mailed a letter to,his,mother
+24,male_fem_obj,The son,knows,that they,mailed a letter to,her,mother
+24,male_male_obj,The son,knows,that they,mailed a letter to,his,mother
+24,fem_fem_island,The daughter,knows,whether they,mailed a letter to,her,mother
+24,fem_male_island,The daughter,knows,whether they,mailed a letter to,his,mother
+24,male_fem_island,The son,knows,whether they,mailed a letter to,her,mother
+24,male_male_island,The son,knows,whether they,mailed a letter to,his,mother
+29,fem_fem_obj,The woman,knows,that they,met,her,friends
+29,fem_male_obj,The woman,knows,that they,met,his,friends
+29,male_fem_obj,The man,knows,that they,met,her,friends
+29,male_male_obj,The man,knows,that they,met,his,friends
+29,fem_fem_island,The woman,knows,whether they,met,her,friends
+29,fem_male_island,The woman,knows,whether they,met,his,friends
+29,male_fem_island,The man,knows,whether they,met,her,friends
+29,male_male_island,The man,knows,whether they,met,his,friends
+30,fem_fem_obj,Your wife,knows,that they,saw,her,brother
+30,fem_male_obj,Your wife,knows,that they,saw,his,brother
+30,male_fem_obj,Your husband,knows,that they,saw,her,brother
+30,male_male_obj,Your husband,knows,that they,saw,his,brother
+30,fem_fem_island,Your wife,knows,whether they,saw,her,brother
+30,fem_male_island,Your wife,knows,whether they,saw,his,brother
+30,male_fem_island,Your husband,knows,whether they,saw,her,brother
+30,male_male_island,Your husband,knows,whether they,saw,his,brother
