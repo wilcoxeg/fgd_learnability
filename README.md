@@ -18,3 +18,15 @@
 --- • `template_to_csv.py` takes in the template test suite files from `data/test_suites` and produces the `test_sents.txt` and `test_items.txt` files.
 
 • `/images/` contains paper figures, both bar-charts of model behavior in critical regions and region-by-region plots of model behavior across the whole sentence (`*region.png`)
+
+### To-Do List:
+
+• GPT2 seems to be diverging between the +/- gap positions *before* the gap. This could be something wrong with the way regions are getting labled in my gpt-2 code, so need to check this!
+
+• Currently, we're not taking the surprisal of periods or end-of-sentence punctuation.
+
+• Check start of sentence tokens for the various models
+
+• Add in custom x-axis and y-axis labels for the region-by-region plotting script
+
+• Add raw-surprisal plotting script and run on the `basic` test, to illustrate how the wh-effects work in the paper.
