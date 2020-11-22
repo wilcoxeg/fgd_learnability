@@ -17,6 +17,7 @@ def jsonify_template(to_jsonify, dir_path):
       
       suite_path = dir_path + suite
       df = pd.read_csv(suite_path, comment = "#")
+      final_region = list(df)[len(list(df))-1]
 
       by_word_result = []
       by_sentence_result = []
@@ -30,6 +31,11 @@ def jsonify_template(to_jsonify, dir_path):
         for name, region in row[2:].items():
           if type(region) == str:
             words = region.split(" ")
+
+            #Add period on to the end of sentences
+            if name == final_region:
+              words.append(".")
+
             for w in words:
               sent.append(w)
               by_word_result.append([test, item, condition, name, w])
@@ -42,7 +48,7 @@ def jsonify_template(to_jsonify, dir_path):
         outf.write("\n".join([x for x in total_sents]))
 
       outdf = pd.DataFrame(total_by_word)
-      outdf.to_csv(dir_path+"test_items", index=False)
+      outdf.to_csv(dir_path+"test_items.csv", index=False)
 
 
 def main(dir_path):
