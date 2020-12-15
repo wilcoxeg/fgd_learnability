@@ -23,91 +23,26 @@ library(Cairo)
 ### Read in Data
 
 ```{r}
-read_data = function(prefix) {
-  
-
-  ref = read.csv(paste(prefix,"test_items.txt", sep=""), sep=",", header=T, col.names = c("test", "item", "condition", "region", "token")) %>%
-    filter(token != "")
-  
-  jrnn = read.csv(paste(prefix,"jrnn.txt", sep=""), sep="\t", header=F, col.names = c("token", "JRNN")) %>%
-    filter(token != "<eos>",
-         token != ".") %>%
-    select(-token)
-  
-  grnn = read.csv(paste(prefix,"gulordava.txt", sep=""), sep="\t", header=F, col.names = c("token", "GRNN")) %>%
-    filter(token != "<eos>",
-           token != ".") %>%
-    select(-token)
-
-  ngram = read.csv(paste(prefix,"ngram.txt", sep=""), sep="\t") %>%
-    select(-sentence_id, -token_id) %>%
-    filter(token != ".") %>%
-    rename("NGRAM" = surprisal) %>%
-    select(-token)
-
-  #trxl = read.csv("./trans.txt", sep="\t", header=F, col.names = c("token", "Trans-XL")) %>%
-    #filter(token != ".") %>%
-    #select(-token)
-  
-  gpt2 = read.csv(paste(prefix,"gpt2-clean.txt", sep=""), sep=",", header=T, col.names = c("token", "GPT2")) %>%
-    filter(token != "Ġ.",
-           token != "Ġ<e",
-           token != "Ġ")%>%
-    select(-token)
-  
-  # The last sentence of the GRNN model was cut off...
-  df = cbind(ref, ngram, jrnn, gpt2, grnn)
-  
-  df = df %>%
-  mutate(region=as.factor(region),
-         test = as.factor(test))
-  
-  return(df)
-}
-
-df = read_data("./")
-df_redux = read_data("./redux/")
-df = rbind(df, df_redux)
+df = read.csv("../data/combined_results.csv") %>%
+  select(-X)
 
 ```
 
-```{r}
-
-to_csv = df %>%
-  filter(test %in% c("basic_object-redux", "basic_pp-redux", "basic_subject-redux", "embed4-redux", "embed3-redux", "embed2-redux", "embed1-redux", "hierarchy_verb-control-redux", "islands_adjunct-redux", "islands_cnp", "islands_coordination", "islands_left-branch"," islands_ss", "islands_subject", "islands_wh", "that_trace-redux", "parasitic-gaps") | str_detect(test, "^gender")) %>%
-  mutate(test = as.character(test)) %>%
-  mutate(test = case_when(test == "basic_subject-redux" ~ "basic_subject",
-                          test == "basic_object-redux" ~ "basic_object",
-                          test == "basic_pp-redux" ~ "basic_pp",
-                          test == "embed4-redux" ~ "embed4",
-                          test == "embed3-redux" ~ "embed3",
-                          test == "embed2-redux" ~ "embed2",
-                          test == "embed1-redux" ~ "embed1",
-                          test == "hierarchy_verb-control-redux" ~ "hierarchy",
-                          test == "islands_adjunct-redux" ~ "islands_adjunct",
-                          test == "that_trace-redux" ~ "that_trace",
-                          TRUE ~ as.character(test)))
-
-
-write.csv(to_csv, "combined_results.csv")
-
-
-```
 
 ### Basic Licensing
 
 ```{r}
 df_basic = df %>%
-  filter((test == "basic_object-redux") | (test == "basic_pp-redux") | (test == "basic_subject-redux")) %>%
+  filter((test == "basic_object") | (test == "basic_pp") | (test == "basic_subject")) %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
   gather(model, surprisal, 7:10) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
-  mutate(test=factor(test, levels=c("basic_subject-redux", "basic_object-redux", "basic_pp-redux"))) %>%
-  filter((test == "basic_subject-redux" & region == "verb" & gap == "gap") | (test == "basic_subject-redux" & region == "np1" & gap == "nogap") |
-           (test == "basic_object-redux" & region == "end" & gap == "gap") | (test == "basic_object-redux" & region == "np2" & gap == "nogap") |
-           (test == "basic_pp-redux" & region == "end" & gap == "gap") | (test == "basic_pp-redux" & region == "np3" & gap == "nogap"))
+  mutate(test=factor(test, levels=c("basic_subject", "basic_object", "basic_pp"))) %>%
+  filter((test == "basic_subject" & region == "verb" & gap == "gap") | (test == "basic_subject" & region == "np1" & gap == "nogap") |
+           (test == "basic_object" & region == "prep" & gap == "gap") | (test == "basic_object" & region == "np2" & gap == "nogap") |
+           (test == "basic_pp" & region == "end" & gap == "gap") | (test == "basic_pp" & region == "np3" & gap == "nogap"))
 
 df_basic %>%
     spread(wh, surprisal) %>%
@@ -128,7 +63,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("subject", "object", "prep prhase")) +
     ylab("Wh-Effect") +
     xlab("Gap Location") +
@@ -138,7 +73,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/basic_licensing.pdf",height=4,width=10, device = cairo_pdf)
+#ggsave("./images/basic_licensing.pdf",height=4,width=10, device = cairo_pdf)
 
 ```
 
@@ -149,7 +84,7 @@ REGION_EXEMPLARS = c("I know\nthat/wh", "...", "the CEO", "showed", "the slides"
 NUM_REGIONS = length(REGION_ORDER)
 
 df_basic_regions = df %>%
-  filter((test == "basic_object-redux") | (test == "basic_pp-redux") | (test == "basic_subject-redux")) %>%
+  filter((test == "basic_object") | (test == "basic_pp") | (test == "basic_subject")) %>%
   mutate(region = as.character(region),
          region = if_else(region == "comp", "prefix", region)) %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
@@ -159,21 +94,21 @@ df_basic_regions = df %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
-  mutate(test=factor(test, levels=c("basic_subject-redux", "basic_object-redux", "basic_pp-redux")))
+  mutate(test=factor(test, levels=c("basic_subject", "basic_object", "basic_pp")))
 
 annotations = data.frame(x1=c(3,4,5,6,7,8), x2=c(3,4,5,6,7,8), y1=c(0,0,0,0,0,0), y2=c(2,-3,3,-3,1.5,-2), test=c("subject-gap","subject-gap","object-gap","object-gap", "pp-gap", "pp-gap"))
 
 
 df_basic_regions %>%
-   mutate(test = str_replace(test, "basic_subject-redux", "subject-gap"),
-           test = str_replace(test, "basic_object-redux", "object-gap"),
-           test = str_replace(test, "basic_pp-redux", "pp-gap"),
+   mutate(test = str_replace(test, "basic_subject", "subject-gap"),
+           test = str_replace(test, "basic_object", "object-gap"),
+           test = str_replace(test, "basic_pp", "pp-gap"),
            test = factor(test, levels = c("subject-gap", "object-gap", "pp-gap"))) %>%
     spread(wh, surprisal) %>%
     mutate(whf = what-that) %>%
     select(-that, -what) %>%
     group_by(model, test, item, region) %>%
-      mutate(item_mean=mean(whf)) %>%
+      mutate(item_mean=sum(whf)) %>%
     ungroup() %>%
     group_by(model, test, gap, region) %>%
       summarise(m=mean(whf),
@@ -187,14 +122,11 @@ ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=gap, linetype=gap)) +
     theme_bw() +
     geom_hline(yintercept=0, color="grey") +
     geom_segment(data=annotations, aes(x=x1,y=y1,yend=y2,xend=x2), color="blue", alpha=0.5, arrow = arrow(length = unit(0.2, "cm")),inherit.aes=FALSE) +
-
     geom_line(size=1 ) +
     geom_errorbar(linetype="solid", width=.1, alpha=0.5) +
-   
-
-    #scale_color_manual(values = c("#4b0063", "#ae39d4", "#cfabdb")) +
+    scale_color_manual(labels = c("-gap", "+gap"), values = c("#f8766d", "#00bfc4")) +
     scale_x_continuous(breaks=seq(1, NUM_REGIONS), labels=REGION_EXEMPLARS) +
-    #scale_x_discrete(labels= c("subject", "object", "prep prhase")) +
+    guides(linetype=FALSE) +
     ylab("Wh-Effect") +
     xlab("Gap Location") +
     facet_grid(test~.) +
@@ -204,7 +136,7 @@ ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=gap, linetype=gap)) +
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/basic_licensing_region.pdf",height=4.5,width=7, device = cairo_pdf)
+#ggsave("./images/basic_licensing_region.pdf",height=4.5,width=7, device = cairo_pdf)
 
 
 
@@ -212,10 +144,26 @@ ggsave("./images/basic_licensing_region.pdf",height=4.5,width=7, device = cairo_
 
 ```{r}
 
+df_basic_regions = df %>%
+  filter((test == "basic_object") | (test == "basic_pp") | (test == "basic_subject")) %>%
+  mutate(region = as.character(region),
+         region = if_else(region == "comp", "prefix", region)) %>%
+  separate(condition, sep="_", into=c("wh", "gap")) %>%
+  mutate(region = factor(region, levels = REGION_ORDER),
+         gap = factor(gap, levels = c("nogap", "gap"))) %>%
+  gather(model, surprisal, 7:10) %>%
+  group_by(test, item, wh, gap, region, model) %>%
+    summarise(surprisal = mean(surprisal)) %>%
+  ungroup() %>%
+  mutate(test=factor(test, levels=c("basic_subject", "basic_object", "basic_pp")))
+
+annotations1 = data.frame(x1=c(2.75, 4.75, 6.75), x2=c(3.25, 5.25, 7.25), y1=c(9, 6, 4.5), y2=c(13, 10, 7.5), test=c("subject-gap", "object-gap", "pp-gap"), gap = "-gap", "-gap", "-gap")
+annotations2 = data.frame(x1=c(3.75, 5.75, 7.75), x2=c(4.25, 6.25, 8.25), y1=c(11.5, 4, 7), y2=c(18, 10, 11), test=c("subject-gap", "object-gap", "pp-gap"), gap = "+gap", "+gap", "+gap")
+
 df_basic_regions %>%
-    mutate(test = str_replace(test, "basic_subject-redux", "subject-gap"),
-           test = str_replace(test, "basic_object-redux", "object-gap"),
-           test = str_replace(test, "basic_pp-redux", "pp-gap"),
+    mutate(test = str_replace(test, "basic_subject", "subject-gap"),
+           test = str_replace(test, "basic_object", "object-gap"),
+           test = str_replace(test, "basic_pp", "pp-gap"),
            test = factor(test, levels = c("subject-gap", "object-gap", "pp-gap"))) %>%
     group_by(model, test, item, region) %>%
       mutate(item_mean=mean(surprisal)) %>%
@@ -227,29 +175,29 @@ df_basic_regions %>%
               lower=m - 1.96*s) %>%
     ungroup() %>%
   mutate(region=as.numeric(region)) %>%
-  #filter(test == "basic_subject-redux" | test == "basic_object-redux") %>%
   filter(model == "JRNN") %>%
+  mutate(gap = if_else(gap=="nogap", "-gap", "+gap"),
+         wh = if_else(wh=="that", "-filler", "+filler")) %>%
 ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=wh)) +
     theme_bw() +
     geom_hline(yintercept=0, color="grey") +
+    geom_rect(data=annotations1, aes(xmin=x1, xmax=x2, ymin=y1,ymax=y2), fill="#14fcf0", alpha=0.3, size=0.1, inherit.aes=FALSE) +
+    geom_rect(data=annotations2, aes(xmin=x1, xmax=x2, ymin=y1,ymax=y2), fill="#14fcf0", alpha=0.3, size=0.1, inherit.aes=FALSE) +
     geom_line(size=0.8 ) +
     geom_errorbar(linetype="solid", width=.1, alpha=0.5) +
     facet_grid(test~gap) +
-    #scale_fill_manual(values = c("#52CF74", "#2D56A7")) +
-    scale_linetype_manual(values = c("dotdash", "solid")) +
-    #scale_color_manual(values = c("#4b0063", "#ae39d4", "#cfabdb")) +
+    scale_color_manual(labels = c("-filler", "+filler"), values = c("#7cae00", "#c77cff")) +
     scale_x_continuous(breaks=seq(1, NUM_REGIONS), labels=REGION_EXEMPLARS) +
-
-    #scale_x_discrete(labels= c("subject", "object", "prep prhase")) +
-    ylab("Surprisal (-log(p(w|context))") +
+    ylab("Mean by-word Surprisal in Region") +
     xlab("Gap Location") +
     ggtitle("Basic Filler-Gap Licensing: (JRNN)") +
-    theme(legend.position="right", 
+    coord_cartesian(ylim=c(2.5,21)) +
+    theme(legend.position="bottom", 
           axis.text=element_text(size=10),
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/basic_licensing_region_rawsurp.pdf",height=4.5,width=7, device = cairo_pdf)
+#ggsave("./images/basic_licensing_region_rawsurp.pdf",height=7,width=7, device = cairo_pdf)
 
 ```
 
@@ -286,13 +234,13 @@ df_basic %>%
 
 ```{r}
 df_unbound = df %>%
-  filter(test == "embed1-redux" | test == "embed2-redux" | test == "embed3-redux" | test == "embed4-redux") %>%
+  filter(test == "embed1" | test == "embed2" | test == "embed3" | test == "embed4") %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
   gather(model, surprisal, 7:10) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
-  mutate(test=factor(test, levels=c("embed1-redux", "embed2-redux", "embed3-redux", "embed4-redux"))) %>%
+  mutate(test=factor(test, levels=c("embed1", "embed2", "embed3", "embed4"))) %>%
   filter((gap == "gap" & region == "continuation") | (gap == "no-gap" & region == "Unnamed: 7") )
 
 
@@ -315,6 +263,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_hline(yintercept=0, color="grey") +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     facet_grid(~model) +
     scale_x_discrete(labels= c("2", "3", "4", "5")) +
     ylab("Wh-Effect") +
@@ -324,7 +273,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/unboundedness.pdf",height=3,width=10, , device = cairo_pdf)
+#ggsave("./images/unboundedness.pdf",height=4,width=10, , device = cairo_pdf)
 
 ```
 
@@ -374,7 +323,7 @@ df_unbound %>%
   mutate(gap=factor(gap, levels=c("no-gap", "gap")),
          gap = if_else(gap == "gap", 1, -1),
          wh = if_else(wh == "what", 1, -1),
-         test = factor(test, levels = c("embed1-redux", "embed2-redux", "embed3-redux", "embed4-redux"))) %>%
+         test = factor(test, levels = c("embed1", "embed2", "embed3", "embed4"))) %>%
   group_by(model) %>%
     do(stats_test(., unique(.$model))) %>%
   arrange(model) %>%
@@ -388,7 +337,7 @@ ungroup()
 ```{r}
 
 df_heriarchy = df %>%
-  filter(test == "hierarchy_verb-control-redux") %>%
+  filter(test == "hierarchy") %>%
   separate(condition, sep="_", into=c("wh", "gap", "test")) %>%
   gather(model, surprisal, 7:10) %>%
   group_by(test, item, wh, gap, region, model) %>%
@@ -418,8 +367,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
-    #scale_x_discrete(labels= c("2", "3", "4", "5")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     ylab("Wh-Effect") +
     xlab("Gap Location") +
     ggtitle("Hierarchy") +
@@ -427,7 +375,7 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/heirarchy.pdf",height=3,width=10, device = cairo_pdf)
+#ggsave("./images/heirarchy.pdf",height=4,width=10, device = cairo_pdf)
 
 ```
 
@@ -460,7 +408,7 @@ df_heriarchy %>%
 
 ```{r}
 df_adj = df %>%
-  filter(test == "islands_adjunct-redux") %>%
+  filter(test == "islands_adjunct") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>%
   gather(model, surprisal, 8:11) %>%
@@ -488,7 +436,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "island")) +
     ylab("Wh-Effect") +
     ggtitle("Adjunct Islands\nFiller-Gap Dependency") +
@@ -496,7 +444,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/adjunct.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/adjunct.pdf",height=2.8,width=10, device = cairo_pdf)
 
 ```
 
@@ -556,7 +504,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "that-comp", "wh-comp")) +
     ylab("Wh-Effect") +
     ggtitle("Complex NP Islands\nFiller-Gap Dependency") +
@@ -564,7 +512,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/cnp.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/cnp.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 ```{r}
@@ -631,7 +579,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "1st\n conjunct", "2nd\n conj")) +
     ylab("Wh-Effect") +
     ggtitle("Coordination Islands\nFiller-Gap Dependency") +
@@ -639,7 +587,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/coord.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/coord.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 ```{r}
@@ -698,7 +646,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "island")) +
     ylab("Wh-Effect") +
     ggtitle("Left Branch Islands\nFiller-Gap Dependency") +
@@ -706,7 +654,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/left-branch.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/left-branch.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 ```{r}
@@ -765,7 +713,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "island")) +
     ylab("Wh-Effect") +
     ggtitle("Sentential Subject Islands\nFiller-Gap Dependency") +
@@ -773,7 +721,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/sentential_subj.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/sentential_subj.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 ```{r}
@@ -806,7 +754,6 @@ ungroup()
 df_subj = df %>%
   filter(test == "islands_subject") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
-  #mutate(island = factor(island, levels = c("obj", "lb"))) %>%
   gather(model, surprisal, 8:11) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
@@ -834,7 +781,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "island")) +
     ylab("Wh-Effect") +
     ggtitle("Subject Islands\nFiller-Gap Dependency") +
@@ -842,7 +789,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/subj.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/subj.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 
@@ -906,7 +853,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("control", "island")) +
     scale_y_continuous(labels = scales::number_format(accuracy = 0.1)) +
     ylab("Wh-Effect") +
@@ -916,7 +863,7 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/wh.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/wh.pdf",height=2.8,width=10, device = cairo_pdf)
 ```
 
 
@@ -967,7 +914,7 @@ plot_gender = function(df) {
       geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
       facet_grid(~model) +
       theme_bw() +
-      scale_fill_manual(values = c("#67db82", "#6769db")) +
+      scale_fill_manual(labels = c("fem.", "masc."), values = c("#7cae00", "#c77cff")) +
       scale_x_discrete(labels= c("control", "island")) +
       ylab("Masc Expectation") +
       ggtitle("Gender Control") +
@@ -975,7 +922,7 @@ plot_gender = function(df) {
             axis.text=element_text(size=12),
             axis.title.x=element_blank(),
             legend.title=element_blank())
-    ggsave(p, filename=paste("./images/", unique(df$test), ".pdf", sep=""),height=2.5,width=10, device = cairo_pdf)
+    #ggsave(p, filename=paste("./images/", unique(df$test), ".pdf", sep=""),height=2.8,width=10, device = cairo_pdf)
   return(df)
 }
 
@@ -1025,7 +972,7 @@ ungroup()
 
 ```{r}
 df_trace = df %>%
-  filter(test == "that_trace-redux") %>%
+  filter(test == "that_trace") %>%
   separate(condition, sep="_", into=c("wh", "gap", "comp", "gapsite")) %>%
   mutate(comp = if_else(comp == "noqcomp", "nocomp", comp)) %>%
   gather(model, surprisal, 9:12) %>%
@@ -1057,7 +1004,7 @@ ggplot(aes(x=comp, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(gapsite~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("no comp", "that comp")) +
     ylab("Wh Effect") +
     xlab("Island") +
@@ -1067,7 +1014,7 @@ ggplot(aes(x=comp, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.title=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/that-trace.pdf",height=4,width=10, device = cairo_pdf)
+#ggsave("./images/that-trace.pdf",height=4,width=10, device = cairo_pdf)
 ```
 
 ```{r}
@@ -1118,7 +1065,7 @@ ggplot(aes(x=tense, y=m, ymin=lower, ymax=upper, fill=gap)) +
     geom_bar(stat="identity", position="dodge") +
     geom_errorbar(color="black", width=.5, position=position_dodge(width=.9)) +
     facet_grid(~model) +
-    #scale_fill_manual(values = c("#28eb55", "#006353")) +
+    scale_fill_manual(labels = c("+gap", "-gap"), values = c("#00bfc4", "#f8766d")) +
     scale_x_discrete(labels= c("gerund", "past tense")) +
     ylab("Wh-Effect") +
     xlab("Adjunct Tense") +
@@ -1127,7 +1074,7 @@ ggplot(aes(x=tense, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/parasitic.pdf",height=2.5,width=10, device = cairo_pdf)
+#ggsave("./images/parasitic.pdf",height=3,width=10, device = cairo_pdf)
 ```
 
 
