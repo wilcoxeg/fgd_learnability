@@ -1,0 +1,304 @@
+The woman said they met her friends .
+The woman said they met his friends .
+The man said they met her friends .
+The man said they met his friends .
+The woman said they met the person who insulted her friends .
+The woman said they met the person who insulted his friends .
+The man said they met the person who insulted her friends .
+The man said they met the person who insulted his friends .
+The bride believes they lost her ring .
+The bride believes they lost his ring .
+The groom believes they lost her ring .
+The groom believes they lost his ring .
+The bride believes they lost the box which contained her ring .
+The bride believes they lost the box which contained his ring .
+The groom believes they lost the box which contained her ring .
+The groom believes they lost the box which contained his ring .
+The countess worries they tunneled under her castle .
+The countess worries they tunneled under his castle .
+The count worries they tunneled under her castle .
+The count worries they tunneled under his castle .
+The countess worries they tunneled under the wall which protects her castle .
+The countess worries they tunneled under the wall which protects his castle .
+The count worries they tunneled under the wall which protects her castle .
+The count worries they tunneled under the wall which protects his castle .
+My wife believes they dislike her recipe .
+My wife believes they dislike his recipe .
+My husband believes they dislike her recipe .
+My husband believes they dislike his recipe .
+My wife believes they dislike the book which features her recipe .
+My wife believes they dislike the book which features his recipe .
+My husband believes they dislike the book which features her recipe .
+My husband believes they dislike the book which features his recipe .
+My aunt said they know her friend .
+My aunt said they know his friend .
+My uncle said they know her friend .
+My uncle said they know his friend .
+My aunt said they know the song which was written by her friend .
+My aunt said they know the song which was written by his friend .
+My uncle said they know the song which was written by her friend .
+My uncle said they know the song which was written by his friend .
+The lady believes they misplaced her fur coat .
+The lady believes they misplaced his fur coat .
+The man believes they misplaced her fur coat .
+The man believes they misplaced his fur coat .
+The lady believes they misplaced the bag which contains her fur coat .
+The lady believes they misplaced the bag which contains his fur coat .
+The man believes they misplaced the bag which contains her fur coat .
+The man believes they misplaced the bag which contains his fur coat .
+The princess knows they are searching for her valuables .
+The princess knows they are searching for his valuables .
+The prince knows they are searching for her valuables .
+The prince knows they are searching for his valuables .
+The princess knows they are searching for the vault which contains her valuables .
+The princess knows they are searching for the vault which contains his valuables .
+The prince knows they are searching for the vault which contains her valuables .
+The prince knows they are searching for the vault which contains his valuables .
+The girl believes they love her mother .
+The girl believes they love his mother .
+The boy believes they love her mother .
+The boy believes they love his mother .
+The girl believes they love the dish which was cooked by her mother .
+The girl believes they love the dish which was cooked by his mother .
+The boy believes they love the dish which was cooked by her mother .
+The boy believes they love the dish which was cooked by his mother .
+The queen knows they take pride in her sovereignty .
+The queen knows they take pride in his sovereignty .
+The king knows they take pride in her sovereignty .
+The king knows they take pride in his sovereignty .
+The queen knows they take pride in the song which honors her sovereignty .
+The queen knows they take pride in the song which honors his sovereignty .
+The king knows they take pride in the song which honors her sovereignty .
+The king knows they take pride in the song which honors his sovereignty .
+Your mother thinks they like her acquantience .
+Your mother thinks they like his acquantience .
+Your father thinks they like her acquantience .
+Your father thinks they like his acquantience .
+Your mother thinks they like the novel which was written by her acquantience .
+Your mother thinks they like the novel which was written by his acquantience .
+Your father thinks they like the novel which was written by her acquantience .
+Your father thinks they like the novel which was written by his acquantience .
+The grandmother worries they will expel her grandson .
+The grandmother worries they will expel his grandson .
+The grandfather worries they will expel her grandson .
+The grandfather worries they will expel his grandson .
+The grandmother worries they will expel the boy who punched her grandson .
+The grandmother worries they will expel the boy who punched his grandson .
+The grandfather worries they will expel the boy who punched her grandson .
+The grandfather worries they will expel the boy who punched his grandson .
+The girl thinks they lost her airplane .
+The girl thinks they lost his airplane .
+The boy thinks they lost her airplane .
+The boy thinks they lost his airplane .
+The girl thinks they lost the box which contained her airplane .
+The girl thinks they lost the box which contained his airplane .
+The boy thinks they lost the box which contained her airplane .
+The boy thinks they lost the box which contained his airplane .
+The woman believes they tore up her letter .
+The woman believes they tore up his letter .
+The man believes they tore up her letter .
+The man believes they tore up his letter .
+The woman believes they tore up the envelope which contains her letter .
+The woman believes they tore up the envelope which contains his letter .
+The man believes they tore up the envelope which contains her letter .
+The man believes they tore up the envelope which contains his letter .
+The duchess suspects they detest her family .
+The duchess suspects they detest his family .
+The duke suspects they detest her family .
+The duke suspects they detest his family .
+The duchess suspects they detest the painting which depicts her family .
+The duchess suspects they detest the painting which depicts his family .
+The duke suspects they detest the painting which depicts her family .
+The duke suspects they detest the painting which depicts his family .
+The emperor knows they are awed by her palace .
+The emperor knows they are awed by his palace .
+The empress knows they are awed by her palace .
+The empress knows they are awed by his palace .
+The emperor knows they are awed by the keys which unlock her palace .
+The emperor knows they are awed by the keys which unlock his palace .
+The empress knows they are awed by the keys which unlock her palace .
+The empress knows they are awed by the keys which unlock his palace .
+My sister believes they hid her watch .
+My sister believes they hid his watch .
+My brother believes they hid her watch .
+My brother believes they hid his watch .
+My sister believes they hid the chain which holds her watch .
+My sister believes they hid the chain which holds his watch .
+My brother believes they hid the chain which holds her watch .
+My brother believes they hid the chain which holds his watch .
+The daughter wonders whether they like her friend .
+The daughter wonders whether they like his friend .
+The son wonders whether they like her friend .
+The son wonders whether they like his friend .
+The daughter wonders whether they like the book which was written by her friend .
+The daughter wonders whether they like the book which was written by his friend .
+The son wonders whether they like the book which was written by her friend .
+The son wonders whether they like the book which was written by his friend .
+The woman hopes they recovered her wallet .
+The woman hopes they recovered his wallet .
+The man hopes they recovered her wallet .
+The man hopes they recovered his wallet .
+The woman hopes they recovered the backpack which contains her wallet .
+The woman hopes they recovered the backpack which contains his wallet .
+The man hopes they recovered the backpack which contains her wallet .
+The man hopes they recovered the backpack which contains his wallet .
+Your wife knows they dislike her favorite song .
+Your wife knows they dislike his favorite song .
+Your husband knows they dislike her favorite song .
+Your husband knows they dislike his favorite song .
+Your wife knows they dislike the movie which featured her favorite song .
+Your wife knows they dislike the movie which featured his favorite song .
+Your husband knows they dislike the movie which featured her favorite song .
+Your husband knows they dislike the movie which featured his favorite song .
+The woman said they met her friends .
+The woman said they met his friends .
+The man said they met her friends .
+The man said they met his friends .
+The woman said they met her friends and the neighbors .
+The woman said they met his friends and the neighbors .
+The man said they met her friends and the neighbors .
+The man said they met his friends and the neighbors .
+The bride believes they lost her ring .
+The bride believes they lost his ring .
+The groom believes they lost her ring .
+The groom believes they lost his ring .
+The bride believes they lost her ring and the dress .
+The bride believes they lost his ring and the dress .
+The groom believes they lost her ring and the dress .
+The groom believes they lost his ring and the dress .
+The countess worries they tunneled under her castle .
+The countess worries they tunneled under his castle .
+The count worries they tunneled under her castle .
+The count worries they tunneled under his castle .
+The countess worries they tunneled under her castle and the forrest .
+The countess worries they tunneled under his castle and the forrest .
+The count worries they tunneled under her castle and the forrest .
+The count worries they tunneled under his castle and the forrest .
+My wife believes they dislike her recipe .
+My wife believes they dislike his recipe .
+My husband believes they dislike her recipe .
+My husband believes they dislike his recipe .
+My wife believes they dislike her recipe and the decor .
+My wife believes they dislike his recipe and the decor .
+My husband believes they dislike her recipe and the decor .
+My husband believes they dislike his recipe and the decor .
+My aunt said they know her friend .
+My aunt said they know his friend .
+My uncle said they know her friend .
+My uncle said they know his friend .
+My aunt said they know her friend and the teacher .
+My aunt said they know his friend and the teacher .
+My uncle said they know her friend and the teacher .
+My uncle said they know his friend and the teacher .
+The lady believes they misplaced her fur coat .
+The lady believes they misplaced his fur coat .
+The man believes they misplaced her fur coat .
+The man believes they misplaced his fur coat .
+The lady believes they misplaced her fur coat and the luggage rack .
+The lady believes they misplaced his fur coat and the luggage rack .
+The man believes they misplaced her fur coat and the luggage rack .
+The man believes they misplaced his fur coat and the luggage rack .
+The princess knows they are searching for her valuables .
+The princess knows they are searching for his valuables .
+The prince knows they are searching for her valuables .
+The prince knows they are searching for his valuables .
+The princess knows they are searching for her valuables and the paintings .
+The princess knows they are searching for his valuables and the paintings .
+The prince knows they are searching for her valuables and the paintings .
+The prince knows they are searching for his valuables and the paintings .
+The girl believes they love her mother .
+The girl believes they love his mother .
+The boy believes they love her mother .
+The boy believes they love his mother .
+The girl believes they love her mother and the pastor .
+The girl believes they love his mother and the pastor .
+The boy believes they love her mother and the pastor .
+The boy believes they love his mother and the pastor .
+The queen knows they take pride in her sovereignty .
+The queen knows they take pride in his sovereignty .
+The king knows they take pride in her sovereignty .
+The king knows they take pride in his sovereignty .
+The queen knows they take pride in her sovereignty and the victory .
+The queen knows they take pride in his sovereignty and the victory .
+The king knows they take pride in her sovereignty and the victory .
+The king knows they take pride in his sovereignty and the victory .
+Your mother thinks they like her acquantience .
+Your mother thinks they like his acquantience .
+Your father thinks they like her acquantience .
+Your father thinks they like his acquantience .
+Your mother thinks they like her acquantience and the critics .
+Your mother thinks they like his acquantience and the critics .
+Your father thinks they like her acquantience and the critics .
+Your father thinks they like his acquantience and the critics .
+The grandmother worries they will expel her grandson .
+The grandmother worries they will expel his grandson .
+The grandfather worries they will expel her grandson .
+The grandfather worries they will expel his grandson .
+The grandmother worries they will expel her grandson and the bully .
+The grandmother worries they will expel his grandson and the bully .
+The grandfather worries they will expel her grandson and the bully .
+The grandfather worries they will expel his grandson and the bully .
+The girl thinks they lost her toy .
+The girl thinks they lost his toy .
+The boy thinks they lost her toy .
+The boy thinks they lost his toy .
+The girl thinks they lost her toy and the puzzle .
+The girl thinks they lost his toy and the puzzle .
+The boy thinks they lost her toy and the puzzle .
+The boy thinks they lost his toy and the puzzle .
+The woman believes they tore up her letter .
+The woman believes they tore up his letter .
+The man believes they tore up her letter .
+The man believes they tore up his letter .
+The woman believes they tore up her letter and the will .
+The woman believes they tore up his letter and the will .
+The man believes they tore up her letter and the will .
+The man believes they tore up his letter and the will .
+The duchess suspects they detest her family .
+The duchess suspects they detest his family .
+The duke suspects they detest her family .
+The duke suspects they detest his family .
+The duchess suspects they detest her family and the villagers .
+The duchess suspects they detest his family and the villagers .
+The duke suspects they detest her family and the villagers .
+The duke suspects they detest his family and the villagers .
+The emperor knows they are awed by her palace .
+The emperor knows they are awed by his palace .
+The empress knows they are awed by her palace .
+The empress knows they are awed by his palace .
+The emperor knows they are awed by her palace and the ceremony .
+The emperor knows they are awed by his palace and the ceremony .
+The empress knows they are awed by her palace and the ceremony .
+The empress knows they are awed by his palace and the ceremony .
+My sister believes they hid her watch .
+My sister believes they hid his watch .
+My brother believes they hid her watch .
+My brother believes they hid his watch .
+My sister believes they hid her watch and the locket .
+My sister believes they hid his watch and the locket .
+My brother believes they hid her watch and the locket .
+My brother believes they hid his watch and the locket .
+The daughter wonders whether they like her friend .
+The daughter wonders whether they like his friend .
+The son wonders whether they like her friend .
+The son wonders whether they like his friend .
+The daughter wonders whether they like her friend and the newcomers .
+The daughter wonders whether they like his friend and the newcomers .
+The son wonders whether they like her friend and the newcomers .
+The son wonders whether they like his friend and the newcomers .
+The woman hopes they recovered her wallet .
+The woman hopes they recovered his wallet .
+The man hopes they recovered her wallet .
+The man hopes they recovered his wallet .
+The woman hopes they recovered her wallet and the keys .
+The woman hopes they recovered his wallet and the keys .
+The man hopes they recovered her wallet and the keys .
+The man hopes they recovered his wallet and the keys .
+Your wife knows they dislike her favorite song .
+Your wife knows they dislike his favorite song .
+Your husband knows they dislike her favorite song .
+Your husband knows they dislike his favorite song .
+Your wife knows they dislike her favorite song and the concert .
+Your wife knows they dislike his favorite song and the concert .
+Your husband knows they dislike her favorite song and the concert .
+Your husband knows they dislike his favorite song and the concert .

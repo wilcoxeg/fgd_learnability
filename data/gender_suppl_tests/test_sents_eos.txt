@@ -1,0 +1,304 @@
+The woman said they met her friends . <eos>
+The woman said they met his friends . <eos>
+The man said they met her friends . <eos>
+The man said they met his friends . <eos>
+The woman said they met the person who insulted her friends . <eos>
+The woman said they met the person who insulted his friends . <eos>
+The man said they met the person who insulted her friends . <eos>
+The man said they met the person who insulted his friends . <eos>
+The bride believes they lost her ring . <eos>
+The bride believes they lost his ring . <eos>
+The groom believes they lost her ring . <eos>
+The groom believes they lost his ring . <eos>
+The bride believes they lost the box which contained her ring . <eos>
+The bride believes they lost the box which contained his ring . <eos>
+The groom believes they lost the box which contained her ring . <eos>
+The groom believes they lost the box which contained his ring . <eos>
+The countess worries they tunneled under her castle . <eos>
+The countess worries they tunneled under his castle . <eos>
+The count worries they tunneled under her castle . <eos>
+The count worries they tunneled under his castle . <eos>
+The countess worries they tunneled under the wall which protects her castle . <eos>
+The countess worries they tunneled under the wall which protects his castle . <eos>
+The count worries they tunneled under the wall which protects her castle . <eos>
+The count worries they tunneled under the wall which protects his castle . <eos>
+My wife believes they dislike her recipe . <eos>
+My wife believes they dislike his recipe . <eos>
+My husband believes they dislike her recipe . <eos>
+My husband believes they dislike his recipe . <eos>
+My wife believes they dislike the book which features her recipe . <eos>
+My wife believes they dislike the book which features his recipe . <eos>
+My husband believes they dislike the book which features her recipe . <eos>
+My husband believes they dislike the book which features his recipe . <eos>
+My aunt said they know her friend . <eos>
+My aunt said they know his friend . <eos>
+My uncle said they know her friend . <eos>
+My uncle said they know his friend . <eos>
+My aunt said they know the song which was written by her friend . <eos>
+My aunt said they know the song which was written by his friend . <eos>
+My uncle said they know the song which was written by her friend . <eos>
+My uncle said they know the song which was written by his friend . <eos>
+The lady believes they misplaced her fur coat . <eos>
+The lady believes they misplaced his fur coat . <eos>
+The man believes they misplaced her fur coat . <eos>
+The man believes they misplaced his fur coat . <eos>
+The lady believes they misplaced the bag which contains her fur coat . <eos>
+The lady believes they misplaced the bag which contains his fur coat . <eos>
+The man believes they misplaced the bag which contains her fur coat . <eos>
+The man believes they misplaced the bag which contains his fur coat . <eos>
+The princess knows they are searching for her valuables . <eos>
+The princess knows they are searching for his valuables . <eos>
+The prince knows they are searching for her valuables . <eos>
+The prince knows they are searching for his valuables . <eos>
+The princess knows they are searching for the vault which contains her valuables . <eos>
+The princess knows they are searching for the vault which contains his valuables . <eos>
+The prince knows they are searching for the vault which contains her valuables . <eos>
+The prince knows they are searching for the vault which contains his valuables . <eos>
+The girl believes they love her mother . <eos>
+The girl believes they love his mother . <eos>
+The boy believes they love her mother . <eos>
+The boy believes they love his mother . <eos>
+The girl believes they love the dish which was cooked by her mother . <eos>
+The girl believes they love the dish which was cooked by his mother . <eos>
+The boy believes they love the dish which was cooked by her mother . <eos>
+The boy believes they love the dish which was cooked by his mother . <eos>
+The queen knows they take pride in her sovereignty . <eos>
+The queen knows they take pride in his sovereignty . <eos>
+The king knows they take pride in her sovereignty . <eos>
+The king knows they take pride in his sovereignty . <eos>
+The queen knows they take pride in the song which honors her sovereignty . <eos>
+The queen knows they take pride in the song which honors his sovereignty . <eos>
+The king knows they take pride in the song which honors her sovereignty . <eos>
+The king knows they take pride in the song which honors his sovereignty . <eos>
+Your mother thinks they like her acquantience . <eos>
+Your mother thinks they like his acquantience . <eos>
+Your father thinks they like her acquantience . <eos>
+Your father thinks they like his acquantience . <eos>
+Your mother thinks they like the novel which was written by her acquantience . <eos>
+Your mother thinks they like the novel which was written by his acquantience . <eos>
+Your father thinks they like the novel which was written by her acquantience . <eos>
+Your father thinks they like the novel which was written by his acquantience . <eos>
+The grandmother worries they will expel her grandson . <eos>
+The grandmother worries they will expel his grandson . <eos>
+The grandfather worries they will expel her grandson . <eos>
+The grandfather worries they will expel his grandson . <eos>
+The grandmother worries they will expel the boy who punched her grandson . <eos>
+The grandmother worries they will expel the boy who punched his grandson . <eos>
+The grandfather worries they will expel the boy who punched her grandson . <eos>
+The grandfather worries they will expel the boy who punched his grandson . <eos>
+The girl thinks they lost her airplane . <eos>
+The girl thinks they lost his airplane . <eos>
+The boy thinks they lost her airplane . <eos>
+The boy thinks they lost his airplane . <eos>
+The girl thinks they lost the box which contained her airplane . <eos>
+The girl thinks they lost the box which contained his airplane . <eos>
+The boy thinks they lost the box which contained her airplane . <eos>
+The boy thinks they lost the box which contained his airplane . <eos>
+The woman believes they tore up her letter . <eos>
+The woman believes they tore up his letter . <eos>
+The man believes they tore up her letter . <eos>
+The man believes they tore up his letter . <eos>
+The woman believes they tore up the envelope which contains her letter . <eos>
+The woman believes they tore up the envelope which contains his letter . <eos>
+The man believes they tore up the envelope which contains her letter . <eos>
+The man believes they tore up the envelope which contains his letter . <eos>
+The duchess suspects they detest her family . <eos>
+The duchess suspects they detest his family . <eos>
+The duke suspects they detest her family . <eos>
+The duke suspects they detest his family . <eos>
+The duchess suspects they detest the painting which depicts her family . <eos>
+The duchess suspects they detest the painting which depicts his family . <eos>
+The duke suspects they detest the painting which depicts her family . <eos>
+The duke suspects they detest the painting which depicts his family . <eos>
+The emperor knows they are awed by her palace . <eos>
+The emperor knows they are awed by his palace . <eos>
+The empress knows they are awed by her palace . <eos>
+The empress knows they are awed by his palace . <eos>
+The emperor knows they are awed by the keys which unlock her palace . <eos>
+The emperor knows they are awed by the keys which unlock his palace . <eos>
+The empress knows they are awed by the keys which unlock her palace . <eos>
+The empress knows they are awed by the keys which unlock his palace . <eos>
+My sister believes they hid her watch . <eos>
+My sister believes they hid his watch . <eos>
+My brother believes they hid her watch . <eos>
+My brother believes they hid his watch . <eos>
+My sister believes they hid the chain which holds her watch . <eos>
+My sister believes they hid the chain which holds his watch . <eos>
+My brother believes they hid the chain which holds her watch . <eos>
+My brother believes they hid the chain which holds his watch . <eos>
+The daughter wonders whether they like her friend . <eos>
+The daughter wonders whether they like his friend . <eos>
+The son wonders whether they like her friend . <eos>
+The son wonders whether they like his friend . <eos>
+The daughter wonders whether they like the book which was written by her friend . <eos>
+The daughter wonders whether they like the book which was written by his friend . <eos>
+The son wonders whether they like the book which was written by her friend . <eos>
+The son wonders whether they like the book which was written by his friend . <eos>
+The woman hopes they recovered her wallet . <eos>
+The woman hopes they recovered his wallet . <eos>
+The man hopes they recovered her wallet . <eos>
+The man hopes they recovered his wallet . <eos>
+The woman hopes they recovered the backpack which contains her wallet . <eos>
+The woman hopes they recovered the backpack which contains his wallet . <eos>
+The man hopes they recovered the backpack which contains her wallet . <eos>
+The man hopes they recovered the backpack which contains his wallet . <eos>
+Your wife knows they dislike her favorite song . <eos>
+Your wife knows they dislike his favorite song . <eos>
+Your husband knows they dislike her favorite song . <eos>
+Your husband knows they dislike his favorite song . <eos>
+Your wife knows they dislike the movie which featured her favorite song . <eos>
+Your wife knows they dislike the movie which featured his favorite song . <eos>
+Your husband knows they dislike the movie which featured her favorite song . <eos>
+Your husband knows they dislike the movie which featured his favorite song . <eos>
+The woman said they met her friends . <eos>
+The woman said they met his friends . <eos>
+The man said they met her friends . <eos>
+The man said they met his friends . <eos>
+The woman said they met her friends and the neighbors . <eos>
+The woman said they met his friends and the neighbors . <eos>
+The man said they met her friends and the neighbors . <eos>
+The man said they met his friends and the neighbors . <eos>
+The bride believes they lost her ring . <eos>
+The bride believes they lost his ring . <eos>
+The groom believes they lost her ring . <eos>
+The groom believes they lost his ring . <eos>
+The bride believes they lost her ring and the dress . <eos>
+The bride believes they lost his ring and the dress . <eos>
+The groom believes they lost her ring and the dress . <eos>
+The groom believes they lost his ring and the dress . <eos>
+The countess worries they tunneled under her castle . <eos>
+The countess worries they tunneled under his castle . <eos>
+The count worries they tunneled under her castle . <eos>
+The count worries they tunneled under his castle . <eos>
+The countess worries they tunneled under her castle and the forrest . <eos>
+The countess worries they tunneled under his castle and the forrest . <eos>
+The count worries they tunneled under her castle and the forrest . <eos>
+The count worries they tunneled under his castle and the forrest . <eos>
+My wife believes they dislike her recipe . <eos>
+My wife believes they dislike his recipe . <eos>
+My husband believes they dislike her recipe . <eos>
+My husband believes they dislike his recipe . <eos>
+My wife believes they dislike her recipe and the decor . <eos>
+My wife believes they dislike his recipe and the decor . <eos>
+My husband believes they dislike her recipe and the decor . <eos>
+My husband believes they dislike his recipe and the decor . <eos>
+My aunt said they know her friend . <eos>
+My aunt said they know his friend . <eos>
+My uncle said they know her friend . <eos>
+My uncle said they know his friend . <eos>
+My aunt said they know her friend and the teacher . <eos>
+My aunt said they know his friend and the teacher . <eos>
+My uncle said they know her friend and the teacher . <eos>
+My uncle said they know his friend and the teacher . <eos>
+The lady believes they misplaced her fur coat . <eos>
+The lady believes they misplaced his fur coat . <eos>
+The man believes they misplaced her fur coat . <eos>
+The man believes they misplaced his fur coat . <eos>
+The lady believes they misplaced her fur coat and the luggage rack . <eos>
+The lady believes they misplaced his fur coat and the luggage rack . <eos>
+The man believes they misplaced her fur coat and the luggage rack . <eos>
+The man believes they misplaced his fur coat and the luggage rack . <eos>
+The princess knows they are searching for her valuables . <eos>
+The princess knows they are searching for his valuables . <eos>
+The prince knows they are searching for her valuables . <eos>
+The prince knows they are searching for his valuables . <eos>
+The princess knows they are searching for her valuables and the paintings . <eos>
+The princess knows they are searching for his valuables and the paintings . <eos>
+The prince knows they are searching for her valuables and the paintings . <eos>
+The prince knows they are searching for his valuables and the paintings . <eos>
+The girl believes they love her mother . <eos>
+The girl believes they love his mother . <eos>
+The boy believes they love her mother . <eos>
+The boy believes they love his mother . <eos>
+The girl believes they love her mother and the pastor . <eos>
+The girl believes they love his mother and the pastor . <eos>
+The boy believes they love her mother and the pastor . <eos>
+The boy believes they love his mother and the pastor . <eos>
+The queen knows they take pride in her sovereignty . <eos>
+The queen knows they take pride in his sovereignty . <eos>
+The king knows they take pride in her sovereignty . <eos>
+The king knows they take pride in his sovereignty . <eos>
+The queen knows they take pride in her sovereignty and the victory . <eos>
+The queen knows they take pride in his sovereignty and the victory . <eos>
+The king knows they take pride in her sovereignty and the victory . <eos>
+The king knows they take pride in his sovereignty and the victory . <eos>
+Your mother thinks they like her acquantience . <eos>
+Your mother thinks they like his acquantience . <eos>
+Your father thinks they like her acquantience . <eos>
+Your father thinks they like his acquantience . <eos>
+Your mother thinks they like her acquantience and the critics . <eos>
+Your mother thinks they like his acquantience and the critics . <eos>
+Your father thinks they like her acquantience and the critics . <eos>
+Your father thinks they like his acquantience and the critics . <eos>
+The grandmother worries they will expel her grandson . <eos>
+The grandmother worries they will expel his grandson . <eos>
+The grandfather worries they will expel her grandson . <eos>
+The grandfather worries they will expel his grandson . <eos>
+The grandmother worries they will expel her grandson and the bully . <eos>
+The grandmother worries they will expel his grandson and the bully . <eos>
+The grandfather worries they will expel her grandson and the bully . <eos>
+The grandfather worries they will expel his grandson and the bully . <eos>
+The girl thinks they lost her toy . <eos>
+The girl thinks they lost his toy . <eos>
+The boy thinks they lost her toy . <eos>
+The boy thinks they lost his toy . <eos>
+The girl thinks they lost her toy and the puzzle . <eos>
+The girl thinks they lost his toy and the puzzle . <eos>
+The boy thinks they lost her toy and the puzzle . <eos>
+The boy thinks they lost his toy and the puzzle . <eos>
+The woman believes they tore up her letter . <eos>
+The woman believes they tore up his letter . <eos>
+The man believes they tore up her letter . <eos>
+The man believes they tore up his letter . <eos>
+The woman believes they tore up her letter and the will . <eos>
+The woman believes they tore up his letter and the will . <eos>
+The man believes they tore up her letter and the will . <eos>
+The man believes they tore up his letter and the will . <eos>
+The duchess suspects they detest her family . <eos>
+The duchess suspects they detest his family . <eos>
+The duke suspects they detest her family . <eos>
+The duke suspects they detest his family . <eos>
+The duchess suspects they detest her family and the villagers . <eos>
+The duchess suspects they detest his family and the villagers . <eos>
+The duke suspects they detest her family and the villagers . <eos>
+The duke suspects they detest his family and the villagers . <eos>
+The emperor knows they are awed by her palace . <eos>
+The emperor knows they are awed by his palace . <eos>
+The empress knows they are awed by her palace . <eos>
+The empress knows they are awed by his palace . <eos>
+The emperor knows they are awed by her palace and the ceremony . <eos>
+The emperor knows they are awed by his palace and the ceremony . <eos>
+The empress knows they are awed by her palace and the ceremony . <eos>
+The empress knows they are awed by his palace and the ceremony . <eos>
+My sister believes they hid her watch . <eos>
+My sister believes they hid his watch . <eos>
+My brother believes they hid her watch . <eos>
+My brother believes they hid his watch . <eos>
+My sister believes they hid her watch and the locket . <eos>
+My sister believes they hid his watch and the locket . <eos>
+My brother believes they hid her watch and the locket . <eos>
+My brother believes they hid his watch and the locket . <eos>
+The daughter wonders whether they like her friend . <eos>
+The daughter wonders whether they like his friend . <eos>
+The son wonders whether they like her friend . <eos>
+The son wonders whether they like his friend . <eos>
+The daughter wonders whether they like her friend and the newcomers . <eos>
+The daughter wonders whether they like his friend and the newcomers . <eos>
+The son wonders whether they like her friend and the newcomers . <eos>
+The son wonders whether they like his friend and the newcomers . <eos>
+The woman hopes they recovered her wallet . <eos>
+The woman hopes they recovered his wallet . <eos>
+The man hopes they recovered her wallet . <eos>
+The man hopes they recovered his wallet . <eos>
+The woman hopes they recovered her wallet and the keys . <eos>
+The woman hopes they recovered his wallet and the keys . <eos>
+The man hopes they recovered her wallet and the keys . <eos>
+The man hopes they recovered his wallet and the keys . <eos>
+Your wife knows they dislike her favorite song . <eos>
+Your wife knows they dislike his favorite song . <eos>
+Your husband knows they dislike her favorite song . <eos>
+Your husband knows they dislike his favorite song . <eos>
+Your wife knows they dislike her favorite song and the concert . <eos>
+Your wife knows they dislike his favorite song and the concert . <eos>
+Your husband knows they dislike her favorite song and the concert . <eos>
+Your husband knows they dislike his favorite song and the concert . <eos>
