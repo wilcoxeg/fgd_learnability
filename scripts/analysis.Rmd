@@ -468,7 +468,7 @@ df_heriarchy %>%
 
 ```{r}
 df_unbound_comp_stat = df %>%
-  rename(idx = sent_index.y) %>%
+  rename(idx = sent_idx) %>%
   filter(test == "embed1" | test == "embed2" | test == "embed3" | test == "embed4") %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
   gather(model, surprisal, 8:12) %>%
@@ -485,7 +485,7 @@ df_unbound_comp_stat = df %>%
   mutate(dep_length = idx - wh_idx)
 
 df_heriarchy_comp_stat = df %>%
-  rename(idx = sent_index.y) %>%
+  rename(idx = sent_idx) %>%
   filter(test == "hierarchy") %>%
   separate(condition, sep="_", into=c("wh", "gap", "test")) %>%
   gather(model, surprisal, 8:12) %>%
@@ -505,8 +505,37 @@ df_heriarchy_comp_stat = df %>%
 df_comp_stat =  rbind(df_heriarchy_comp_stat, df_unbound_comp_stat)
   
 m = df_comp_stat %>%
+  filter(model == "JRNN") %>%
+  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
+  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
+  mutate(gap = if_else(gap == "gap", 1, -1),
+         wh = if_else(wh == "what", 1, -1)) %>%
+  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+summary(m)
+
+m = df_comp_stat %>%
+  filter(model == "GRNN") %>%
+  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
+  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
+  mutate(gap = if_else(gap == "gap", 1, -1),
+         wh = if_else(wh == "what", 1, -1)) %>%
+  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+summary(m)
+
+m = df_comp_stat %>%
+  filter(model == "GPT2") %>%
+  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
+  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
+  mutate(gap = if_else(gap == "gap", 1, -1),
+         wh = if_else(wh == "what", 1, -1)) %>%
+  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+summary(m)
+
+m = df_comp_stat %>%
   filter(model == "GPT3") %>%
-  
   filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
   mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
   mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
@@ -1066,63 +1095,6 @@ ggsave("./images/effect_size.pdf", width = 9, height = 4, device = cairo_pdf)
 
 ```
 
-## Percentage Decrease in Island conditions
-
-```{r, echo=FALSE, output=False}
-adj = read_csv("./island_dfs/adjunct.csv") %>% mutate(test = "Adjunct")
-cnp = read_csv("./island_dfs/cnp.csv") %>% mutate(test = "ComplexNP")
-coord = read_csv("./island_dfs/coord.csv") %>% mutate(test = "Coordinate")
-lb = read_csv("./island_dfs/lb.csv") %>% mutate(test = "LeftBranch")
-sent_subj = read_csv("./island_dfs/sent_subj.csv") %>% mutate(test = "SentSubj")
-subj = read_csv("./island_dfs/subj.csv") %>% mutate(test = "Subj")
-wh = read_csv("./island_dfs/wh.csv") %>% mutate(test = "Wh")
-
-island_effects = rbind(adj, cnp, coord, lb, sent_subj, subj, wh)
-
-island_effects %>%
-  select(-upper, -lower, -s) %>%
-  filter(island != "that", island != "first") %>%
-  mutate(island = if_else(island == "obj", "gram", island),
-         island = if_else(island == "lb", "island", island),
-         island = if_else(island == "ss", "island", island),
-         island = if_else(island == "second", "island", island),
-         island = if_else(island == "subj", "island", island),
-         island = if_else(island == "wh", "island", island),
-         island = if_else(island == "nocomp", "gram", island),
-         island = if_else(island == "gram", "control", island)) %>%
-  mutate(m = if_else(gap == "gap", -1 * m, m),
-         m = if_else(m<0, 0, m)) %>%
-  spread(island, m) %>%
-  mutate(reduction = 1 - (1 / (control / island))) %>%
-  mutate(gap = if_else(gap=="gap", "Gap", "No Gap")) %>%
-
-  filter(model != "NGRAM") %>%
-  mutate(lab = substr(as.character(reduction), 0, 4),
-         lab = if_else(lab == "NaN", "", lab)) %>%
-  ggplot(aes(x=test, y=model, fill=reduction)) +
-    theme_bw() +
-    geom_tile() +
-    #geom_text(aes(label=paste(substr(value, 0, 3), "\n rank:", rank, sep="")), size = 2.5) +
-    geom_text(aes(label = lab)) +
-    #scale_fill_viridis(direction=1, option = "magma", begin=0.25) +
-    scale_fill_gradient2(low = "red", mid = "white", high = "blue", midpoint = 0) +
-
-    #labs(fill = "Percent\nReduction") +
-    facet_wrap(~gap) +
-    ggtitle("Percent Reduction in Wh-Effects between Islands/Controls") +
-  theme(
-    axis.title = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1)
-  )
-ggsave("./images/precent_reduction.pdf", height = 3.5, width = 9, device=cairo_pdf)
-
-
-
-
-```
-
-
-
 
 ## GENDER CONTROL
 
@@ -1461,9 +1433,9 @@ df_parasitic = df %>%
 
 
 df_parasitic %>%
-  #spread(that, surprisal) %>%
-  #mutate(whef = what-that) %>% #These are both +gap conditions, so we should see negative effects. In the +hostgap condition.
-  #select(-that, -what) %>%
+  spread(that, surprisal) %>%
+  mutate(whef = what-that) %>% #These are both +gap conditions, so we should see negative effects. In the +hostgap condition.
+  select(-that, -what) %>%
     group_by(model, item) %>%
       mutate(item_mean=mean(whef)) %>%
     ungroup() %>%
