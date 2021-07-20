@@ -85,7 +85,6 @@ suppl_control_df = cbind(REF, GRNN, GPT2, GPT3, JRNN, NGRAM) %>%
 
 df = rbind(df, suppl_control_df)
 df = df[c("test", "condition", "region", "token", "item", "sent_idx", "NGRAM", "GRNN", "JRNN", "GPT2", "GPT3")]
-  
 
 ```
 
@@ -506,42 +505,42 @@ df_comp_stat =  rbind(df_heriarchy_comp_stat, df_unbound_comp_stat)
   
 m = df_comp_stat %>%
   filter(model == "JRNN") %>%
-  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
-  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(dist = if_else(test == "subj" | test == "embed1" | test == "embed2", -1, 1)) %>%
+  mutate(unbound = if_else(test == "subj" | test == "matrix", -1, 1)) %>%
   mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
   mutate(gap = if_else(gap == "gap", 1, -1),
          wh = if_else(wh == "what", 1, -1)) %>%
-  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+  lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
 summary(m)
 
 m = df_comp_stat %>%
   filter(model == "GRNN") %>%
-  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
-  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(dist = if_else(test == "subj" | test == "embed1" | test == "embed2", -1, 1)) %>%
+  mutate(unbound = if_else(test == "subj" | test == "matrix", -1, 1)) %>%
   mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
   mutate(gap = if_else(gap == "gap", 1, -1),
          wh = if_else(wh == "what", 1, -1)) %>%
-  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+  lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
 summary(m)
 
 m = df_comp_stat %>%
   filter(model == "GPT2") %>%
-  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
-  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(dist = if_else(test == "subj" | test == "embed1" | test == "embed2", -1, 1)) %>%
+  mutate(unbound = if_else(test == "subj" | test == "matrix", -1, 1)) %>%
   mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
   mutate(gap = if_else(gap == "gap", 1, -1),
          wh = if_else(wh == "what", 1, -1)) %>%
-  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+  lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
 summary(m)
 
 m = df_comp_stat %>%
   filter(model == "GPT3") %>%
-  filter(dep_length > 6 & dep_length < 14) %>% #The dep lengths for the matrix condition
-  mutate(test = if_else(test == "matrix", "hierarchy", "unboundedness")) %>%
+  mutate(dist = if_else(test == "subj" | test == "embed1" | test == "embed2", -1, 1)) %>%
+  mutate(unbound = if_else(test == "subj" | test == "matrix", -1, 1)) %>%
   mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
   mutate(gap = if_else(gap == "gap", 1, -1),
          wh = if_else(wh == "what", 1, -1)) %>%
-  lmer(surprisal ~ wh * gap * test + (wh + gap || item) + (wh + gap || dep_length), data = .)
+  lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
 summary(m)
 
 ```
@@ -1568,3 +1567,31 @@ ungroup()
 
 
 ```
+
+## Controls for Island Tests -- Different Number of Verbs
+
+For the unigrams.txt corpus, download from http://norvig.com/ngrams/
+
+```{r}
+island_freq = read.csv("../data/freq_check.csv") %>%
+  gather(cond, verb, c("Control", "Island"))
+
+unigrams = read.csv("/Users/wilcoxeg/Documents/resources/data/trillion_word_corpus/unigrams.txt", sep="\t") %>%
+  rename(verb = word)
+
+freq_df = merge(island_freq, unigrams, by=("verb")) %>%
+  mutate(count = log(count))
+
+isl_df_cnp = freq_df %>% filter(cond == "Island", Test == "CNP")
+control_df_cnp = freq_df %>% filter(cond == "Control", Test == "CNP")
+t.test(isl_df_cnp$count, control_df_cnp$count)
+    
+isl_df_subj = freq_df %>% filter(cond == "Island", Test == "Subject")
+control_df_subj = freq_df %>% filter(cond == "Control", Test == "Subject")
+t.test(isl_df_subj$count, control_df_subj$count)
+
+```
+
+
+
+

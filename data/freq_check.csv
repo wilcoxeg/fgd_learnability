@@ -1,0 +1,51 @@
+Test,Control,Island
+CNP,saw,depicted
+CNP,bought,included
+CNP,liked,featured
+CNP,discovered,included
+CNP,believed,saw
+CNP,promised,proposed
+CNP,knew,bribed
+CNP,saw,outlined
+CNP,helped,liked
+CNP,criticized,mocked
+CNP,disliked,criticized
+CNP,cleaned,housed
+CNP,feared,disliked
+CNP,defended,murdered
+CNP,chased,hunted
+CNP,loved,ate
+CNP,rbuked,appointed
+CNP,admired,loved
+CNP,believed,avoided
+CNP,saw,guarded
+CNP,met,trusted
+CNP,thanked,knew
+CNP,congradulated,admired
+CNP,reassured,found
+CNP,informed,supported
+CNP,blocked,connects
+CNP,pursued,avoided
+CNP,cured,caused
+Subject,saw,sold
+Subject,took,is valuable
+Subject,wrote,is entertaining
+Subject,bought,got
+Subject,misplaced,arrived
+Subject,disliked,dragged
+Subject,read,recieved
+Subject,brought,cost
+Subject,knew,shook
+Subject,attended,ended
+Subject,wrote,made
+Subject,liked,recieved
+Subject,delievered,got lost
+Subject,wrote,won
+Subject,won,got heated
+Subject,developed,kept
+Subject,wrote,appeared
+Subject,gave,earned
+Subject,delivered,inspired
+Subject,gave,bored
+Subject,had,lead
+Subject,had,proved
