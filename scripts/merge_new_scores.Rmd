@@ -1,0 +1,74 @@
+---
+title: "Merge New Scores"
+output: html_notebook
+---
+
+```{r, message=FALSE}
+library(tidyverse)
+library(brms)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+library(stringr)
+library(readxl)
+library(VGAM)
+library(jsonlite)
+library(viridis)
+library(broom)
+```
+
+
+```{r}
+llama_scores_df = read.csv("../data/model_output/llama_output.txt", sep = "\t") %>% dplyr::select(-freq, -X)
+reference_df = read.csv("../data/test_suites/test_items.txt") %>% rename(token_ref = token)
+combined_df = read.csv("../data/combined_results.csv") %>%
+  dplyr::select(-word_idx) %>% rename(word_idx = sent_index.y) %>%
+  # Three items have NAs for some sentence regions from the legacy data, so we are dropping them
+  filter(! (test == "islands_coordination" & item == 21)) %>%
+  filter(! (test == "that_trace" & item == 54)) %>%
+  filter(! (test == "basic_object" & item == 4)) %>%
+  # There were some skips in the word_idx. The order is correct, so we are just re-indexing them
+  group_by(test, item, condition) %>%
+    arrange(word_idx) %>%
+    mutate(word_idx = row_number()) %>%
+  ungroup()
+
+
+combined_df %>%
+  filter(test == "basic_object", item == 4, condition == "what_nogap") %>%
+  arrange(word_idx)
+  arrange(test, item, condition, word_idx)
+
+```
+
+```{r}
+
+llama_df = cbind(reference_df, llama_scores_df %>% filter(token != ".")) %>%
+  rename(LLAMA = surp) %>%
+  mutate(word_idx = word_idx + 1) %>%
+  dplyr::select(-token_ref, -sent_idx) %>%
+  # Same items as were filtered above
+  filter(! (test == "islands_coordination" & item == 21)) %>%
+  filter(! (test == "that_trace" & item == 54)) %>%
+  filter(! (test == "basic_object" & item == 4))
+
+combined_df_new = merge(combined_df, llama_df, by = c("test", "item", "condition", "region", "token", "word_idx"), all = T) %>%
+  # These three items had extra whitespace which threw off tokenization for the Llama model, filtering out.
+  filter(! (test == "embed3"  & item == 25)) %>%
+  filter(! (test == "islands_adjunct" & item == 12)) %>%
+  filter(! (test == "islands_coordination" & item == 10))
+
+write.csv(combined_df_new, "../data/combined_results_llama.csv")
+
+
+
+```
+
+
+
+
+
+
+
+
+

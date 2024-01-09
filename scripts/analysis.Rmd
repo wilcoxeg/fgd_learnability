@@ -1,5 +1,5 @@
 ---
-title: "Generals Paper Analysis"
+title: "FGD Learnability Analysis"
 output: html_notebook
 ---
 
@@ -15,20 +15,18 @@ library(VGAM)
 library(jsonlite)
 library(viridis)
 library(broom)
-library(Cairo)
-
+#library(Cairo)
 
 ```
 
 ### Read in Data
 
 ```{r}
-df = read.csv("../data/combined_results.csv") %>%
-  rename("sent_idx" = "sent_index.y") %>%
-  select(-word_idx)
+df = read.csv("../data/combined_results_llama.csv") %>%
+  dplyr::select(-X)
 ```
 
-### Incorporating New Gender Controlls
+### Incorporating New Gender Controls
 
 ```{r}
 
@@ -94,7 +92,7 @@ df = df[c("test", "condition", "region", "token", "item", "sent_idx", "NGRAM", "
 df_basic = df %>%
   filter((test == "basic_object") | (test == "basic_pp") | (test == "basic_subject")) %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -132,7 +130,8 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/basic_licensing.pdf",height=4,width=10, device = cairo_pdf)
+
+ggsave("./images/basic_licensing.pdf", height=4,width=10, device = "pdf")
 
 ```
 
@@ -149,7 +148,7 @@ df_basic_regions = df %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
   mutate(region = factor(region, levels = REGION_ORDER),
          gap = factor(gap, levels = c("nogap", "gap"))) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -176,6 +175,7 @@ df_basic_regions %>%
               lower=m - 1.96*s) %>%
     ungroup() %>%
   mutate(region=as.numeric(region)) %>%
+  # MODEL SELECTION
   filter(model == "JRNN") %>%
 ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=gap, linetype=gap)) +
     theme_bw() +
@@ -195,7 +195,8 @@ ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=gap, linetype=gap)) +
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/basic_licensing_region.pdf",height=4.5,width=7, device = cairo_pdf)
+
+ggsave("./images/basic_licensing_region.pdf",height=4.5,width=7, device = "pdf")
 
 
 
@@ -210,7 +211,7 @@ df_basic_regions = df %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
   mutate(region = factor(region, levels = REGION_ORDER),
          gap = factor(gap, levels = c("nogap", "gap"))) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = mean(surprisal)) %>%
   ungroup() %>%
@@ -256,6 +257,7 @@ ggplot(aes(x=region, y=m, ymin=lower, ymax=upper, color=wh)) +
           axis.text.x= element_text(angle=45, hjust=1),
           axis.title=element_text(size=12),
           legend.title=element_blank())
+
 ggsave("./images/basic_licensing_region_rawsurp.pdf",height=7,width=7, device = cairo_pdf)
 
 ```
@@ -295,7 +297,7 @@ df_basic %>%
 df_unbound = df %>%
   filter(test == "embed1" | test == "embed2" | test == "embed3" | test == "embed4") %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = mean(surprisal)) %>%
   ungroup() %>%
@@ -308,6 +310,7 @@ df_unbound %>%
   spread(wh, surprisal) %>%
   mutate(whf = what-that) %>%
   select(-that, -what) %>%
+  drop_na() %>%
     group_by(model, region, item) %>%
       mutate(item_mean=mean(whf)) %>%
     ungroup() %>%
@@ -332,7 +335,8 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/unboundedness.pdf",height=4,width=10, , device = cairo_pdf)
+
+ggsave("./images/unboundedness.pdf",height=4,width=10, , device = "pdf")
 
 ```
 
@@ -399,7 +403,7 @@ ungroup()
 df_heriarchy = df %>%
   filter(test == "hierarchy") %>%
   separate(condition, sep="_", into=c("wh", "gap", "test")) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   group_by(test, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -435,7 +439,8 @@ ggplot(aes(x=test, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           legend.title=element_blank())
-ggsave("./images/heirarchy.pdf",height=4,width=10, device = cairo_pdf)
+
+ggsave("./images/heirarchy.pdf",height=4,width=10, device = "pdf")
 
 ```
 
@@ -467,10 +472,10 @@ df_heriarchy %>%
 
 ```{r}
 df_unbound_comp_stat = df %>%
-  rename(idx = sent_idx) %>%
+  rename(idx = word_idx) %>%
   filter(test == "embed1" | test == "embed2" | test == "embed3" | test == "embed4") %>%
   separate(condition, sep="_", into=c("wh", "gap")) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   mutate(wh_idx = if_else(token == "who" | token == "what", idx, as.integer(0))) %>%
   group_by(item, model, test) %>% #Get the IDX of the wh-token (in conditions where we have a wh word)
     mutate(wh_idx = max(wh_idx)) %>%
@@ -484,10 +489,10 @@ df_unbound_comp_stat = df %>%
   mutate(dep_length = idx - wh_idx)
 
 df_heriarchy_comp_stat = df %>%
-  rename(idx = sent_idx) %>%
+  rename(idx = word_idx) %>%
   filter(test == "hierarchy") %>%
   separate(condition, sep="_", into=c("wh", "gap", "test")) %>%
-  gather(model, surprisal, 8:12) %>%
+  gather(model, surprisal, 8:13) %>%
   mutate(wh_idx = if_else(token == "who" | token == "what", idx, as.integer(0))) %>%
   group_by(item, model, test) %>% #Get the IDX of the wh-token (in conditions where we have a wh word)
     mutate(wh_idx = max(wh_idx)) %>%
@@ -543,6 +548,16 @@ m = df_comp_stat %>%
   lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
 summary(m)
 
+m = df_comp_stat %>%
+  filter(model == "LLAMA") %>%
+  mutate(dist = if_else(test == "subj" | test == "embed1" | test == "embed2", -1, 1)) %>%
+  mutate(unbound = if_else(test == "subj" | test == "matrix", -1, 1)) %>%
+  mutate(gap = if_else(gap == "nogap", "no-gap", gap)) %>%
+  mutate(gap = if_else(gap == "gap", 1, -1),
+         wh = if_else(wh == "what", 1, -1)) %>%
+  lmer(surprisal ~ wh * gap * dist * unbound + (wh + gap + dist + unbound || item), data = .)
+summary(m)
+
 ```
 
 ### Adjunct Islands
@@ -552,7 +567,7 @@ df_adj = df %>%
   filter(test == "islands_adjunct") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   filter((gap == "gap" & region == "continuation") | (gap == "nogap" & region == "obj") ) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() 
@@ -585,7 +600,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/adjunct.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/adjunct.pdf",height=2.8,width=10, device = "pdf")
 
 ```
 
@@ -619,7 +635,7 @@ df_adj %>%
 df_cnp = df %>%
   filter(test == "islands_cnp") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -654,7 +670,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text.x=element_text(angle=30, hjust =1),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/cnp.pdf",height=3.3,width=10, device = cairo_pdf)
+
+ggsave("./images/cnp.pdf",height=3.3,width=10, device = "pdf")
 ```
 
 ```{r}
@@ -689,7 +706,7 @@ df_coord = df %>%
   filter(test == "islands_coordination") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   mutate(island = factor(island, levels = c("obj", "first", "second"))) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -730,7 +747,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/coord.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/coord.pdf",height=2.8,width=10, device = "pdf")
 ```
 
 
@@ -763,7 +781,7 @@ df_lb = df %>%
   filter(test == "islands_left-branch") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   mutate(island = factor(island, levels = c("obj", "lb"))) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -800,7 +818,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/left-branch.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/left-branch.pdf",height=2.8,width=10, device = "pdf")
 ```
 
 ```{r}
@@ -832,7 +851,7 @@ df_ss = df %>%
   filter(test == "islands_ss") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   #mutate(island = factor(island, levels = c("obj", "lb"))) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -868,7 +887,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/sentential_subj.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/sentential_subj.pdf",height=2.8,width=10, device = "pdf")
 ```
 
 ```{r}
@@ -901,7 +921,7 @@ ungroup()
 df_subj = df %>%
   filter(test == "islands_subject") %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -937,7 +957,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/subj.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/subj.pdf",height=2.8,width=10, device = "pdf")
 ```
 
 
@@ -972,7 +993,7 @@ df_wh = df %>%
   separate(condition, sep="_", into=c("wh", "gap", "island")) %>%
   filter(island != "that") %>%
   #mutate(island = factor(island, levels = c("obj", "lb"))) %>%
-  gather(model, surprisal, 9:13) %>%
+  gather(model, surprisal, 9:14) %>%
   group_by(island, item, wh, gap, region, model) %>%
     summarise(surprisal = sum(surprisal)) %>%
   ungroup() %>%
@@ -1012,7 +1033,8 @@ ggplot(aes(x=island, y=m, ymin=lower, ymax=upper, fill=gap)) +
           axis.text=element_text(size=12),
           axis.title.x=element_blank(),
           legend.title=element_blank())
-ggsave("./images/wh.pdf",height=2.8,width=10, device = cairo_pdf)
+
+ggsave("./images/wh.pdf",height=2.8,width=10, device = "pdf")
 ```
 
 
@@ -1043,53 +1065,52 @@ ungroup()
 
 ```{r}
 effect_df = data.frame(
-  	model_name = c("GPT2", "GPT3", "GRNN", "JRNN"),
-	  Adjunct = c(5.3371848636570558000, 5.1090646768809770961, 3.0545335243333036068, 6.0738857427858166105),
-	  Complex_NP = c(4.5803629791230990875, 4.2899146890715540437, 2.7689102622015875355, 5.9525923247316825382),
-	  Coordination = c(8.2249527685344201444, 6.6653563130850699281, 8.2661566890776754235, 9.3086483806253781381),
-	  Left_Branch = c(2.2516639377921134901, 5.3584103464002028616, 3.6353099256755054824, 4.1625028997661308594),
-	  Sentential_Subj = c(1.3585723645630769507, 2.6110664404761818602, 1.3510029088881994053, 4.8766840387667480528),
-	  Subject = c(3.67268553714860779280, 4.34609290042826490463, 1.70132635804736098706, 3.87447574870150512893),
-  	Wh = c(4.6440742471410585424, 4.1495286532916511035, 6.9288595011457632111, 7.7575216918873195482)
+  	model_name = c("GPT2", "GPT3", "GRNN", "JRNN", "LLAMA"),
+	  Adjunct = c(5.3371848636570558000, 5.1090646768809770961, 3.0545335243333036068, 6.0738857427858166105, 6.86646),
+	  Complex_NP = c(4.5803629791230990875, 4.2899146890715540437, 2.7689102622015875355, 5.9525923247316825382, 6.193),
+	  Coordination = c(8.2249527685344201444, 6.6653563130850699281, 8.2661566890776754235, 9.3086483806253781381, 9.50571),
+	  Left_Branch = c(2.2516639377921134901, 5.3584103464002028616, 3.6353099256755054824, 4.1625028997661308594, 7.845),
+	  Sentential_Subj = c(1.3585723645630769507, 2.6110664404761818602, 1.3510029088881994053, 4.8766840387667480528, 0.5231),
+	  Subject = c(3.67268553714860779280, 4.34609290042826490463, 1.70132635804736098706, 3.87447574870150512893, 5.021),
+  	Wh = c(4.6440742471410585424, 4.1495286532916511035, 6.9288595011457632111, 7.7575216918873195482, 6.04882)
 ) %>%
   gather(island, model_effect, 2:8)
 
 sig_df = data.frame(
-  	model_name = c("GPT2", "GPT3", "GRNN", "JRNN"),
-	  Adjunct = c("***", "***", "***", "***"),
-	  Complex_NP = c("***", "***", "***", "***"),
-	  Coordination = c("***", "***", "***", "***"),
-	  Left_Branch = c("N.S.", "**", "**", "*"),
-	  Sentential_Subj = c("N.S.", "*", "N.S.", "*"),
-	  Subject = c("***", "**", "N.S.", "*"),
-  	Wh = c("***", "***", "**", "**")
+  	model_name = c("GPT2", "GPT3", "GRNN", "JRNN", "LLAMA"),
+	  Adjunct = c("***", "***", "***", "***", "***"),
+	  Complex_NP = c("***", "***", "***", "***", "***"),
+	  Coordination = c("***", "***", "***", "***", "***"),
+	  Left_Branch = c("N.S.", "**", "**", "*", "***"),
+	  Sentential_Subj = c("N.S.", "*", "N.S.", "*", "*"),
+	  Subject = c("***", "**", "N.S.", "*", "*"),
+  	Wh = c("***", "***", "**", "**", "***")
 ) %>%
   gather(island, significance, 2:8)
 
 summary_df = merge(effect_df, sig_df, by=c("island", "model_name"))
 
-sig_scale = c("***" = "green", "**" = "green", "*" = "green", "N.S." = "#5e5e5e")
-
+sig_scale = c("***" = "#293359", "**" = "#293359", "*" = "#293359", "N.S." = "#9898b5")
 
 summary_df %>%
-  group_by(model_name) %>%
-    arrange(desc(model_effect)) %>%
-    mutate(rank = row_number()) %>%
-  ungroup() %>%
-  #mutate(rank = if_else(significance == "N.S.", 0, as.double(rank))) %>%
-  ggplot(aes(x=island, y=model_name, fill=rank)) +
+  ggplot(aes(x=island, y=model_name)) +
     theme_bw() +
-    geom_tile() +
-    geom_label(aes(color=significance, label=paste(significance, "\n", substr(model_effect, 0, 3), sep="")), label.padding = unit(0.5, "lines")) +
+    geom_tile(aes(fill = model_effect)) +
+    geom_text(aes(color=significance, size=5, label=paste(significance, "\n", substr(model_effect, 0, 3), sep="")), label.padding = unit(0.5, "lines"), fontface = "bold") +
     scale_color_manual(values = sig_scale) +
+    #scale_fill_viridis(begin = 0.75, end = 0.99) +
+    scale_fill_gradient(low = "#ffffff", high = "#cccccc") +
     #scale_fill_gradient2(low = "blue", high = "white") +
+    #geom_vline(xintercept = 8.5, color = "blue", size = 0.5) +
     ggtitle("Summary of Island Results: Effect Sizes and Significance") +
   theme(
     axis.title = element_blank(),
     axis.text = element_text(size = 12),
+    axis.text.x = element_text(angle = 30, hjust = 1),
     legend.position = "none"
   )
-ggsave("./images/effect_size.pdf", width = 9, height = 4, device = cairo_pdf)
+
+ggsave("./images/effect_size.pdf", width = 9, height = 4, device = "pdf")
 
 
 ```
